@@ -14,6 +14,35 @@ REPO = os.environ.get("GITHUB_REPOSITORY") # Preso in automatico da GitHub
 FILE_MEMORIA = "data/memoria.json"
 ICONE = {"steam": "🎮", "epic-games-store": "🔥", "gog": "🟣", "ubisoft": "🌀"}
 
+for item in lista_items[:15]:
+    # ... (estrazione dati)
+    tipo = item.get('type', 'Game')
+    titolo = item['title']
+    
+    # LOGICA DLC
+    if tipo != "Game":
+        # Cerchiamo di capire qual è il gioco base (spesso il titolo del DLC lo contiene)
+        # Esempio: "The Sims 4: Luxury Stuff" -> Gioco base: "The Sims 4"
+        gioco_base_ipotetico = titolo.split(":")[0].split("-")[0].strip()
+        
+        # Controlliamo in memoria se possiedi il gioco base
+        possiede_base = False
+        for id_m, dati_m in memoria.items():
+            if gioco_base_ipotetico.lower() in dati_m.get('titolo', '').lower() and dati_m.get('stato') == 'preso':
+                possiede_base = True
+                break
+        
+        if not possiede_base:
+            # Messaggio specifico per DLC senza gioco base
+            testo = f"➕ *DLC DISPONIBILE*\n\n{titolo}\n\n⚠️ _Nota: Questo è un DLC. Non mi risulta che tu abbia il gioco base '{gioco_base_ipotetico}'._"
+            bottoni = [
+                [{"text": "🚀 Vai allo Store", "url": link_web}],
+                [{"text": "✅ Ho il gioco base", "callback_data": f"ho_base:{id_item}"}], # Questo richiede il Webhook!
+                [{"text": "❌ Non ho il base", "callback_data": f"no_base:{id_item}"}]
+            ]
+            invia_telegram(testo, bottoni)
+            continue # Passa al prossimo
+
 def invia_telegram(testo, bottoni=None):
     if not testo: return
     url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
