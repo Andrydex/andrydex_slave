@@ -68,13 +68,16 @@ for item in lista_items[:15]:
 
     # GIOCHI NORMALI
     bottoni = [
-        [{"text": "🚀 RISCATTA ORA", "url": link}],
-        [{"text": "✅ Segna come preso", "url": f"https://github.com/{REPO}/issues/new?title=PRESO:{id_item}"}]
+        [{"text": "🚀 RISCATTA ORA", "url": link_web}],
+        [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"}] # MAGIA: Niente link, solo un segnale!
     ]
+
     if id_item not in memoria:
-        invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}", bottoni)
+        testo = f"{icona} *NUOVO GIOCO*\n\n{titolo}\n⏰ Scade: {scadenza_str}"
+        invia_telegram(testo, bottoni)
         memoria[id_item] = {"stato": "inviato", "titolo": titolo}
     else:
-        invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}", bottoni)
+        testo = f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}"
+        invia_telegram(testo, bottoni)
 
 json.dump(memoria, open(FILE_MEMORIA, "w"), indent=4)
