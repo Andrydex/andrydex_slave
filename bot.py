@@ -1,31 +1,48 @@
 import requests
 import os
+import json
 
-print("🔍 Sto cercando gli ultimi giochi gratis per PC...")
-
-# 1. IL CERCATORE
-url_giochi = "https://www.gamerpower.com/api/giveaways?platform=pc"
-risposta_giochi = requests.get(url_giochi)
-lista_giochi = risposta_giochi.json()
-ultimo_gioco = lista_giochi[0]
-
-titolo = ultimo_gioco['title']
-valore_originale = ultimo_gioco['worth']
-piattaforma = ultimo_gioco['platforms']
-link_gioco = ultimo_gioco['open_giveaway_url']
-
-print(f"🎯 Trovato: {titolo} su {piattaforma}!")
-
-# 2. IL POSTINO (Pesca i dati dalla cassaforte di GitHub in modo sicuro!)
+# --- CONFIGURAZIONE ---
 TOKEN_TELEGRAM = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+FILE_MEMORIA = "memoria.json"
 
-messaggio_telegram = f"🎮 NUOVO GIOCO GRATIS!\n\n🕹️ Titolo: {titolo}\n💰 Prima costava: {valore_originale}\n🏢 Piattaforma: {piattaforma}\n\n👉 Riscattalo qui:\n{link_gioco}"
+def invia_telegram(testo):
+    url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
+    requests.post(url, data={"chat_id": CHAT_ID, "text": testo})
 
-url_telegram = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
-dati = {"chat_id": CHAT_ID, "text": messaggio_telegram}
+# 1. Carica la memoria (se il file non esiste, crea una lista vuota)
+if os.path.exists(FILE_MEMORIA):
+    with open(FILE_MEMORIA, "r") as f:
+        memoria = json.load(f)
+else:
+    memoria = {}
 
-print("Sto inviando i dettagli al tuo telefono...")
-requests.post(url_telegram, data=dati)
+print("🔍 Controllo nuovi giochi...")
+url_giochi = "https://www.gamerpower.com/api/giveaways?platform=pc"
+lista_giochi = requests.get(url_giochi).json()
 
-print("✅ Fatto! Controlla Telegram.")
+# Prendiamo solo i primi 3 giochi più recenti per non intasare
+for gioco in lista_giochi[:3]:
+    id_gioco = str(gioco['id'])
+    titolo = gioco['title']
+    scadenza = gioco.get('end_date', 'N.D.')
+    link = gioco['open_giveaway_url']
+
+    # 2. Logica della memoria
+    if id_gioco not in memoria:
+        # GIOCO MAI VISTO
+        messaggio = f"🎮 NUOVO GIOCO GRATIS!\n\n🕹️ {titolo}\n⏰ Scade il: {scadenza}\n👉 {link}"
+        invia_telegram(messaggio)
+        memoria[id_gioco] = {"stato": "inviato", "titolo": titolo}
+        print(f"✅ Nuovo gioco segnalato: {titolo}")
+    
+    elif memoria[id_gioco]["stato"] == "inviato":
+        # GIOCO GIÀ VISTO (Manda solo un breve reminder)
+        messaggio = f"⏳ REMINDER: Non dimenticare di riscattare '{titolo}'! Scade a breve."
+        invia_telegram(messaggio)
+        print(f"ℹ️ Reminder inviato per: {titolo}")
+
+# 3. Salva la memoria aggiornata nel file locale
+with open(FILE_MEMORIA, "w") as f:
+    json.dump(memoria, f, indent=4)
