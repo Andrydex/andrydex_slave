@@ -38,8 +38,9 @@ jobs:
         run: |
           git config --global user.name "Bot Memoria"
           git config --global user.email "bot@github.com"
-          touch memoria.json
-          git add memoria.json
+          mkdir -p data # Crea la cartella data se non esiste
+          touch data/memoria.json
+          git add data/memoria.json
           git commit -m "Aggiornamento memoria [skip ci]" || echo "Nessuna modifica"
           git pull --rebase origin main
           git push
