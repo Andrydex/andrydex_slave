@@ -10,5 +10,29 @@
     "3607": {
         "stato": "inviato",
         "titolo": "NTE: 120 Free Pulls + S-Class Chiz + A-Class Haniel"
+    },
+    "1920": {
+        "stato": "inviato",
+        "message_id": 18
+    },
+    "3266": {
+        "stato": "inviato",
+        "message_id": 19
+    },
+    "3603": {
+        "stato": "inviato",
+        "message_id": 20
+    },
+    "3304": {
+        "stato": "inviato",
+        "message_id": 21
+    },
+    "3601": {
+        "stato": "inviato",
+        "message_id": 22
+    },
+    "3595": {
+        "stato": "inviato",
+        "message_id": 23
     }
 }
