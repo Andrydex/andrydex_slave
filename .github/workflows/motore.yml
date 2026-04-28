@@ -11,32 +11,35 @@ env:
 jobs:
   esegui-bot:
     runs-on: ubuntu-latest
-    permissions: # Diamo il permesso esplicito di scrivere nel repo
+    permissions:
       contents: write
 
     steps:
-    - name: 📥 Scarica i file
-      uses: actions/checkout@v4
+      - name: 📥 Scarica i file
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: 🐍 Installa Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+      - name: 🐍 Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    - name: 📦 Installa librerie
-      run: pip install requests
+      - name: 📦 Installa librerie
+        run: pip install requests
 
-    - name: 🚀 Fai partire il Bot
-      env:
-        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: python bot.py
+      - name: 🚀 Fai partire il Bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bot.py
 
-- name: 💾 Salva la memoria su GitHub
-      run: |
-        git config --global user.name "Bot Memoria"
-        git config --global user.email "bot@github.com"
-        git pull --rebase origin main
-        git add memoria.json
-        git commit -m "Aggiornamento memoria giochi [skip ci]" || echo "Nessuna modifica da salvare"
-        git push
+      - name: 💾 Salva la memoria su GitHub
+        run: |
+          git config --global user.name "Bot Memoria"
+          git config --global user.email "bot@github.com"
+          touch memoria.json
+          git add memoria.json
+          git commit -m "Aggiornamento memoria giochi [skip ci]" || echo "Nessuna modifica"
+          git pull --rebase origin main
+          git push
