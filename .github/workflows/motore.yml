@@ -32,10 +32,11 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python bot.py
 
-    - name: 💾 Salva la memoria su GitHub
+- name: 💾 Salva la memoria su GitHub
       run: |
         git config --global user.name "Bot Memoria"
         git config --global user.email "bot@github.com"
+        git pull --rebase origin main
         git add memoria.json
         git commit -m "Aggiornamento memoria giochi [skip ci]" || echo "Nessuna modifica da salvare"
         git push
