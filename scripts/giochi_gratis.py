@@ -1,29 +1,19 @@
-import requests
-import os
-import json
-import logging
+import requests, os, json, logging
 from datetime import datetime
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# --- CONFIGURAZIONE ---
-TOKEN_TELEGRAM = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM") # Assicurati che i nomi coincidano con i Secrets
+CHAT_ID = os.environ.get("CHAT_ID")
 GH_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 REPO = os.environ.get("GITHUB_REPOSITORY")
 FILE_MEMORIA = "data/memoria.json"
-ICONE = {"steam": "🎮", "epic-games-store": "🔥", "gog": "🟣", "ubisoft": "🌀"}
 
 def invia_telegram(testo, bottoni=None):
-    if not testo: return
     url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown", "disable_web_page_preview": True}
-    if bottoni:
-        payload["reply_markup"] = {"inline_keyboard": bottoni}
-    try:
-        requests.post(url, json=payload)
-    except Exception as e:
-        logging.error(f"Errore invio Telegram: {e}")
+    if bottoni: payload["reply_markup"] = {"inline_keyboard": bottoni}
+    requests.post(url, json=payload)
 
 def sincronizza_presi(memoria):
     if not GH_TOKEN: return memoria
@@ -32,81 +22,59 @@ def sincronizza_presi(memoria):
     try:
         issues = requests.get(url_issues, headers=headers).json()
         for issue in issues:
-            titolo_issue = issue.get("title", "")
-            if titolo_issue.startswith("PRESO:"):
-                id_gioco = titolo_issue.replace("PRESO:", "").strip()
-                if id_gioco in memoria:
-                    memoria[id_gioco]["stato"] = "preso"
-                    num = issue["number"]
-                    requests.patch(f"https://api.github.com/repos/{REPO}/issues/{num}", 
-                                   headers=headers, json={"state": "closed"})
-                    logging.info(f"Gioco {id_gioco} segnato come PRESO.")
-    except Exception as e:
-        logging.error(f"Errore sincronizzazione: {e}")
+            titolo_i = issue.get("title", "")
+            if titolo_i.startswith("PRESO:"):
+                id_g = titolo_i.replace("PRESO:", "").strip()
+                if id_g in memoria:
+                    memoria[id_g]["stato"] = "preso"
+                    requests.patch(f"https://api.github.com/repos/{REPO}/issues/{issue['number']}", headers=headers, json={"state": "closed"})
+            elif titolo_i.startswith("HO_BASE:"):
+                nome_base = titolo_i.replace("HO_BASE:", "").strip().lower()
+                memoria[f"base_{nome_base}"] = {"stato": "preso", "titolo": nome_base}
+                requests.patch(f"https://api.github.com/repos/{REPO}/issues/{issue['number']}", headers=headers, json={"state": "closed"})
+            elif titolo_i.startswith("NO_BASE:"):
+                id_g = titolo_i.replace("NO_BASE:", "").strip()
+                memoria[id_g] = {"stato": "ignorato"}
+                requests.patch(f"https://api.github.com/repos/{REPO}/issues/{issue['number']}", headers=headers, json={"state": "closed"})
+    except: pass
     return memoria
 
-# --- CORE ---
 os.makedirs(os.path.dirname(FILE_MEMORIA), exist_ok=True)
-if os.path.exists(FILE_MEMORIA):
-    with open(FILE_MEMORIA, "r") as f: memoria = json.load(f)
-else: memoria = {}
-
+memoria = json.load(open(FILE_MEMORIA, "r")) if os.path.exists(FILE_MEMORIA) else {}
 memoria = sincronizza_presi(memoria)
 
-try:
-    lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date").json()
-except: lista_items = []
-
+lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date").json()
 oggi = datetime.now()
 
 for item in lista_items[:15]:
-    id_item = str(item['id'])
-    titolo = item['title']
-    piattaforma = item['platforms'].lower()
-    scadenza_str = item.get('end_date', 'N.D.')
-    link_web = item['open_giveaway_url']
+    id_item, titolo, link = str(item['id']), item['title'], item['open_giveaway_url']
     tipo = item.get('type', 'Game')
 
-    if scadenza_str != 'N.D.':
-        try:
-            if oggi > datetime.strptime(scadenza_str, "%Y-%m-%d %H:%M:%S"): continue
-        except: pass
+    if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]: continue
 
-    if memoria.get(id_item, {}).get("stato") == "preso":
-        continue
-
-    icona = "💻"
-    for k, v in ICONE.items():
-        if k in piattaforma: icona = v; break
-
-    # --- LOGICA DLC ---
+    # LOGICA DLC
     if tipo != "Game":
-        gioco_base_ipotetico = titolo.split(":")[0].split("-")[0].strip()
-        possiede_base = False
-        for m_id, m_data in memoria.items():
-            if gioco_base_ipotetico.lower() in m_data.get('titolo', '').lower() and m_data.get('stato') == 'preso':
-                possiede_base = True
-                break
-        
-        if not possiede_base:
-            testo_dlc = f"➕ *DLC DISPONIBILE*\n\n{titolo}\n\n⚠️ _Nota: Richiede gioco base '{gioco_base_ipotetico}'._"
-            link_ho_base = f"https://github.com/{REPO}/issues/new?title=PRESO:{id_item}"
-            bottoni_dlc = [[{"text": "🚀 Store", "url": link_web}], [{"text": "✅ Ho il base", "url": link_ho_base}]]
-            invia_telegram(testo_dlc, bottoni_dlc)
-            if id_item not in memoria: memoria[id_item] = {"stato": "inviato", "titolo": titolo}
+        nome_base = titolo.split(":")[0].split("-")[0].strip()
+        if not memoria.get(f"base_{nome_base.lower()}"):
+            testo = f"➕ *DLC DISPONIBILE*\n\n{titolo}\n⚠️ Richiede il base: `{nome_base}`"
+            bottoni = [
+                [{"text": "🚀 Store", "url": link}],
+                [{"text": "✅ Ho il base", "url": f"https://github.com/{REPO}/issues/new?title=HO_BASE:{nome_base}"}],
+                [{"text": "❌ Non ho il base", "url": f"https://github.com/{REPO}/issues/new?title=NO_BASE:{id_item}"}]
+            ]
+            invia_telegram(testo, bottoni)
+            if id_item not in memoria: memoria[id_item] = {"stato": "inviato"}
             continue
 
-    # --- GIOCHI NORMALI ---
-    link_preso = f"https://github.com/{REPO}/issues/new?title=PRESO:{id_item}"
-    bottoni = [[{"text": "🚀 Store", "url": link_web}], [{"text": "✅ Preso", "url": link_preso}]]
-
+    # GIOCHI NORMALI
+    bottoni = [
+        [{"text": "🚀 RISCATTA ORA", "url": link}],
+        [{"text": "✅ Segna come preso", "url": f"https://github.com/{REPO}/issues/new?title=PRESO:{id_item}"}]
+    ]
     if id_item not in memoria:
-        testo = f"{icona} *NUOVO GIOCO*\n\n{titolo}\n⏰ Scade: {scadenza_str}"
-        invia_telegram(testo, bottoni)
+        invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}", bottoni)
         memoria[id_item] = {"stato": "inviato", "titolo": titolo}
     else:
-        testo = f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}"
-        invia_telegram(testo, bottoni)
+        invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}", bottoni)
 
-with open(FILE_MEMORIA, "w") as f:
-    json.dump(memoria, f, indent=4)
+json.dump(memoria, open(FILE_MEMORIA, "w"), indent=4)
