@@ -3,13 +3,17 @@ name: Automazione Bot Sconti
 # 1. QUANDO DEVE PARTIRE?
 on:
   schedule:
-    - cron: '0 16 * * *' # Si attiva ogni giorno alle 16:00 UTC (le 18:00 in Italia)
-  workflow_dispatch: # Questo ci crea un bottone magico per farlo partire a mano quando vogliamo testarlo
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+# Risolve l'avviso di Node.js forzando la versione 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 # 2. COSA DEVE FARE?
 jobs:
   esegui-bot:
-    runs-on: ubuntu-latest # Usa un computer virtuale gratuito basato su Linux
+    runs-on: ubuntu-latest
 
     steps:
     - name: 📥 Scarica i file della repository
@@ -25,7 +29,6 @@ jobs:
 
     - name: 🚀 Fai partire il Bot!
       env:
-        # Qui diciamo a GitHub di tirare fuori le chiavi dalla cassaforte e darle a Python
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python bot.py
