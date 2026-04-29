@@ -1,29 +1,37 @@
 import requests
 from bs4 import BeautifulSoup
+from hashing import generate_hash
+from telegram_sender import invia_telegram
+from health_check import update_health
 
 URL = "https://store.steampowered.com/search/?maxprice=free"
 
+def run_steam_worker(memoria):
+    try:
+        response = requests.get(URL, timeout=10)
+        soup = BeautifulSoup(response.text, "html.parser")
+        results = soup.select("a.search_result_row")
 
-def fetch_free_games():
+        for item in results[:5]:
+            title_elem = item.select_one(".title")
+            if not title_elem: continue
 
-    response = requests.get(URL, timeout=10)
+            titolo = title_elem.text.strip()
+            link = item["href"]
+            id_item = "steam_" + generate_hash(titolo) # Creiamo un ID unico usando l'hashing!
 
-    soup = BeautifulSoup(response.text, "html.parser")
+            if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]: continue
 
-    games = []
+            bottoni = [
+                [{"text": "🚀 RISCATTA ORA", "url": link}],
+                [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"}]
+            ]
 
-    results = soup.select("a.search_result_row")
+            if id_item not in memoria:
+                invia_telegram(f"🚂 *NUOVO SU STEAM*\n\n{titolo}", bottoni)
+                memoria[id_item] = {"stato": "inviato", "titolo": titolo}
 
-    for item in results[:5]:
-
-        title = item.select_one(".title")
-
-        if title:
-
-            games.append({
-                "source": "steam",
-                "title": title.text.strip(),
-                "url": item["href"]
-            })
-
-    return games
+        update_health("steam_worker", "ok")
+    except Exception as e:
+        update_health("steam_worker", f"error: {str(e)}")
+    return memoria
