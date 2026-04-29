@@ -5,21 +5,19 @@ from health_check import update_health
 
 def run_cheapshark_worker(memoria):
     try:
-        # L'API magica: upperPrice=0 prende tutti i giochi gratis in quel momento!
+        # Trova tutto ciò che costa 0 in questo momento negli store ufficiali
         url = "https://www.cheapshark.com/api/1.0/deals?upperPrice=0"
         risposta = requests.get(url, timeout=10).json()
 
-        for gioco in risposta[:10]: # Prendiamo i primi 10 per sicurezza
+        for gioco in risposta[:10]:
             titolo = gioco.get('title')
             deal_id = gioco.get('dealID')
             
-            # Creiamo un ID unico usando il tuo mitico file hashing
             id_item = "cs_" + generate_hash(titolo)
 
             if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]: 
                 continue
 
-            # CheapShark ci dà un link di reindirizzamento ufficiale allo store (Steam, Epic, ecc.)
             link = f"https://www.cheapshark.com/redirect?dealID={deal_id}"
 
             bottoni = [
@@ -30,6 +28,9 @@ def run_cheapshark_worker(memoria):
             if id_item not in memoria:
                 invia_telegram(f"🦈 *SUPER DEAL (100% SCONTO)*\n\n{titolo}", bottoni)
                 memoria[id_item] = {"stato": "inviato", "titolo": titolo}
+            else:
+                # LA TUA RICHIESTA: Manteniamo il reminder attivo!
+                invia_telegram(f"⏳ *REMINDER DEAL*\nNon hai ancora preso: {titolo}", bottoni)
                 
         update_health("cheapshark_worker", "ok")
     except Exception as e:
