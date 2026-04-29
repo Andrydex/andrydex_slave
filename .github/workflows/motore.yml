@@ -33,6 +33,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          PYTHONPATH: scripts
         run: python scripts/gaming_worker.py
 
       - name: 💾 Salva la memoria su GitHub
@@ -41,6 +42,8 @@ jobs:
           git config --global user.email "bot@github.com"
           mkdir -p data
           touch data/memoria.json
+          touch data/health.json
           git add data/
-          git commit -m "Aggiornamento memoria [skip ci]" || echo "Nessuna modifica"
+          git commit -m "Aggiornamento dati [skip ci]" || echo "Nessuna modifica"
+          git pull --rebase origin main
           git push
