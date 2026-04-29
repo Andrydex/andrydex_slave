@@ -26,7 +26,7 @@ jobs:
           python-version: '3.10'
 
       - name: 📦 Installa librerie
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: 🚀 Fai partire lo script dei Giochi
         env:
@@ -43,5 +43,4 @@ jobs:
           touch data/memoria.json
           git add data/memoria.json
           git commit -m "Aggiornamento memoria [skip ci]" || echo "Nessuna modifica"
-          git pull --rebase origin main
           git push
