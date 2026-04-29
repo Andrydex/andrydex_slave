@@ -1,41 +1,24 @@
-from steam_worker import fetch_free_games
-from telegram_sender import send_message
+import logging
+from memory_manager import load_memory, save_memory, sincronizza_presi
+from gaming_worker import run_gaming_worker
+from steam_worker import run_steam_worker
 
-from memory_manager import (
-    load_memory,
-    save_memory,
-    already_sent,
-    mark_as_sent
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-from health_check import update_health
+def main():
+    logging.info("🤖 Avvio del sistema principale...")
+    
+    # 1. Carica e aggiorna la memoria
+    memoria = load_memory()
+    memoria = sincronizza_presi(memoria)
 
-memory = load_memory()
+    # 2. Lancia i lavoratori
+    memoria = run_gaming_worker(memoria)
+    memoria = run_steam_worker(memoria)
+    
+    # 3. Salva e spegni
+    save_memory(memoria)
+    logging.info("🏁 Tutti i processi completati con successo.")
 
-try:
-
-    games = fetch_free_games()
-
-    update_health("steam_worker", "ok")
-
-    for game in games:
-
-        if not already_sent(memory, game["title"]):
-
-            message = (
-                f"🎮 Nuovo gioco gratis:\n\n"
-                f"{game['title']}\n"
-                f"{game['url']}"
-            )
-
-            send_message(message)
-
-            mark_as_sent(memory, game["title"])
-
-    save_memory(memory)
-
-except Exception as e:
-
-    update_health("steam_worker", f"error: {str(e)}")
-
-    raise
+if __name__ == "__main__":
+    main()
