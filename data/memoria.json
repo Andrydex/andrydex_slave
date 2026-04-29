@@ -50,7 +50,7 @@
         "stato": "inviato"
     },
     "3257": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Game club \"Waka-Waka\" (IndieGala) Giveaway"
     },
     "base_genshin impact": {
@@ -58,11 +58,11 @@
         "titolo": "genshin impact"
     },
     "steam_f1b8624881ce120f38cc37207e7f1fef": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Counter-Strike 2"
     },
     "steam_3477675eef4a3f07be3ba5c39fb4a27c": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Apex Legends\u2122"
     },
     "steam_a34b06a64a3d1002a87358a64a327f60": {
@@ -74,7 +74,15 @@
         "titolo": "Warframe"
     },
     "steam_5ec7006f36d050741e00b14430d70b64": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "PUBG: BATTLEGROUNDS"
+    },
+    "cs_9f4a6a9f5a2be9634bf886033d9b1c91": {
+        "stato": "inviato",
+        "titolo": "Doomblade"
+    },
+    "cs_529115a77cc4c3cf270b95f43b0aa9e8": {
+        "stato": "inviato",
+        "titolo": "Typers Combat"
     }
 }

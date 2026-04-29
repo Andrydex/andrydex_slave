@@ -1,10 +1,14 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-04-29T11:35:38.350855"
+    "last_check": "2026-04-29T12:40:34.813164"
   },
   "steam_worker": {
     "status": "ok",
     "last_check": "2026-04-29T11:35:40.553886"
+  },
+  "cheapshark_worker": {
+    "status": "ok",
+    "last_check": "2026-04-29T12:40:35.542999"
   }
 }
