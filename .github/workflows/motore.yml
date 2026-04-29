@@ -33,7 +33,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        run: python scripts/giochi_gratis.py
+        run: python scripts/gaming_worker.py
 
       - name: 💾 Salva la memoria su GitHub
         run: |
