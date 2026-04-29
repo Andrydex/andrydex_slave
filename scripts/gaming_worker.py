@@ -1,6 +1,8 @@
 import requests, os, json, logging
 from datetime import datetime
 
+from health_check import update_health
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 TOKEN_TELEGRAM = os.environ.get("TELEGRAM_TOKEN")
