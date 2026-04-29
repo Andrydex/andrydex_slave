@@ -1,11 +1,11 @@
 {
     "sent_games": [],
     "3608": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Typers Combat (Epic Games) Giveaway"
     },
     "3607": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "1920": {
         "stato": "inviato"
@@ -15,7 +15,7 @@
         "titolo": "Carlos the Taco (IndieGala) Giveaway"
     },
     "3603": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "DOOMBLADE (Epic Games) Giveaway"
     },
     "3304": {
@@ -52,5 +52,9 @@
     "3257": {
         "stato": "inviato",
         "titolo": "Game club \"Waka-Waka\" (IndieGala) Giveaway"
+    },
+    "base_genshin impact": {
+        "stato": "preso",
+        "titolo": "genshin impact"
     }
 }
