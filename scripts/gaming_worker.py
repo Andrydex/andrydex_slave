@@ -1,21 +1,15 @@
 import requests, os, json, logging
 from datetime import datetime
 
+# 📥 IMPORTIAMO GLI ATTREZZI DAGLI ALTRI FILE
+from telegram_sender import invia_telegram
 from health_check import update_health
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-TOKEN_TELEGRAM = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 GH_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 REPO = os.environ.get("GITHUB_REPOSITORY")
 FILE_MEMORIA = "data/memoria.json"
-
-def invia_telegram(testo, bottoni=None):
-    url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown", "disable_web_page_preview": True}
-    if bottoni: payload["reply_markup"] = {"inline_keyboard": bottoni}
-    requests.post(url, json=payload)
 
 def sincronizza_presi(memoria):
     if not GH_TOKEN: return memoria
@@ -45,48 +39,27 @@ memoria = json.load(open(FILE_MEMORIA, "r")) if os.path.exists(FILE_MEMORIA) els
 memoria = sincronizza_presi(memoria)
 
 try:
-
-    lista_items = requests.get(
-        "https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date"
-    ).json()
-
+    lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date").json()
     oggi = datetime.now()
 
     for item in lista_items[:15]:
-
-        id_item = str(item['id'])
-        titolo = item['title']
-        link = item['open_giveaway_url']
-
+        id_item, titolo, link = str(item['id']), item['title'], item['open_giveaway_url']
         tipo = item.get('type', 'Game')
 
-        if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]:
-            continue
+        if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]: continue
 
         # LOGICA DLC
         if tipo != "Game":
-
             nome_base = titolo.split(":")[0].split("-")[0].strip()
-
             if not memoria.get(f"base_{nome_base.lower()}"):
-
-                testo = (
-                    f"➕ *DLC DISPONIBILE*\n\n"
-                    f"{titolo}\n"
-                    f"⚠️ Richiede il base: `{nome_base}`"
-                )
-
+                testo = f"➕ *DLC DISPONIBILE*\n\n{titolo}\n⚠️ Richiede il base: `{nome_base}`"
                 bottoni = [
                     [{"text": "🚀 Store", "url": link}],
                     [{"text": "✅ Ho il base", "callback_data": f"ho_base:{nome_base}"}],
                     [{"text": "❌ Non ho il base", "callback_data": f"no_base:{id_item}"}]
                 ]
-
                 invia_telegram(testo, bottoni)
-
-                if id_item not in memoria:
-                    memoria[id_item] = {"stato": "inviato"}
-
+                if id_item not in memoria: memoria[id_item] = {"stato": "inviato"}
                 continue
 
         # GIOCHI NORMALI
@@ -94,32 +67,15 @@ try:
             [{"text": "🚀 RISCATTA ORA", "url": link}],
             [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"}]
         ]
-
         if id_item not in memoria:
-
-            invia_telegram(
-                f"🎮 *NUOVO GIOCO*\n\n{titolo}",
-                bottoni
-            )
-
-            memoria[id_item] = {
-                "stato": "inviato",
-                "titolo": titolo
-            }
-
+            invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}", bottoni)
+            memoria[id_item] = {"stato": "inviato", "titolo": titolo}
         else:
-
-            invia_telegram(
-                f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}",
-                bottoni
-            )
+            invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}", bottoni)
 
     json.dump(memoria, open(FILE_MEMORIA, "w"), indent=4)
-
     update_health("gaming_worker", "ok")
 
 except Exception as e:
-
     update_health("gaming_worker", f"error: {str(e)}")
-
     raise
