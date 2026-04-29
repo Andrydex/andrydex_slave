@@ -8,7 +8,7 @@
         "stato": "ignorato"
     },
     "1920": {
-        "stato": "inviato"
+        "stato": "preso"
     },
     "3266": {
         "stato": "inviato",
@@ -23,7 +23,7 @@
         "titolo": "Ashanti Protocol-Unmanned peacekeepers amidst conflict (Stove) Giveaway"
     },
     "3601": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Aeonic (Steam) Giveaway"
     },
     "3595": {
@@ -38,7 +38,7 @@
         "stato": "ignorato"
     },
     "3585": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "3584": {
         "stato": "ignorato"
@@ -47,7 +47,7 @@
         "stato": "ignorato"
     },
     "3582": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "3257": {
         "stato": "preso",
@@ -82,7 +82,10 @@
         "titolo": "Doomblade"
     },
     "cs_529115a77cc4c3cf270b95f43b0aa9e8": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Typers Combat"
+    },
+    "3568": {
+        "stato": "inviato"
     }
 }
