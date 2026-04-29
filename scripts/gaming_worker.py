@@ -44,12 +44,14 @@ os.makedirs(os.path.dirname(FILE_MEMORIA), exist_ok=True)
 memoria = json.load(open(FILE_MEMORIA, "r")) if os.path.exists(FILE_MEMORIA) else {}
 memoria = sincronizza_presi(memoria)
 
-lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date").json()
-oggi = datetime.now()
+try:
 
-for item in lista_items[:15]:
-    id_item, titolo, link = str(item['id']), item['title'], item['open_giveaway_url']
-    tipo = item.get('type', 'Game')
+    lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date").json()
+    oggi = datetime.now()
+
+    for item in lista_items[:15]:
+        id_item, titolo, link = str(item['id']), item['title'], item['open_giveaway_url']
+        tipo = item.get('type', 'Game')
 
     if memoria.get(id_item, {}).get("stato") in ["preso", "ignorato"]: continue
 
