@@ -35,16 +35,16 @@
         "titolo": "The Saint (itchio) Giveaway"
     },
     "3592": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "3585": {
         "stato": "inviato"
     },
     "3584": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "3583": {
-        "stato": "inviato"
+        "stato": "ignorato"
     },
     "3582": {
         "stato": "inviato"
@@ -56,5 +56,25 @@
     "base_genshin impact": {
         "stato": "preso",
         "titolo": "genshin impact"
+    },
+    "steam_f1b8624881ce120f38cc37207e7f1fef": {
+        "stato": "inviato",
+        "titolo": "Counter-Strike 2"
+    },
+    "steam_3477675eef4a3f07be3ba5c39fb4a27c": {
+        "stato": "inviato",
+        "titolo": "Apex Legends\u2122"
+    },
+    "steam_a34b06a64a3d1002a87358a64a327f60": {
+        "stato": "inviato",
+        "titolo": "Marvel Rivals"
+    },
+    "steam_b66f8360f09caf061da307577305434d": {
+        "stato": "inviato",
+        "titolo": "Warframe"
+    },
+    "steam_5ec7006f36d050741e00b14430d70b64": {
+        "stato": "inviato",
+        "titolo": "PUBG: BATTLEGROUNDS"
     }
 }

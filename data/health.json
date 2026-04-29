@@ -1,6 +1,10 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-04-29T01:21:26.590976"
+    "last_check": "2026-04-29T11:35:38.350855"
+  },
+  "steam_worker": {
+    "status": "ok",
+    "last_check": "2026-04-29T11:35:40.553886"
   }
 }
