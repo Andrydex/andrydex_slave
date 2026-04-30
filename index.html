@@ -61,11 +61,12 @@
                             <span>${item.data_rilevazione}</span>
                         </div>
                         <h3 class="font-bold text-lg mb-4 line-clamp-2">${item.titolo}</h3>
-                        <div class="text-sm text-gray-400 space-y-1 mb-6">
+                        <div class="text-sm text-gray-400 space-y-2 mb-6">
                             <p>⏳ Scadenza: <span class="text-white">${item.scadenza}</span></p>
                             <p>🌍 Luogo: <span class="text-white">${item.periodo}</span></p>
+                            <p class="border-t border-gray-800 pt-2 mt-2 text-emerald-400">📝 Requisiti: <span class="text-gray-300 italic">${item.requisiti || 'Nessun requisito specifico estratto'}</span></p>
                         </div>
-                        <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 hover:bg-emerald-500 py-2 rounded-xl font-bold transition-colors text-sm">Apri Bando</a>
+                        <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 hover:bg-emerald-500 py-2 rounded-xl font-bold transition-colors text-sm">Apri Bando Ufficiale</a>
                     `;
                 } else {
                     card.innerHTML = `
