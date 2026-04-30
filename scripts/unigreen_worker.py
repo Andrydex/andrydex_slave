@@ -7,11 +7,9 @@ from telegram_sender import invia_telegram
 from health_check import update_health
 from datetime import datetime
 
-# Configuriamo l'AI
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 if GEMINI_KEY:
     genai.configure(api_key=GEMINI_KEY)
-    # Modello perfetto per estrazione rapida e precisa
     model = genai.GenerativeModel('gemini-1.5-flash')
 
 URLS = {
@@ -20,52 +18,33 @@ URLS = {
     "UniGreen Mobility": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/"
 }
 
-INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "tutti i dipartimenti", "biagi", "finance"]
-EXCLUDE = ["giurisprudenza", "area giuridica", "diritto"]
-FUNDING = ["grant", "scholarship", "funding", "travel", "borse", "studio", "viaggio", "finanziamento", "reimbursement"]
+# 🛑 BLACKLIST: Link da ignorare assolutamente
+BLACKLIST_DOMAINS = ["facebook", "twitter", "instagram", "linkedin", "youtube", "radiofsc", "pica.cineca.it"]
+BLACKLIST_TEXT = ["contatti", "privacy", "cookie", "newsletter", "magazine", "store", "governance", "social", "chi siamo", "facebook", "twitter", "amministrazione trasparente", "intranet", "sicurezza", "mappa", "feedback"]
 
-PROFILO_UTENTE = """
-Il destinatario è uno studente del Dipartimento di Economia. 
-Interessi: Mobilità internazionale, programmi UniGreen, BIP (Blended Intensive Programs), Erasmus+.
-Obiettivo: Trovare opportunità di studio o semplicemente di esperienza, ma non lavoro, che offrano borse di studio o rimborsi spese (funding/grants).
-Filtro: Scarta bandi riservati esclusivamente ad Area Giuridica, Medicina o Lettere, a meno che non siano aperti a tutti.
-"""
+INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "tutti i dipartimenti", "biagi", "finance", "student", "mobility", "erasmus", "mission"]
 
 def analizza_bando_con_ai(url):
-    if not GEMINI_KEY: return "Non specificata", "Non specificato", "No"
+    if not GEMINI_KEY: return "N.D.", "N.D.", False, "0"
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, timeout=15, headers=headers)
+        if response.status_code != 200: return "Errore Pagina", "N.D.", False, "0"
+        
         soup = BeautifulSoup(response.text, "html.parser")
-        testo_pagina = soup.get_text(separator=' ', strip=True)[:5000] # Aumentato a 5000 caratteri
+        testo_pagina = soup.get_text(separator=' ', strip=True)[:5000]
         
-        # 🧠 PROMPT EVOLUTO CON SKILLS E CONTESTO
-        prompt = f"""
-        {PROFILO_UTENTE}
+        prompt = f"Analizza questo bando per uno studente di ECONOMIA. Estrai: 1. Scadenza (data o 'Scaduto'). 2. Periodo/Destinazione. 3. Borsa (SI/NO). 4. Compatibilità (1-10). Rispondi in 4 righe pulite.\nTesto: {testo_pagina}"
         
-        Analizza il seguente testo di un bando universitario e fornisci le informazioni richieste.
-        TESTO DA ANALIZZARE: {testo_pagina}
-
-        REGOLE DI RISPOSTA:
-        Rispondi ESCLUSIVAMENTE con questo schema, senza commenti extra:
-        Scadenza: [Data esatta o 'Scaduto' o 'Non indicata']
-        Periodo/Destinazione: [Luogo e durata dell'esperienza]
-        Borsa di Studio: [SI/NO - Indica SI se sono menzionati finanziamenti, rimborsi, grants o esenzioni tasse]
-        Compatibilità: [Voto da 1 a 10 per uno studente di Economia]
-        """
-
-        risposta = model.generate_content(prompt)
-        linee = risposta.text.strip().split('\n')
+        risposta = model.generate_content(prompt).text.strip().split('\n')
+        scadenza = risposta[0].split(":")[1].strip() if ":" in risposta[0] else "N.D."
+        periodo = risposta[1].split(":")[1].strip() if ":" in risposta[1] else "N.D."
+        borsa = "SI" in risposta[2].upper()
+        voto = risposta[3].split(":")[1].strip() if ":" in risposta[3] else "5"
         
-        # Estrazione pulita dei dati
-        scadenza = linee[0].split(":")[1].strip() if len(linee) > 0 else "N.D."
-        periodo = linee[1].split(":")[1].strip() if len(linee) > 1 else "N.D."
-        ha_borsa = "SI" in linee[2].upper() if len(linee) > 2 else False
-        voto = linee[3].split(":")[1].strip() if len(linee) > 3 else "5"
-        
-        return scadenza, periodo, ha_borsa, voto
-    except Exception:
-        return "Da verificare", "Da verificare", False, "N.D."
+        return scadenza, periodo, borsa, voto
+    except:
+        return "Da verificare", "Da verificare", False, "5"
 
 def run_unigreen_worker(memoria):
     try:
@@ -73,50 +52,38 @@ def run_unigreen_worker(memoria):
             response = requests.get(url, timeout=15)
             soup = BeautifulSoup(response.text, "html.parser")
             
-            for link_tag in soup.find_all('a', href=True):
-                testo_link = link_tag.text.strip()
-                href = link_tag['href']
+            # 🎯 Cerchiamo solo nei blocchi di contenuto principale, non in tutta la pagina
+            main_content = soup.find('main') or soup.find('article') or soup
+            
+            for link_tag in main_content.find_all('a', href=True):
+                href = link_tag['href'].lower()
+                testo = link_tag.text.strip().lower()
                 
-                # Filtro preliminare per non sprecare chiamate AI
-                if len(testo_link) < 10: continue
+                # 🚫 FILTRO 1: Salta i domini vietati
+                if any(social in href for social in BLACKLIST_DOMAINS): continue
+                # 🚫 FILTRO 2: Salta i testi inutili
+                if any(junk in testo for junk in BLACKLIST_TEXT): continue
+                # 🚫 FILTRO 3: Deve esserci una delle parole chiave
+                if not any(word in testo for word in INCLUDE): continue
                 
-                id_bando = "uni_" + generate_hash(href)
-                if id_bando not in memoria:
-                    
-                    # 🚀 L'AI ORA USA IL TUO PROFILO
-                    scadenza, periodo, ha_borsa, voto = analizza_bando_con_ai(href)
-                    
-                    # Se il voto di compatibilità è troppo basso, lo ignoriamo (Filtro intelligente)
-                    try:
-                        if int(voto.split("/")[0]) < 6: continue 
-                    except: pass
+                real_url = href if href.startswith("http") else ("https://www.unimore.it" + href if "unimore" in url else href)
+                id_bando = "uni_" + generate_hash(real_url)
 
-                    etichetta_soldi = "💰 **BORSA DI STUDIO RILEVATA**\n" if ha_borsa else ""
+                if id_bando not in memoria:
+                    print(f"Analizzando bando reale: {testo}")
+                    scadenza, periodo, borsa, voto = analizza_bando_con_ai(real_url)
                     
-                    testo_messaggio = (
-                        f"🎓 **OPPORTUNITÀ SELEZIONATA** (Rating: {voto}/10)\n\n"
-                        f"{etichetta_soldi}"
-                        f"📌 *{testo_link}*\n\n"
-                        f"⏳ **Scadenza:** `{scadenza}`\n"
-                        f"🌍 **Svolgimento:** `{periodo}`\n"
-                        f"🏫 **Fonte:** {nome_fonte}"
-                    )
-                    
-                    bottoni = [[{"text": "🌐 Apri Bando", "url": href}],
-                               [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]]
-                    
-                    invia_telegram(testo_messaggio, bottoni)
+                    if "scaduto" in scadenza.lower() or (voto.isdigit() and int(voto) < 4):
+                        memoria[id_bando] = {"stato": "ignorato"}
+                        continue
+
+                    testo_m = f"🎓 **BANDO SELEZIONATO** ({voto}/10)\n\n📌 *{link_tag.text.strip()}*\n⏳ **Scadenza:** `{scadenza}`\n🌍 **Svolgimento:** `{periodo}`\n🏪 **Borsa:** {'✅ SI' if borsa else '❌ NO'}"
+                    invia_telegram(testo_m, [[{"text": "🌐 Apri", "url": real_url}]])
                     
                     memoria[id_bando] = {
-                        "stato": "nuovo",
-                        "titolo": testo_link,
-                        "url": href,
-                        "tipo": "universita",
-                        "funding": ha_borsa,
-                        "scadenza": scadenza,
-                        "periodo": periodo,
-                        "voto": voto,
-                        "data_rilevazione": datetime.now().strftime("%d/%m/%Y %H:%M")
+                        "stato": "nuovo", "titolo": link_tag.text.strip(), "url": real_url,
+                        "tipo": "universita", "funding": borsa, "scadenza": scadenza,
+                        "periodo": periodo, "voto": voto, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
                     }
         update_health("unigreen_worker", "ok")
     except Exception as e:
