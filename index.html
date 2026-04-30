@@ -3,84 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrydex Hub</title>
+    <title>Andrydex Control Panel</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-950 text-gray-100 min-h-screen font-sans">
-    <div class="max-w-6xl mx-auto p-4 md:p-8">
-        <div class="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
-            <h1 class="text-3xl font-black text-emerald-500 uppercase tracking-tighter">Slave Control Panel</h1>
+    <div class="max-w-6xl mx-auto p-6">
+        <header class="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
+            <h1 class="text-3xl font-black text-emerald-500 tracking-tighter">ANDRYDEX SLAVE</h1>
             <div class="flex bg-gray-900 p-1 rounded-xl border border-gray-800">
-                <button onclick="switchTab('uni')" id="btn-uni" class="px-6 py-2 rounded-lg font-bold transition-all bg-emerald-600 text-white">🎓 Bandi</button>
-                <button onclick="switchTab('games')" id="btn-games" class="px-6 py-2 rounded-lg font-bold transition-all text-gray-400">🎮 Giochi</button>
+                <button onclick="switchTab('uni')" id="btn-uni" class="px-6 py-2 rounded-lg font-bold transition-all bg-emerald-600">🎓 Bandi</button>
+                <button onclick="switchTab('games')" id="btn-games" class="px-6 py-2 rounded-lg font-bold transition-all text-gray-500">🎮 Giochi</button>
             </div>
-        </div>
-
-        <div id="loading" class="text-center py-20 text-gray-500 animate-pulse">Sincronizzazione dati in corso...</div>
+        </header>
         <div id="grid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
     </div>
-
     <script>
-        let allData = [];
         let currentTab = 'uni';
-
-        async function init() {
-            try {
-                const res = await fetch('data/memoria.json?v=' + Date.now());
-                const data = await res.json();
-                allData = Object.values(data);
-                document.getElementById('loading').remove();
-                render();
-            } catch (e) { document.getElementById('loading').innerText = "Errore caricamento dati."; }
-        }
-
-        function switchTab(tab) {
-            currentTab = tab;
-            document.getElementById('btn-uni').className = tab === 'uni' ? "px-6 py-2 rounded-lg font-bold bg-emerald-600 text-white" : "px-6 py-2 rounded-lg font-bold text-gray-400";
-            document.getElementById('btn-games').className = tab === 'games' ? "px-6 py-2 rounded-lg font-bold bg-blue-600 text-white" : "px-6 py-2 rounded-lg font-bold text-gray-400";
-            render();
-        }
-
-        function render() {
+        async function render() {
+            const res = await fetch('data/memoria.json?v=' + Date.now());
+            const data = await res.json();
             const grid = document.getElementById('grid');
             grid.innerHTML = '';
             
-            const filtered = allData.filter(i => {
-                if(currentTab === 'uni') return i.tipo === 'universita';
-                return i.stato === 'inviato' || i.stato === 'preso' || i.stato === 'ignorato' && i.tipo !== 'universita';
-            }).reverse();
+            const filtered = Object.values(data).filter(i => 
+                currentTab === 'uni' ? i.tipo === 'universita' : i.tipo !== 'universita'
+            ).reverse();
 
             filtered.forEach(item => {
                 const card = document.createElement('div');
-                card.className = "bg-gray-900 border border-gray-800 p-5 rounded-2xl hover:border-gray-600 transition-all";
-                
+                card.className = "bg-gray-900 border border-gray-800 p-5 rounded-2xl";
                 if(currentTab === 'uni') {
                     card.innerHTML = `
                         <div class="flex justify-between text-xs font-bold text-emerald-500 mb-2">
-                            <span>RATING: ${item.voto}/10</span>
-                            <span>${item.data_rilevazione}</span>
+                            <span>VOTO: ${item.voto}/10</span><span>${item.data_rilevazione}</span>
                         </div>
-                        <h3 class="font-bold text-lg mb-4 line-clamp-2">${item.titolo}</h3>
+                        <h3 class="font-bold mb-4 line-clamp-2">${item.titolo}</h3>
                         <div class="text-sm text-gray-400 space-y-2 mb-6">
                             <p>⏳ Scadenza: <span class="text-white">${item.scadenza}</span></p>
-                            <p>🌍 Luogo: <span class="text-white">${item.periodo}</span></p>
-                            <p class="border-t border-gray-800 pt-2 mt-2 text-emerald-400">📝 Requisiti: <span class="text-gray-300 italic">${item.requisiti || 'Nessun requisito specifico estratto'}</span></p>
+                            <p class="text-xs italic text-gray-500">📝 ${item.requisiti || 'N.D.'}</p>
                         </div>
-                        <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 hover:bg-emerald-500 py-2 rounded-xl font-bold transition-colors text-sm">Apri Bando Ufficiale</a>
+                        <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 py-2 rounded-xl font-bold text-sm">Apri Bando</a>
                     `;
                 } else {
                     card.innerHTML = `
-                        <div class="flex justify-between text-xs font-bold text-blue-500 mb-2">
-                            <span class="uppercase">${item.stato}</span>
-                        </div>
-                        <h3 class="font-bold text-lg mb-6">${item.titolo || 'Gioco Sconosciuto'}</h3>
-                        <a href="${item.url}" target="_blank" class="block text-center bg-blue-600 hover:bg-blue-500 py-2 rounded-xl font-bold transition-colors text-sm">Vai allo Store</a>
+                        <div class="text-xs font-bold text-blue-500 mb-2 uppercase">${item.stato}</div>
+                        <h3 class="font-bold mb-6">${item.titolo || 'Gioco'}</h3>
+                        <a href="${item.url}" target="_blank" class="block text-center bg-blue-600 py-2 rounded-xl font-bold text-sm">Store</a>
                     `;
                 }
                 grid.appendChild(card);
             });
         }
-        init();
+        function switchTab(t) {
+            currentTab = t;
+            document.getElementById('btn-uni').className = t === 'uni' ? "px-6 py-2 rounded-lg font-bold bg-emerald-600" : "px-6 py-2 rounded-lg font-bold text-gray-500";
+            document.getElementById('btn-games').className = t === 'games' ? "px-6 py-2 rounded-lg font-bold bg-blue-600" : "px-6 py-2 rounded-lg font-bold text-gray-500";
+            render();
+        }
+        render();
     </script>
 </body>
 </html>
