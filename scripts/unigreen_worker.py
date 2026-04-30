@@ -43,7 +43,9 @@ def estrai_testo_da_url(url):
                 return testo[:50000]
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.get_text(separator=' ', strip=True)[:50000]
-    except: return ""
+    except Exception as e:
+        logging.warning(f"Errore estrazione {url}: {e}")
+        return ""
 
 def analizza_con_ai(testo):
     if not testo or not client: return "N.D.", "N.D.", "N.D.", False, "0"
