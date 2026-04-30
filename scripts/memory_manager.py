@@ -43,6 +43,13 @@ def sincronizza_presi(memoria):
     chat_id = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
     if not token: return memoria
 
+    def sincronizza_presi(memoria):
+    """Legge gli aggiornamenti di Telegram e sincronizza lo stato nella memoria."""
+    import os, requests
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat_id = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
+    if not token: return memoria
+
     try:
         # Legge l'offset salvato per non riprocessare vecchi messaggi
         offset = memoria.get("__telegram_offset__", 0)
