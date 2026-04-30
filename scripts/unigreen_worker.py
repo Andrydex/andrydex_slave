@@ -53,9 +53,8 @@ def run_unigreen_worker(memoria):
                         
                         bottoni = [
                             [{"text": "🌐 Leggi Dettagli", "url": href}],
-                            [{"text": "📊 Dashboard", "url": "https://YOUR_USERNAME.github.io/andrydex_slave/"}]
+                            [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
                         ]
-                        
                         invia_telegram(testo_messaggio, bottoni)
                         
                         memoria[id_bando] = {
