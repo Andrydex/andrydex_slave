@@ -182,5 +182,29 @@
         "requisiti": "Students (bachelor, master, PhD) from the Higher Education Institutions and UNIgreen institution. The program focuses on economic, environmental, and social sustainability in logistics, ESG framework, and supply chain performance.",
         "voto": 7,
         "data_rilevazione": "30/04/2026"
+    },
+    "uni_51e7498a07c41019b7c947c1380149f3": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_48fdf6a99a9cf45636244fdf3dc009eb": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_fdba758fb80505c8244cc76069eccf9d": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_b6a1b40a48566950824379d8fb66f0bd": {
+        "stato": "nuovo",
+        "titolo": "Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "Non specificata nel bando (pagina informativa generale)",
+        "periodo": "Europa (università partner UNIgreen)",
+        "requisiti": "Studente universitario (il testo è una pagina informativa generale sui tipi di mobilità offerti, non un bando specifico con requisiti dettagliati. Il profilo del richiedente è compatibile con la categoria 'Student Mobility' e 'BIP').",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
     }
 }
