@@ -32,9 +32,22 @@
             }
             grid.innerHTML = '';;
             
-            const filtered = Object.values(data).filter(i => 
-                currentTab === 'uni' ? i.tipo === 'universita' : i.tipo !== 'universita'
-            ).reverse();
+            const oggi = new Date();
+            const filtered = Object.values(data).filter(i => {
+                if (i.stato === 'ignorato') return false;
+                if (currentTab === 'uni') {
+                    if (i.tipo !== 'universita') return false;
+                    if (i.scadenza && i.scadenza !== 'N.D.') {
+                        const parti = i.scadenza.split('/');
+                        if (parti.length === 3) {
+                            const scad = new Date(parti[2], parti[1]-1, parti[0]);
+                            if (scad < oggi) return false;
+                        }
+                    }
+                    return true;
+                }
+                return i.tipo !== 'universita' && i.stato !== 'preso';
+            }).reverse();
 
             filtered.forEach(item => {
                 const card = document.createElement('div');
