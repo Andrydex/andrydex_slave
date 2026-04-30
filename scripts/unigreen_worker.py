@@ -30,7 +30,24 @@ BLACKLIST_TEXT = ["contatti", "privacy", "cookie", "newsletter", "magazine", "am
 # Ho ri-aggiunto "bando" e "avviso" per non farci sfuggire niente!
 INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "biagi", "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"]
 
-PROFILO_UTENTE = "Studente di Economia (Dipartimento Biagi). Cerca: Mobilità internazionale, BIP, Erasmus, Borse di studio. Escludi: Giurisprudenza, Medicina."
+PROFILO_UTENTE = (
+    "Studente magistrale DCI (Diritto, Comunicazione e Impresa) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
+    "Cerca: Mobilità internazionale, BIP, Erasmus, borse di studio aperte a studenti magistrali. "
+    "Escludi: bandi per soli triennalisti, dottorati (richiedono laurea magistrale completata), "
+    "corsi di laurea (già iscritto), Giurisprudenza, Medicina, concorsi per personale docente/TAB. "
+    "Voto alto (8-10) solo se accessibile a magistrali iscritti, voto basso (1-4) se richiede titolo già conseguito o è per altri corsi."
+)
+
+def is_scaduto(scadenza_str):
+    """Restituisce True se la scadenza è già passata."""
+    from datetime import datetime
+    if not scadenza_str or scadenza_str in ("N.D.", "Errore"): return False
+    formati = ["%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d", "%d %B %Y", "%B %d, %Y"]
+    for fmt in formati:
+        try:
+            return datetime.strptime(scadenza_str.strip(), fmt) < datetime.now()
+        except: continue
+    return False
 
 def estrai_testo_da_url(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -116,14 +133,24 @@ def run_unigreen_worker(memoria):
                     
                     try:
                         score = int(''.join(filter(str.isdigit, str(voto))))
-                        if score < 5: 
+                        if score < 5:
                             # Se fa schifo, lo ignoriamo e lo salviamo per non rileggerlo più
                             memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                             continue
-                    except: score = 5
+                    except:
+                        score = 5
+
+                    if is_scaduto(scadenza):
+                        memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                        continue
 
                     msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{link_tag.text.strip()}*\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{requisiti}_\n💰 **Borsa:** {'✅' if borsa else '❌'}"
-                    invia_telegram(msg, [[{"text": "🌐 Apri Documento", "url": real_url}]])
+                    invia_telegram(msg, [
+                        [{"text": "🌐 Apri Documento", "url": real_url}],
+                        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+                    ])
                     
                     memoria[id_bando] = {
                         "stato": "nuovo", "titolo": link_tag.text.strip(), "url": real_url, "tipo": "universita",
