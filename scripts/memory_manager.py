@@ -37,4 +37,57 @@ def save_memory(memoria):
         json.dump(nuova_memoria, f, indent=4, ensure_ascii=False)
 
 def sincronizza_presi(memoria):
+    """Legge gli aggiornamenti di Telegram e sincronizza lo stato nella memoria."""
+    import os, requests
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat_id = str(os.environ.get("TELEGRAM_CHAT_ID", ""))
+    if not token: return memoria
+
+    try:
+        # Legge l'offset salvato per non riprocessare vecchi messaggi
+        offset = memoria.get("__telegram_offset__", 0)
+        url = f"https://api.telegram.org/bot{token}/getUpdates?offset={offset}&timeout=5"
+        updates = requests.get(url, timeout=10).json().get("result", [])
+
+        for update in updates:
+            offset = update["update_id"] + 1
+            cb = update.get("callback_query")
+            if not cb: continue
+            if str(cb.get("message", {}).get("chat", {}).get("id", "")) != chat_id: continue
+
+            data = cb.get("data", "")
+
+            if data.startswith("preso:"):
+                item_id = data.split(":", 1)[1]
+                if item_id in memoria:
+                    memoria[item_id]["stato"] = "preso"
+
+            elif data.startswith("no_base:"):
+                item_id = data.split(":", 1)[1]
+                if item_id in memoria:
+                    memoria[item_id]["stato"] = "ignorato"
+
+            elif data.startswith("partecipo:"):
+                item_id = data.split(":", 1)[1]
+                if item_id in memoria:
+                    memoria[item_id]["stato"] = "partecipo"
+
+            elif data.startswith("ignora_bando:"):
+                item_id = data.split(":", 1)[1]
+                if item_id in memoria:
+                    memoria[item_id]["stato"] = "ignorato"
+
+            # Risponde a Telegram per togliere il "loading" sul bottone
+            requests.post(
+                f"https://api.telegram.org/bot{token}/answerCallbackQuery",
+                json={"callback_query_id": cb["id"], "text": "✅ Salvato!"},
+                timeout=5
+            )
+
+        memoria["__telegram_offset__"] = offset
+
+    except Exception as e:
+        import logging
+        logging.warning(f"Errore sincronizza_presi: {e}")
+
     return memoria
