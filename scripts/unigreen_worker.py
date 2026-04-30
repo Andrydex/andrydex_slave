@@ -64,8 +64,7 @@ def analizza_con_ai(testo):
             f'{{"scadenza":"...","luogo":"...","requisiti":"...","borsa":"SI oppure NO","voto":7}}\n'
             f"TESTO: {testo[:40000]}"
         )
-        # Usiamo 1.5-flash perché garantisce le quote gratuite (15 RPM) senza blocchi "limit: 0"
-        response = client.models.generate_content(model='gemini-1.5-flash', contents=prompt)
+        response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
         
         # Pulizia del JSON se l'IA aggiunge blocchi markdown
         raw = response.text.strip().strip('`').replace('json', '', 1).strip()
