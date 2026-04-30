@@ -1,7 +1,7 @@
 import requests
 import os
 import io
-import PyPDF2
+import pypdf
 import google.generativeai as genai
 from bs4 import BeautifulSoup
 from hashing import generate_hash
@@ -36,14 +36,24 @@ def estrai_testo_da_url(url):
         response = requests.get(url, timeout=25, headers=headers)
         if response.status_code != 200: return ""
         
-        # Lettura profonda PDF (fino a 30 pagine)
+        # 🛡️ Lettura PDF intelligente (Testa e Coda)
         if url.lower().endswith(".pdf") or "application/pdf" in response.headers.get('Content-Type', ''):
             with io.BytesIO(response.content) as f:
-                reader = PyPDF2.PdfReader(f)
+                reader = pypdf.PdfReader(f)
                 testo = ""
-                for i in range(min(len(reader.pages), 30)):
+                num_pages = len(reader.pages)
+                
+                # Selezioniamo le prime 15 e le ultime 15 pagine
+                pagine_da_leggere = list(range(min(15, num_pages)))
+                if num_pages > 15:
+                    pagine_da_leggere.extend(range(max(15, num_pages - 15), num_pages))
+                
+                # Rimuoviamo eventuali duplicati se il file ha meno di 30 pagine totali
+                pagine_da_leggere = sorted(list(set(pagine_da_leggere)))
+                
+                for i in pagine_da_leggere:
                     testo += reader.pages[i].extract_text() + "\n"
-                return testo[:50000] # Alziamo a 50k per Gemini 3
+                return testo[:50000]
         
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.get_text(separator=' ', strip=True)[:50000]
