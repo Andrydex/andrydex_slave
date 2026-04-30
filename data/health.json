@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-04-29T17:16:12.565306"
+    "last_check": "2026-04-30T02:25:57.258071"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,6 +9,10 @@
   },
   "cheapshark_worker": {
     "status": "ok",
-    "last_check": "2026-04-29T17:16:13.139429"
+    "last_check": "2026-04-30T02:25:57.753206"
+  },
+  "unigreen_worker": {
+    "status": "ok",
+    "last_check": "2026-04-30T02:26:05.181968"
   }
 }

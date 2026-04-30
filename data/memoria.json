@@ -86,6 +86,81 @@
         "titolo": "Typers Combat"
     },
     "3568": {
+        "stato": "ignorato"
+    },
+    "3556": {
         "stato": "inviato"
+    },
+    "uni_150e4817761a2a5fe844bc0ff4f5edf7": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen",
+        "url": "https://www.unigreen.unimore.it/",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:25"
+    },
+    "uni_8f18a67f61afaafa8ec7522e5584f82e": {
+        "stato": "nuovo",
+        "titolo": "Fondazione Marco Biagi",
+        "url": "https://www.unimore.it/it/Fondazione-Marco-Biagi",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:25"
+    },
+    "uni_5dd1f3f3e8b92d504d41039a255c4226": {
+        "stato": "nuovo",
+        "titolo": "Mobilit\u00e0 PNRR (TNE)",
+        "url": "https://www.unimore.it/it/internazionalizzazione/mobilita-pnrr-tne",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:25"
+    },
+    "uni_35cb5dad2992df7b9698de1fff152bb6": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti - Analisi dei dati per l'economia e il management (ADEM)",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-adem",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
+    },
+    "uni_a9a00ac3e5cc5e2f653fefbd5fa49390": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti - ECONOMIA, POLITICHE PUBBLICHE E SOSTENIBILITA' (EPPS)",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-epps",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
+    },
+    "uni_fa125b1649cc922515f32bb865b6c50c": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen campuses",
+        "url": "https://unigreen-alliance.eu/unigreen-campuses/",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
+    },
+    "uni_12936bdbbcbab270d2dc529e2bf6f56f": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen PhD Programme",
+        "url": "https://unigreen-alliance.eu/education/unigreen-phd-programme/",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
+    },
+    "uni_baab15889a7cd2ec4db28614913e8081": {
+        "stato": "nuovo",
+        "titolo": "Blended Intensive Programs (BIP)",
+        "url": "https://unigreen-alliance.eu/international/blended-intensive-programs-bip/",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
+    },
+    "uni_1d4066f9f77f3cec1f6eb60f9e746850": {
+        "stato": "nuovo",
+        "titolo": "Check out Past Blended Intensive Programmes (BIP)",
+        "url": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/past-blended-intensive-programs-bip/",
+        "tipo": "universita",
+        "funding": false,
+        "data_rilevazione": "2026-04-30 02:26"
     }
 }
