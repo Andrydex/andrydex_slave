@@ -46,7 +46,7 @@
                     }
                     return true;
                 }
-                return i.tipo !== 'universita' && i.stato !== 'preso';
+                return (i.tipo === 'gioco' || i.tipo === 'cheapshark' || !i.tipo) && i.stato !== 'preso';
             }).reverse();
 
             filtered.forEach(item => {
