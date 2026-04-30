@@ -2,6 +2,7 @@ import requests
 import os
 import io
 import pypdf
+from urllib.parse import urljoin
 from google import genai # <--- NUOVO IMPORT
 from bs4 import BeautifulSoup
 from hashing import generate_hash
@@ -48,16 +49,27 @@ def estrai_testo_da_url(url):
         return ""
 
 def analizza_con_ai(testo):
+    import json
     if not testo or not client: return "N.D.", "N.D.", "N.D.", False, "0"
     try:
-        prompt = f"PROFILO: {PROFILO_UTENTE}\nAnalizza il bando e trova: 1.Scadenza. 2.Destinazione. 3.Requisiti brevi. 4.Borsa(SI/NO). 5.Voto compatibilità(1-10).\nRispondi in 5 righe 'K: V'.\nTESTO: {testo}"
-        # Nuova sintassi generate_content
-        response = client.models.generate_content(model='gemini-3-flash', contents=prompt)
-        risposta = response.text.strip().split('\n')
-        get_v = lambda i: risposta[i].split(":")[1].strip() if ":" in risposta[i] else "N.D."
-        return get_v(0), get_v(1), get_v(2), "SI" in get_v(3).upper(), get_v(4)
+        prompt = (
+            f"PROFILO: {PROFILO_UTENTE}\n"
+            f"Analizza il bando. Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
+            f'{"{"}"scadenza":"...","luogo":"...","requisiti":"...","borsa":"SI oppure NO","voto":7{"}"}\n'
+            f"TESTO: {testo}"
+        )
+        response = client.models.generate_content(model='gemini-2.0-flash', contents=prompt)
+        raw = response.text.strip().strip('`').replace('json', '', 1).strip()
+        d = json.loads(raw)
+        return (
+            d.get("scadenza", "N.D."),
+            d.get("luogo", "N.D."),
+            d.get("requisiti", "N.D."),
+            "SI" in str(d.get("borsa", "")).upper(),
+            str(d.get("voto", "0"))
+        )
     except Exception as e:
-        print(f"Errore AI: {e}")
+        logging.warning(f"Errore AI: {e}")
         return "Errore", "Errore", "Errore", False, "0"
 
 def run_unigreen_worker(memoria):
@@ -70,7 +82,7 @@ def run_unigreen_worker(memoria):
                 href, testo_l = link_tag['href'].lower(), link_tag.text.strip().lower()
                 if any(x in href for x in BLACKLIST_DOMAINS) or any(x in testo_l for x in BLACKLIST_TEXT): continue
                 if not any(x in testo_l for x in INCLUDE): continue
-                real_url = href if href.startswith("http") else ("https://www.unimore.it" + href if "unimore" in url else href)
+                real_url = href if href.startswith("http") else urljoin(url, href)
                 id_bando = "uni_" + generate_hash(real_url)
                 if id_bando not in memoria:
                     print(f"🕵️ Analizzo: {testo_l}")
