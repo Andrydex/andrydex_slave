@@ -2,6 +2,7 @@ import requests
 import os
 import io
 import json
+import time
 import pypdf
 import logging
 from google import genai
@@ -102,7 +103,17 @@ def run_unigreen_worker(memoria):
                 if id_bando not in memoria:
                     logging.info(f"🕵️ Analizzo il bando: {testo_l}")
                     testo_pdf = estrai_testo_da_url(real_url)
+                    
+                    # ⏳ FRENO A MANO: Aspetta 5 secondi per non farsi bloccare da Google
+                    time.sleep(5) 
+                    
                     scadenza, luogo, requisiti, borsa, voto = analizza_con_ai(testo_pdf)
+                    
+                    # 🛡️ PROTEZIONE: Se Gemini ha superato i limiti, NON bruciamo il bando. 
+                    # Lo saltiamo e ci riproviamo alla prossima esecuzione del bot (tra 6 ore).
+                    if scadenza == "Errore":
+                        logging.warning("Rate limit di Gemini colpito. Salto per non bruciare il bando.")
+                        continue 
                     
                     try:
                         score = int(''.join(filter(str.isdigit, str(voto))))
