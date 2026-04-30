@@ -44,8 +44,8 @@ jobs:
           git config --global user.name "Bot Memoria"
           git config --global user.email "bot@github.com"
           mkdir -p data
-          touch data/memoria.json
-          touch data/health.json
+          [ -f data/memoria.json ] || echo '{}' > data/memoria.json
+          [ -f data/health.json ] || echo '{}' > data/health.json
           git add data/
           git diff --cached --quiet && echo "Nessuna modifica" && exit 0
           git stash
