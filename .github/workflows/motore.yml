@@ -2,11 +2,13 @@ name: Automazione Bot Sconti
 
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 8,14,20 * * *' # Gira alle 8, 14 e 20
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+# 🛡️ PROTEZIONE ANTI-SOVRAPPOSIZIONE
+concurrency:
+  group: main
+  cancel-in-progress: false
 
 jobs:
   esegui-bot:
