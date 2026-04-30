@@ -206,5 +206,9 @@
         "requisiti": "Studente universitario (il testo è una pagina informativa generale sui tipi di mobilità offerti, non un bando specifico con requisiti dettagliati. Il profilo del richiedente è compatibile con la categoria 'Student Mobility' e 'BIP').",
         "voto": 7,
         "data_rilevazione": "30/04/2026"
+    },
+    "uni_4cc61b9af86d4ad54e9430695e81db3c": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
     }
 }
