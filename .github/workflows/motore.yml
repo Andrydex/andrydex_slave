@@ -48,5 +48,5 @@ jobs:
           touch data/health.json
           git add data/
           git commit -m "Aggiornamento dati [skip ci]" || echo "Nessuna modifica"
-          git pull --rebase origin main
+          git pull --rebase origin main || (git rebase --abort && git pull origin main)
           git push
