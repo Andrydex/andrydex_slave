@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrydex Slave - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+    <div class="max-w-4xl mx-auto p-6">
+        <header class="mb-10 border-b border-slate-700 pb-5">
+            <h1 class="text-4xl font-bold text-emerald-400">🎓 UniGreen & Bandi</h1>
+            <p class="text-slate-400">Monitoraggio automatico opportunità e borse di studio</p>
+        </header>
+
+        <div id="loading" class="text-center py-10">Caricamento opportunità in corso...</div>
+        <div id="container" class="grid gap-4"></div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data/memoria.json');
+                const data = await response.json();
+                const container = document.getElementById('container');
+                document.getElementById('loading').remove();
+
+                // Filtriamo solo i dati universitari e ordiniamo per i più recenti
+                const items = Object.values(data)
+                    .filter(i => i.tipo === 'universita')
+                    .reverse();
+
+                items.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = "bg-slate-800 p-5 rounded-xl border-l-4 " + (item.funding ? "border-emerald-500" : "border-blue-500");
+                    card.innerHTML = `
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold mb-2">${item.titolo}</h3>
+                            ${item.funding ? '<span class="bg-emerald-500 text-xs px-2 py-1 rounded font-bold">💰 FONDI DISP.</span>' : ''}
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4">Rilevato il: ${item.data_rilevazione}</p>
+                        <a href="${item.url}" target="_blank" class="inline-block bg-emerald-600 hover:bg-emerald-500 px-4 py-2 rounded-lg text-sm font-bold transition">Apri Documento Ufficiale</a>
+                    `;
+                    container.appendChild(card);
+                });
+            } catch (e) {
+                document.getElementById('loading').innerText = "Errore caricamento dati. Assicurati che data/memoria.json sia pubblico.";
+            }
+        }
+        loadData();
+    </script>
+</body>
+</html>
