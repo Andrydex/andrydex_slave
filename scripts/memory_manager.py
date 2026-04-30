@@ -1,45 +1,37 @@
 import json
 import os
-import requests
-import logging
+from datetime import datetime, timedelta
 
-MEMORY_PATH = "data/memoria.json"
-GH_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
-REPO = os.environ.get("GITHUB_REPOSITORY")
+MEMORIA_PATH = 'data/memoria.json'
 
 def load_memory():
-    os.makedirs(os.path.dirname(MEMORY_PATH), exist_ok=True)
-    if not os.path.exists(MEMORY_PATH):
-        return {}
-    with open(MEMORY_PATH, "r") as file:
-        return json.load(file)
+    if os.path.exists(MEMORIA_PATH):
+        with open(MEMORIA_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
 
-def save_memory(memory):
-    with open(MEMORY_PATH, "w") as file:
-        json.dump(memory, file, indent=4)
+def save_memory(memoria):
+    # --- 🧹 PULIZIA AUTOMATICA (TTL) ---
+    limite_giochi = datetime.now() - timedelta(days=30)
+    limite_bandi = datetime.now() - timedelta(days=60)
+    
+    nuova_memoria = {}
+    for k, v in memoria.items():
+        data_rif = v.get("data_rilevazione", "01/01/2000")
+        try:
+            data_dt = datetime.strptime(data_rif.split()[0], "%d/%m/%Y")
+        except:
+            data_dt = datetime.now()
+
+        # Teniamo i bandi per 60 giorni e i giochi per 30
+        if v.get("tipo") == "universita":
+            if data_dt > limite_bandi: nuova_memoria[k] = v
+        else:
+            if data_dt > limite_giochi: nuova_memoria[k] = v
+    
+    with open(MEMORIA_PATH, 'w', encoding='utf-8') as f:
+        json.dump(nuova_memoria, f, indent=4, ensure_ascii=False)
 
 def sincronizza_presi(memoria):
-    if not GH_TOKEN: return memoria
-    headers = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
-    try:
-        issues = requests.get(f"https://api.github.com/repos/{REPO}/issues?state=open", headers=headers).json()
-        for issue in issues:
-            titolo_i = issue.get("title", "")
-            num = issue.get('number')
-            if not num: continue
-
-            if titolo_i.startswith("PRESO:"):
-                id_g = titolo_i.replace("PRESO:", "").strip()
-                if id_g in memoria: memoria[id_g]["stato"] = "preso"
-            elif titolo_i.startswith("HO_BASE:"):
-                nome_base = titolo_i.replace("HO_BASE:", "").strip().lower()
-                memoria[f"base_{nome_base}"] = {"stato": "preso", "titolo": nome_base}
-            elif titolo_i.startswith("NO_BASE:"):
-                id_g = titolo_i.replace("NO_BASE:", "").strip()
-                memoria[id_g] = {"stato": "ignorato"}
-            
-            # Chiude l'issue in automatico
-            requests.patch(f"https://api.github.com/repos/{REPO}/issues/{num}", headers=headers, json={"state": "closed"})
-    except Exception as e:
-        logging.error(f"Errore sincronizzazione Issues: {e}")
+    # Mantieni questa funzione se la usi per sincronizzare lo stato tra bot diversi
     return memoria
