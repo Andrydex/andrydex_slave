@@ -116,6 +116,19 @@ def run_unigreen_worker(memoria):
                 real_url = href if href.startswith("http") else urljoin(url, href)
                 id_bando = "uni_" + generate_hash(real_url)
 
+                stato_attuale = memoria.get(id_bando, {}).get("stato")
+                if stato_attuale in ["ignorato", "partecipo"]: continue
+                if id_bando in memoria and stato_attuale == "nuovo":
+                    # REMINDER — bando già visto ma non gestito
+                    dati = memoria[id_bando]
+                    msg_r = f"⏳ *REMINDER BANDO ({dati.get('voto','?')}/10)*\n\n📌 *{dati.get('titolo','')}*\n⏳ **Scadenza:** `{dati.get('scadenza','N.D.')}`\n📝 **Requisiti:** _{dati.get('requisiti','N.D.')}_"
+                    invia_telegram(msg_r, [
+                        [{"text": "🌐 Apri Documento", "url": dati.get("url", "")}],
+                        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+                    ])
+                    continue
                 if id_bando not in memoria:
                     logging.info(f"🕵️ Analizzo il bando: {testo_l}")
                     testo_pdf = estrai_testo_da_url(real_url)
