@@ -27,7 +27,7 @@ def run_gaming_worker(memoria):
                         [{"text": "❌ Non ho il base", "callback_data": f"no_base:{id_item}"}]
                     ]
                     invia_telegram(testo, bottoni)
-                    if id_item not in memoria: memoria[id_item] = {"stato": "inviato"}
+                    if id_item not in memoria: memoria[id_item] = {"stato": "inviato", "titolo": titolo, "tipo": "gioco", "url": link, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                     continue
 
             # GIOCHI NORMALI
@@ -37,7 +37,7 @@ def run_gaming_worker(memoria):
             ]
             if id_item not in memoria:
                 invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}\n🏪 Store: `{piattaforma}`", bottoni)
-                memoria[id_item] = {"stato": "inviato", "titolo": titolo}
+                memoria[id_item] = {"stato": "inviato", "titolo": titolo, "tipo": "gioco", "url": link, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
             else:
                 invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}\n🏪 Store: `{piattaforma}`", bottoni)
 
