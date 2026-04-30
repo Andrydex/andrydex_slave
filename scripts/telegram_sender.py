@@ -2,21 +2,22 @@ import requests
 import os
 import logging
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
-def invia_telegram(testo, bottoni=None):
-    if not testo:
+def invia_telegram(messaggio, bottoni=None):
+    if not TELEGRAM_TOKEN or not CHAT_ID:
+        logging.error("Credenziali Telegram mancanti!")
         return
-    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
-        "text": testo,
+        "text": messaggio,
         "parse_mode": "Markdown",
         "disable_web_page_preview": True
     }
-    
-    # Se ci sono bottoni, li aggiunge al messaggio
+
     if bottoni:
         payload["reply_markup"] = {"inline_keyboard": bottoni}
 
