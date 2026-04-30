@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 from hashing import generate_hash
 from telegram_sender import invia_telegram
 from health_check import update_health
@@ -36,7 +37,13 @@ def run_cheapshark_worker(memoria):
 
             if id_item not in memoria:
                 invia_telegram(f"🦈 *SUPER DEAL (100% SCONTO)*\n\n{titolo}\n🏪 Store: `{store_name}`", bottoni)
-                memoria[id_item] = {"stato": "inviato", "titolo": titolo}
+                memoria[id_item] = {
+                    "stato": "inviato", 
+                    "titolo": titolo, 
+                    "tipo": "cheapshark", 
+                    "url": link, 
+                    "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
+                }
             else:
                 invia_telegram(f"⏳ *REMINDER DEAL*\nNon hai ancora preso: {titolo}\n🏪 Store: `{store_name}`", bottoni)
                 
