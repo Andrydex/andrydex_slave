@@ -1,1 +1,186 @@
-{}
+{
+    "uni_bd0406b25ea3c4dc92f50d72f16072a7": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti -  INTERNATIONAL MANAGEMENT (I.M.) - Riservato a candidati italiani, candidati dell'Unione Europea e candidati extra-UE soggiornanti",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-IM-comunitari-extraUEsoggiornanti",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "04/09/2026",
+        "periodo": "Università degli Studi di Modena e Reggio Emilia, Dipartimento di Economia Marco Biagi",
+        "requisiti": "Il bando è per l'ammissione al corso di INTERNATIONAL MANAGEMENT (I.M.) ed è riservato a candidati italiani, candidati dell'Unione Europea e candidati extra-UE soggiornanti. La struttura proponente è il Dipartimento di Economia Marco Biagi.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_35cb5dad2992df7b9698de1fff152bb6": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti - Analisi dei dati per l'economia e il management (ADEM)",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-adem",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "11 settembre 2026",
+        "periodo": "Modena",
+        "requisiti": "Non specificati nel testo, ma è richiesta una domanda di valutazione per l'ammissione al corso di studio Analisi dei Dati per l'Economia e il Management.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_0db77a2b22e077a7ea261018d524e863": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_c2d237fc409db480f2885087e9f498d1": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_a9a00ac3e5cc5e2f653fefbd5fa49390": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti - ECONOMIA, POLITICHE PUBBLICHE E SOSTENIBILITA' (EPPS)",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-epps",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "13 novembre 2026",
+        "periodo": "Università degli Studi di Modena e Reggio Emilia, Dipartimento di Economia Marco Biagi",
+        "requisiti": "Candidatura per l'ammissione al corso di Economia, Politiche Pubbliche e Sostenibilità (EPPS). Il dipartimento e l'ambito di studio (Economia) sono coerenti con il profilo dello studente.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_21190b98ebe44669f872f46e0d597b17": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti - FINANZA E MANAGEMENT (FM)",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-fm",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "11 settembre 2026",
+        "periodo": "Università degli Studi di Modena e Reggio Emilia (Unimore), Modena/Reggio Emilia",
+        "requisiti": "Presentazione della domanda di valutazione per l'ammissione al corso di Finanza e Management (FM) presso il Dipartimento di Economia Marco Biagi. I requisiti specifici di ammissione al corso non sono dettagliati nel testo fornito. Il bando non riguarda mobilità internazionale o borse di studio specifiche per studenti già iscritti.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_a856e6d7caac8d0fec3e1310cedc5bf0": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_9032735a88a096a1cf2b7f638d3ebcfe": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_8f18a67f61afaafa8ec7522e5584f82e": {
+        "stato": "nuovo",
+        "titolo": "Fondazione Marco Biagi",
+        "url": "https://www.unimore.it/it/Fondazione-Marco-Biagi",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "N/A - Nessun bando specifico di mobilità, BIP, Erasmus o borse di studio trovato nel testo.",
+        "periodo": "Università degli Studi di Modena e Reggio Emilia (Dipartimento/Fondazione Marco Biagi)",
+        "requisiti": "N/A - Nessun bando specifico trovato per estrarre requisiti. Il testo menziona attività di alta formazione (es. Dottorato in Lavoro, Sviluppo e Innovazione) e supporto a eventi internazionali, ma non requisiti per specifiche opportunità studentesche.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_fa125b1649cc922515f32bb865b6c50c": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen campuses",
+        "url": "https://unigreen-alliance.eu/unigreen-campuses/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": null,
+        "periodo": "Campuses dell'alleanza UNIgreen (es. University of Modena and Reggio Emilia, SupBiotech, Agricultural University of Iceland)",
+        "requisiti": "Il testo non specifica requisiti accademici specifici per gli studenti di Economia. Vengono menzionate opportunità di Mobilità Studenti, Blended Intensive Programs (BIP) ed Erasmus.",
+        "voto": 5,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_12936bdbbcbab270d2dc529e2bf6f56f": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen PhD Programme",
+        "url": "https://unigreen-alliance.eu/education/unigreen-phd-programme/",
+        "tipo": "universita",
+        "funding": true,
+        "scadenza": "May 9, 2025, h. 13:00 (CEST)",
+        "periodo": "University of Modena and Reggio Emilia (Italy) - Sede Amministrativa del Joint PhD Programme, con mobilità internazionale obbligatoria presso istituzioni partner o esterne all'Alleanza UNIgreen.",
+        "requisiti": "Master’s degree in Agri-Food Science, Technology and Biotechnology o qualificazione equivalente, da conseguire entro il 31 luglio 2025. Il programma è specifico per il settore agroalimentare, tecnologico e biotecnologico e non è compatibile con un background in Economia.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_e0113beb9ca30cbea08ac8655d7d3767": {
+        "stato": "nuovo",
+        "titolo": "Student Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/student-mobility/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "Non specificato",
+        "periodo": "Europa / Partner",
+        "requisiti": "Studenti di tutti i livelli (Bachelor, Master, PhD)",
+        "voto": 5,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_69747204fb5f870fa067a5b2be46c9d9": {
+        "stato": "nuovo",
+        "titolo": "Staff Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/staff-mobility/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "31 March 2026",
+        "periodo": "Iceland",
+        "requisiti": "Academic and administrative staff across the UNIgreen Alliance",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_baab15889a7cd2ec4db28614913e8081": {
+        "stato": "nuovo",
+        "titolo": "Blended Intensive Programs (BIP)",
+        "url": "https://unigreen-alliance.eu/international/blended-intensive-programs-bip/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "15 May 2026",
+        "periodo": "Warsaw University of Life Sciences (Poland)",
+        "requisiti": "Studente di qualsiasi ciclo di studio (Bachelor, Master, PhD)",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_2032882efc5515bd92be9a9c29603819": {
+        "stato": "nuovo",
+        "titolo": "Erasmus Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/erasmus-mobility/",
+        "tipo": "universita",
+        "funding": true,
+        "scadenza": "Non specificata",
+        "periodo": "Europa / Paesi partner",
+        "requisiti": "Essere studente universitario",
+        "voto": 10,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_8320ce48d33a532accb3cfedabacb89d": {
+        "stato": "nuovo",
+        "titolo": "Practical Introduction to Artificial Intelligence for Students",
+        "url": "https://unigreen-alliance.eu/event/practical-introduction-to-artificial-intelligence-for-students/",
+        "tipo": "universita",
+        "funding": true,
+        "scadenza": "28 March 2026",
+        "periodo": "University of Almería (Spagna) - Online",
+        "requisiti": "Livello B2 o simile di inglese, competenze digitali di base. Nessun background pregresso in informatica, matematica o programmazione richiesto. Aperto a tutti gli studenti.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_fb224a3759a1deab01902d307c2379ed": {
+        "stato": "nuovo",
+        "titolo": "BIP",
+        "url": "https://unigreen-alliance.eu/series/bip/",
+        "tipo": "universita",
+        "funding": true,
+        "scadenza": "6 novembre 2025",
+        "periodo": "Europa",
+        "requisiti": "Studente di Economia con interesse per sviluppo territoriale e problematiche socio-ambientali.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    },
+    "uni_1d4066f9f77f3cec1f6eb60f9e746850": {
+        "stato": "nuovo",
+        "titolo": "Check out Past Blended Intensive Programmes (BIP)",
+        "url": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/past-blended-intensive-programs-bip/",
+        "tipo": "universita",
+        "funding": false,
+        "scadenza": "21 March 2025",
+        "periodo": "Warsaw University of Life Sciences (Poland)",
+        "requisiti": "Students (bachelor, master, PhD) from the Higher Education Institutions and UNIgreen institution. The program focuses on economic, environmental, and social sustainability in logistics, ESG framework, and supply chain performance.",
+        "voto": 7,
+        "data_rilevazione": "30/04/2026"
+    }
+}
