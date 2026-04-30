@@ -31,7 +31,7 @@ BLACKLIST_TEXT = ["contatti", "privacy", "cookie", "newsletter", "magazine", "am
 INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "biagi", "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"]
 
 PROFILO_UTENTE = (
-    "Studente magistrale DCI (Diritto, Comunicazione e Impresa) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
+    "Studente magistrale DCI (Direzione e consulenza d'impresa, curricula di imprenditorialietà) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
     "Cerca: Mobilità internazionale, BIP, Erasmus, borse di studio aperte a studenti magistrali. "
     "Escludi: bandi per soli triennalisti, dottorati (richiedono laurea magistrale completata), "
     "corsi di laurea (già iscritto), Giurisprudenza, Medicina, concorsi per personale docente/TAB. "
