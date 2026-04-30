@@ -21,6 +21,8 @@ def invia_telegram(testo, bottoni=None):
         payload["reply_markup"] = {"inline_keyboard": bottoni}
 
     try:
-        requests.post(url, json=payload, timeout=10)
+        r = requests.post(url, json=payload, timeout=10)
+        if not r.ok:
+            logging.warning(f"Telegram error {r.status_code}: {r.text[:200]}")
     except Exception as e:
         logging.error(f"Errore invio Telegram: {e}")
