@@ -1,11 +1,19 @@
 import requests
+import os
+import google.generativeai as genai
 from bs4 import BeautifulSoup
 from hashing import generate_hash
 from telegram_sender import invia_telegram
 from health_check import update_health
 from datetime import datetime
 
-# Sorgenti aggiornate
+# Configuriamo l'AI
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
+if GEMINI_KEY:
+    genai.configure(api_key=GEMINI_KEY)
+    # Modello perfetto per estrazione rapida e precisa
+    model = genai.GenerativeModel('gemini-1.5-flash')
+
 URLS = {
     "Unimore Bandi": "https://www.unimore.it/it/ateneo/bandi",
     "UniGreen Events": "https://unigreen-alliance.eu/events/list/",
@@ -14,8 +22,38 @@ URLS = {
 
 INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "tutti i dipartimenti", "biagi", "finance"]
 EXCLUDE = ["giurisprudenza", "area giuridica", "diritto"]
-# 💰 Radar per soldi e viaggi
 FUNDING = ["grant", "scholarship", "funding", "travel", "borse", "studio", "viaggio", "finanziamento", "reimbursement"]
+
+def analizza_bando_con_ai(url):
+    if not GEMINI_KEY: return "AI Disattivata", "AI Disattivata"
+    try:
+        # 1. Apriamo la pagina del bando specifico
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, timeout=15, headers=headers)
+        soup = BeautifulSoup(response.text, "html.parser")
+        
+        # Prendiamo solo i primi 4000 caratteri (sono più che sufficienti per trovare le info principali)
+        testo_pagina = soup.get_text(separator=' ', strip=True)[:4000]
+        
+        # 2. Chiediamo a Gemini di analizzarlo
+        prompt = """Sei un assistente universitario. Leggi questo estratto di bando e trova:
+        1. Scadenza per presentare la domanda.
+        2. Periodo di svolgimento (o destinazione se presente).
+        Rispondi SOLO in questo formato esatto:
+        Scadenza: [inserisci data o 'Non specificata']
+        Periodo/Destinazione: [inserisci periodo o luogo o 'Non specificato']
+        
+        Testo del bando: """ + testo_pagina
+
+        risposta = model.generate_content(prompt)
+        testo_ai = risposta.text.strip().split('\n')
+        
+        scadenza = testo_ai[0].replace("Scadenza:", "").replace("**", "").strip() if len(testo_ai) > 0 else "Non specificata"
+        periodo = testo_ai[1].replace("Periodo/Destinazione:", "").replace("**", "").strip() if len(testo_ai) > 1 else "Non specificato"
+        
+        return scadenza, periodo
+    except Exception as e:
+        return "Da verificare", "Da verificare"
 
 def run_unigreen_worker(memoria):
     try:
@@ -31,7 +69,6 @@ def run_unigreen_worker(memoria):
 
                 is_interessante = any(p in testo for p in INCLUDE)
                 is_giurisprudenza = any(p in testo for p in EXCLUDE)
-                # Controllo se ci sono soldi in ballo
                 ha_fondi = any(p in testo for p in FUNDING)
 
                 if is_interessante and not (is_giurisprudenza and "economia" not in testo):
@@ -41,20 +78,26 @@ def run_unigreen_worker(memoria):
                     id_bando = "uni_" + generate_hash(href)
 
                     if id_bando not in memoria:
-                        etichetta_fondi = "💰 **POSSIBILE FINANZIAMENTO / BORSA**\n" if ha_fondi else ""
+                        
+                        # ✨ LA MAGIA: Chiediamo a Gemini di leggere il bando!
+                        scadenza, periodo = analizza_bando_con_ai(href)
+                        
+                        etichetta_fondi = "💰 **POSSIBILE FINANZIAMENTO**\n" if ha_fondi else ""
                         
                         testo_messaggio = (
                             f"🎓 **AVVISO UNIVERSITÀ**\n\n"
                             f"{etichetta_fondi}"
-                            f"📌 {link_tag.text.strip()}\n"
-                            f"🏫 Fonte: `{nome_fonte}`\n\n"
-                            f"✈️ _Verifica nella Dashboard se coprono le spese di viaggio._"
+                            f"📌 *{link_tag.text.strip()}*\n\n"
+                            f"🏫 **Fonte:** `{nome_fonte}`\n"
+                            f"⏳ **Scadenza:** `{scadenza}`\n"
+                            f"🌍 **Svolgimento:** `{periodo}`\n"
                         )
                         
                         bottoni = [
-                            [{"text": "🌐 Leggi Dettagli", "url": href}],
+                            [{"text": "🌐 Apri Bando", "url": href}],
                             [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
                         ]
+                        
                         invia_telegram(testo_messaggio, bottoni)
                         
                         memoria[id_bando] = {
@@ -63,7 +106,9 @@ def run_unigreen_worker(memoria):
                             "url": href,
                             "tipo": "universita",
                             "funding": ha_fondi,
-                            "data_rilevazione": datetime.now().strftime("%Y-%m-%d %H:%M")
+                            "scadenza": scadenza,
+                            "periodo": periodo,
+                            "data_rilevazione": datetime.now().strftime("%d/%m/%Y %H:%M") # <-- DATA SISTEMATA
                         }
         
         update_health("unigreen_worker", "ok")
