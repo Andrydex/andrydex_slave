@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-04-30T03:42:05.428170"
+    "last_check": "2026-04-30T03:46:09.960382"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,10 +9,10 @@
   },
   "cheapshark_worker": {
     "status": "ok",
-    "last_check": "2026-04-30T03:42:05.839297"
+    "last_check": "2026-04-30T03:46:10.377094"
   },
   "unigreen_worker": {
     "status": "error: name 'logging' is not defined",
-    "last_check": "2026-04-30T03:42:07.447601"
+    "last_check": "2026-04-30T03:46:12.189862"
   }
 }
