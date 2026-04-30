@@ -20,10 +20,17 @@
     <script>
         let currentTab = 'uni';
         async function render() {
-            const res = await fetch('data/memoria.json?v=' + Date.now());
-            const data = await res.json();
             const grid = document.getElementById('grid');
-            grid.innerHTML = '';
+            let data;
+            try {
+                const res = await fetch('data/memoria.json?v=' + Date.now());
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                data = await res.json();
+            } catch(e) {
+                grid.innerHTML = `<p class="text-red-400 col-span-3 text-center mt-10">⚠️ Errore caricamento dati: ${e.message}</p>`;
+                return;
+            }
+            grid.innerHTML = '';;
             
             const filtered = Object.values(data).filter(i => 
                 currentTab === 'uni' ? i.tipo === 'universita' : i.tipo !== 'universita'
