@@ -47,6 +47,10 @@ jobs:
           touch data/memoria.json
           touch data/health.json
           git add data/
-          git commit -m "Aggiornamento dati [skip ci]" || echo "Nessuna modifica"
-          git pull --rebase origin main || (git rebase --abort && git pull origin main)
+          git diff --cached --quiet && echo "Nessuna modifica" && exit 0
+          git stash
+          git pull origin main
+          git stash pop
+          git add data/
+          git commit -m "Aggiornamento dati [skip ci]"
           git push
