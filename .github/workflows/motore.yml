@@ -2,7 +2,7 @@ name: Automazione Bot Sconti
 
 on:
   schedule:
-    - cron: '0 17 * * *' # Gira alle 17:00 ora italiana (UTC+2)
+    - cron: '0 15 * * *' # Gira alle 17:00 ora italiana (UTC+2)
   workflow_dispatch:
 
 # 🛡️ PROTEZIONE ANTI-SOVRAPPOSIZIONE
