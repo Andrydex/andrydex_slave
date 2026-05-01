@@ -54,14 +54,21 @@ def carica_contesto_pdf():
 CONTESTO_AGGIUNTIVO = carica_contesto_pdf()
 
 def is_scaduto(scadenza_str):
-    """Restituisce True se la scadenza è già passata."""
     from datetime import datetime
+    import re
     if not scadenza_str or scadenza_str in ("N.D.", "Errore"): return False
-    formati = ["%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d", "%d %B %Y", "%B %d, %Y"]
-    for fmt in formati:
-        try:
-            return datetime.strptime(scadenza_str.strip(), fmt) < datetime.now()
-        except: continue
+    
+    # Traduzione mesi italiani per evitare crash
+    mesi = {"gennaio": "01", "febbraio": "02", "marzo": "03", "aprile": "04", "maggio": "05", "giugno": "06", "luglio": "07", "agosto": "08", "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12"}
+    s = scadenza_str.lower().strip()
+    for m, num in mesi.items(): s = s.replace(m, num)
+    
+    # Cerca una data nel testo
+    match = re.search(r'(\d{1,2})[\s\/\-](\d{1,2})[\s\/\-](\d{4})', s)
+    if match:
+        g, m, a = match.groups()
+        try: return datetime(int(a), int(m), int(g)) < datetime.now()
+        except: pass
     return False
 
 def estrai_testo_da_url(url):
@@ -126,32 +133,22 @@ def estrai_testo_da_url(url):
         return ""
 
 def analizza_con_ai(testo):
-    if not testo or not client: return "N.D.", "N.D.", "N.D.", False, "0"
+    if not testo or not client: return {"scadenza":"N.D.", "voto":"0"}
     try:
         prompt = (
             f"PROFILO DI BASE: {PROFILO_UTENTE}\n"
             f"DETTAGLI CV/PROFILO (dal PDF): {CONTESTO_AGGIUNTIVO}\n"
-            f"Analizza il bando e valuta la compatibilità del candidato (voto da 1 a 10) basandoti rigorosamente sul Profilo di Base e sui Dettagli CV.\n"
+            f"Analizza il bando e valuta la compatibilità (da 1 a 10).\n"
             f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
-            f'{{"scadenza":"...","luogo":"...","requisiti":"...","borsa":"SI oppure NO","voto":7}}\n'
+            f'{{"scadenza":"DD/MM/YYYY","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
             f"TESTO: {testo[:40000]}"
         )
         response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
-        
-        # Pulizia del JSON se l'IA aggiunge blocchi markdown
         raw = response.text.strip().strip('`').replace('json', '', 1).strip()
-        d = json.loads(raw)
-        
-        return (
-            d.get("scadenza", "N.D."),
-            d.get("luogo", "N.D."),
-            d.get("requisiti", "N.D."),
-            "SI" in str(d.get("borsa", "")).upper(),
-            str(d.get("voto", "0"))
-        )
+        return json.loads(raw)
     except Exception as e:
         logging.warning(f"Errore AI Gemini: {e}")
-        return "Errore", "Errore", "Errore", False, "0"
+        return {"scadenza": "Errore"}
 
 def run_unigreen_worker(memoria):
     try:
@@ -191,28 +188,25 @@ def run_unigreen_worker(memoria):
                     # ⏳ FRENO A MANO: Aspetta 5 secondi per non farsi bloccare da Google
                     time.sleep(5) 
                     
-                    scadenza, luogo, requisiti, borsa, voto = analizza_con_ai(testo_pdf)
+                    dati_ai = analizza_con_ai(testo_pdf)
+                    scadenza = str(dati_ai.get("scadenza", "N.D."))
                     
-                    # 🛡️ PROTEZIONE: Se Gemini ha superato i limiti, NON bruciamo il bando. 
-                    # Lo saltiamo e ci riproviamo alla prossima esecuzione del bot (tra 6 ore).
                     if scadenza == "Errore":
-                        logging.warning("Rate limit di Gemini colpito. Salto per non bruciare il bando.")
+                        logging.warning("Rate limit. Salto.")
                         continue 
                     
                     try:
-                        score = int(''.join(filter(str.isdigit, str(voto))))
+                        score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
                         if score < 5:
-                            # Se fa schifo, lo ignoriamo e lo salviamo per non rileggerlo più
                             memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                             continue
-                    except:
-                        score = 5
+                    except: score = 5
 
                     if is_scaduto(scadenza):
                         memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                         continue
 
-                    msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{link_tag.text.strip()}*\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{requisiti}_\n💰 **Borsa:** {'✅' if borsa else '❌'}"
+                    msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{link_tag.text.strip()}*\n🏢 **Ente:** {dati_ai.get('ente','N.D.')}\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{dati_ai.get('requisiti','N.D.')}_"
                     invia_telegram(msg, [
                         [{"text": "🌐 Apri Documento", "url": real_url}],
                         [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
@@ -222,7 +216,9 @@ def run_unigreen_worker(memoria):
                     
                     memoria[id_bando] = {
                         "stato": "nuovo", "titolo": link_tag.text.strip(), "url": real_url, "tipo": "universita",
-                        "funding": borsa, "scadenza": scadenza, "periodo": luogo, "requisiti": requisiti,
+                        "scadenza": scadenza, "luogo": dati_ai.get("luogo", "N.D."), 
+                        "durata": dati_ai.get("durata", "N.D."), "ente": dati_ai.get("ente", "N.D."),
+                        "argomenti": dati_ai.get("argomenti", "N.D."), "requisiti": dati_ai.get("requisiti", "N.D."),
                         "voto": score, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
                     }
         update_health("unigreen_worker", "ok")
