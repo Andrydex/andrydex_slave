@@ -42,6 +42,8 @@ def run_cheapshark_worker(memoria):
                     "titolo": titolo, 
                     "tipo": "cheapshark", 
                     "url": link, 
+                    "store": store_name,
+                    "scadenza": "N.D.",
                     "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
                 }
             else:
