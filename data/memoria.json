@@ -172,7 +172,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "uni_1d4066f9f77f3cec1f6eb60f9e746850": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Check out Past Blended Intensive Programmes (BIP)",
         "url": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/past-blended-intensive-programs-bip/",
         "tipo": "universita",
@@ -220,14 +220,14 @@
         "data_rilevazione": "30/04/2026"
     },
     "3402": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Hogwarts Legacy (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/hogwarts-legacy-epic-games-giveaway",
         "data_rilevazione": "30/04/2026"
     },
     "3616": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Oddsparks: An Automation Adventure (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/oddsparks-an-automation-adventure-epic-games-giveaway",
@@ -283,7 +283,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "3607": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "NTE: 120 Free Pulls + S-Class Chiz + A-Class Haniel",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/nte-120-free-pulls-s-class-chiz-a-class-haniel",
@@ -323,5 +323,43 @@
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/the-saint-itchio-giveaway",
         "data_rilevazione": "30/04/2026"
+    },
+    "cs_33c18969bd1a072c14f47af6bbd87751": {
+        "stato": "inviato",
+        "titolo": "Hogwarts Legacy",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=%2Fn%2F5x2ClvrvzThtgmxBpOUqhfG1owwHqQE%2FQLlEqczY%3D",
+        "data_rilevazione": "01/05/2026"
+    },
+    "cs_2b7da6091856cd3a59001fb13d8d48c1": {
+        "stato": "inviato",
+        "titolo": "Oddsparks: An Automation Adventure",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=BuQrtLcWZjQS55TG7IGw8LCuYY9ksV7snriisbIUzZ0%3D",
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_eea7322dad8546d3a4ec0e50b15b55fc": {
+        "stato": "nuovo",
+        "titolo": "Ricerca e Innovazione",
+        "url": "https://www.art-er.it/area-ricerca-e-innovazione",
+        "tipo": "startup",
+        "scadenza": "DD/MM/YYYY",
+        "ente": "ART-ER S. cons. p. a. - Regione Emilia-Romagna",
+        "requisiti": "Il bando è rivolto a progetti e startup innovative che valorizzano conoscenze, tecnologie e risultati di ricerca. Richiede allineamento con l'ecosistema dell'innovazione regionale, potenziale di trasferimento tecnologico e contributo alla competitività dell'Emilia-Romagna. Il fondatore deve dimostrare capacità strategiche, innovative e di leadership. È implicita la necessità di un progetto concreto che sfrutti le competenze del fondatore nell'R&D e nella direzione d'impresa.",
+        "fondo": "Fondo perduto / Finanziamento",
+        "voto": 8,
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_60cd25973214bf4492c55006d33bf47b": {
+        "stato": "nuovo",
+        "titolo": "Ecosistema dell'innovazione",
+        "url": "https://www.art-er.it/ecosistema-dellinnovazione",
+        "tipo": "startup",
+        "scadenza": "Non Specificata",
+        "ente": "ART-ER, Regione Emilia-Romagna",
+        "requisiti": "Il testo fornito non è un bando specifico con requisiti formali, bensì una descrizione dell'ecosistema dell'innovazione promosso da ART-ER. In generale, si ricerca l'inserimento di progetti o startup con focus su innovazione, ricerca, trasferimento tecnologico, sostenibilità, intelligenza artificiale, big data e sviluppo d'impresa, con un forte orientamento alla collaborazione e integrazione nell'ecosistema regionale dell'Emilia-Romagna. Non sono specificati requisiti sul numero di fondatori.",
+        "fondo": "Supporto all'ecosistema / Facilitazione accesso a fondi",
+        "voto": 7,
+        "data_rilevazione": "01/05/2026"
     }
 }
