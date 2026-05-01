@@ -70,12 +70,22 @@ if(currentTab === 'uni') {
                         </div>
                         <h3 class="font-bold mb-4 line-clamp-2">${item.titolo}</h3>
                         <div class="text-sm text-gray-400 space-y-2 mb-6">
+                            <p>🏢 Ente: <span class="text-white">${item.ente || 'N.D.'}</span></p>
+                            <p>📍 Luogo e Durata: <span class="text-white">${item.luogo || 'N.D.'} (${item.durata || 'N.D.'})</span></p>
                             <p>⏳ Scadenza: <span class="text-white">${item.scadenza}</span></p>
-                            <p class="text-xs italic text-gray-500">📝 ${item.requisiti || 'N.D.'}</p>
+                            <div class="bg-gray-800 p-2 rounded mt-2">
+                                <p class="text-xs text-gray-300 font-semibold mb-1">Cosa si fa:</p>
+                                <p class="text-xs italic text-gray-400 line-clamp-2">${item.argomenti || 'N.D.'}</p>
+                            </div>
+                            <div class="bg-gray-800 p-2 rounded mt-2">
+                                <p class="text-xs text-gray-300 font-semibold mb-1">Requisiti chiave:</p>
+                                <p class="text-xs italic text-gray-400 line-clamp-2">${item.requisiti || 'N.D.'}</p>
+                            </div>
                         </div>
                         <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 py-2 rounded-xl font-bold text-sm">Apri Bando</a>
                     `;
-                } else if (currentTab === 'startup') {
+                }
+                else if (currentTab === 'startup') {
                     card.innerHTML = `
                         <div class="flex justify-between text-xs font-bold text-purple-500 mb-2">
                             <span>VOTO: ${item.voto}/10</span><span>${item.data_rilevazione}</span>
