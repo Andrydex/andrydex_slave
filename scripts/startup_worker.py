@@ -18,8 +18,11 @@ client = genai.Client(api_key=GEMINI_KEY) if GEMINI_KEY else None
 
 URLS_STARTUP = {
     "ART-ER (Emilia Romagna)": "https://www.art-er.it/bandi/",
-    "Regione Molise (Bandi)": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1",
-    "Invitalia (Nazionali)": "https://www.invitalia.it/cosa-facciamo/creiamo-nuove-aziende"
+    "BI-REX": "https://bi-rex.it/bandi-e-call/",
+    "EXO Molise": "https://www.exomolise.it/bandi/",
+    "Invitalia (Nazionali)": "https://www.invitalia.it/cosa-facciamo/creiamo-nuove-aziende",
+    "CLUST-ER": "https://www.clust-er.it/bandi/",
+    "Regione Molise (Bandi)": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1"
 }
 
 KEYWORDS_STARTUP = ["bando", "startup", "agevolazione", "contributo", "finanziamento", "imprese", "innovazione", "incentiv", "smart", "fondo", "misura", "nuove-aziende"]
@@ -68,8 +71,9 @@ def estrai_testo_startup(url):
                         trovati = True
                         with io.BytesIO(pdf_resp.content) as f:
                             testo_allegati += "".join([p.extract_text() for p in pypdf.PdfReader(f).pages[:10]])
-                except: pass
-        
+                except Exception as e:
+                    logging.warning(f"Errore sotto-link startup: {e}")
+                
         return (testo_pagina + (testo_allegati if trovati else ""))[:50000]
     except: return ""
 
@@ -109,7 +113,8 @@ def run_startup_worker(memoria):
                     if real_url not in visti:
                         visti.add(real_url)
                         queue.append({"titolo": link_tag.text.strip(), "url": real_url, "depth": 1})
-            except: pass
+            except Exception as e:
+                logging.warning(f"Errore sotto-link startup: {e}")
 
         while queue:
             item = queue.pop(0)
@@ -117,13 +122,24 @@ def run_startup_worker(memoria):
 
             id_bando = "start_" + generate_hash(real_url)
             if memoria.get(id_bando, {}).get("stato") in ["ignorato", "partecipo"]: continue
+
+            if id_bando in memoria and memoria[id_bando].get("stato") == "nuovo":
+                dati = memoria[id_bando]
+                msg_r = f"⏳ *REMINDER STARTUP ({dati.get('voto','?')}/10)*\n\n📌 *{dati.get('titolo','')}*\n⏳ **Scadenza:** `{dati.get('scadenza','N.D.')}`\n📝 **Requisiti:** _{dati.get('requisiti','N.D.')}_"
+                invia_telegram(msg_r, [
+                    [{"text": "🌐 Vai al Bando", "url": dati.get("url", "")}],
+                    [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                     {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                    [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+                ])
+                continue
             
             if id_bando not in memoria:
                 logging.info(f"🚀 Analizzo (Livello {depth}): {titolo_link[:30] or real_url[:30]}")
                 testo_completo = estrai_testo_startup(real_url)
                 
                 # 🐢 Rallentiamo le API! (Da 5 a 10 secondi)
-                time.sleep(10)
+                time.sleep(5)
                 
                 dati_ai = analizza_startup_con_ai(testo_completo)
                 scadenza = str(dati_ai.get("scadenza", "N.D."))
@@ -149,7 +165,8 @@ def run_startup_worker(memoria):
                                 if next_url not in visti:
                                     visti.add(next_url)
                                     queue.append({"titolo": sub_a.text.strip(), "url": next_url, "depth": depth + 1})
-                        except: pass
+                        except Exception as e:
+                            logging.warning(f"Errore esplorazione sotto-link: {e}")
                     continue
 
                 ente = dati_ai.get('ente', 'N.D.')
