@@ -40,7 +40,7 @@ PROFILO_UTENTE = (
 
 def carica_contesto_pdf():
     contesto = ""
-    for filename in ["CV_03_2026.pdf", "Profilo_7_aprile_2026.pdf"]:
+    for filename in ["context/CV_03_2026.pdf", "context/Profilo_7_aprile_2026.pdf"]:
         if os.path.exists(filename):
             try:
                 with open(filename, "rb") as f:
