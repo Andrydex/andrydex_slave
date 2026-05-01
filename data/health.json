@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-05-01T00:36:40.307437"
+    "last_check": "2026-05-01T10:52:37.681395"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,14 +9,14 @@
   },
   "cheapshark_worker": {
     "status": "ok",
-    "last_check": "2026-05-01T00:36:41.516352"
+    "last_check": "2026-05-01T10:52:38.899968"
   },
   "unigreen_worker": {
-    "status": "ok",
-    "last_check": "2026-05-01T00:36:54.324581"
+    "status": "error: 'list' object has no attribute 'get'",
+    "last_check": "2026-05-01T10:59:41.906204"
   },
   "startup_worker": {
     "status": "error: HTTPSConnectionPool(host='www.regione.molise.it', port=443): Max retries exceeded with url: /flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
-    "last_check": "2026-05-01T00:37:46.613365"
+    "last_check": "2026-05-01T11:00:41.028484"
   }
 }

@@ -112,7 +112,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "uni_69747204fb5f870fa067a5b2be46c9d9": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Staff Mobility",
         "url": "https://unigreen-alliance.eu/mobility/staff-mobility/",
         "tipo": "universita",
@@ -148,7 +148,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "uni_8320ce48d33a532accb3cfedabacb89d": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Practical Introduction to Artificial Intelligence for Students",
         "url": "https://unigreen-alliance.eu/event/practical-introduction-to-artificial-intelligence-for-students/",
         "tipo": "universita",
@@ -160,7 +160,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "uni_fb224a3759a1deab01902d307c2379ed": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "BIP",
         "url": "https://unigreen-alliance.eu/series/bip/",
         "tipo": "universita",
@@ -325,7 +325,7 @@
         "data_rilevazione": "30/04/2026"
     },
     "cs_33c18969bd1a072c14f47af6bbd87751": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Hogwarts Legacy",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=%2Fn%2F5x2ClvrvzThtgmxBpOUqhfG1owwHqQE%2FQLlEqczY%3D",
@@ -360,6 +360,178 @@
         "requisiti": "Il testo fornito non è un bando specifico con requisiti formali, bensì una descrizione dell'ecosistema dell'innovazione promosso da ART-ER. In generale, si ricerca l'inserimento di progetti o startup con focus su innovazione, ricerca, trasferimento tecnologico, sostenibilità, intelligenza artificiale, big data e sviluppo d'impresa, con un forte orientamento alla collaborazione e integrazione nell'ecosistema regionale dell'Emilia-Romagna. Non sono specificati requisiti sul numero di fondatori.",
         "fondo": "Supporto all'ecosistema / Facilitazione accesso a fondi",
         "voto": 7,
+        "data_rilevazione": "01/05/2026"
+    },
+    "cs_33c18969bd": {
+        "stato": "inviato",
+        "titolo": "Hogwarts Legacy",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=%2Fn%2F5x2ClvrvzThtgmxBpOUqhfG1owwHqQE%2FQLlEqczY%3D",
+        "data_rilevazione": "01/05/2026"
+    },
+    "cs_2b7da60918": {
+        "stato": "inviato",
+        "titolo": "Oddsparks: An Automation Adventure",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=BuQrtLcWZjQS55TG7IGw8LCuYY9ksV7snriisbIUzZ0%3D",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_4cc61b9af8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_9e22eb6a7f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_51e7498a07": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_48fdf6a99a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_fdba758fb8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_bd0406b25e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "nuovo",
+        "titolo": "Fondazione Marco Biagi",
+        "url": "https://www.unimore.it/it/Fondazione-Marco-Biagi",
+        "tipo": "universita",
+        "scadenza": "Non specificata",
+        "luogo": "Modena, Italia",
+        "durata": "Non specificata",
+        "ente": "Fondazione universitaria Marco Biagi - Unimore",
+        "argomenti": "Alta formazione (inclusi Master universitari e percorsi di formazione continua), ricerca (nazionale e internazionale), public engagement, sviluppo dell'innovazione e dell'imprenditorialità, supporto a relazioni università-territorio-lavoro, summer school, iniziative di placement.",
+        "requisiti": "Il bando è altamente compatibile con studenti magistrali iscritti a Unimore, in particolare con interessi in alta formazione, ricerca, innovazione e imprenditorialità. Essendo studente di DCI (curricula imprenditorialità) e attivo in progetti e associazioni legate all'innovazione (Contamination Lab, Enactus, JEMORE), Andrea si allinea perfettamente con gli obiettivi della Fondazione. Le attività internazionali di ricerca e i percorsi di formazione continua potrebbero includere opportunità di mobilità.",
+        "voto": 9,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_fa125b1649": {
+        "stato": "nuovo",
+        "titolo": "UNIgreen campuses",
+        "url": "https://unigreen-alliance.eu/unigreen-campuses/",
+        "tipo": "universita",
+        "scadenza": "Non specificata",
+        "luogo": "Campus delle università partner UNIgreen in Europa",
+        "durata": "Non specificata",
+        "ente": "UNIgreen",
+        "argomenti": "Mobilità internazionale per studenti (Student Mobility, Blended Intensive Programs - BIP, Erasmus Mobility), Double Master's Degrees, ricerca e innovazione. Il consorzio copre aree come sostenibilità, scienze della vita, agricoltura, ma data la presenza di Unimore, include anche opportunità in ambito economico, gestionale e imprenditoriale, coerenti con il percorso DCI.",
+        "requisiti": "Il profilo è pienamente compatibile. Sono previste opportunità di mobilità per studenti magistrali (come Andrea, iscritto al 1° anno DCI di Unimore, che è un campus UNIgreen).",
+        "voto": 8,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_12936bdbbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "nuovo",
+        "titolo": "Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/",
+        "tipo": "universita",
+        "scadenza": "Non specificata nel testo",
+        "luogo": "Europa (presso le università partner UNIgreen)",
+        "durata": "Varie (a lungo e a breve termine, inclusi programmi Blended Intensive)",
+        "ente": "UNIgreen",
+        "argomenti": "Mobilità internazionale studentesca (inclusi Erasmus e Blended Intensive Programs - BIP), Double Master’s Degrees, esperienze accademiche e culturali, innovazione, collaborazione tra università partner.",
+        "requisiti": "Essere uno studente (anche magistrale) di una delle università partner dell'alleanza UNIgreen.",
+        "voto": 7,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "nuovo",
+        "titolo": "Student Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/student-mobility/",
+        "tipo": "universita",
+        "scadenza": "",
+        "luogo": "Europa, presso le istituzioni partner di UNIgreen",
+        "durata": "Variabile (da breve termine per BIPs e Summer School, a lungo termine per Erasmus e Double Master's Degrees)",
+        "ente": "UNIgreen",
+        "argomenti": "Mobilità internazionale per studenti di Master in ambiti legati a sostenibilità, innovazione, agri-food science e tecnologia, e generalmente compatibili con studi di management d'impresa e imprenditorialità.",
+        "requisiti": "Studente magistrale (il bando è aperto a tutti i livelli di studio: Bachelor, Master, PhD). Nessun requisito specifico di voto o lingua ulteriore è menzionato, ma il profilo dello studente (B2 IELTS) è adeguato.",
+        "voto": 9,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "nuovo",
+        "titolo": "Blended Intensive Programs (BIP)",
+        "url": "https://unigreen-alliance.eu/international/blended-intensive-programs-bip/",
+        "tipo": "universita",
+        "scadenza": "15/05/2026",
+        "luogo": "Varsavia (Polonia), Almería (Spagna), Islanda, Coimbra (Portogallo) - varie sedi in Europa",
+        "durata": "Programmi a breve termine (generalmente 5-10 giorni)",
+        "ente": "UNIgreen",
+        "argomenti": "Nanobiotecnologia verde circolare, Conservazione e gestione della fauna selvatica, Dieta senza glutine personalizzata e sostenibile, Progettazione con l'acqua come risorsa nel paesaggio. (Tematiche principalmente scientifiche, ambientali e agroalimentari).",
+        "requisiti": "Studenti di tutti i cicli di studio (Laurea Triennale, Magistrale, Dottorato). L'università del candidato (Unimore) è un partner UNIgreen. Conoscenza della lingua inglese (presunto B2+ per seguire i corsi).",
+        "voto": 5,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "nuovo",
+        "titolo": "Erasmus Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/erasmus-mobility/",
+        "tipo": "universita",
+        "scadenza": "Non specificata",
+        "luogo": "Paesi partecipanti al programma Erasmus+ (principalmente Europa)",
+        "durata": "Non specificata",
+        "ente": "UNIgreen",
+        "argomenti": "Mobilità internazionale per studio o lavoro (tirocinio), sviluppo di competenze trasversali, networking, immersione culturale.",
+        "requisiti": "Studenti universitari (include studenti magistrali), interesse per la mobilità internazionale. Nessuna restrizione di campo di studi menzionata che escluda DCI.",
+        "voto": 10,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_8320ce48d3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_fb224a3759": {
+        "stato": "nuovo",
+        "titolo": "BIP",
+        "url": "https://unigreen-alliance.eu/series/bip/",
+        "tipo": "universita",
+        "scadenza": "Non specificata (le date degli eventi vanno da Aprile ad Agosto 2026)",
+        "luogo": "Diverse università dell'alleanza UNIgreen (es. SupBiotech per la Summer School)",
+        "durata": "Variabile (generalmente tra 5 e 13 giorni per la componente fisica)",
+        "ente": "UNIgreen European University Alliance",
+        "argomenti": "Sostenibilità, sviluppo regionale, gestione di problematiche socio-ambientali, biotecnologie green, ecologia forestale, conservazione della fauna selvatica, nutrizione e diete sostenibili. Alcuni argomenti (es. 'RE:VIVE Europe', 'Participation in solving local socio-environmental issues') sono attinenti a imprenditorialità e management sostenibile.",
+        "requisiti": "Il bando è rivolto a studenti per la mobilità. Andrea, in quanto studente magistrale Unimore (università membro dell'alleanza UNIgreen), rientra nel profilo generale. Nessun requisito specifico di voto o laurea precedentemente conseguita è indicato. Le sue competenze linguistiche (B2 IELTS) e l'esperienza in associazioni studentesche (ESN) e progetti imprenditoriali sono un valore aggiunto. Compatibile con il livello magistrale e gli interessi per la sostenibilità e l'imprenditorialità, sebbene alcuni BIP siano più specifici per aree scientifiche.",
+        "voto": 7,
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_eea7322dad": {
+        "stato": "nuovo",
+        "titolo": "Ricerca e Innovazione",
+        "url": "https://www.art-er.it/area-ricerca-e-innovazione",
+        "tipo": "startup",
+        "scadenza": "None",
+        "ente": "ART-ER S. cons. p. a.",
+        "requisiti": "Il bando si riferisce all'Area Ricerca e Innovazione di ART-ER. Vengono supportati progetti che mirano alla valorizzazione delle conoscenze, delle tecnologie e dei risultati generati dall’ecosistema della ricerca e dell’innovazione, promuovendo la collaborazione tra università, centri di ricerca e imprese, il trasferimento tecnologico e lo sviluppo di startup innovative.",
+        "fondo": "None",
+        "voto": 8,
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_60cd259732": {
+        "stato": "nuovo",
+        "titolo": "Ecosistema dell'innovazione",
+        "url": "https://www.art-er.it/ecosistema-dellinnovazione",
+        "tipo": "startup",
+        "scadenza": "Non specificata",
+        "ente": "ART-ER (Agenzia Regionale per la Ricerca e l'Innovazione dell'Emilia-Romagna)",
+        "requisiti": "Il progetto di startup, inferito come soluzione digitale altamente innovativa per la gestione personale/professionale o il tracciamento finanziario (es. un calendario avanzato o un'app di expense tracking), mostra una forte compatibilità con l'Ecosistema dell'Innovazione di ART-ER. Il fondatore, studente magistrale in Direzione e Consulenza d'Impresa a Modena (Emilia-Romagna) e con esperienza in R&D, è perfettamente allineato geograficamente e tematicamente con il focus di ART-ER su 'Digitale, AI, Deeptech', 'Open Innovation' e 'Creazione d'impresa'. La sua natura di 'Comandante Assertivo' (ENTJ-A) e la sua 'creatività sistemica' (98/100) lo rendono un candidato ideale per sviluppare soluzioni innovative. L'ecosistema offre Rete Alta Tecnologia, Tecnopoli e la Rete di incubatori in-ER, risorse essenziali per lo sviluppo di una startup tecnologica. La principale sfida risiede nel fatto che il team è composto da un singolo fondatore con bassa 'Sinergia', in un contesto che valorizza la collaborazione (Clust-ER). Sarà cruciale per il fondatore sfruttare le opportunità di networking offerte per potenziare il team.",
+        "fondo": "Fondo perduto / Finanziamento",
+        "voto": 8,
         "data_rilevazione": "01/05/2026"
     }
 }
