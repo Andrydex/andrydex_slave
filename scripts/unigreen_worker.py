@@ -152,75 +152,100 @@ def analizza_con_ai(testo):
 
 def run_unigreen_worker(memoria):
     try:
+        queue = []
+        visti = set()
+        
+        # 1. Raccogliamo i link dalle pagine principali (Livello 1)
         for nome_fonte, url in URLS.items():
-            response = requests.get(url, timeout=15)
-            soup = BeautifulSoup(response.text, "html.parser")
-            main_c = soup.find('main') or soup
+            try:
+                response = requests.get(url, timeout=15)
+                soup = BeautifulSoup(response.text, "html.parser")
+                main_c = soup.find('main') or soup
+                for link_tag in main_c.find_all('a', href=True):
+                    href = link_tag['href']
+                    testo_l = link_tag.text.strip().lower()
+                    if any(x in href.lower() for x in BLACKLIST_DOMAINS) or any(x in testo_l for x in BLACKLIST_TEXT): continue
+                    if not any(x in testo_l for x in INCLUDE): continue
+                    real_url = href if href.startswith("http") else urljoin(url, href)
+                    if real_url not in visti:
+                        visti.add(real_url)
+                        queue.append({"titolo": link_tag.text.strip(), "url": real_url, "depth": 1})
+            except Exception as e:
+                logging.warning(f"Errore radice {url}: {e}")
+
+        # 2. Processiamo la coda scavando dove serve
+        while queue:
+            item = queue.pop(0)
+            titolo_link, real_url, depth = item["titolo"], item["url"], item["depth"]
+
+            id_bando = "uni_" + generate_hash(real_url)
+            stato_attuale = memoria.get(id_bando, {}).get("stato")
+            if stato_attuale in ["ignorato", "partecipo"]: continue
             
-            for link_tag in main_c.find_all('a', href=True):
-                href = link_tag['href'] # FIX: Niente .lower() qui, manteniamo il case originale del link!
-                testo_l = link_tag.text.strip().lower()
+            if id_bando in memoria and stato_attuale == "nuovo":
+                dati = memoria[id_bando]
+                msg_r = f"⏳ *REMINDER BANDO ({dati.get('voto','?')}/10)*\n\n📌 *{dati.get('titolo','')}*\n⏳ **Scadenza:** `{dati.get('scadenza','N.D.')}`\n📝 **Requisiti:** _{dati.get('requisiti','N.D.')}_"
+                invia_telegram(msg_r, [
+                    [{"text": "🌐 Apri Documento", "url": dati.get("url", "")}],
+                    [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                     {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                    [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+                ])
+                continue
                 
-                if any(x in href.lower() for x in BLACKLIST_DOMAINS) or any(x in testo_l for x in BLACKLIST_TEXT): continue
-                if not any(x in testo_l for x in INCLUDE): continue
+            if id_bando not in memoria:
+                logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:30]}...")
+                testo_pdf = estrai_testo_da_url(real_url)
+                time.sleep(5) 
                 
-                # FIX: urljoin è il modo sicuro per costruire link relativi, come ha detto Claude
-                real_url = href if href.startswith("http") else urljoin(url, href)
-                id_bando = "uni_" + generate_hash(real_url)
+                dati_ai = analizza_con_ai(testo_pdf)
+                scadenza = str(dati_ai.get("scadenza", "N.D."))
+                if scadenza == "Errore": continue 
+                
+                try: score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
+                except: score = 5
 
-                stato_attuale = memoria.get(id_bando, {}).get("stato")
-                if stato_attuale in ["ignorato", "partecipo"]: continue
-                if id_bando in memoria and stato_attuale == "nuovo":
-                    # REMINDER — bando già visto ma non gestito
-                    dati = memoria[id_bando]
-                    msg_r = f"⏳ *REMINDER BANDO ({dati.get('voto','?')}/10)*\n\n📌 *{dati.get('titolo','')}*\n⏳ **Scadenza:** `{dati.get('scadenza','N.D.')}`\n📝 **Requisiti:** _{dati.get('requisiti','N.D.')}_"
-                    invia_telegram(msg_r, [
-                        [{"text": "🌐 Apri Documento", "url": dati.get("url", "")}],
-                        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
-                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
-                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
-                    ])
+                # 🛑 SE SCARTATO (Pagina generica) -> ESPLORA I LINK INTERNI
+                if score < 5:
+                    memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                    if depth < 2:  # Scava fino a Livello 2
+                        logging.info(f"🔄 Pagina generica, estraggo sotto-link da: {real_url}")
+                        try:
+                            sub_resp = requests.get(real_url, timeout=15)
+                            sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
+                            sub_main = sub_soup.find('main') or sub_soup
+                            for sub_a in sub_main.find_all('a', href=True):
+                                s_href = sub_a['href']
+                                s_testo = sub_a.text.strip().lower()
+                                if any(x in s_href.lower() for x in BLACKLIST_DOMAINS) or any(x in s_testo for x in BLACKLIST_TEXT): continue
+                                if not any(x in s_testo for x in INCLUDE): continue
+                                next_url = s_href if s_href.startswith("http") else urljoin(real_url, s_href)
+                                if next_url not in visti:
+                                    visti.add(next_url)
+                                    queue.append({"titolo": sub_a.text.strip(), "url": next_url, "depth": depth + 1})
+                        except: pass
                     continue
-                if id_bando not in memoria:
-                    logging.info(f"🕵️ Analizzo il bando: {testo_l}")
-                    testo_pdf = estrai_testo_da_url(real_url)
-                    
-                    # ⏳ FRENO A MANO: Aspetta 5 secondi per non farsi bloccare da Google
-                    time.sleep(5) 
-                    
-                    dati_ai = analizza_con_ai(testo_pdf)
-                    scadenza = str(dati_ai.get("scadenza", "N.D."))
-                    
-                    if scadenza == "Errore":
-                        logging.warning("Rate limit. Salto.")
-                        continue 
-                    
-                    try:
-                        score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
-                        if score < 5:
-                            memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
-                            continue
-                    except: score = 5
 
-                    if is_scaduto(scadenza):
-                        memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
-                        continue
+                if is_scaduto(scadenza):
+                    memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                    continue
 
-                    msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{link_tag.text.strip()}*\n🏢 **Ente:** {dati_ai.get('ente','N.D.')}\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{dati_ai.get('requisiti','N.D.')}_"
-                    invia_telegram(msg, [
-                        [{"text": "🌐 Apri Documento", "url": real_url}],
-                        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
-                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
-                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
-                    ])
-                    
-                    memoria[id_bando] = {
-                        "stato": "nuovo", "titolo": link_tag.text.strip(), "url": real_url, "tipo": "universita",
-                        "scadenza": scadenza, "luogo": dati_ai.get("luogo", "N.D."), 
-                        "durata": dati_ai.get("durata", "N.D."), "ente": dati_ai.get("ente", "N.D."),
-                        "argomenti": dati_ai.get("argomenti", "N.D."), "requisiti": dati_ai.get("requisiti", "N.D."),
-                        "voto": score, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
-                    }
+                # ✅ BANDO TROVATO
+                msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{titolo_link}*\n🏢 **Ente:** {dati_ai.get('ente','N.D.')}\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{dati_ai.get('requisiti','N.D.')}_"
+                invia_telegram(msg, [
+                    [{"text": "🌐 Apri Documento", "url": real_url}],
+                    [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                     {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                    [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+                ])
+                
+                memoria[id_bando] = {
+                    "stato": "nuovo", "titolo": titolo_link, "url": real_url, "tipo": "universita",
+                    "scadenza": scadenza, "luogo": dati_ai.get("luogo", "N.D."), 
+                    "durata": dati_ai.get("durata", "N.D."), "ente": dati_ai.get("ente", "N.D."),
+                    "argomenti": dati_ai.get("argomenti", "N.D."), "requisiti": dati_ai.get("requisiti", "N.D."),
+                    "voto": score, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
+                }
         update_health("unigreen_worker", "ok")
     except Exception as e: 
         logging.error(f"Errore critico in unigreen_worker: {e}")
