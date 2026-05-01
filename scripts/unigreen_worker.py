@@ -138,9 +138,9 @@ def analizza_con_ai(testo):
         prompt = (
             f"PROFILO DI BASE: {PROFILO_UTENTE}\n"
             f"DETTAGLI CV/PROFILO (dal PDF): {CONTESTO_AGGIUNTIVO}\n"
-            f"Analizza il bando e valuta la compatibilità (da 1 a 10).\n"
+            f"Analizza questo testo. REGOLA FONDAMENTALE: Se il testo è solo una pagina informativa generica, un articolo, o NON è un bando aperto (con scadenza definita per candidarsi), DEVI assegnare rigorosamente 'voto': 1. Valuta la compatibilità (da 1 a 10) SOLO se è una vera opportunità per candidarsi.\n"
             f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
-            f'{{"scadenza":"DD/MM/YYYY","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
+            f'{{"scadenza":"DD/MM/YYYY oppure N.D.","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
             f"TESTO: {testo[:40000]}"
         )
         response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
