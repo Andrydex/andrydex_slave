@@ -70,6 +70,7 @@ def estrai_testo_da_url(url):
         response = requests.get(url, timeout=25, headers=headers)
         if response.status_code != 200: return ""
         
+        # 1. Se il link è GIÀ un PDF diretto (comportamento classico)
         if url.lower().endswith(".pdf") or "application/pdf" in response.headers.get('Content-Type', ''):
             with io.BytesIO(response.content) as f:
                 reader = pypdf.PdfReader(f)
@@ -81,10 +82,47 @@ def estrai_testo_da_url(url):
                     testo += reader.pages[i].extract_text() + "\n"
                 return testo[:50000]
                 
+        # 2. Se è una pagina HTML (Pagina Informativa) -> DEEP SCRAPING
         soup = BeautifulSoup(response.text, "html.parser")
-        return soup.get_text(separator=' ', strip=True)[:50000]
+        testo_pagina = soup.get_text(separator=' ', strip=True)
+        
+        testo_allegati = "\n\n--- TESTO ALLEGATI TROVATI NELLA PAGINA ---\n"
+        trovati = False
+        
+        # Cerchiamo solo nel <main> o nel body per evitare link spam nel footer
+        main_content = soup.find('main') or soup.find('body') or soup
+        
+        for a_tag in main_content.find_all('a', href=True):
+            href = a_tag['href']
+            testo_link = a_tag.text.lower()
+            
+            # Cerchiamo link a PDF o bottoni con scritto "bando", "avviso", "allegato"
+            if ".pdf" in href.lower() or any(k in testo_link for k in ["bando", "avviso", "allegato", "scarica"]):
+                pdf_url = href if href.startswith("http") else urljoin(url, href)
+                
+                # Evita loop infiniti se il link punta alla pagina stessa
+                if pdf_url == url: continue 
+                
+                try:
+                    pdf_resp = requests.get(pdf_url, timeout=15, headers=headers)
+                    if "application/pdf" in pdf_resp.headers.get('Content-Type', '') or pdf_url.lower().endswith(".pdf"):
+                        trovati = True
+                        with io.BytesIO(pdf_resp.content) as f:
+                            reader = pypdf.PdfReader(f)
+                            # Leggiamo le prime 10 pagine di ogni allegato trovato
+                            for page in reader.pages[:10]: 
+                                testo_allegati += page.extract_text() + "\n"
+                except Exception as e:
+                    logging.warning(f"Impossibile leggere allegato {pdf_url}: {e}")
+        
+        testo_finale = testo_pagina
+        if trovati:
+            testo_finale += testo_allegati
+            
+        return testo_finale[:50000] # Tagliamo sempre a 50k per non far impazzire Gemini
+        
     except Exception as e:
-        logging.warning(f"Errore estrazione PDF/HTML da {url}: {e}")
+        logging.warning(f"Errore estrazione da {url}: {e}")
         return ""
 
 def analizza_con_ai(testo):
