@@ -1,1 +1,181 @@
-{}
+{
+    "3402": {
+        "stato": "inviato",
+        "titolo": "Hogwarts Legacy (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/hogwarts-legacy-epic-games-giveaway",
+        "scadenza": "2026-05-03 23:59:59",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3616": {
+        "stato": "inviato",
+        "titolo": "Oddsparks: An Automation Adventure (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/oddsparks-an-automation-adventure-epic-games-giveaway",
+        "scadenza": "2026-05-07 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3615": {
+        "stato": "inviato",
+        "titolo": "Firestone: Free $100 Bundle (Epic Games) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/firestone-free-100-bundle-epic-games-giveaway",
+        "scadenza": "2026-05-07 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3618": {
+        "stato": "inviato",
+        "titolo": "Nocturnal (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/nocturnal-pc-giveaway",
+        "scadenza": "2026-05-05 23:59:00",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3614": {
+        "stato": "inviato",
+        "titolo": "Adventures of Robbo (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/adventures-of-robbo-gog-giveaway",
+        "scadenza": "2026-05-08 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3612": {
+        "stato": "inviato",
+        "titolo": "Electro Man (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/electro-man-gog-giveaway",
+        "scadenza": "2026-05-08 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3611": {
+        "stato": "inviato",
+        "titolo": "Heartlight (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/heartlight-gog-giveaway",
+        "scadenza": "2026-05-08 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3613": {
+        "stato": "inviato",
+        "titolo": "Robbo (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/robbo-gog-giveaway",
+        "scadenza": "2026-05-08 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3610": {
+        "stato": "inviato",
+        "titolo": "World of Warships x Azur Lane - Quest for AL Avrora (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-warships-x-azur-lane-quest-for-al-avrora-steam-giveaway",
+        "scadenza": "2026-06-18 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3607": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "1920": {
+        "stato": "inviato",
+        "titolo": "Genshin Impact: New Primogems Codes",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/genshin-impact-new-primogems-codes",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 5, Playstation 4",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3266": {
+        "stato": "inviato",
+        "titolo": "Carlos the Taco (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/carlos-the-taco-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3304": {
+        "stato": "inviato",
+        "titolo": "Ashanti Protocol-Unmanned peacekeepers amidst conflict (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/ashanti-protocol-unmanned-peacekeepers-amidst-conflict-pc-giveaway",
+        "scadenza": "2026-05-08 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3595": {
+        "stato": "inviato",
+        "titolo": "The Lost Painter (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-lost-painter-itchio-giveaway",
+        "scadenza": "2026-05-01 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "01/05/2026"
+    },
+    "3594": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "cs_33c18969bd": {
+        "stato": "inviato",
+        "titolo": "Hogwarts Legacy",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=%2Fn%2F5x2ClvrvzThtgmxBpOUqhfG1owwHqQE%2FQLlEqczY%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "01/05/2026"
+    },
+    "cs_2b7da60918": {
+        "stato": "inviato",
+        "titolo": "Oddsparks: An Automation Adventure",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=BuQrtLcWZjQS55TG7IGw8LCuYY9ksV7snriisbIUzZ0%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_4cc61b9af8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "nuovo",
+        "titolo": "Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/",
+        "tipo": "universita",
+        "scadenza": "Non specificata (pagina informativa generale)",
+        "luogo": "Europa (università partner dell'alleanza UNIgreen)",
+        "durata": "Variabile (opportunità a breve e lungo termine)",
+        "ente": "UNIgreen Alliance",
+        "argomenti": "Mobilità internazionale per studenti (inclusi magistrali), Blended Intensive Programs (BIP) per risolvere sfide reali, programmi Erasmus, Double Master's Degrees. Implicito focus su tematiche 'green' e sostenibilità.",
+        "requisiti": "Iscrizione a corsi universitari (inclusi studenti magistrali). Nessun requisito accademico o linguistico specifico è dettagliato in questa pagina generale.",
+        "voto": 9,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "nuovo",
+        "titolo": "Student Mobility",
+        "url": "https://unigreen-alliance.eu/mobility/student-mobility/",
+        "tipo": "universita",
+        "scadenza": "Non specificata",
+        "luogo": "Europa (presso istituzioni partner dell'alleanza UNIgreen)",
+        "durata": "Varia (BIP a breve termine, Summer School intensive, Erasmus e Double Master's con durate più estese, non specificate)",
+        "ente": "UNIgreen",
+        "argomenti": "Mobilità internazionale per studenti di tutti i livelli (Bachelor, Master, PhD), Erasmus+, Blended Intensive Programmes (BIP), Double Master's Degrees, Summer School. Focus su educazione internazionale, green e orientata al futuro, sostenibilità, innovazione e collaborazione internazionale. I BIP sono descritti come 'short-term, high-impact learning' su 'real-world challenges'. Il Double Master's ha un 'strong focus on sustainability'.",
+        "requisiti": "Studenti iscritti a corsi di laurea di qualsiasi livello (Bachelor, Master, PhD) presso le istituzioni partner dell'alleanza UNIgreen. Lo studente magistrale rientra perfettamente. I programmi specifici per Dottorato (es. 'Joint PhD Programme in Agri-Food Science') sono da escludere, ma il Double Master's è pertinente.",
+        "voto": 9,
+        "data_rilevazione": "01/05/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    }
+}
