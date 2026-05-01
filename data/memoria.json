@@ -18,7 +18,7 @@
         "data_rilevazione": "01/05/2026"
     },
     "3615": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Firestone: Free $100 Bundle (Epic Games) Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/firestone-free-100-bundle-epic-games-giveaway",
@@ -175,6 +175,18 @@
         "data_rilevazione": "01/05/2026"
     },
     "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_60cd259732": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_63ca0050cb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/05/2026"
+    },
+    "start_584856c989": {
         "stato": "ignorato",
         "data_rilevazione": "01/05/2026"
     }
