@@ -38,6 +38,21 @@ PROFILO_UTENTE = (
     "Voto alto (8-10) solo se accessibile a magistrali iscritti, voto basso (1-4) se richiede titolo già conseguito o è per altri corsi."
 )
 
+def carica_contesto_pdf():
+    contesto = ""
+    for filename in ["CV_03_2026.pdf", "Profilo_7_aprile_2026.pdf"]:
+        if os.path.exists(filename):
+            try:
+                with open(filename, "rb") as f:
+                    reader = pypdf.PdfReader(f)
+                    for page in reader.pages:
+                        contesto += page.extract_text() + "\n"
+            except Exception as e:
+                logging.warning(f"Errore lettura {filename}: {e}")
+    return contesto[:10000] # Limite di sicurezza per i token
+
+CONTESTO_AGGIUNTIVO = carica_contesto_pdf()
+
 def is_scaduto(scadenza_str):
     """Restituisce True se la scadenza è già passata."""
     from datetime import datetime
@@ -76,8 +91,10 @@ def analizza_con_ai(testo):
     if not testo or not client: return "N.D.", "N.D.", "N.D.", False, "0"
     try:
         prompt = (
-            f"PROFILO: {PROFILO_UTENTE}\n"
-            f"Analizza il bando. Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
+            f"PROFILO DI BASE: {PROFILO_UTENTE}\n"
+            f"DETTAGLI CV/PROFILO (dal PDF): {CONTESTO_AGGIUNTIVO}\n"
+            f"Analizza il bando e valuta la compatibilità del candidato (voto da 1 a 10) basandoti rigorosamente sul Profilo di Base e sui Dettagli CV.\n"
+            f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
             f'{{"scadenza":"...","luogo":"...","requisiti":"...","borsa":"SI oppure NO","voto":7}}\n'
             f"TESTO: {testo[:40000]}"
         )
