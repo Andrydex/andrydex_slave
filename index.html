@@ -101,7 +101,8 @@ if(currentTab === 'uni') {
                     `;
                 } else {
                     let badge = item.tipo === 'dlc' ? '<span class="bg-purple-600 text-white px-2 py-0.5 rounded text-[10px] ml-2">DLC</span>' : '';
-                    let scadenzaTesto = (item.scadenza && item.scadenza !== 'N.D.') ? `<p class="text-sm text-gray-400 mb-4">⏳ Scadenza: <span class="text-white">${item.scadenza.split(' ')[0]}</span></p>` : '<div class="mb-4"></div>';
+                    let scadenzaTesto = (item.scadenza && item.scadenza !== 'N.D.' && item.scadenza !== 'N/A') ? `<p class="text-sm text-gray-400 mb-2">⏳ Scadenza: <span class="text-white">${item.scadenza.split(' ')[0]}</span></p>` : '';
+                    let storeTesto = item.store ? `<p class="text-sm text-gray-400 mb-4">🏪 Store: <span class="text-emerald-400 font-semibold">${item.store}</span></p>` : '<div class="mb-4"></div>';
                     
                     card.innerHTML = `
                         <div class="flex items-center mb-2">
@@ -110,7 +111,8 @@ if(currentTab === 'uni') {
                         </div>
                         <h3 class="font-bold mb-2 line-clamp-2">${item.titolo || 'Gioco'}</h3>
                         ${scadenzaTesto}
-                        <a href="${item.url}" target="_blank" class="block text-center bg-blue-600 py-2 rounded-xl font-bold text-sm mt-auto">Store</a>
+                        ${storeTesto}
+                        <a href="${item.url}" target="_blank" class="block text-center bg-blue-600 py-2 rounded-xl font-bold text-sm mt-auto">Vai allo Store</a>
                     `;
                 }
                 grid.appendChild(card);
