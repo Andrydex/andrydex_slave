@@ -16,17 +16,16 @@ from health_check import update_health
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GEMINI_KEY) if GEMINI_KEY else None
 
-# 🎯 SITI DA MONITORARE (Puoi aggiungerne altri in futuro)
 URLS_STARTUP = {
     "ART-ER (Emilia Romagna)": "https://www.art-er.it/bandi/",
     "Regione Molise (Bandi)": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1",
     "Invitalia (Nazionali)": "https://www.invitalia.it/cosa-facciamo/creiamo-nuove-aziende"
 }
 
-KEYWORDS_STARTUP = ["bando", "startup", "agevolazione", "contributo", "finanziamento", "imprese", "innovazione"]
+# 🛠️ FILTRO AMPLIATO: Ora cerca queste parole anche dentro gli URL
+KEYWORDS_STARTUP = ["bando", "startup", "agevolazione", "contributo", "finanziamento", "imprese", "innovazione", "incentiv", "smart", "fondo", "misura", "nuove-aziende"]
 
 def carica_tutti_i_pdf():
-    """Legge dinamicamente tutti i PDF nella cartella context/"""
     testo = "--- PROFILO FOUNDER E IDEA DI STARTUP ---\n"
     cartella = "context"
     if not os.path.exists(cartella): return testo
@@ -36,7 +35,7 @@ def carica_tutti_i_pdf():
             try:
                 with open(os.path.join(cartella, filename), "rb") as f:
                     reader = pypdf.PdfReader(f)
-                    for page in reader.pages[:10]: # Limite 10 pagine a PDF per non esplodere
+                    for page in reader.pages[:10]:
                         testo += page.extract_text() + "\n"
             except Exception as e:
                 logging.warning(f"Errore lettura {filename}: {e}")
@@ -45,7 +44,6 @@ def carica_tutti_i_pdf():
 CONTESTO_STARTUP = carica_tutti_i_pdf()
 
 def estrai_testo_startup(url):
-    """Esegue il Deep Scraping (HTML + eventuali PDF allegati)"""
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         response = requests.get(url, timeout=25, headers=headers)
@@ -62,7 +60,7 @@ def estrai_testo_startup(url):
         
         for a_tag in soup.find_all('a', href=True):
             href = a_tag['href']
-            if ".pdf" in href.lower() or any(k in a_tag.text.lower() for k in ["bando", "avviso", "scarica"]):
+            if ".pdf" in href.lower() or any(k in a_tag.text.lower() for k in ["bando", "avviso", "scarica", "allegato"]):
                 pdf_url = href if href.startswith("http") else urljoin(url, href)
                 if pdf_url == url: continue
                 try:
@@ -77,20 +75,19 @@ def estrai_testo_startup(url):
     except: return ""
 
 def analizza_startup_con_ai(testo):
-    if not testo or not client: return "N.D.", "N.D.", "N.D.", "N.D.", "0"
+    if not testo or not client: return {"scadenza":"N.D.", "voto":"0"}
     try:
         prompt = (
             f"DATI DEL PROGETTO E DEL SOLO FOUNDER:\n{CONTESTO_STARTUP}\n\n"
-            f"Analizza questo bando per imprese/startup. Valuta la compatibilità (da 1 a 10) per il progetto descritto, tenendo conto che il team è composto da un singolo fondatore.\n"
+            f"Analizza questo testo. REGOLA FONDAMENTALE: Se il testo è solo una pagina informativa generica o NON c'è un modo chiaro per candidarsi (nessuna scadenza definita o 'sportello aperto' specificato), DEVI assegnare rigorosamente 'voto': 1. Valuta la compatibilità (da 1 a 10) SOLO se è un vero bando/agevolazione attivo per le startup.\n"
             f"Rispondi SOLO con JSON valido, nessun backtick o testo extra:\n"
-            f'{{"scadenza":"DD/MM/YYYY","ente":"...","requisiti":"...","tipo_fondo":"Fondo perduto / Finanziamento","voto":7}}\n'
+            f'{{"scadenza":"DD/MM/YYYY oppure Sportello","ente":"...","requisiti":"...","tipo_fondo":"Fondo perduto / Finanziamento","voto":7}}\n'
             f"TESTO BANDO: {testo[:30000]}"
         )
         response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
         raw = response.text.strip().strip('`').replace('json', '', 1).strip()
-        d = json.loads(raw)
-        return str(d.get("scadenza", "N.D.")), str(d.get("ente", "N.D.")), str(d.get("requisiti", "N.D.")), str(d.get("tipo_fondo", "N.D.")), str(d.get("voto", "0"))
-    except: return "Errore", "Errore", "Errore", "Errore", "0"
+        return json.loads(raw)
+    except: return {"scadenza": "Errore"}
 
 def run_startup_worker(memoria):
     try:
@@ -99,39 +96,57 @@ def run_startup_worker(memoria):
             soup = BeautifulSoup(response.text, "html.parser")
             
             for link_tag in soup.find_all('a', href=True):
+                href = link_tag['href'].lower()
                 testo_l = link_tag.text.strip().lower()
-                if not any(k in testo_l for k in KEYWORDS_STARTUP): continue
                 
-                href = link_tag['href']
-                real_url = href if href.startswith("http") else urljoin(url, href)
+                # 🛡️ FILTRO: Controlla parole chiave SIA nel testo che nell'URL
+                if not any(k in testo_l for k in KEYWORDS_STARTUP) and not any(k in href for k in KEYWORDS_STARTUP): 
+                    continue
+                    
+                # 🛡️ FILTRO: Escludi roba inutile
+                if any(x in href for x in ["facebook", "twitter", "instagram", "linkedin", "youtube"]): 
+                    continue
+                
+                real_url = link_tag['href'] if link_tag['href'].startswith("http") else urljoin(url, link_tag['href'])
+                
+                # Salta se è la pagina stessa
+                if real_url == url: continue
+
                 id_bando = "start_" + generate_hash(real_url)
 
                 if memoria.get(id_bando, {}).get("stato") in ["ignorato", "partecipo"]: continue
                 
                 if id_bando not in memoria:
-                    logging.info(f"🚀 Analizzo bando startup: {testo_l}")
+                    logging.info(f"🚀 Analizzo bando startup: {testo_l or real_url}")
                     testo_completo = estrai_testo_startup(real_url)
                     time.sleep(5) # Rate limit Gemini
                     
-                    scadenza, ente, requisiti, tipo_fondo, voto = analizza_startup_con_ai(testo_completo)
+                    dati_ai = analizza_startup_con_ai(testo_completo)
+                    scadenza = str(dati_ai.get("scadenza", "N.D."))
+                    
                     if scadenza == "Errore": continue
                     
                     try:
-                        score = int(''.join(filter(str.isdigit, str(voto))))
+                        score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
                         if score < 5:
                             memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                             continue
                     except: score = 5
 
-                    msg = f"🚀 **BANDO STARTUP ({score}/10)**\n\n📌 *{link_tag.text.strip()}*\n🏢 **Ente:** {ente}\n⏳ **Scadenza:** `{scadenza}`\n💰 **Tipo:** {tipo_fondo}\n📝 **Requisiti:** _{requisiti}_"
+                    ente = dati_ai.get('ente', 'N.D.')
+                    tipo_fondo = dati_ai.get('tipo_fondo', 'N.D.')
+                    requisiti = dati_ai.get('requisiti', 'N.D.')
+
+                    msg = f"🚀 **BANDO STARTUP ({score}/10)**\n\n📌 *{link_tag.text.strip() or 'Vedi link'}*\n🏢 **Ente:** {ente}\n⏳ **Scadenza:** `{scadenza}`\n💰 **Tipo:** {tipo_fondo}\n📝 **Requisiti:** _{requisiti}_"
                     invia_telegram(msg, [
                         [{"text": "🌐 Vai al Bando", "url": real_url}],
                         [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
-                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}]
+                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
                     ])
                     
                     memoria[id_bando] = {
-                        "stato": "nuovo", "titolo": link_tag.text.strip(), "url": real_url, "tipo": "startup",
+                        "stato": "nuovo", "titolo": link_tag.text.strip() or "Bando Startup", "url": real_url, "tipo": "startup",
                         "scadenza": scadenza, "ente": ente, "requisiti": requisiti, "fondo": tipo_fondo,
                         "voto": score, "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
                     }
