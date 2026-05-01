@@ -196,7 +196,7 @@ def run_unigreen_worker(memoria):
             if id_bando not in memoria:
                 logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:30]}...")
                 testo_pdf = estrai_testo_da_url(real_url)
-                time.sleep(5) 
+                time.sleep(10) 
                 
                 dati_ai = analizza_con_ai(testo_pdf)
                 scadenza = str(dati_ai.get("scadenza", "N.D."))
