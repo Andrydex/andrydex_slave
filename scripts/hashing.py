@@ -1,6 +1,5 @@
 import hashlib
 
-
-def generate_hash(content):
-
-    return hashlib.md5(content.encode()).hexdigest()
+def generate_hash(testo):
+    # Genera un ID univoco e immutabile basato sul titolo
+    return hashlib.md5(str(testo).encode('utf-8')).hexdigest()[:10]
