@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "01/05/2026"
+        "data_rilevazione": "02/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -122,7 +122,7 @@
     },
     "3594": {
         "stato": "ignorato",
-        "data_rilevazione": "01/05/2026"
+        "data_rilevazione": "02/05/2026"
     },
     "cs_33c18969bd": {
         "stato": "inviato",
@@ -209,5 +209,148 @@
     "start_300747677f": {
         "stato": "ignorato",
         "data_rilevazione": "01/05/2026"
+    },
+    "3620": {
+        "stato": "inviato",
+        "titolo": "Overcome Your Fears - Caretaker (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/overcome-your-fears-caretaker-steam-giveaway",
+        "scadenza": "2026-05-07 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_51e7498a07": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_bd0406b25e": {
+        "stato": "nuovo",
+        "titolo": "Bando ed esiti -  INTERNATIONAL MANAGEMENT (I.M.) - Riservato a candidati italiani, candidati dell'Unione Europea e candidati extra-UE soggiornanti",
+        "url": "https://www.unimore.it/it/ateneo/bandi/2026-IM-comunitari-extraUEsoggiornanti",
+        "tipo": "universita",
+        "scadenza": "04/09/2026",
+        "luogo": "Modena, Università degli Studi di Modena e Reggio Emilia (Dipartimento di Economia “Marco Biagi”)",
+        "durata": "Corso di laurea magistrale di durata biennale",
+        "ente": "Università degli Studi di Modena e Reggio Emilia",
+        "argomenti": "International Management, erogato interamente in lingua inglese. Focus su Economia e gestione delle imprese, Marketing e marketing internazionale, Economia, Statistica, Nozioni di diritto commerciale/privato. Il percorso è altamente compatibile con i curricula di imprenditorialità e management.",
+        "requisiti": "Il bando è rivolto a candidati italiani, candidati UE ed extra-UE soggiornanti. È richiesta una laurea triennale (Andrea possiede Economia Aziendale, L-18, che è tra le classi richieste). È necessaria una media ponderata dei voti sugli esami sostenuti di almeno 23/30 (preferibile 25/30 per evitare il colloquio). Competenza informatica (ECDL base o equivalente). Certificazione di lingua inglese pari o superiore al livello B2 (Andrea possiede IELTS Academics B2). Il bando è accessibile anche a studenti già iscritti ad altri corsi di laurea magistrale (Andrea è al 1° anno Magistrale DCI presso Unimore). Richiesti CV (formato europeo), lettera motivazionale, autocertificazione esami con CFU/SSD/voti, programmi sintetici degli insegnamenti.",
+        "voto": 8,
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_fa125b1649": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_12936bdbbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_8320ce48d3": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "uni_fb224a3759": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_eea7322dad": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_a63bee9b6e": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_0ca6851d13": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_0851d9827b": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_e90eb29491": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_0b4f296430": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_f13a1f7111": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_b69ad8b5ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_498ebac46d": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_883e333805": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_627b2bfe0e": {
+        "stato": "nuovo",
+        "titolo": "APPROFONDISCI",
+        "url": "https://www.invitalia.it/news-media/news/autoimpiego-aperta-la-piattaforma-richiedere-gli-incentivi",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Giovani 18-35 anni, inoccupati/inattivi/disoccupati (o destinatari programma GOL) o working poor. Per avvio di attività di lavoro autonomo, ditta individuale, impresa societaria o libero-professionale (anche STP).",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_561c229e14": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_16815a3b72": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Cultura Cresce",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia (promosso e finanziato dal Ministero della Cultura)",
+        "requisiti": "Imprese da costituire o costituite da non oltre 5 anni, imprese costituite da oltre 5 anni, o imprese sociali e Terzo Settore costituite da almeno 2 anni. Attive nelle filiere culturali e creative. Sede operativa in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
+        "fondo": "Mix di fondo perduto e finanziamento a tasso zero",
+        "voto": 7,
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Autoimpiego Centro-Nord",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/autoimpiego-centro-nord",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti, in condizione di inattività, inoccupazione o disoccupazione (inclusi disoccupati del Programma GOL e working poor). L'attività deve essere avviata nelle regioni Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche. Tutti i settori economici sono ammessi, ad eccezione del comparto agricolo, della pesca e dell’acquacoltura.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_27a5239cf3": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
+    },
+    "start_bd827af0a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/05/2026"
     }
 }
