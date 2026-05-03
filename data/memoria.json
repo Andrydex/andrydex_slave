@@ -1,6 +1,6 @@
 {
     "3402": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Hogwarts Legacy (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/hogwarts-legacy-epic-games-giveaway",
@@ -9,7 +9,7 @@
         "data_rilevazione": "01/05/2026"
     },
     "3616": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Oddsparks: An Automation Adventure (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/oddsparks-an-automation-adventure-epic-games-giveaway",
@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "02/05/2026"
+        "data_rilevazione": "03/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -122,7 +122,7 @@
     },
     "3594": {
         "stato": "ignorato",
-        "data_rilevazione": "02/05/2026"
+        "data_rilevazione": "03/05/2026"
     },
     "cs_33c18969bd": {
         "stato": "inviato",
@@ -224,7 +224,7 @@
         "data_rilevazione": "02/05/2026"
     },
     "uni_bd0406b25e": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando ed esiti -  INTERNATIONAL MANAGEMENT (I.M.) - Riservato a candidati italiani, candidati dell'Unione Europea e candidati extra-UE soggiornanti",
         "url": "https://www.unimore.it/it/ateneo/bandi/2026-IM-comunitari-extraUEsoggiornanti",
         "tipo": "universita",
@@ -352,5 +352,149 @@
     "start_bd827af0a9": {
         "stato": "ignorato",
         "data_rilevazione": "02/05/2026"
+    },
+    "uni_fdba758fb8": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_9a5612b4db": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_2487bd23ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_6742b44eab": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/ON-nuove-imprese-tasso-zero",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese costituite da non più di 60 mesi o persone fisiche che intendono costituire una nuova impresa. La compagine sociale deve essere composta, per oltre la metà numerica dei soci e delle quote di partecipazione, da persone di età compresa tra 18 e 35 anni oppure da donne di qualsiasi età. Progetti volti a realizzare nuove iniziative o ad ampliare, diversificare o trasformare attività esistenti nei settori di Produzione, Servizi, Commercio, Turismo. Progetti fino a 3 milioni di euro.",
+        "fondo": "Fondo perduto / Finanziamento",
+        "voto": 9,
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_a91de38801": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Startup innovative di piccola dimensione, costituite da non più di 60 mesi, iscritte alla sezione speciale del Registro delle imprese. Sono ammessi anche team di persone e imprese straniere che istituiscono una sede sul territorio italiano. Target: alto contenuto tecnologico.",
+        "fondo": "Finanziamento a tasso zero (fino all'80%, innalzabile al 90% per startup con interamente donne e/o giovani sotto i 36 anni o con dottori di ricerca) e contributo a fondo perduto (30% per sedi nel Centro-Sud Italia).",
+        "voto": 8,
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_18905a9736": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_ddf5b44627": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello (dal 15/10/2025)",
+        "ente": "Invitalia",
+        "requisiti": "Età compresa tra 18 e 35 anni non ancora compiuti; condizione di inattività, inoccupazione o disoccupazione (inclusi disoccupati del Programma GOL e working poor); avvio di nuove iniziative imprenditoriali, libero-professionali e di lavoro autonomo nei territori del Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia); attività in tutti i settori economici, ad eccezione del comparto agricolo, della pesca e dell’acquacoltura.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Le agevolazioni sono rivolte a imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali. Si possono realizzare piani di investimento (sia di start-up che di sviluppo) tra 100.000 euro e 10 milioni di euro, che prevedano la realizzazione di investimenti produttivi e/o l’incremento dell’occupazione di lavoratori con disabilità. L'incentivo è in linea con gli obiettivi dell’Agenda 2030.",
+        "fondo": "Fondo perduto / Finanziamento",
+        "voto": 7,
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_484e868438": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_3729dcdd79": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_50f405c6c8": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_eced3a57a5": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_2e673ab80c": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_55cf582451": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_2a952b413f": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_10dbf968ef": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_02cb8d74ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_77da433112": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_6c64c54852": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_b6837851d7": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_eb67b784d1": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_0794b231ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_7ae7b18f19": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "start_8117040fbd": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
     }
 }
