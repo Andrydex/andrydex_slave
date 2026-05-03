@@ -4,128 +4,504 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrydex Control Panel</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #111118;
+            --border: #1e1e2e;
+            --text: #e2e2f0;
+            --muted: #5a5a7a;
+            --green: #00ff88;
+            --green-dim: #00ff8818;
+            --blue: #4f8fff;
+            --blue-dim: #4f8fff18;
+            --orange: #ff7a2f;
+            --orange-dim: #ff7a2f18;
+            --red: #ff4466;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Syne', sans-serif;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(var(--border) 1px, transparent 1px),
+                linear-gradient(90deg, var(--border) 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.35;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 36px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .logo-main {
+            font-family: 'Space Mono', monospace;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--green);
+            letter-spacing: -1px;
+        }
+
+        .logo-sub {
+            font-family: 'Space Mono', monospace;
+            font-size: 9px;
+            color: var(--muted);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-top: 3px;
+        }
+
+        .status-dot {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--green);
+            display: inline-block;
+            margin-right: 6px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 #00ff8840; }
+            50% { opacity: 0.5; box-shadow: 0 0 0 4px transparent; }
+        }
+
+        .tabs {
+            display: flex;
+            gap: 2px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 4px;
+        }
+
+        .tab-btn {
+            padding: 10px 18px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            background: transparent;
+            color: var(--muted);
+            font-family: 'Space Mono', monospace;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.18s;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover { color: var(--text); }
+        .tab-btn.active-uni { background: var(--green-dim); color: var(--green); border-color: #00ff8833; }
+        .tab-btn.active-startup { background: var(--orange-dim); color: var(--orange); border-color: #ff7a2f33; }
+        .tab-btn.active-games { background: var(--blue-dim); color: var(--blue); border-color: #4f8fff33; }
+
+        .stats-bar {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .stat-chip {
+            font-family: 'Space Mono', monospace;
+            font-size: 10px;
+            color: var(--muted);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 4px 12px;
+            letter-spacing: 1px;
+        }
+
+        .stat-chip span { color: var(--text); font-weight: 700; }
+
+        .grid {
+            display: grid;
+            gap: 14px;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.18s, border-color 0.18s;
+            animation: fadeIn 0.3s ease both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card:hover { transform: translateY(-2px); }
+
+        .card.uni { border-left: 3px solid var(--green); }
+        .card.startup { border-left: 3px solid var(--orange); }
+        .card.game { border-left: 3px solid var(--blue); }
+
+        .card.uni::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, var(--green), transparent); }
+        .card.startup::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, var(--orange), transparent); }
+        .card.game::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, var(--blue), transparent); }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            gap: 8px;
+        }
+
+        .score-badge {
+            font-family: 'Space Mono', monospace;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .score-high { background: var(--green-dim); color: var(--green); border: 1px solid #00ff8833; }
+        .score-mid { background: #ffcc0015; color: #ffcc00; border: 1px solid #ffcc0033; }
+        .score-low { background: #ff446615; color: var(--red); border: 1px solid #ff446633; }
+
+        .card-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 9px;
+            color: var(--muted);
+            letter-spacing: 1px;
+            padding-top: 2px;
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.45;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .card-fields {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+
+        .field {
+            display: flex;
+            gap: 8px;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .field-label {
+            color: var(--muted);
+            font-family: 'Space Mono', monospace;
+            font-size: 9px;
+            flex-shrink: 0;
+            padding-top: 2px;
+            width: 36px;
+        }
+
+        .field-value { color: var(--text); flex: 1; }
+        .mono { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--green); }
+        .mono.orange { color: var(--orange); }
+        .mono.blue { color: var(--blue); }
+        .muted-italic { color: var(--muted); font-style: italic; font-size: 11px; }
+
+        .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+
+        .tag {
+            font-family: 'Space Mono', monospace;
+            font-size: 9px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .tag-green { background: var(--green-dim); color: var(--green); }
+        .tag-muted { background: #ffffff08; color: var(--muted); }
+        .tag-orange { background: var(--orange-dim); color: var(--orange); }
+        .tag-blue { background: var(--blue-dim); color: var(--blue); }
+
+        .card-btn {
+            display: block;
+            text-align: center;
+            padding: 9px;
+            border-radius: 8px;
+            font-family: 'Space Mono', monospace;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: opacity 0.18s;
+        }
+
+        .card-btn:hover { opacity: 0.75; }
+        .btn-green { background: var(--green-dim); color: var(--green); border: 1px solid #00ff8833; }
+        .btn-orange { background: var(--orange-dim); color: var(--orange); border: 1px solid #ff7a2f33; }
+        .btn-blue { background: var(--blue-dim); color: var(--blue); border: 1px solid #4f8fff33; }
+
+        .partecipo-badge {
+            position: absolute;
+            top: 14px; right: 14px;
+            font-family: 'Space Mono', monospace;
+            font-size: 8px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: var(--green-dim);
+            color: var(--green);
+            border: 1px solid #00ff8825;
+            letter-spacing: 1px;
+        }
+
+        .empty, .loading, .error-msg {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 80px 20px;
+            font-family: 'Space Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 2px;
+        }
+
+        .empty { color: var(--muted); }
+        .error-msg { color: var(--red); }
+
+        .loading {
+            color: var(--muted);
+        }
+
+        .loading::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 2px;
+            background: var(--green);
+            margin: 16px auto 0;
+            animation: loadbar 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes loadbar {
+            from { width: 40px; opacity: 0.3; }
+            to { width: 140px; opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            .tabs { flex-wrap: wrap; }
+            .tab-btn { padding: 8px 12px; font-size: 9px; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
-<body class="bg-gray-950 text-gray-100 min-h-screen font-sans">
-    <div class="max-w-6xl mx-auto p-6">
-        <header class="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
-            <h1 class="text-3xl font-black text-emerald-500 tracking-tighter">ANDRYDEX SLAVE</h1>
-            <div class="flex bg-gray-900 p-1 rounded-xl border border-gray-800">
-                <button onclick="switchTab('uni')" id="btn-uni" class="px-6 py-2 rounded-lg font-bold transition-all bg-emerald-600">🎓 Bandi</button>
-                <button onclick="switchTab('startup')" id="btn-startup" class="px-6 py-2 rounded-lg font-bold transition-all text-gray-500">🚀 Startup</button>
-                <button onclick="switchTab('games')" id="btn-games" class="px-6 py-2 rounded-lg font-bold transition-all text-gray-500">🎮 Giochi</button>
+<body>
+<div class="container">
+    <header>
+        <div class="logo">
+            <div class="logo-main"><span class="status-dot"></span>ANDRYDEX</div>
+            <div class="logo-sub">Control Panel · Slave v2.1</div>
+        </div>
+        <div class="tabs">
+            <button class="tab-btn active-uni" id="btn-uni" onclick="switchTab('uni')">🎓 Bandi</button>
+            <button class="tab-btn" id="btn-startup" onclick="switchTab('startup')">🚀 Startup</button>
+            <button class="tab-btn" id="btn-games" onclick="switchTab('games')">🎮 Giochi</button>
+        </div>
+    </header>
+
+    <div class="stats-bar" id="stats-bar"></div>
+    <div class="grid" id="grid"><div class="loading">CARICAMENTO DATI</div></div>
+</div>
+
+<script>
+    let currentTab = 'uni';
+    let allData = [];
+
+    function scoreClass(v) {
+        const n = parseInt(v) || 0;
+        if (n >= 7) return 'score-high';
+        if (n >= 5) return 'score-mid';
+        return 'score-low';
+    }
+
+    function isScaduto(s) {
+        if (!s || s === 'N.D.' || s === 'Errore' || s === 'Sportello') return false;
+        const p = s.split('/');
+        if (p.length === 3) {
+            try { return new Date(+p[2], +p[1]-1, +p[0]) < new Date(); } catch(e) {}
+        }
+        return false;
+    }
+
+    function renderUni(item) {
+        const badge = item.stato === 'partecipo' ? '<div class="partecipo-badge">✓ PARTECIPO</div>' : '';
+        const borsa = item.funding
+            ? '<span class="tag tag-green">✓ BORSA</span>'
+            : '<span class="tag tag-muted">NO BORSA</span>';
+        return `<div class="card uni">
+            ${badge}
+            <div class="card-header">
+                <div class="score-badge ${scoreClass(item.voto)}">${item.voto || '?'}/10</div>
+                <div class="card-date">${item.data_rilevazione || ''}</div>
             </div>
-        </header>
-        <div id="grid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
-    </div>
-    <script>
-        let currentTab = 'uni';
-        async function render() {
-            const grid = document.getElementById('grid');
-            let data;
-            try {
-                const res = await fetch('data/memoria.json?v=' + Date.now());
-                if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                data = await res.json();
-            } catch(e) {
-                grid.innerHTML = `<p class="text-red-400 col-span-3 text-center mt-10">⚠️ Errore caricamento dati: ${e.message}</p>`;
-                return;
+            <div class="card-title">${item.titolo || 'Bando Universitario'}</div>
+            <div class="card-fields">
+                <div class="field"><span class="field-label">⏳ SCAD</span><span class="field-value mono">${item.scadenza || 'N.D.'}</span></div>
+                ${item.ente ? `<div class="field"><span class="field-label">🏢 ENTE</span><span class="field-value">${item.ente}</span></div>` : ''}
+                ${item.periodo ? `<div class="field"><span class="field-label">📍 DOVE</span><span class="field-value">${item.periodo}</span></div>` : ''}
+                ${item.requisiti ? `<div class="field"><span class="field-label">📝 REQ</span><span class="field-value muted-italic">${item.requisiti}</span></div>` : ''}
+            </div>
+            <div class="tag-row">${borsa}</div>
+            <a href="${item.url}" target="_blank" class="card-btn btn-green">→ Apri Bando</a>
+        </div>`;
+    }
+
+    function renderStartup(item) {
+        const badge = item.stato === 'partecipo' ? '<div class="partecipo-badge">✓ PARTECIPO</div>' : '';
+        const fondo = item.fondo && item.fondo !== 'N.D.'
+            ? `<span class="tag tag-orange">${item.fondo}</span>` : '';
+        return `<div class="card startup">
+            ${badge}
+            <div class="card-header">
+                <div class="score-badge ${scoreClass(item.voto)}">${item.voto || '?'}/10</div>
+                <div class="card-date">${item.data_rilevazione || ''}</div>
+            </div>
+            <div class="card-title">${item.titolo || 'Bando Startup'}</div>
+            <div class="card-fields">
+                <div class="field"><span class="field-label">⏳ SCAD</span><span class="field-value mono orange">${item.scadenza || 'N.D.'}</span></div>
+                ${item.ente ? `<div class="field"><span class="field-label">🏢 ENTE</span><span class="field-value">${item.ente}</span></div>` : ''}
+                ${item.requisiti ? `<div class="field"><span class="field-label">📝 REQ</span><span class="field-value muted-italic">${item.requisiti}</span></div>` : ''}
+            </div>
+            <div class="tag-row">${fondo}</div>
+            <a href="${item.url}" target="_blank" class="card-btn btn-orange">→ Vai al Bando</a>
+        </div>`;
+    }
+
+    function renderGame(item) {
+        const store = item.store || '';
+        return `<div class="card game">
+            <div class="card-header">
+                <span class="tag tag-blue">${item.tipo === 'dlc' ? 'DLC' : item.tipo === 'cheapshark' ? 'DEAL' : 'GIOCO'}</span>
+                <div class="card-date">${item.data_rilevazione || ''}</div>
+            </div>
+            <div class="card-title">${item.titolo || 'Gioco'}</div>
+            <div class="card-fields">
+                ${item.scadenza && item.scadenza !== 'N.D.' ? `<div class="field"><span class="field-label">⏳ SCAD</span><span class="field-value mono blue">${item.scadenza}</span></div>` : ''}
+                ${store ? `<div class="field"><span class="field-label">🏪 STORE</span><span class="field-value">${store}</span></div>` : ''}
+            </div>
+            <a href="${item.url}" target="_blank" class="card-btn btn-blue">→ Riscatta</a>
+        </div>`;
+    }
+
+    function updateStats(items) {
+        const bar = document.getElementById('stats-bar');
+        const n = items.length;
+        if (currentTab === 'uni') {
+            const conBorsa = items.filter(i => i.funding).length;
+            const avg = n ? (items.reduce((s, i) => s + (parseInt(i.voto) || 0), 0) / n).toFixed(1) : 0;
+            bar.innerHTML = `<div class="stat-chip">Totale <span>${n}</span></div><div class="stat-chip">Con borsa <span>${conBorsa}</span></div><div class="stat-chip">Voto medio <span>${avg}</span></div>`;
+        } else if (currentTab === 'startup') {
+            const part = items.filter(i => i.stato === 'partecipo').length;
+            bar.innerHTML = `<div class="stat-chip">Totale <span>${n}</span></div><div class="stat-chip">Partecipo <span>${part}</span></div>`;
+        } else {
+            const giaPresi = allData.filter(i => (i.tipo === 'gioco' || i.tipo === 'cheapshark' || i.tipo === 'dlc' || !i.tipo) && i.stato === 'preso').length;
+            bar.innerHTML = `<div class="stat-chip">Da riscattare <span>${n}</span></div><div class="stat-chip">Già presi <span>${giaPresi}</span></div>`;
+        }
+    }
+
+    function render() {
+        const grid = document.getElementById('grid');
+
+        const filtered = allData.filter(i => {
+            if (i.stato === 'ignorato') return false;
+            if (currentTab === 'uni') {
+                return i.tipo === 'universita' && !isScaduto(i.scadenza);
             }
-            grid.innerHTML = '';;
-            
-            const oggi = new Date();
-            const filtered = Object.values(data).filter(i => {
-                if (i.stato === 'ignorato') return false;
-                
-                // Filtro comune per le date dei bandi
-                const checkScadenza = (scadenza) => {
-                    if (scadenza && scadenza !== 'N.D.') {
-                        const parti = scadenza.split('/');
-                        if (parti.length === 3) {
-                            const scad = new Date(parti[2], parti[1]-1, parti[0]);
-                            if (scad < oggi) return false;
-                        }
-                    }
-                    return true;
-                };
+            if (currentTab === 'startup') {
+                return i.tipo === 'startup' && !isScaduto(i.scadenza);
+            }
+            if (currentTab === 'games') {
+                if (i.tipo === 'universita' || i.tipo === 'startup') return false;
+                return i.stato !== 'preso';
+            }
+            return false;
+        }).reverse();
 
-                if (currentTab === 'uni') {
-                    if (i.tipo !== 'universita') return false;
-                    return checkScadenza(i.scadenza);
-                } else if (currentTab === 'startup') {
-                    if (i.tipo !== 'startup') return false;
-                    return checkScadenza(i.scadenza);
-                } else {
-                    return (i.tipo === 'gioco' || i.tipo === 'dlc' || i.tipo === 'cheapshark' || !i.tipo) && i.stato !== 'preso';
-                }
-            }).reverse();
+        updateStats(filtered);
 
-            filtered.forEach(item => {
-                const card = document.createElement('div');
-                card.className = "bg-gray-900 border border-gray-800 p-5 rounded-2xl";
-if(currentTab === 'uni') {
-                    card.innerHTML = `
-                        <div class="flex justify-between text-xs font-bold text-emerald-500 mb-2">
-                            <span>VOTO: ${item.voto}/10</span><span>${item.data_rilevazione}</span>
-                        </div>
-                        <h3 class="font-bold mb-4 line-clamp-2">${item.titolo}</h3>
-                        <div class="text-sm text-gray-400 space-y-2 mb-6">
-                            <p>🏢 Ente: <span class="text-white">${item.ente || 'N.D.'}</span></p>
-                            <p>📍 Luogo e Durata: <span class="text-white">${item.luogo || 'N.D.'} (${item.durata || 'N.D.'})</span></p>
-                            <p>⏳ Scadenza: <span class="text-white">${item.scadenza}</span></p>
-                            <div class="bg-gray-800 p-2 rounded mt-2">
-                                <p class="text-xs text-gray-300 font-semibold mb-1">Cosa si fa:</p>
-                                <p class="text-xs italic text-gray-400 line-clamp-2">${item.argomenti || 'N.D.'}</p>
-                            </div>
-                            <div class="bg-gray-800 p-2 rounded mt-2">
-                                <p class="text-xs text-gray-300 font-semibold mb-1">Requisiti chiave:</p>
-                                <p class="text-xs italic text-gray-400 line-clamp-2">${item.requisiti || 'N.D.'}</p>
-                            </div>
-                        </div>
-                        <a href="${item.url}" target="_blank" class="block text-center bg-emerald-600 py-2 rounded-xl font-bold text-sm">Apri Bando</a>
-                    `;
-                }
-                else if (currentTab === 'startup') {
-                    card.innerHTML = `
-                        <div class="flex justify-between text-xs font-bold text-purple-500 mb-2">
-                            <span>VOTO: ${item.voto}/10</span><span>${item.data_rilevazione}</span>
-                        </div>
-                        <h3 class="font-bold mb-4 line-clamp-2">${item.titolo}</h3>
-                        <div class="text-sm text-gray-400 space-y-2 mb-6">
-                            <p>🏢 Ente: <span class="text-white">${item.ente || 'N.D.'}</span></p>
-                            <p>💰 Fondo: <span class="text-white">${item.fondo || 'N.D.'}</span></p>
-                            <p>⏳ Scadenza: <span class="text-white">${item.scadenza}</span></p>
-                            <p class="text-xs italic text-gray-500 line-clamp-3">📝 ${item.requisiti || 'N.D.'}</p>
-                        </div>
-                        <a href="${item.url}" target="_blank" class="block text-center bg-purple-600 py-2 rounded-xl font-bold text-sm text-white">Vai al Bando</a>
-                    `;
-                } else {
-                    let badge = item.tipo === 'dlc' ? '<span class="bg-purple-600 text-white px-2 py-0.5 rounded text-[10px] ml-2">DLC</span>' : '';
-                    let scadenzaTesto = (item.scadenza && item.scadenza !== 'N.D.' && item.scadenza !== 'N/A') ? `<p class="text-sm text-gray-400 mb-2">⏳ Scadenza: <span class="text-white">${item.scadenza.split(' ')[0]}</span></p>` : '';
-                    let storeTesto = item.store ? `<p class="text-sm text-gray-400 mb-4">🏪 Store: <span class="text-emerald-400 font-semibold">${item.store}</span></p>` : '<div class="mb-4"></div>';
-                    
-                    card.innerHTML = `
-                        <div class="flex items-center mb-2">
-                            <div class="text-xs font-bold text-blue-500 uppercase">${item.stato}</div>
-                            ${badge}
-                        </div>
-                        <h3 class="font-bold mb-2 line-clamp-2">${item.titolo || 'Gioco'}</h3>
-                        ${scadenzaTesto}
-                        ${storeTesto}
-                        <a href="${item.url}" target="_blank" class="block text-center bg-blue-600 py-2 rounded-xl font-bold text-sm mt-auto">Vai allo Store</a>
-                    `;
-                }
-                grid.appendChild(card);
-            });
+        if (!filtered.length) {
+            grid.innerHTML = '<div class="empty">// NESSUN ELEMENTO DA MOSTRARE</div>';
+            return;
         }
-        function switchTab(t) {
-            currentTab = t;
-            document.getElementById('btn-uni').className = t === 'uni' ? "px-6 py-2 rounded-lg font-bold bg-emerald-600 text-white" : "px-6 py-2 rounded-lg font-bold text-gray-500";
-            document.getElementById('btn-startup').className = t === 'startup' ? "px-6 py-2 rounded-lg font-bold bg-purple-600 text-white" : "px-6 py-2 rounded-lg font-bold text-gray-500";
-            document.getElementById('btn-games').className = t === 'games' ? "px-6 py-2 rounded-lg font-bold bg-blue-600 text-white" : "px-6 py-2 rounded-lg font-bold text-gray-500";
-            render();
-        }
+
+        grid.innerHTML = filtered.map((item, idx) => {
+            let html = '';
+            if (currentTab === 'uni') html = renderUni(item);
+            else if (currentTab === 'startup') html = renderStartup(item);
+            else html = renderGame(item);
+            return html.replace('class="card ', `class="card " style="animation-delay:${idx * 0.04}s" `);
+        }).join('');
+    }
+
+    function switchTab(t) {
+        currentTab = t;
+        ['uni','startup','games'].forEach(id => {
+            document.getElementById('btn-' + id).className = 'tab-btn' + (t === id ? ' active-' + id : '');
+        });
         render();
-    </script>
+    }
+
+    async function loadData() {
+        try {
+            const res = await fetch('data/memoria.json?v=' + Date.now());
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const raw = await res.json();
+            allData = Object.values(raw).filter(v =>
+                v && typeof v === 'object' && !Array.isArray(v) && v.titolo
+            );
+            render();
+        } catch(e) {
+            document.getElementById('grid').innerHTML =
+                `<div class="error-msg">⚠ Errore caricamento<br><small style="opacity:.5">${e.message}</small></div>`;
+        }
+    }
+
+    loadData();
+</script>
 </body>
 </html>
