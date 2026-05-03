@@ -125,7 +125,7 @@
         "data_rilevazione": "03/05/2026"
     },
     "cs_33c18969bd": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Hogwarts Legacy",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=%2Fn%2F5x2ClvrvzThtgmxBpOUqhfG1owwHqQE%2FQLlEqczY%3D",
@@ -134,7 +134,7 @@
         "data_rilevazione": "01/05/2026"
     },
     "cs_2b7da60918": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Oddsparks: An Automation Adventure",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=BuQrtLcWZjQS55TG7IGw8LCuYY9ksV7snriisbIUzZ0%3D",
@@ -495,6 +495,15 @@
     },
     "start_8117040fbd": {
         "stato": "ignorato",
+        "data_rilevazione": "03/05/2026"
+    },
+    "3621": {
+        "stato": "inviato",
+        "titolo": "Forget-me-not (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/forget-me-not-itchio-giveaway",
+        "scadenza": "2026-05-17 23:59:00",
+        "store": "PC, Itch.io",
         "data_rilevazione": "03/05/2026"
     }
 }
