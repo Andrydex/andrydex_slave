@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "04/05/2026"
+        "data_rilevazione": "05/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -521,5 +521,38 @@
     "uni_8e529d4243": {
         "stato": "ignorato",
         "data_rilevazione": "04/05/2026"
+    },
+    "3622": {
+        "stato": "inviato",
+        "titolo": "Another World Adventures (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/another-world-adventures-itch-io-giveaway",
+        "scadenza": "2026-05-20 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_d6c56d7eb3": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_ff3fee1594": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_1801b7733b": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_e1b7a56041": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_ba8194cf19": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
+    },
+    "uni_8da5d50a28": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/05/2026"
     }
 }
