@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "05/05/2026"
+        "data_rilevazione": "06/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -554,5 +554,26 @@
     "uni_8da5d50a28": {
         "stato": "ignorato",
         "data_rilevazione": "05/05/2026"
+    },
+    "3624": {
+        "stato": "inviato",
+        "titolo": "Without a Hitch UFO Hat Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/without-a-hitch-ufo-hat-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "06/05/2026"
+    },
+    "uni_db5c569012": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/05/2026"
+    },
+    "uni_9aa48ba180": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/05/2026"
+    },
+    "uni_c5442142fd": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/05/2026"
     }
 }
