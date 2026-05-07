@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "06/05/2026"
+        "data_rilevazione": "07/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -122,7 +122,7 @@
     },
     "3594": {
         "stato": "ignorato",
-        "data_rilevazione": "04/05/2026"
+        "data_rilevazione": "07/05/2026"
     },
     "cs_33c18969bd": {
         "stato": "preso",
@@ -575,5 +575,57 @@
     "uni_c5442142fd": {
         "stato": "ignorato",
         "data_rilevazione": "06/05/2026"
+    },
+    "3626": {
+        "stato": "inviato",
+        "titolo": "Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/arranger-a-role-puzzling-adventure-epic-games-giveaway",
+        "scadenza": "2026-05-14 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "07/05/2026"
+    },
+    "3625": {
+        "stato": "inviato",
+        "titolo": "Trash Goblin (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/trash-goblin-epic-games-giveaway",
+        "scadenza": "2026-05-14 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "07/05/2026"
+    },
+    "cs_cb43fedce8": {
+        "stato": "inviato",
+        "titolo": "Trash Goblin",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=8uKyJxFUTpMEmWezQMnvVDPfjf4b%2FI5x19s67VR2j%2Bg%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "07/05/2026"
+    },
+    "cs_e8acf72c27": {
+        "stato": "inviato",
+        "titolo": "Arranger: A Role-Puzzling Adventure",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=DQ0n4Xb5lVrN8ZiTm4yeMh%2FP95OArsYtQQ5pMBjl5ak%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "07/05/2026"
+    },
+    "uni_52ce8babd3": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/05/2026"
+    },
+    "uni_6a5263b31b": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/05/2026"
+    },
+    "uni_56ac63a287": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/05/2026"
+    },
+    "uni_2102b271ed": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/05/2026"
     }
 }
