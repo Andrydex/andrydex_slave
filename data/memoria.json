@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "07/05/2026"
+        "data_rilevazione": "08/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -627,5 +627,34 @@
     "uni_2102b271ed": {
         "stato": "ignorato",
         "data_rilevazione": "07/05/2026"
+    },
+    "3272": {
+        "stato": "inviato",
+        "titolo": "The Brave Little Cloud (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-brave-little-cloud-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "08/05/2026"
+    },
+    "uni_6ee027a552": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/05/2026"
+    },
+    "uni_77e2740d42": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/05/2026"
+    },
+    "uni_0961b1fe90": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/05/2026"
+    },
+    "uni_d42e3c08a7": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/05/2026"
+    },
+    "uni_77bd9aa4a3": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/05/2026"
     }
 }
