@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "08/05/2026"
+        "data_rilevazione": "09/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -656,5 +656,45 @@
     "uni_77bd9aa4a3": {
         "stato": "ignorato",
         "data_rilevazione": "08/05/2026"
+    },
+    "3630": {
+        "stato": "inviato",
+        "titolo": "APPLECALYPSE (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/applecalypse-itch-io-giveaway",
+        "scadenza": "2026-05-10 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "09/05/2026"
+    },
+    "3629": {
+        "stato": "inviato",
+        "titolo": "Don't Stop In Red Wood: Chapter 1 and 2 (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/don-t-stop-in-red-wood-chapter-1-and-2-itch-io-giveaway",
+        "scadenza": "2026-05-13 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "09/05/2026"
+    },
+    "3628": {
+        "stato": "inviato",
+        "titolo": "Liminal Lane (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/liminal-lane-itch-io-giveaway",
+        "scadenza": "2026-05-10 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "09/05/2026"
+    },
+    "905": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/05/2026"
+    },
+    "3592": {
+        "stato": "inviato",
+        "titolo": "Arknights: Endfield Gift Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/arknights-endfield-gift-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 5, Android, iOS",
+        "data_rilevazione": "09/05/2026"
     }
 }
