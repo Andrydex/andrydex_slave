@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "09/05/2026"
+        "data_rilevazione": "10/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -686,7 +686,7 @@
     },
     "905": {
         "stato": "ignorato",
-        "data_rilevazione": "09/05/2026"
+        "data_rilevazione": "10/05/2026"
     },
     "3592": {
         "stato": "inviato",
@@ -696,5 +696,23 @@
         "scadenza": "N/A",
         "store": "PC, Playstation 5, Android, iOS",
         "data_rilevazione": "09/05/2026"
+    },
+    "3632": {
+        "stato": "inviato",
+        "titolo": "World of Tanks Blitz - Welcome Bundle (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-tanks-blitz-welcome-bundle-steam-giveaway",
+        "scadenza": "2026-05-15 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "10/05/2026"
+    },
+    "3631": {
+        "stato": "inviato",
+        "titolo": "LivingBattle (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/livingbattle-steam-giveaway",
+        "scadenza": "2026-05-12 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "10/05/2026"
     }
 }
