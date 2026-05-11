@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "10/05/2026"
+        "data_rilevazione": "11/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -577,7 +577,7 @@
         "data_rilevazione": "06/05/2026"
     },
     "3626": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/arranger-a-role-puzzling-adventure-epic-games-giveaway",
@@ -586,7 +586,7 @@
         "data_rilevazione": "07/05/2026"
     },
     "3625": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Trash Goblin (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/trash-goblin-epic-games-giveaway",
@@ -714,5 +714,46 @@
         "scadenza": "2026-05-12 23:59:00",
         "store": "PC, Steam",
         "data_rilevazione": "10/05/2026"
+    },
+    "3633": {
+        "stato": "inviato",
+        "titolo": "Just Move Fall Dungeon Endless Abyss (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/just-move-fall-dungeon-endless-abyss-steam-giveaway",
+        "scadenza": "2026-05-13 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_64fec43e56": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_60ac86e0de": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_8b134141d5": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_e481dbb00d": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_7740280898": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_5dca8b1b47": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_ab329989c6": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
+    },
+    "uni_68da5b4745": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/05/2026"
     }
 }
