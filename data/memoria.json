@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "11/05/2026"
+        "data_rilevazione": "12/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -755,5 +755,22 @@
     "uni_68da5b4745": {
         "stato": "ignorato",
         "data_rilevazione": "11/05/2026"
+    },
+    "3498": {
+        "stato": "inviato",
+        "titolo": "Primal Slideee Deluxe (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/primal-slideee-deluxe-pc-giveaway",
+        "scadenza": "2026-05-15 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "12/05/2026"
+    },
+    "uni_0ea630bcdf": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/05/2026"
+    },
+    "uni_6b2f83bfc1": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/05/2026"
     }
 }
