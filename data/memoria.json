@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "12/05/2026"
+        "data_rilevazione": "13/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -772,5 +772,37 @@
     "uni_6b2f83bfc1": {
         "stato": "ignorato",
         "data_rilevazione": "12/05/2026"
+    },
+    "uni_c38132e135": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_88a438281e": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_ab2b52e781": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_fb4969cd85": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_52ead1e763": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_30819d2630": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_9e2fd41357": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
+    },
+    "uni_bd76dcb948": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/05/2026"
     }
 }
