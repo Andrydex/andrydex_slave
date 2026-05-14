@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "13/05/2026"
+        "data_rilevazione": "14/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -804,5 +804,117 @@
     "uni_bd76dcb948": {
         "stato": "ignorato",
         "data_rilevazione": "13/05/2026"
+    },
+    "3640": {
+        "stato": "inviato",
+        "titolo": "Epic Games Store Free Gift Packs",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/free-gift-packs-from-epic-games-store",
+        "scadenza": "2026-06-11 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/05/2026"
+    },
+    "3638": {
+        "stato": "inviato",
+        "titolo": "The Telltale Batman Shadows Edition (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-telltale-batman-shadows-edition-epic-games-giveaway",
+        "scadenza": "2026-05-21 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/05/2026"
+    },
+    "3637": {
+        "stato": "inviato",
+        "titolo": "Sunderfolk (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/sunderfolk-epic-games-giveaway",
+        "scadenza": "2026-05-21 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/05/2026"
+    },
+    "3636": {
+        "stato": "inviato",
+        "titolo": "Devil's Island (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/devil-s-island-epic-games-giveaway",
+        "scadenza": "2026-05-16 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/05/2026"
+    },
+    "3635": {
+        "stato": "inviato",
+        "titolo": "Lost in the Hole (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/lost-in-the-hole-epic-games-giveaway",
+        "scadenza": "2026-05-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/05/2026"
+    },
+    "cs_26f6759a1b": {
+        "stato": "inviato",
+        "titolo": "RAVEN2 Half anniversary Starter Pack",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=x8bu%2Bj%2BU0BedyBq04YtFGW%2BtW7TOdNYGp628gWMVceE%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/05/2026"
+    },
+    "cs_aa8b39ea65": {
+        "stato": "inviato",
+        "titolo": "Sunderfolk - Standard Edition",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=C5QpU2wB0LJGRegXgpnA6MANIOpLL8HuNKpp%2BQ%2FUC8s%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/05/2026"
+    },
+    "cs_0fea2ddbe4": {
+        "stato": "inviato",
+        "titolo": "Lost in the Hole",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=JPSqEhGWb8hgMqvyCxstb4D%2BHPxawkI%2BNbxhQ5D3Qvg%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/05/2026"
+    },
+    "cs_b2810e9afd": {
+        "stato": "inviato",
+        "titolo": "Devils Island",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=EAJ%2Fgsa8iBNPjDWM1eocxJ8TB4FG2FPtp%2Bp959GCD1E%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/05/2026"
+    },
+    "cs_4fef22c005": {
+        "stato": "inviato",
+        "titolo": "Divers Mega Pack",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=pHg6l1sttBXWf1wtzuMlKW3jn2JrhpdJjtjPcPXaPj8%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/05/2026"
+    },
+    "uni_801112843e": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/05/2026"
+    },
+    "uni_f418c02141": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/05/2026"
+    },
+    "uni_eab98e32f4": {
+        "stato": "nuovo",
+        "titolo": "BANDO_DESU_B_REP_1 Prot. n. 111914 del 08/05/2026",
+        "url": "https://www.unimore.it/sites/default/files/2026-05/BANDO_DESU_B_REP_1.pdf",
+        "tipo": "universita",
+        "scadenza": "19/05/2026",
+        "luogo": "Modena e Reggio Emilia",
+        "durata": "Anno Accademico 2026/2027",
+        "ente": "Università degli Studi di Modena e Reggio Emilia",
+        "argomenti": "Incarichi di insegnamento nei corsi di studio del Dipartimento di Educazione e Scienze Umane. Le tematiche specifiche dipendono dall'Allegato 1, non fornito. Tuttavia, il profilo dello studente potrebbe essere compatibile con insegnamenti relativi a imprenditorialità, project management, processi organizzativi o anche lingua italiana, data la sua esperienza.",
+        "requisiti": "Possesso di adeguati requisiti scientifici e professionali. È richiesta almeno una laurea (Andrea ha una triennale e frequenta la magistrale). Non è richiesto un dottorato di ricerca, ma costituisce titolo preferenziale. Andrea ha esperienza di insegnamento (corso di italiano per ESN) e professionalità in gestione progetti e imprenditorialità. Non è un bando per soli dottorandi o personale di ruolo.",
+        "voto": 7,
+        "data_rilevazione": "14/05/2026"
     }
 }
