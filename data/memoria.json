@@ -916,5 +916,78 @@
         "requisiti": "Possesso di adeguati requisiti scientifici e professionali. È richiesta almeno una laurea (Andrea ha una triennale e frequenta la magistrale). Non è richiesto un dottorato di ricerca, ma costituisce titolo preferenziale. Andrea ha esperienza di insegnamento (corso di italiano per ESN) e professionalità in gestione progetti e imprenditorialità. Non è un bando per soli dottorandi o personale di ruolo.",
         "voto": 7,
         "data_rilevazione": "14/05/2026"
+    },
+    "3643": {
+        "stato": "inviato",
+        "titolo": "Vaudeville (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/vaudeville-epic-games-giveaway",
+        "scadenza": "2026-05-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "15/05/2026"
+    },
+    "3642": {
+        "stato": "inviato",
+        "titolo": "Back to Modern World - Fantasy Hero (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/back-to-modern-world-fantasy-hero-itch-io-giveaway",
+        "scadenza": "2026-05-24 23:59:00",
+        "store": "PC, Itch.io",
+        "data_rilevazione": "15/05/2026"
+    },
+    "3641": {
+        "stato": "inviato",
+        "titolo": "Terrors to Unveil - Day Off (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/terrors-to-unveil-day-off-steam-giveaway",
+        "scadenza": "2026-05-19 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "15/05/2026"
+    },
+    "cs_501bc07e5d": {
+        "stato": "inviato",
+        "titolo": "Sunderfolk",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=C5QpU2wB0LJGRegXgpnA6MANIOpLL8HuNKpp%2BQ%2FUC8s%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "15/05/2026"
+    },
+    "cs_ead7038498": {
+        "stato": "inviato",
+        "titolo": "Vaudeville",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=RX1lu0At%2BVOwF5mnwsI8zPl7xbjZ94dw88H6gO1wJEg%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_194b7990f0": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_24d1d4bdab": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_a319bb846f": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_bd4f244d6d": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_4a80f7e33e": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_1229668f2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
+    },
+    "uni_7a6a649648": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/05/2026"
     }
 }
