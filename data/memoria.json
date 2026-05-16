@@ -698,13 +698,8 @@
         "data_rilevazione": "09/05/2026"
     },
     "3632": {
-        "stato": "inviato",
-        "titolo": "World of Tanks Blitz - Welcome Bundle (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/world-of-tanks-blitz-welcome-bundle-steam-giveaway",
-        "scadenza": "2026-05-15 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "10/05/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "16/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -989,5 +984,23 @@
     "uni_7a6a649648": {
         "stato": "ignorato",
         "data_rilevazione": "15/05/2026"
+    },
+    "3645": {
+        "stato": "inviato",
+        "titolo": "Eldritch Escape Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/eldritch-escape-playtest-steam-key-giveaway",
+        "scadenza": "2026-05-28 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "16/05/2026"
+    },
+    "3644": {
+        "stato": "inviato",
+        "titolo": "Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dino-running-from-a-furry-gamesforfarm-steam-giveaway",
+        "scadenza": "2026-05-30 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "16/05/2026"
     }
 }
