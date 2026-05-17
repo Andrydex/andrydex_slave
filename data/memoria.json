@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "16/05/2026"
+        "data_rilevazione": "17/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -1002,5 +1002,23 @@
         "scadenza": "2026-05-30 23:59:00",
         "store": "PC, Steam",
         "data_rilevazione": "16/05/2026"
+    },
+    "3646": {
+        "stato": "inviato",
+        "titolo": "Spirit Catcher 93' (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/spirit-catcher-93-epic-games-giveaway",
+        "scadenza": "2026-05-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "17/05/2026"
+    },
+    "cs_19e878f0e5": {
+        "stato": "inviato",
+        "titolo": "Spirit Catcher 93",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=uBSfj4J%2FhOej7rFUNavSHDkKWkrK6uEuEBkg9dd9PtU%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "17/05/2026"
     }
 }
