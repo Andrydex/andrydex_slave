@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "14/05/2026"
+        "data_rilevazione": "18/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "17/05/2026"
+        "data_rilevazione": "18/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -1020,5 +1020,19 @@
         "store": "Fanatical",
         "scadenza": "N.D.",
         "data_rilevazione": "17/05/2026"
+    },
+    "uni_cf4848c067": {
+        "stato": "nuovo",
+        "titolo": "Bando Erasmus+ KA 131 Blended Intensive Programme (BIP) per studenti Unimore a.a. 2026/27 - Prima finestra di apertura",
+        "url": "https://www.unimore.it/it/ateneo/bandi/bando-erasmus-ka-131-blended-intensive-programme-bip-studenti-unimore-aa-202627-prima",
+        "tipo": "universita",
+        "scadenza": "28/05/2026",
+        "luogo": "Europa (presso università partner estere)",
+        "durata": "5-30 giorni (mobilità fisica) + attività virtuali",
+        "ente": "Università degli Studi di Modena e Reggio Emilia (Unimore)",
+        "argomenti": "Programmi Intensivi Misti (BIP) Erasmus+ su moduli brevi, multidisciplinari e trasversali, orientati allo sviluppo di competenze trasversali, pensiero critico, soft skills e capacità di affrontare le grandi transizioni. Il bando indica che verranno pubblicate nuove Schede BIP in finestre temporali successive. Le schede BIP attualmente aperte per questa prima finestra (es. 'Design with Water', 'Mental Health of Migrants and Minorities') non sono direttamente allineate al profilo 'Direzione e consulenza d'impresa' o 'Imprenditorialità', ma future pubblicazioni potrebbero esserlo.",
+        "requisiti": "Studente magistrale Unimore regolarmente iscritto (il candidato è iscritto al 1° anno di DCI), mantenimento dello status di studente per tutta la durata del Programma BIP. Adeguata conoscenza della lingua di svolgimento del Programma BIP (il candidato possiede B2 IELTS Academics). Rispetto dei limiti massimi di mobilità Erasmus+ (12 mesi complessivi per ciclo di studi). Priorità ai candidati che non abbiano già beneficiato di una mobilità Erasmus+ (il candidato è 'prossimo all'Erasmus in Cina', il che richiederà verifica se completato o in corso per la priorità, ma non preclude l'ammissibilità).",
+        "voto": 7,
+        "data_rilevazione": "18/05/2026"
     }
 }
