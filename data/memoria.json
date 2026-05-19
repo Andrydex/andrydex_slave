@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "18/05/2026"
+        "data_rilevazione": "19/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "18/05/2026"
+        "data_rilevazione": "19/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -1034,5 +1034,28 @@
         "requisiti": "Studente magistrale Unimore regolarmente iscritto (il candidato è iscritto al 1° anno di DCI), mantenimento dello status di studente per tutta la durata del Programma BIP. Adeguata conoscenza della lingua di svolgimento del Programma BIP (il candidato possiede B2 IELTS Academics). Rispetto dei limiti massimi di mobilità Erasmus+ (12 mesi complessivi per ciclo di studi). Priorità ai candidati che non abbiano già beneficiato di una mobilità Erasmus+ (il candidato è 'prossimo all'Erasmus in Cina', il che richiederà verifica se completato o in corso per la priorità, ma non preclude l'ammissibilità).",
         "voto": 7,
         "data_rilevazione": "18/05/2026"
+    },
+    "3647": {
+        "stato": "inviato",
+        "titolo": "AquaDream Soundtrack (DLC) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/aquadream-soundtrack-dlc-giveaway",
+        "scadenza": "2026-05-25 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "19/05/2026"
+    },
+    "uni_b3687f2fbd": {
+        "stato": "nuovo",
+        "titolo": "Intensive French Language Week at SupBiotech",
+        "url": "https://unigreen-alliance.eu/event/intensive-french-language-week-at-supbiotech/",
+        "tipo": "universita",
+        "scadenza": "31/05/2026",
+        "luogo": "SupBiotech, Ingegneria della Biotecnologia, Parigi, Francia",
+        "durata": "5 giorni (19-24 luglio 2026)",
+        "ente": "SupBiotech (parte di UNIgreen alliance)",
+        "argomenti": "Settimana intensiva di lingua e cultura francese (livelli A0-B2), attività culturali e scoperta delle tradizioni francesi.",
+        "requisiti": "Aperto a studenti (inclusi studenti magistrali). Costo di partecipazione di 750€ (include pasti, attività culturali, alloggio e tessera trasporti locale). Non sono richiesti requisiti specifici di lingua francese per i livelli iniziali (A0).",
+        "voto": 7,
+        "data_rilevazione": "19/05/2026"
     }
 }
