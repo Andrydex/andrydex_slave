@@ -82,7 +82,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "19/05/2026"
+        "data_rilevazione": "20/05/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "19/05/2026"
+        "data_rilevazione": "20/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -1057,5 +1057,22 @@
         "requisiti": "Aperto a studenti (inclusi studenti magistrali). Costo di partecipazione di 750€ (include pasti, attività culturali, alloggio e tessera trasporti locale). Non sono richiesti requisiti specifici di lingua francese per i livelli iniziali (A0).",
         "voto": 7,
         "data_rilevazione": "19/05/2026"
+    },
+    "3648": {
+        "stato": "inviato",
+        "titolo": "Tower of Time (Steam) Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/tower-of-time-steam-key-giveaway",
+        "scadenza": "2026-05-22 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "20/05/2026"
+    },
+    "uni_7c35aac3ad": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/05/2026"
+    },
+    "uni_97c371b2e4": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/05/2026"
     }
 }
