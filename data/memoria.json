@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "20/05/2026"
+        "data_rilevazione": "21/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -1074,5 +1074,87 @@
     "uni_97c371b2e4": {
         "stato": "ignorato",
         "data_rilevazione": "20/05/2026"
+    },
+    "3652": {
+        "stato": "inviato",
+        "titolo": "Car Mechanic Simulator 2018 (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/car-mechanic-simulator-2018-steam-giveaway",
+        "scadenza": "2026-05-27 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "21/05/2026"
+    },
+    "2378": {
+        "stato": "inviato",
+        "titolo": "Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/warhammer-40-000-gladius-relics-of-war-steam-giveaway",
+        "scadenza": "2026-05-28 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "21/05/2026"
+    },
+    "3650": {
+        "stato": "inviato",
+        "titolo": "Tomb Raider 1-3 Remastered Starring Lara Croft (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/tomb-raider-1-3-remastered-starring-lara-croft-epic-games-giveaway",
+        "scadenza": "2026-05-28 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "21/05/2026"
+    },
+    "3649": {
+        "stato": "inviato",
+        "titolo": "Down in Bermuda (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/down-in-bermuda-epic-games-giveaway",
+        "scadenza": "2026-05-28 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "21/05/2026"
+    },
+    "2855": {
+        "stato": "inviato",
+        "titolo": "World of Warships × Warhammer 40000: Gift Pack Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-warships-warhammer-40-000-gift-pack-giveaway",
+        "scadenza": "2026-06-03 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "21/05/2026"
+    },
+    "cs_f304a01734": {
+        "stato": "inviato",
+        "titolo": "Tomb Raider I-III Remastered Starring Lara Croft",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=5Bpcy29NT%2BYM6Dnd8RaHZSLOZwlvSNktLOGJt8uFJ%2B8%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_2b60e79d63": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_c52e03366e": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_37747501c0": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_2bf7e2534d": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_3f8ea488da": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_2f09b309e1": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
+    },
+    "uni_2ba91614d9": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/05/2026"
     }
 }
