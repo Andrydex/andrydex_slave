@@ -629,7 +629,7 @@
         "data_rilevazione": "07/05/2026"
     },
     "3272": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "The Brave Little Cloud (IndieGala) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/the-brave-little-cloud-pc-giveaway",
@@ -986,7 +986,7 @@
         "data_rilevazione": "15/05/2026"
     },
     "3645": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Eldritch Escape Playtest Steam Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/eldritch-escape-playtest-steam-key-giveaway",
@@ -995,7 +995,7 @@
         "data_rilevazione": "16/05/2026"
     },
     "3644": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/dino-running-from-a-furry-gamesforfarm-steam-giveaway",
@@ -1076,7 +1076,7 @@
         "data_rilevazione": "20/05/2026"
     },
     "3652": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Car Mechanic Simulator 2018 (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/car-mechanic-simulator-2018-steam-giveaway",
@@ -1085,7 +1085,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "2378": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/warhammer-40-000-gladius-relics-of-war-steam-giveaway",
@@ -1094,7 +1094,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "3650": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Tomb Raider 1-3 Remastered Starring Lara Croft (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/tomb-raider-1-3-remastered-starring-lara-croft-epic-games-giveaway",
@@ -1103,7 +1103,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "3649": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Down in Bermuda (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/down-in-bermuda-epic-games-giveaway",
@@ -1121,7 +1121,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "cs_f304a01734": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Tomb Raider I-III Remastered Starring Lara Croft",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=5Bpcy29NT%2BYM6Dnd8RaHZSLOZwlvSNktLOGJt8uFJ%2B8%3D",
@@ -1156,5 +1156,39 @@
     "uni_2ba91614d9": {
         "stato": "ignorato",
         "data_rilevazione": "21/05/2026"
+    },
+    "3654": {
+        "stato": "inviato",
+        "titolo": "Bunny Guys! (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bunny-guys-steam-giveaway",
+        "scadenza": "2026-05-29 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "22/05/2026"
+    },
+    "3653": {
+        "stato": "inviato",
+        "titolo": "Bunny Hurling (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bunny-hurling-steam-giveaway",
+        "scadenza": "2026-05-25 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "22/05/2026"
+    },
+    "uni_cfa3d6d868": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/05/2026"
+    },
+    "uni_cffcdb1959": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/05/2026"
+    },
+    "uni_292dc15cd5": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/05/2026"
+    },
+    "uni_04d9da1062": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/05/2026"
     }
 }
