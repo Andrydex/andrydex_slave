@@ -72,6 +72,13 @@ def is_scaduto(scadenza_str):
         except: pass
     return False
 
+def normalizza_scadenza(s):
+    import re
+    if not s: return "N.D."
+    if re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', s.strip()):
+        return s.strip()
+    return "N.D."
+    
 def estrai_testo_da_url(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
@@ -247,13 +254,6 @@ def run_unigreen_worker(memoria):
                 if is_scaduto(scadenza):
                     memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                     continue
-
-                    def normalizza_scadenza(s):
-                        import re
-                        if not s: return "N.D."
-                        if re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', s.strip()):
-                            return s.strip()
-                        return "N.D."
                 
                 # ✅ BANDO TROVATO
                 msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{titolo_link}*\n🏢 **Ente:** {dati_ai.get('ente','N.D.')}\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{dati_ai.get('requisiti','N.D.')}_"
