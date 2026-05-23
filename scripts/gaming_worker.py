@@ -37,7 +37,7 @@ def run_gaming_worker(memoria):
                     testo = f"➕ *DLC DISPONIBILE*\n\n{titolo}\n🏪 Store: `{piattaforma}`\n⚠️ Richiede il base: `{nome_base}`\n⏳ Scadenza: `{scadenza}`"
                     bottoni = [
                         [{"text": "🚀 Store", "url": link}],
-                        [{"text": "✅ Ho il base", "callback_data": f"ho_base:{nome_base}"}],
+                        [{"text": "✅ Ho il base", "callback_data": f"ho_base:{nome_base}:{id_item}"}],
                         [{"text": "❌ Non ho il base", "callback_data": f"no_base:{id_item}"}]
                     ]
                     invia_telegram(testo, bottoni)
