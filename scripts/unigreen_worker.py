@@ -31,11 +31,12 @@ BLACKLIST_TEXT = ["contatti", "privacy", "cookie", "newsletter", "magazine", "am
 INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "biagi", "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"]
 
 PROFILO_UTENTE = (
-    "Studente magistrale DCI (Direzione e consulenza d'impresa, curricula di imprenditorialietà) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
-    "Cerca: Mobilità internazionale, BIP, Erasmus, borse di studio aperte a studenti magistrali. "
-    "Escludi: bandi per soli triennalisti, dottorati (richiedono laurea magistrale completata), "
-    "corsi di laurea (già iscritto), Giurisprudenza, Medicina, concorsi per personale docente/TAB. "
-    "Voto alto (8-10) solo se accessibile a magistrali iscritti, voto basso (1-4) se richiede titolo già conseguito o è per altri corsi."
+    "Studente magistrale DCI (Direzione e consulenza d'impresa, curricula di imprenditorialità) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
+    "Cerca: Mobilità internazionale, BIP, Erasmus, borse di studio aperte a studenti magistrali iscritti. "
+    "Escludi: bandi per soli triennalisti, dottorati (richiedono laurea magistrale già conseguita), "
+    "Giurisprudenza, Medicina, Scienze della Vita, Scienze Infermieristiche, concorsi per personale docente/TAB. "
+    "REGOLA DIPARTIMENTI (PRIORITARIA): Se il bando elenca dipartimenti o corsi ammessi e DCI/Economia/Biagi/Management NON compare tra essi, assegna OBBLIGATORIAMENTE voto 1 e spiega nel campo 'requisiti' quali dipartimenti sono invece ammessi. "
+    "Voto alto (8-10) solo se esplicitamente aperto a magistrali iscritti di Economia o area affine."
 )
 
 def carica_contesto_pdf():
@@ -116,8 +117,8 @@ def estrai_testo_da_url(url):
                         trovati = True
                         with io.BytesIO(pdf_resp.content) as f:
                             reader = pypdf.PdfReader(f)
-                            # Leggiamo le prime 10 pagine di ogni allegato trovato
-                            for page in reader.pages[:10]: 
+                            # Leggiamo le prime 20 pagine di ogni allegato trovato
+                            for page in reader.pages[:20]: 
                                 testo_allegati += page.extract_text() + "\n"
                 except Exception as e:
                     logging.warning(f"Impossibile leggere allegato {pdf_url}: {e}")
@@ -138,7 +139,11 @@ def analizza_con_ai(testo):
         prompt = (
             f"PROFILO DI BASE: {PROFILO_UTENTE}\n"
             f"DETTAGLI CV/PROFILO (dal PDF): {CONTESTO_AGGIUNTIVO}\n"
-            f"Analizza questo testo. REGOLA FONDAMENTALE: Se il testo è solo una pagina informativa generica, un articolo, o NON è un bando aperto (con scadenza definita per candidarsi), DEVI assegnare rigorosamente 'voto': 1. Valuta la compatibilità (da 1 a 10) SOLO se è una vera opportunità per candidarsi.\n"
+            f"Analizza questo testo. "
+            f"REGOLA 1 (PAGINA GENERICA): Se il testo è solo una pagina informativa, un articolo, o NON ha una scadenza definita per candidarsi, assegna 'voto': 1 e 'scadenza': 'N.D.'. "
+            f"REGOLA 2 (DIPARTIMENTI): Se il bando specifica dipartimenti o corsi ammessi e DCI/Economia/Biagi non è incluso, assegna 'voto': 1 e scrivi quali dipartimenti sono ammessi nel campo 'requisiti'. "
+            f"REGOLA 3 (DOTTORATI): Se il bando richiede laurea già conseguita o è per dottorandi, assegna 'voto': 1. "
+            f"Valuta 6-10 SOLO se il bando è concretamente accessibile a uno studente magistrale iscritto al 1° anno di DCI.\n"
             f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
             f'{{"scadenza":"DD/MM/YYYY oppure N.D.","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
             f"TESTO: {testo[:40000]}"
