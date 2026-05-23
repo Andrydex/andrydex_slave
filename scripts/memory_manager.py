@@ -90,6 +90,9 @@ def sincronizza_presi(memoria):
             elif azione == "IGNORA_BANDO" and item_id in memoria:
                 memoria[item_id]["stato"] = "ignorato"
                 aggiornato = True
+            elif azione == "IGNORA" and item_id in memoria:
+                memoria[item_id]["stato"] = "ignorato"
+                aggiornato = True
 
             # Chiude la Issue dopo averla processata
             if aggiornato:
