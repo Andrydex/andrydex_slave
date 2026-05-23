@@ -205,8 +205,8 @@ def run_unigreen_worker(memoria):
                 try: score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
                 except: score = 5
 
-                # 🛑 SE SCARTATO (Pagina generica) -> ESPLORA I LINK INTERNI
-                if score < 5:
+                # 🛑 SE SCARTATO o scadenza N.D. (Pagina generica) -> ESPLORA I LINK INTERNI
+                if score < 5 or scadenza == "N.D.":
                     memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                     if depth < 2:  # Scava fino a Livello 2
                         logging.info(f"🔄 Pagina generica, estraggo sotto-link da: {real_url}")
