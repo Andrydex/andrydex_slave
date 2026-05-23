@@ -1,7 +1,3 @@
-
-bash
-
-cat > /home/claude/unigreen_worker.py << 'ENDOFFILE'
 import requests
 import os
 import io
@@ -334,8 +330,3 @@ def run_unigreen_worker(memoria):
         update_health("unigreen_worker", f"error: {str(e)}")
 
     return memoria
-ENDOFFILE
-echo "OK"
-Output
-
-OK
