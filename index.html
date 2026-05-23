@@ -368,7 +368,7 @@
         return false;
     }
 
-    function renderUni(item) {
+    function renderUni(item) {     
         const badge = item.stato === 'partecipo' ? '<div class="partecipo-badge">✓ PARTECIPO</div>' : '';
         const borsa = item.funding
             ? '<span class="tag tag-green">✓ BORSA</span>'
@@ -455,8 +455,9 @@
             if (currentTab === 'startup') {
                 return i.tipo === 'startup' && !isScaduto(i.scadenza);
             }
-            if (currentTab === 'games') {
-                if (i.tipo === 'universita' || i.tipo === 'startup') return false;
+           if (currentTab === 'games') {
+                const tipiGioco = ['gioco', 'dlc', 'cheapshark'];
+                if (!tipiGioco.includes(i.tipo)) return false;
                 return i.stato !== 'preso';
             }
             return false;
