@@ -1,3 +1,7 @@
+
+bash
+
+cat > /home/claude/unigreen_worker.py << 'ENDOFFILE'
 import requests
 import os
 import io
@@ -164,12 +168,56 @@ def analizza_con_ai(testo):
         return {"scadenza": "Errore"}
 
 
+def _invia_reminder(id_bando, dati):
+    """Invia un reminder Telegram per un bando già in memoria."""
+    msg_r = (
+        f"⏳ *REMINDER BANDO ({dati.get('voto', '?')}/10)*\n\n"
+        f"📌 *{dati.get('titolo', '')}*\n"
+        f"⏳ **Scadenza:** `{dati.get('scadenza', 'N.D.')}`\n"
+        f"📝 **Requisiti:** _{dati.get('requisiti', 'N.D.')}_"
+    )
+    invia_telegram(msg_r, [
+        [{"text": "🌐 Apri Documento", "url": dati.get("url", "")}],
+        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+    ])
+
+
 def run_unigreen_worker(memoria):
     try:
+        # ─────────────────────────────────────────────────────────────
+        # FASE 0: Reminder sweep — indipendente dal crawler.
+        # Invia reminder per tutti i bandi già in memoria con stato
+        # "nuovo", senza aspettare che il crawler ri-trovi il link.
+        # ─────────────────────────────────────────────────────────────
+        logging.info("📋 Avvio reminder sweep bandi universitari...")
+        for id_bando, dati in list(memoria.items()):
+            if not isinstance(dati, dict):
+                continue
+            if dati.get("tipo") != "universita":
+                continue
+            if dati.get("stato") != "nuovo":
+                continue
+            scadenza_salvata = normalizza_scadenza(str(dati.get("scadenza", "N.D.")))
+            if scadenza_salvata == "N.D.":
+                # Scadenza non valida: marca ignorato, il crawler non lo rivedrà
+                logging.info(f"🗑 Bando con scadenza N.D. rimosso dal reminder sweep: {id_bando}")
+                memoria[id_bando]["stato"] = "ignorato"
+                continue
+            if is_scaduto(scadenza_salvata):
+                logging.info(f"🗑 Bando scaduto rimosso: {dati.get('titolo', id_bando)}")
+                memoria[id_bando]["stato"] = "ignorato"
+                continue
+            logging.info(f"⏳ Reminder: {dati.get('titolo', id_bando)[:40]}")
+            _invia_reminder(id_bando, dati)
+
+        # ─────────────────────────────────────────────────────────────
+        # FASE 1 & 2: Crawler — scopre nuovi bandi
+        # ─────────────────────────────────────────────────────────────
         queue = []
         visti = set()
 
-        # 1. Raccogliamo i link dalle pagine principali (Livello 1)
         for nome_fonte, url in URLS.items():
             try:
                 response = requests.get(url, timeout=15)
@@ -191,7 +239,6 @@ def run_unigreen_worker(memoria):
             except Exception as e:
                 logging.warning(f"Errore radice {url}: {e}")
 
-        # 2. Processiamo la coda scavando dove serve
         while queue:
             item = queue.pop(0)
             titolo_link = item["titolo"]
@@ -201,107 +248,84 @@ def run_unigreen_worker(memoria):
             id_bando = "uni_" + generate_hash(real_url)
             stato_attuale = memoria.get(id_bando, {}).get("stato")
 
-            if stato_attuale in ["ignorato", "partecipo"]:
+            # Skip stati definitivi o già gestiti dal reminder sweep
+            if stato_attuale in ["ignorato", "partecipo", "nuovo"]:
                 continue
 
-            # Elemento già in memoria con stato "nuovo": reminder o ri-analisi
-            if id_bando in memoria and stato_attuale == "nuovo":
-                dati = memoria[id_bando]
-                scadenza_salvata = normalizza_scadenza(str(dati.get("scadenza", "N.D.")))
-                if scadenza_salvata == "N.D.":
-                    # Pagina generica salvata per errore: rimuovi e ri-analizza
-                    logging.info(f"🔄 Scadenza non valida in memoria, ri-analizzo: {real_url}")
-                    del memoria[id_bando]
-                else:
-                    msg_r = (
-                        f"⏳ *REMINDER BANDO ({dati.get('voto', '?')}/10)*\n\n"
-                        f"📌 *{dati.get('titolo', '')}*\n"
-                        f"⏳ **Scadenza:** `{dati.get('scadenza', 'N.D.')}`\n"
-                        f"📝 **Requisiti:** _{dati.get('requisiti', 'N.D.')}_"
-                    )
-                    invia_telegram(msg_r, [
-                        [{"text": "🌐 Apri Documento", "url": dati.get("url", "")}],
-                        [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
-                         {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
-                        [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
-                    ])
-                    continue
-
             # Elemento non in memoria: analizza
-            if id_bando not in memoria:
-                logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:30]}...")
-                testo_pdf = estrai_testo_da_url(real_url)
-                time.sleep(10)
+            logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:30]}...")
+            testo_pdf = estrai_testo_da_url(real_url)
+            time.sleep(10)
 
-                dati_ai = analizza_con_ai(testo_pdf)
-                scadenza = normalizza_scadenza(str(dati_ai.get("scadenza", "N.D.")))
-                if str(dati_ai.get("scadenza", "")) == "Errore":
-                    continue
+            dati_ai = analizza_con_ai(testo_pdf)
+            scadenza = normalizza_scadenza(str(dati_ai.get("scadenza", "N.D.")))
+            if str(dati_ai.get("scadenza", "")) == "Errore":
+                continue
 
-                try:
-                    score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
-                except Exception:
-                    score = 5
+            try:
+                score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
+            except Exception:
+                score = 5
 
-                # Pagina generica o senza scadenza: crawl depth-2, niente Telegram
-                if score < 5 or scadenza == "N.D.":
-                    memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
-                    if depth < 2:
-                        logging.info(f"🔄 Pagina generica, estraggo sotto-link da: {real_url}")
-                        try:
-                            sub_resp = requests.get(real_url, timeout=15)
-                            sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
-                            sub_main = sub_soup.find('main') or sub_soup
-                            for sub_a in sub_main.find_all('a', href=True):
-                                s_href = sub_a['href']
-                                s_testo = sub_a.text.strip().lower()
-                                if any(x in s_href.lower() for x in BLACKLIST_DOMAINS):
-                                    continue
-                                if any(x in s_testo for x in BLACKLIST_TEXT):
-                                    continue
-                                if not any(x in s_testo for x in INCLUDE):
-                                    continue
-                                next_url = s_href if s_href.startswith("http") else urljoin(real_url, s_href)
-                                if next_url not in visti:
-                                    visti.add(next_url)
-                                    queue.append({"titolo": sub_a.text.strip(), "url": next_url, "depth": depth + 1})
-                        except Exception:
-                            pass
-                    continue
+            # Pagina generica o senza scadenza: crawl depth-2, niente Telegram
+            if score < 5 or scadenza == "N.D.":
+                memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                if depth < 2:
+                    logging.info(f"🔄 Pagina generica, estraggo sotto-link da: {real_url}")
+                    try:
+                        sub_resp = requests.get(real_url, timeout=15)
+                        sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
+                        sub_main = sub_soup.find('main') or sub_soup
+                        for sub_a in sub_main.find_all('a', href=True):
+                            s_href = sub_a['href']
+                            s_testo = sub_a.text.strip().lower()
+                            if any(x in s_href.lower() for x in BLACKLIST_DOMAINS):
+                                continue
+                            if any(x in s_testo for x in BLACKLIST_TEXT):
+                                continue
+                            if not any(x in s_testo for x in INCLUDE):
+                                continue
+                            next_url = s_href if s_href.startswith("http") else urljoin(real_url, s_href)
+                            if next_url not in visti:
+                                visti.add(next_url)
+                                queue.append({"titolo": sub_a.text.strip(), "url": next_url, "depth": depth + 1})
+                    except Exception:
+                        pass
+                continue
 
-                if is_scaduto(scadenza):
-                    memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
-                    continue
+            if is_scaduto(scadenza):
+                memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                continue
 
-                # Bando valido: notifica Telegram
-                msg = (
-                    f"🎓 *BANDO ({score}/10)*\n\n"
-                    f"📌 *{titolo_link}*\n"
-                    f"🏢 **Ente:** {dati_ai.get('ente', 'N.D.')}\n"
-                    f"⏳ **Scadenza:** `{scadenza}`\n"
-                    f"📝 **Requisiti:** _{dati_ai.get('requisiti', 'N.D.')}_"
-                )
-                invia_telegram(msg, [
-                    [{"text": "🌐 Apri Documento", "url": real_url}],
-                    [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
-                     {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
-                    [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
-                ])
+            # Bando valido: notifica Telegram
+            msg = (
+                f"🎓 *BANDO ({score}/10)*\n\n"
+                f"📌 *{titolo_link}*\n"
+                f"🏢 **Ente:** {dati_ai.get('ente', 'N.D.')}\n"
+                f"⏳ **Scadenza:** `{scadenza}`\n"
+                f"📝 **Requisiti:** _{dati_ai.get('requisiti', 'N.D.')}_"
+            )
+            invia_telegram(msg, [
+                [{"text": "🌐 Apri Documento", "url": real_url}],
+                [{"text": "✅ Partecipo", "callback_data": f"partecipo:{id_bando}"},
+                 {"text": "❌ Ignora", "callback_data": f"ignora_bando:{id_bando}"}],
+                [{"text": "📊 Dashboard", "url": "https://andrydex.github.io/andrydex_slave/"}]
+            ])
 
-                memoria[id_bando] = {
-                    "stato": "nuovo",
-                    "titolo": titolo_link,
-                    "url": real_url,
-                    "tipo": "universita",
-                    "scadenza": scadenza,
-                    "luogo": dati_ai.get("luogo", "N.D."),
-                    "durata": dati_ai.get("durata", "N.D."),
-                    "ente": dati_ai.get("ente", "N.D."),
-                    "argomenti": dati_ai.get("argomenti", "N.D."),
-                    "requisiti": dati_ai.get("requisiti", "N.D."),
-                    "voto": score,
-                    "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
-                }
+            memoria[id_bando] = {
+                "stato": "nuovo",
+                "titolo": titolo_link,
+                "url": real_url,
+                "tipo": "universita",
+                "scadenza": scadenza,
+                "luogo": dati_ai.get("luogo", "N.D."),
+                "durata": dati_ai.get("durata", "N.D."),
+                "ente": dati_ai.get("ente", "N.D."),
+                "argomenti": dati_ai.get("argomenti", "N.D."),
+                "requisiti": dati_ai.get("requisiti", "N.D."),
+                "voto": score,
+                "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
+            }
 
         update_health("unigreen_worker", "ok")
 
@@ -310,3 +334,8 @@ def run_unigreen_worker(memoria):
         update_health("unigreen_worker", f"error: {str(e)}")
 
     return memoria
+ENDOFFILE
+echo "OK"
+Output
+
+OK
