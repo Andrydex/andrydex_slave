@@ -146,34 +146,6 @@
         "stato": "ignorato",
         "data_rilevazione": "01/05/2026"
     },
-    "uni_b6a1b40a48": {
-        "stato": "nuovo",
-        "titolo": "Mobility",
-        "url": "https://unigreen-alliance.eu/mobility/",
-        "tipo": "universita",
-        "scadenza": "Non specificata (pagina informativa generale)",
-        "luogo": "Europa (università partner dell'alleanza UNIgreen)",
-        "durata": "Variabile (opportunità a breve e lungo termine)",
-        "ente": "UNIgreen Alliance",
-        "argomenti": "Mobilità internazionale per studenti (inclusi magistrali), Blended Intensive Programs (BIP) per risolvere sfide reali, programmi Erasmus, Double Master's Degrees. Implicito focus su tematiche 'green' e sostenibilità.",
-        "requisiti": "Iscrizione a corsi universitari (inclusi studenti magistrali). Nessun requisito accademico o linguistico specifico è dettagliato in questa pagina generale.",
-        "voto": 9,
-        "data_rilevazione": "01/05/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "nuovo",
-        "titolo": "Student Mobility",
-        "url": "https://unigreen-alliance.eu/mobility/student-mobility/",
-        "tipo": "universita",
-        "scadenza": "Non specificata",
-        "luogo": "Europa (presso istituzioni partner dell'alleanza UNIgreen)",
-        "durata": "Varia (BIP a breve termine, Summer School intensive, Erasmus e Double Master's con durate più estese, non specificate)",
-        "ente": "UNIgreen",
-        "argomenti": "Mobilità internazionale per studenti di tutti i livelli (Bachelor, Master, PhD), Erasmus+, Blended Intensive Programmes (BIP), Double Master's Degrees, Summer School. Focus su educazione internazionale, green e orientata al futuro, sostenibilità, innovazione e collaborazione internazionale. I BIP sono descritti come 'short-term, high-impact learning' su 'real-world challenges'. Il Double Master's ha un 'strong focus on sustainability'.",
-        "requisiti": "Studenti iscritti a corsi di laurea di qualsiasi livello (Bachelor, Master, PhD) presso le istituzioni partner dell'alleanza UNIgreen. Lo studente magistrale rientra perfettamente. I programmi specifici per Dottorato (es. 'Joint PhD Programme in Agri-Food Science') sono da escludere, ma il Double Master's è pertinente.",
-        "voto": 9,
-        "data_rilevazione": "01/05/2026"
-    },
     "uni_baab15889a": {
         "stato": "ignorato",
         "data_rilevazione": "01/05/2026"
@@ -1207,6 +1179,14 @@
         "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
         "scadenza": "N/A",
         "store": "PC, DRM-Free",
+        "data_rilevazione": "23/05/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/05/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "ignorato",
         "data_rilevazione": "23/05/2026"
     }
 }
