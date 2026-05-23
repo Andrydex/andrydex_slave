@@ -699,7 +699,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "22/05/2026"
+        "data_rilevazione": "23/05/2026"
     },
     "3631": {
         "stato": "inviato",
@@ -801,7 +801,7 @@
         "data_rilevazione": "13/05/2026"
     },
     "3640": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Epic Games Store Free Gift Packs",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/free-gift-packs-from-epic-games-store",
@@ -1112,7 +1112,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "2855": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "World of Warships × Warhammer 40000: Gift Pack Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/world-of-warships-warhammer-40-000-gift-pack-giveaway",
@@ -1158,7 +1158,7 @@
         "data_rilevazione": "21/05/2026"
     },
     "3654": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Bunny Guys! (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/bunny-guys-steam-giveaway",
@@ -1167,7 +1167,7 @@
         "data_rilevazione": "22/05/2026"
     },
     "3653": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Bunny Hurling (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/bunny-hurling-steam-giveaway",
@@ -1190,5 +1190,23 @@
     "uni_04d9da1062": {
         "stato": "ignorato",
         "data_rilevazione": "22/05/2026"
+    },
+    "3655": {
+        "stato": "inviato",
+        "titolo": "Svoboda 1945: Liberation (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/svoboda-1945-liberation-itchio-giveaway",
+        "scadenza": "2026-05-25 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "23/05/2026"
+    },
+    "3287": {
+        "stato": "inviato",
+        "titolo": "Mr.Brocco And Co (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "23/05/2026"
     }
 }
