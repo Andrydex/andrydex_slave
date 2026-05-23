@@ -52,10 +52,16 @@ def run_gaming_worker(memoria):
             # GIOCHI NORMALI
             bottoni = [
                 [{"text": "🚀 RISCATTA ORA", "url": link}],
-                [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"}]
+                [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"},
+                 {"text": "❌ Ignora", "callback_data": f"ignora:{id_item}"}]
             ]
             if id_item not in memoria:
-                invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}\n🏪 Store: `{piattaforma}`\n⏳ Scadenza: `{scadenza}`", bottoni)
+                bottoni_reminder = [
+                    [{"text": "🚀 RISCATTA ORA", "url": link}],
+                    [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"},
+                     {"text": "❌ Ignora", "callback_data": f"ignora:{id_item}"}]
+                ]
+                invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}\n🏪 Store: `{piattaforma}`", bottoni_reminder)
                 memoria[id_item] = {
                     "stato": "inviato", "titolo": titolo, "tipo": "gioco", "url": link, 
                     "scadenza": scadenza, "store": piattaforma,
