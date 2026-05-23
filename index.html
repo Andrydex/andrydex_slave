@@ -368,6 +368,11 @@
         return false;
     }
 
+    function isScadutoGame(s) {
+        if (!s || s === 'N.D.') return false;
+        try { return new Date(s) < new Date(); } catch(e) { return false; }
+    }
+
     function renderUni(item) {     
         const badge = item.stato === 'partecipo' ? '<div class="partecipo-badge">✓ PARTECIPO</div>' : '';
         const borsa = item.funding
@@ -458,7 +463,8 @@
            if (currentTab === 'games') {
                 const tipiGioco = ['gioco', 'dlc', 'cheapshark'];
                 if (!tipiGioco.includes(i.tipo)) return false;
-                return i.stato !== 'preso';
+                if (i.stato === 'preso') return false;
+                return !isScadutoGame(i.scadenza);
             }
             return false;
         }).reverse();
