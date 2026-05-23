@@ -199,7 +199,6 @@ def run_unigreen_worker(memoria):
                 dati = memoria[id_bando]
                 scadenza_salvata = normalizza_scadenza(str(dati.get("scadenza", "N.D.")))
                 if scadenza_salvata == "N.D.":
-                    # Salvata per errore come pagina generica: rimuovi e ri-analizza
                     logging.info(f"🔄 Scadenza non valida in memoria, ri-analizzo: {real_url}")
                     del memoria[id_bando]
                 else:
