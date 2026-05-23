@@ -145,7 +145,8 @@ def analizza_con_ai(testo):
             f"REGOLA 3 (DOTTORATI): Se il bando richiede laurea già conseguita o è per dottorandi, assegna 'voto': 1. "
             f"Valuta 6-10 SOLO se il bando è concretamente accessibile a uno studente magistrale iscritto al 1° anno di DCI.\n"
             f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
-            f'{{"scadenza":"DD/MM/YYYY oppure N.D.","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
+            f'{{"scadenza":"DD/MM/YYYY oppure esattamente N.D. (nessun altro testo permesso)","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
+            f"IMPORTANTE: il campo 'scadenza' deve contenere SOLO una data in formato DD/MM/YYYY oppure esattamente la stringa N.D. — mai testo descrittivo.\n"
             f"TESTO: {testo[:40000]}"
         )
         response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
@@ -204,7 +205,7 @@ def run_unigreen_worker(memoria):
                 time.sleep(10) 
                 
                 dati_ai = analizza_con_ai(testo_pdf)
-                scadenza = str(dati_ai.get("scadenza", "N.D."))
+                scadenza = normalizza_scadenza(str(dati_ai.get("scadenza", "N.D.")))
                 if scadenza == "Errore": continue 
                 
                 try: score = int(''.join(filter(str.isdigit, str(dati_ai.get("voto", "5")))))
@@ -235,6 +236,13 @@ def run_unigreen_worker(memoria):
                     memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                     continue
 
+                    def normalizza_scadenza(s):
+                        import re
+                        if not s: return "N.D."
+                        if re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', s.strip()):
+                            return s.strip()
+                        return "N.D."
+                
                 # ✅ BANDO TROVATO
                 msg = f"🎓 **BANDO ({score}/10)**\n\n📌 *{titolo_link}*\n🏢 **Ente:** {dati_ai.get('ente','N.D.')}\n⏳ **Scadenza:** `{scadenza}`\n📝 **Requisiti:** _{dati_ai.get('requisiti','N.D.')}_"
                 invia_telegram(msg, [
