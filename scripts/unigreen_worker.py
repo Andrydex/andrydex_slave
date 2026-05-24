@@ -28,7 +28,7 @@ URLS = {
     "UniGreen Mobility": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/",
     "CLUST-ER Bandi": "https://www.clust-er.it/bandi/",
     "CLUST-ER Eventi": "https://www.clust-er.it/eventi/",
-    "Spazio Aperto Modena": "https://spazioapertomodena.it/",
+    "Laboratorio Aperto Modena": "https://laboratorioapertomodena.it/",
     "Emilia Romagna Startup Bandi": "https://www.emiliaromagnastartup.it/it/bandi",
     "Emilia Romagna Startup Call": "https://www.emiliaromagnastartup.it/it/call",
 }
