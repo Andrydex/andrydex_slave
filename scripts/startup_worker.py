@@ -27,7 +27,10 @@ URLS_STARTUP = {
     "BI-REX": "https://bi-rex.it/bandi-e-call/",
     "EXO Molise": "https://www.exomolise.it/bandi/",
     "Invitalia (Nazionali)": "https://www.invitalia.it/cosa-facciamo/creiamo-nuove-aziende",
-    "CLUST-ER": "https://www.clust-er.it/bandi/",
+    "CLUST-ER Bandi": "https://www.clust-er.it/bandi/",
+    "CLUST-ER Eventi": "https://www.clust-er.it/eventi/",
+    "Spazio Aperto Modena": "https://spazioapertomodena.it/",
+    "Emilia Romagna Startup": "https://www.emiliaromagnastartup.it/",
     "Regione Molise (Bandi)": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1"
 }
 
