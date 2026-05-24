@@ -18,15 +18,27 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GEMINI_KEY) if GEMINI_KEY else None
 
+# Flag globale: se True, la quota giornaliera è esaurita e si salta ogni chiamata AI
+_quota_esaurita = False
+
 URLS = {
     "Unimore Bandi": "https://www.unimore.it/it/ateneo/bandi",
     "UniGreen Events": "https://unigreen-alliance.eu/events/list/",
     "UniGreen Mobility": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/"
 }
 
-BLACKLIST_DOMAINS = ["facebook", "twitter", "instagram", "linkedin", "youtube", "pica.cineca.it", "tel.unimore"]
-BLACKLIST_TEXT = ["contatti", "privacy", "cookie", "newsletter", "magazine", "amministrazione trasparente", "intranet", "sicurezza"]
-INCLUDE = ["economia", "unigreen", "bip", "intensive", "mobilità", "biagi", "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"]
+BLACKLIST_DOMAINS = [
+    "facebook", "twitter", "instagram", "linkedin", "youtube",
+    "pica.cineca.it", "tel.unimore", "mailto:"
+]
+BLACKLIST_TEXT = [
+    "contatti", "privacy", "cookie", "newsletter", "magazine",
+    "amministrazione trasparente", "intranet", "sicurezza"
+]
+INCLUDE = [
+    "economia", "unigreen", "bip", "intensive", "mobilità", "biagi",
+    "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"
+]
 
 PROFILO_UTENTE = (
     "Studente magistrale DCI (Direzione e consulenza d'impresa, curricula di imprenditorialità) - 1° anno magistrale, Dipartimento Biagi, Unimore. "
@@ -140,6 +152,9 @@ def estrai_testo_da_url(url):
 
 
 def analizza_con_ai(testo):
+    global _quota_esaurita
+    if _quota_esaurita:
+        return {"scadenza": "Errore"}
     if not testo or not client:
         return {"scadenza": "N.D.", "voto": "0"}
     try:
@@ -160,12 +175,16 @@ def analizza_con_ai(testo):
         raw = response.text.strip().strip('`').replace('json', '', 1).strip()
         return json.loads(raw)
     except Exception as e:
-        logging.warning(f"Errore AI Gemini: {e}")
+        err = str(e)
+        if "429" in err or "RESOURCE_EXHAUSTED" in err:
+            _quota_esaurita = True
+            logging.warning("🚫 Quota Gemini esaurita per oggi. Analisi AI sospesa per questo run.")
+        else:
+            logging.warning(f"Errore AI Gemini: {e}")
         return {"scadenza": "Errore"}
 
 
 def _invia_reminder(id_bando, dati):
-    """Invia un reminder Telegram per un bando già in memoria."""
     msg_r = (
         f"⏳ *REMINDER BANDO ({dati.get('voto', '?')}/10)*\n\n"
         f"📌 *{dati.get('titolo', '')}*\n"
@@ -181,12 +200,9 @@ def _invia_reminder(id_bando, dati):
 
 
 def run_unigreen_worker(memoria):
+    global _quota_esaurita
     try:
-        # ─────────────────────────────────────────────────────────────
-        # FASE 0: Reminder sweep — indipendente dal crawler.
-        # Invia reminder per tutti i bandi già in memoria con stato
-        # "nuovo", senza aspettare che il crawler ri-trovi il link.
-        # ─────────────────────────────────────────────────────────────
+        # FASE 0: Reminder sweep indipendente dal crawler
         logging.info("📋 Avvio reminder sweep bandi universitari...")
         for id_bando, dati in list(memoria.items()):
             if not isinstance(dati, dict):
@@ -197,8 +213,7 @@ def run_unigreen_worker(memoria):
                 continue
             scadenza_salvata = normalizza_scadenza(str(dati.get("scadenza", "N.D.")))
             if scadenza_salvata == "N.D.":
-                # Scadenza non valida: marca ignorato, il crawler non lo rivedrà
-                logging.info(f"🗑 Bando con scadenza N.D. rimosso dal reminder sweep: {id_bando}")
+                logging.info(f"🗑 Bando con scadenza N.D. rimosso: {id_bando}")
                 memoria[id_bando]["stato"] = "ignorato"
                 continue
             if is_scaduto(scadenza_salvata):
@@ -208,9 +223,7 @@ def run_unigreen_worker(memoria):
             logging.info(f"⏳ Reminder: {dati.get('titolo', id_bando)[:40]}")
             _invia_reminder(id_bando, dati)
 
-        # ─────────────────────────────────────────────────────────────
-        # FASE 1 & 2: Crawler — scopre nuovi bandi
-        # ─────────────────────────────────────────────────────────────
+        # FASE 1: Raccolta link (Livello 1)
         queue = []
         visti = set()
 
@@ -235,7 +248,12 @@ def run_unigreen_worker(memoria):
             except Exception as e:
                 logging.warning(f"Errore radice {url}: {e}")
 
+        # FASE 2: Analisi coda
         while queue:
+            if _quota_esaurita:
+                logging.warning("⛔ Quota Gemini esaurita, interrompo crawler universitario.")
+                break
+
             item = queue.pop(0)
             titolo_link = item["titolo"]
             real_url = item["url"]
@@ -244,16 +262,19 @@ def run_unigreen_worker(memoria):
             id_bando = "uni_" + generate_hash(real_url)
             stato_attuale = memoria.get(id_bando, {}).get("stato")
 
-            # Skip stati definitivi o già gestiti dal reminder sweep
             if stato_attuale in ["ignorato", "partecipo", "nuovo"]:
                 continue
 
-            # Elemento non in memoria: analizza
-            logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:30]}...")
+            logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:40]}...")
             testo_pdf = estrai_testo_da_url(real_url)
             time.sleep(10)
 
             dati_ai = analizza_con_ai(testo_pdf)
+
+            if _quota_esaurita:
+                logging.warning("⛔ Quota esaurita dopo analisi, interrompo.")
+                break
+
             scadenza = normalizza_scadenza(str(dati_ai.get("scadenza", "N.D.")))
             if str(dati_ai.get("scadenza", "")) == "Errore":
                 continue
@@ -263,7 +284,6 @@ def run_unigreen_worker(memoria):
             except Exception:
                 score = 5
 
-            # Pagina generica o senza scadenza: crawl depth-2, niente Telegram
             if score < 5 or scadenza == "N.D.":
                 memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                 if depth < 2:
@@ -293,7 +313,6 @@ def run_unigreen_worker(memoria):
                 memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                 continue
 
-            # Bando valido: notifica Telegram
             msg = (
                 f"🎓 *BANDO ({score}/10)*\n\n"
                 f"📌 *{titolo_link}*\n"
