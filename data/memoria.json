@@ -18,7 +18,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3654": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Bunny Guys! (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/bunny-guys-steam-giveaway",
@@ -27,7 +27,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3653": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Bunny Hurling (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/bunny-hurling-steam-giveaway",
@@ -36,7 +36,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3652": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Car Mechanic Simulator 2018 (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/car-mechanic-simulator-2018-steam-giveaway",
@@ -45,7 +45,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "2378": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/warhammer-40-000-gladius-relics-of-war-steam-giveaway",
@@ -54,7 +54,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3650": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Tomb Raider 1-3 Remastered Starring Lara Croft (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/tomb-raider-1-3-remastered-starring-lara-croft-epic-games-giveaway",
@@ -63,7 +63,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3649": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Down in Bermuda (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/down-in-bermuda-epic-games-giveaway",
@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
+        "data_rilevazione": "24/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -271,5 +271,29 @@
     "start_300747677f": {
         "stato": "ignorato",
         "data_rilevazione": "23/05/2026"
+    },
+    "start_eea7322dad": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
+    },
+    "start_60cd259732": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
+    },
+    "start_27a5239cf3": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
+    },
+    "start_bd827af0a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
+    },
+    "start_63ca0050cb": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
+    },
+    "start_584856c989": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/05/2026"
     }
 }
