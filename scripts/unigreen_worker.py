@@ -25,7 +25,11 @@ _quota_giornaliera_esaurita = False
 URLS = {
     "Unimore Bandi": "https://www.unimore.it/it/ateneo/bandi",
     "UniGreen Events": "https://unigreen-alliance.eu/events/list/",
-    "UniGreen Mobility": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/"
+    "UniGreen Mobility": "https://unigreen-alliance.eu/mobility/blended-intensive-programs-bip/",
+    "CLUST-ER Bandi": "https://www.clust-er.it/bandi/",
+    "CLUST-ER Eventi": "https://www.clust-er.it/eventi/",
+    "Spazio Aperto Modena": "https://spazioapertomodena.it/",
+    "Emilia Romagna Startup": "https://www.emiliaromagnastartup.it/"
 }
 
 BLACKLIST_DOMAINS = [
@@ -38,7 +42,8 @@ BLACKLIST_TEXT = [
 ]
 INCLUDE = [
     "economia", "unigreen", "bip", "intensive", "mobilità", "biagi",
-    "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"
+    "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione",
+    "call", "opportunit", "esperien", "startup", "innovazione", "evento"
 ]
 
 # Parole-chiave che devono essere presenti nel testo per giustificare una chiamata Gemini.
