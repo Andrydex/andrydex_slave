@@ -2,6 +2,7 @@ import requests
 import os
 import io
 import json
+import re
 import time
 import pypdf
 import logging
@@ -18,8 +19,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GEMINI_KEY) if GEMINI_KEY else None
 
-# Flag globale: se True, la quota giornaliera è esaurita e si salta ogni chiamata AI
-_quota_esaurita = False
+# Flag globale: True se la quota GIORNALIERA è esaurita (inutile riprovare)
+_quota_giornaliera_esaurita = False
 
 URLS = {
     "Unimore Bandi": "https://www.unimore.it/it/ateneo/bandi",
@@ -38,6 +39,16 @@ BLACKLIST_TEXT = [
 INCLUDE = [
     "economia", "unigreen", "bip", "intensive", "mobilità", "biagi",
     "finance", "erasmus", "student", "mobility", "bando", "avviso", "selezione"
+]
+
+# Parole-chiave che devono essere presenti nel testo per giustificare una chiamata Gemini.
+# Se nessuna è presente, la pagina non è un vero bando e si skippa l'AI.
+KEYWORDS_BANDO = [
+    "scadenza", "deadline", "candidature", "candidarsi", "candidati",
+    "application", "submission", "apply", "domanda di", "presenta la domanda",
+    "iscrizione", "modulo", "partecipa", "ammissione", "selezione",
+    "entro il", "entro le ore", "aperto fino", "open until",
+    "borsa", "scholarship", "grant", "finanziamento", "contributo"
 ]
 
 PROFILO_UTENTE = (
@@ -68,7 +79,6 @@ CONTESTO_AGGIUNTIVO = carica_contesto_pdf()
 
 
 def is_scaduto(scadenza_str):
-    import re
     if not scadenza_str or scadenza_str in ("N.D.", "Errore"):
         return False
     mesi = {
@@ -90,12 +100,21 @@ def is_scaduto(scadenza_str):
 
 
 def normalizza_scadenza(s):
-    import re
     if not s:
         return "N.D."
     if re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', s.strip()):
         return s.strip()
     return "N.D."
+
+
+def ha_keywords_bando(testo):
+    """
+    Pre-filter leggero: restituisce True se il testo contiene almeno una
+    parola-chiave tipica di un bando reale. Evita di chiamare Gemini su
+    pagine di navigazione o articoli generici.
+    """
+    testo_lower = testo.lower()
+    return any(k in testo_lower for k in KEYWORDS_BANDO)
 
 
 def estrai_testo_da_url(url):
@@ -152,12 +171,21 @@ def estrai_testo_da_url(url):
 
 
 def analizza_con_ai(testo):
-    global _quota_esaurita
-    if _quota_esaurita:
+    """
+    Chiama Gemini per analizzare il testo.
+    - Se la quota giornaliera è esaurita, restituisce Errore senza chiamare l'API.
+    - Se arriva un 429 per limite al minuto, aspetta il tempo suggerito e riprova una volta.
+    - Se arriva un 429 per quota giornaliera, imposta il flag e si ferma.
+    """
+    global _quota_giornaliera_esaurita
+
+    if _quota_giornaliera_esaurita:
         return {"scadenza": "Errore"}
+
     if not testo or not client:
         return {"scadenza": "N.D.", "voto": "0"}
-    try:
+
+    def _chiama_gemini():
         prompt = (
             f"PROFILO DI BASE: {PROFILO_UTENTE}\n"
             f"DETTAGLI CV/PROFILO (dal PDF): {CONTESTO_AGGIUNTIVO}\n"
@@ -167,21 +195,44 @@ def analizza_con_ai(testo):
             f"REGOLA 3 (DOTTORATI): Se il bando richiede laurea già conseguita o è per dottorandi, assegna 'voto': 1. "
             f"Valuta 6-10 SOLO se il bando è concretamente accessibile a uno studente magistrale iscritto al 1° anno di DCI.\n"
             f"Rispondi SOLO con JSON valido, nessun testo extra, nessun backtick:\n"
-            f'{{"scadenza":"DD/MM/YYYY oppure esattamente N.D. (nessun altro testo permesso)","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
-            f"IMPORTANTE: il campo 'scadenza' deve contenere SOLO una data in formato DD/MM/YYYY oppure esattamente la stringa N.D. — mai testo descrittivo.\n"
+            f'{{"scadenza":"DD/MM/YYYY oppure esattamente N.D.","luogo":"...","durata":"...","ente":"...","argomenti":"...","requisiti":"...","voto":7}}\n'
+            f"IMPORTANTE: 'scadenza' deve essere SOLO DD/MM/YYYY oppure esattamente N.D., mai testo libero.\n"
             f"TESTO: {testo[:40000]}"
         )
         response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
         raw = response.text.strip().strip('`').replace('json', '', 1).strip()
         return json.loads(raw)
+
+    try:
+        return _chiama_gemini()
     except Exception as e:
         err = str(e)
         if "429" in err or "RESOURCE_EXHAUSTED" in err:
-            _quota_esaurita = True
-            logging.warning("🚫 Quota Gemini esaurita per oggi. Analisi AI sospesa per questo run.")
+            # Distingui quota giornaliera da rate limit al minuto
+            if "PerDay" in err or "per_day" in err.lower() or "free_tier" in err.lower():
+                _quota_giornaliera_esaurita = True
+                logging.warning("🚫 Quota Gemini GIORNALIERA esaurita. Analisi AI sospesa per oggi.")
+                return {"scadenza": "Errore"}
+            else:
+                # Rate limit al minuto: estrai il tempo di attesa e riprova
+                wait_match = re.search(r'retry in (\d+(?:\.\d+)?)s', err)
+                wait_sec = float(wait_match.group(1)) if wait_match else 60
+                wait_sec = min(wait_sec + 5, 120)  # max 2 minuti di attesa
+                logging.warning(f"⏳ Rate limit Gemini (al minuto), aspetto {wait_sec:.0f}s e riprovo...")
+                time.sleep(wait_sec)
+                try:
+                    return _chiama_gemini()
+                except Exception as e2:
+                    err2 = str(e2)
+                    if "429" in err2 and ("PerDay" in err2 or "free_tier" in err2.lower()):
+                        _quota_giornaliera_esaurita = True
+                        logging.warning("🚫 Quota Gemini GIORNALIERA esaurita dopo retry.")
+                    else:
+                        logging.warning(f"Errore AI Gemini dopo retry: {e2}")
+                    return {"scadenza": "Errore"}
         else:
             logging.warning(f"Errore AI Gemini: {e}")
-        return {"scadenza": "Errore"}
+            return {"scadenza": "Errore"}
 
 
 def _invia_reminder(id_bando, dati):
@@ -200,7 +251,7 @@ def _invia_reminder(id_bando, dati):
 
 
 def run_unigreen_worker(memoria):
-    global _quota_esaurita
+    global _quota_giornaliera_esaurita
     try:
         # FASE 0: Reminder sweep indipendente dal crawler
         logging.info("📋 Avvio reminder sweep bandi universitari...")
@@ -250,8 +301,8 @@ def run_unigreen_worker(memoria):
 
         # FASE 2: Analisi coda
         while queue:
-            if _quota_esaurita:
-                logging.warning("⛔ Quota Gemini esaurita, interrompo crawler universitario.")
+            if _quota_giornaliera_esaurita:
+                logging.warning("⛔ Quota giornaliera esaurita, interrompo crawler universitario.")
                 break
 
             item = queue.pop(0)
@@ -265,13 +316,42 @@ def run_unigreen_worker(memoria):
             if stato_attuale in ["ignorato", "partecipo", "nuovo"]:
                 continue
 
-            logging.info(f"🕵️ Analizzo (Livello {depth}): {titolo_link[:40]}...")
+            logging.info(f"🕵️ Scarico (Livello {depth}): {titolo_link[:40]}...")
             testo_pdf = estrai_testo_da_url(real_url)
-            time.sleep(10)
 
+            # PRE-FILTER: se il testo non contiene parole-chiave di bando, skippa Gemini
+            if not ha_keywords_bando(testo_pdf):
+                logging.info(f"⏭ Nessuna keyword di bando trovata, skippo AI per: {titolo_link[:40]}")
+                memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                # Crawl depth-2 comunque: potrebbe essere una pagina hub
+                if depth < 2:
+                    try:
+                        sub_resp = requests.get(real_url, timeout=15)
+                        sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
+                        sub_main = sub_soup.find('main') or sub_soup
+                        for sub_a in sub_main.find_all('a', href=True):
+                            s_href = sub_a['href']
+                            s_testo = sub_a.text.strip().lower()
+                            if any(x in s_href.lower() for x in BLACKLIST_DOMAINS):
+                                continue
+                            if any(x in s_testo for x in BLACKLIST_TEXT):
+                                continue
+                            if not any(x in s_testo for x in INCLUDE):
+                                continue
+                            next_url = s_href if s_href.startswith("http") else urljoin(real_url, s_href)
+                            if next_url not in visti:
+                                visti.add(next_url)
+                                queue.append({"titolo": sub_a.text.strip(), "url": next_url, "depth": depth + 1})
+                    except Exception:
+                        pass
+                continue
+
+            # Ha le keyword: vale la pena chiamare Gemini
+            logging.info(f"🤖 Analizzo con AI (Livello {depth}): {titolo_link[:40]}...")
+            time.sleep(15)  # Pausa più generosa tra le chiamate AI
             dati_ai = analizza_con_ai(testo_pdf)
 
-            if _quota_esaurita:
+            if _quota_giornaliera_esaurita:
                 logging.warning("⛔ Quota esaurita dopo analisi, interrompo.")
                 break
 
@@ -287,7 +367,7 @@ def run_unigreen_worker(memoria):
             if score < 5 or scadenza == "N.D.":
                 memoria[id_bando] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
                 if depth < 2:
-                    logging.info(f"🔄 Pagina generica, estraggo sotto-link da: {real_url}")
+                    logging.info(f"🔄 Score basso/scadenza N.D., estraggo sotto-link da: {real_url}")
                     try:
                         sub_resp = requests.get(real_url, timeout=15)
                         sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
