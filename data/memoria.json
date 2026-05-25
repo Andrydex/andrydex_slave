@@ -540,5 +540,33 @@
         "fondo": "Finanziamento agevolato",
         "voto": 9,
         "data_rilevazione": "25/05/2026"
+    },
+    "start_e90eb29491": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_0b4f296430": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_f13a1f7111": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_498ebac46d": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_627b2bfe0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_561c229e14": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_9a5612b4db": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
     }
 }
