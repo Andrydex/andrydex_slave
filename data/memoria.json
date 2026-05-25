@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
+        "data_rilevazione": "25/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -403,5 +403,142 @@
     "uni_f613b5388e": {
         "stato": "ignorato",
         "data_rilevazione": "24/05/2026"
+    },
+    "905": {
+        "stato": "inviato",
+        "titolo": "Larger Than Light (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/free-larger-than-light",
+        "scadenza": "2026-06-01 23:59:59",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_f683b56ab2": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_20e9ea49ea": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_15bbba0675": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_d93caa7373": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_52818e0c50": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_53913dac4c": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_57313a37f2": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_872e89f6bb": {
+        "stato": "nuovo",
+        "titolo": "Blue Green Economy Award 2026 - Premio speciale Startup",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/blue-green-economy-award-2026-premio-speciale-startup",
+        "tipo": "universita",
+        "scadenza": "31/05/2026",
+        "luogo": "Napoli (evento conclusivo), candidatura online",
+        "durata": "N.D.",
+        "ente": "Associazione For Human Community (network Comunicazione Italiana)",
+        "argomenti": "Valorizzazione delle buone pratiche ESG e iniziative legate alla Blue Economy, sostenibilità ambientale, sociale ed economica, benessere e sport, tutela del mare e ambiente marino, innovazione e Intelligenza Artificiale, sviluppo startup.",
+        "requisiti": "Partecipazione aperta ad aziende e organizzazioni di qualsiasi dimensione che abbiano realizzato progetti nelle categorie indicate. Nello specifico, il Premio Startup è rivolto a iniziative sviluppate da startup e realtà imprenditoriali emergenti. Non vengono specificati dipartimenti ammessi o esclusi, ma la natura del premio si allinea con il profilo di imprenditorialità dello studente.",
+        "voto": 7,
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_aa029c3b33": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_077374496f": {
+        "stato": "nuovo",
+        "titolo": "Vittoria Hub: Call for Idea 2026",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/vittoria-hub-call-idea-2026",
+        "tipo": "universita",
+        "scadenza": "31/05/2026",
+        "luogo": "Italia (programma di accelerazione, sede di Vittoria Hub non specificata)",
+        "durata": "Non specificata (percorso di accelerazione)",
+        "ente": "Vittoria Hub, supportato da EmiliaRomagnaStartUp",
+        "argomenti": "Call for Ideas per l'accelerazione di startup nel settore Insurtech e servizi, con focus centrale sull'Intelligenza Artificiale. Aree di applicazione: Reasoning & Agentic AI, Language Model specializzati e Local AI, AI Multimodale, Spaziale e Ambient Intelligence, AI per il benessere.",
+        "requisiti": "Il bando si rivolge a startup early-stage con almeno un caso d’uso validato e startup post-seed pronte per sperimentazioni applicative. Non è destinato a singoli studenti da specifici dipartimenti, ma a team o individui che presentano un'idea di business strutturata o una startup già avviata. I settori prioritari sono ICT, Meccanica e Materiali, Scienze della Vita. Il profilo dello studente (DCI, curricula imprenditorialità) è altamente affine per candidarsi come fondatore o membro chiave di una startup.",
+        "voto": 9,
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_261bd61f0c": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_d77da85d70": {
+        "stato": "nuovo",
+        "titolo": "Da 5.000 a 50.000 di contributi con NGI Open Call per internet del futuro",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/da-5000-50000-di-contributi-con-ngi-open-call-internet-del-futuro",
+        "tipo": "universita",
+        "scadenza": "01/06/2026",
+        "luogo": "Europa",
+        "durata": "N.D.",
+        "ente": "NGI Open Call / EmiliaRomagnaStartUp",
+        "argomenti": "Contributi per progetti innovativi volti a sviluppare un ecosistema digitale europeo aperto, sicuro, resiliente e orientato agli utenti. Include: NGI Zero Commons Fund (tecnologie open, software/hardware libero, infrastrutture peer-to-peer), NGI Taler (sistemi di pagamento digitale rispettosi della privacy, GNU Taler), NGI Fediversity (stack di hosting del futuro, servizi cloud sicuri, portabili, privi di tracciamento, infrastrutture digitali decentralizzate).",
+        "requisiti": "Il bando è rivolto a PMI, università, enti pubblici, organizzazioni non profit, comunità e singoli innovatori. Andrea, in quanto studente magistrale con un forte background imprenditoriale e di innovazione, e affiliato all'università, rientra nella categoria di 'singoli innovatori' o 'università' e può presentare progetti. I temi sono altamente compatibili con il suo percorso in DCI (curricula di imprenditorialità) e le sue esperienze.",
+        "voto": 8,
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_f8305bff73": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_2ce44d721e": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_e0e0970d8e": {
+        "stato": "nuovo",
+        "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/get-it-call-start-impatto-sociale-ambientale-e-culturale",
+        "tipo": "universita",
+        "scadenza": "16/06/2026",
+        "luogo": "Emilia-Romagna",
+        "durata": "6 mesi (percorso di incubazione/accelerazione)",
+        "ente": "EmiliaRomagnaStartUp",
+        "argomenti": "Start-up a impatto sociale, ambientale e culturale; Innovazione Sociale; Imprenditorialità",
+        "requisiti": "Progetti innovativi non ancora costituiti in forma di impresa o start-up già costituite. Team di almeno 2 persone fisiche maggiorenni, di cui una con età inferiore ai 35 anni. Generazione di impatto sociale, culturale o ambientale. Non sono specificati dipartimenti ammessi/esclusi, la call è rivolta a team/progetti imprenditoriali.",
+        "voto": 7,
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_be748a5d03": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "uni_f4b99a636b": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_a63bee9b6e": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_0ca6851d13": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/05/2026"
+    },
+    "start_0851d9827b": {
+        "stato": "nuovo",
+        "titolo": "Per le imprese",
+        "url": "https://www.invitalia.it/per-le-imprese",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "L'incentivo è rivolto alle imprese che favoriscono la trasformazione tecnologica e digitale dei processi produttivi. Il progetto del founder Colacicco si propone di rivoluzionare il mercato delle periferiche da gaming di alta gamma attraverso design esclusivo, innovazione tecnologica, sviluppo software gestionali intuitivi e processi produttivi avanzati per mouse da gaming e altre periferiche. Questo si allinea perfettamente con l'obiettivo dell'incentivo.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "25/05/2026"
     }
 }
