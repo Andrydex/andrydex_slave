@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "26/05/2026"
+        "data_rilevazione": "27/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -719,5 +719,186 @@
     "start_ddf5b44627": {
         "stato": "ignorato",
         "data_rilevazione": "26/05/2026"
+    },
+    "3656": {
+        "stato": "inviato",
+        "titolo": "007 First Light: Ops Radiant Outfit Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/007-first-light-ops-radiant-outfit-key-giveaway",
+        "scadenza": "2027-05-27 23:59:00",
+        "store": "PC, Playstation 5, Xbox Series X|S, Nintendo Switch",
+        "data_rilevazione": "27/05/2026"
+    },
+    "uni_e7d37c657f": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Destinato a giovani tra i 18 e i 35 anni non ancora compiuti, in condizione di inattività, inoccupazione o disoccupazione, disoccupati del Programma GOL o working poor. Le iniziative devono essere avviate nel Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia) in tutti i settori economici, ad eccezione di agricoltura, pesca e acquacoltura. Il progetto si adatta per la sede in Molise e il settore di attività.",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Le agevolazioni sono rivolte alle imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali che realizzano investimenti ad alto impatto sociale e culturale sostenibili sul piano ambientale. I piani di investimento devono essere compresi tra un minimo di 100.000 euro e un massimo di 10 milioni di euro, e possono riguardare la realizzazione di investimenti produttivi o l’incremento dell’occupazione di lavoratori con disabilità.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Economia circolare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di qualsiasi dimensione che svolgono attività industriali, agroindustriali, artigiane, di servizi all’industria e ai centri di ricerca. I progetti devono sostenere la transizione verso un modello di economia circolare e favorire la riconversione produttiva per un uso più efficiente e sostenibile delle risorse.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_a5a4ddc088": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_54189d166d": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_5e052cb2e0": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_402f40fdf3": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_55e9a0aa9e": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_0a514a8b20": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_8153b982d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_f683b56ab2": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_256f6feb24": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_9d1b88b7b0": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_260d745bf6": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_3842da73e5": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_459665c159": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_cfe290fdcd": {
+        "stato": "nuovo",
+        "titolo": "Servizi",
+        "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/servizi",
+        "tipo": "startup",
+        "scadenza": "08/06/2026",
+        "ente": "ICE / EmiliaRomagnaStartUp",
+        "requisiti": "Startup nel settore ICT (progettazione, costruzione e commercializzazione di hardware da gaming, sviluppo software) con forte enfasi su design esclusivo, innovazione tecnologica ed eco-sostenibilità, che intende partecipare a eventi internazionali per la visibilità e l'espansione europea.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_d93caa7373": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_52818e0c50": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_9e19bed67d": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/smartstart-italia-0",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Smart&Start Italia",
+        "requisiti": "Il progetto proposto si allinea perfettamente con i requisiti di Smart&Start Italia, essendo un'idea di startup innovativa con \"significativo contenuto tecnologico e innovativo\" nel settore delle periferiche da gaming di lusso e sostenibili, e mirando allo sviluppo di prodotti e soluzioni nel campo dell'economia digitale. I fondatori (Andrea Colacicco e Angelo Di Nunzio) sono persone fisiche che intendono costituire una S.r.l., una modalità di accesso consentita. L'impresa opererà sul territorio nazionale (Campobasso) e si posizionerà come piccola impresa. L'idea risponde al bisogno di prodotti performanti, estetici ed eco-sostenibili nel mercato gaming. Il piano di spesa dovrà rientrare tra 100.000 e 1,5 milioni di euro (al netto dell'IVA).",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_53913dac4c": {
+        "stato": "nuovo",
+        "titolo": "Call4Innovit 2026: tutte le scadenze dei bandi per l'accelerazione di Startup e PMI innovative a San Francisco",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/call4innovit-2026-tutte-le-scadenze-dei-bandi-laccelerazione-di-startup-e-pmi",
+        "tipo": "startup",
+        "scadenza": "21/07/2026",
+        "ente": "INNOVIT (con il supporto dell'Agenzia ICE e il Ministero degli Affari Esteri)",
+        "requisiti": "Sede Legale in Italia e iscrizione al Registro delle Imprese; Operare in uno dei settori tecnologici indicati (ICT, CleanTech/GreenTech, Meccanica e Materiali, ecc.); Padronanza della lingua inglese; Solidità e Potenziale (valutazione basata su fatturato, round di finanziamento, protezione della proprietà intellettuale, qualità del team).",
+        "fondo": "Altro (Percorso di accelerazione gratuito)",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_57313a37f2": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_543b0e26db": {
+        "stato": "nuovo",
+        "titolo": "25° ed. di Nuove Idee Nuove Imprese: 25k di montepremi",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/25deg-ed-di-nuove-idee-nuove-imprese-25k-di-montepremi",
+        "tipo": "startup",
+        "scadenza": "31/05/2026",
+        "ente": "Associazione Nuove Idee Nuove Imprese / EmiliaRomagnaStartUp",
+        "requisiti": "Aspiranti imprenditori, team o neoimprenditori che abbiano avviato un'attività da non più di 24 mesi. Possono candidarsi con un'idea di impresa, anche in fase iniziale, individualmente o in gruppo. Il bando è aperto a tutto il territorio nazionale, con un focus per le province romagnole (Forlì-Cesena, Rimini, Ravenna) e la Repubblica di San Marino.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
+    },
+    "start_a84bed6a7e": {
+        "stato": "nuovo",
+        "titolo": "Premio economico",
+        "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/premio-economico",
+        "tipo": "startup",
+        "scadenza": "31/05/2026",
+        "ente": "Blue Green Economy Award",
+        "requisiti": "Il bando è un premio speciale per Startup operanti nei settori Energia e Ambiente o in settori generali, con un focus sulla sostenibilità. La startup propone periferiche da gaming di lusso ed ecosostenibili, perfettamente in linea con i requisiti del premio.",
+        "fondo": "Premio economico",
+        "voto": 9,
+        "data_rilevazione": "27/05/2026"
     }
 }
