@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "27/05/2026"
+        "data_rilevazione": "28/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -900,5 +900,85 @@
         "fondo": "Premio economico",
         "voto": 9,
         "data_rilevazione": "27/05/2026"
+    },
+    "3660": {
+        "stato": "inviato",
+        "titolo": "Drift86 (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/drift86-steam-giveaway",
+        "scadenza": "2026-06-03 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "28/05/2026"
+    },
+    "3658": {
+        "stato": "inviato",
+        "titolo": "LONESTAR (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/lonestar-epic-games-giveaway",
+        "scadenza": "2026-06-04 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "28/05/2026"
+    },
+    "3657": {
+        "stato": "inviato",
+        "titolo": "Calico (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/calico-epic-games-giveaway",
+        "scadenza": "2026-06-04 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "28/05/2026"
+    },
+    "cs_3e2f031bff": {
+        "stato": "inviato",
+        "titolo": "LONESTAR",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=u4KWudIlzFPGxjpI4236PUjptJ4uhM5a1WFNJsBM%2FTM%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "28/05/2026"
+    },
+    "uni_0a953eeb7d": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "uni_233791cad3": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "uni_b7790bba6a": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_4ae292eac1": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_6f1c4ab62b": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero: incentivi per giovani e donne",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/nuove-imprese-tasso-zero-incentivi-giovani-e-donne",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il progetto è compatibile, purché entrambi i fondatori (Andrea Colacicco e Angelo Di Nunzio) rientrino nella fascia d'età tra i 18 e i 35 anni, condizione necessaria per soddisfare il requisito di maggioranza (almeno 51% per numero di soci e quote di capitale) richiesto dal bando per i profili maschili.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_261bd61f0c": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_f8305bff73": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
+    },
+    "start_2ce44d721e": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/05/2026"
     }
 }
