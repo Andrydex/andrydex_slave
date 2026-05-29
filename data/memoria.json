@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
+        "data_rilevazione": "29/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -980,5 +980,158 @@
     "start_2ce44d721e": {
         "stato": "ignorato",
         "data_rilevazione": "28/05/2026"
+    },
+    "3662": {
+        "stato": "inviato",
+        "titolo": "Bunny Guys! (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bunny-guys-epic-games-giveaway",
+        "scadenza": "2026-06-05 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "29/05/2026"
+    },
+    "3661": {
+        "stato": "inviato",
+        "titolo": "World of Tanks: Heat Gift Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-tanks-heat-gift-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 5, Xbox Series X|S",
+        "data_rilevazione": "29/05/2026"
+    },
+    "cs_7188f36007": {
+        "stato": "inviato",
+        "titolo": "Bunny Guys!",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=H0JmhP2gNUronfUzPJiIt72bLDSip2nZR3Q7AsMiIik%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_6ab0a714a0": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_b028b5e715": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_0a6ee3b212": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_bc87bb55cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_0b9e445f64": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_d93dd65d32": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_39e70d172f": {
+        "stato": "nuovo",
+        "titolo": "Bando Master Intelligenza Artificiale Edunext a.a. 26-27_signed.pdf",
+        "url": "https://www.unimore.it/sites/default/files/2026-05/Bando%20Master%20Intelligenza%20Artificiale%20Edunext%20a.a.%2026-27_signed.pdf",
+        "tipo": "universita",
+        "scadenza": "16/06/2026",
+        "luogo": "Reggio Emilia (Italia) - Blended (in presenza e online)",
+        "durata": "1 anno (Settembre 2026 - Settembre 2027)",
+        "ente": "Università degli Studi di Modena e Reggio Emilia (Unimore)",
+        "argomenti": "Intelligenza Artificiale, Data Science, Machine Learning, Deep Learning, MLOps, Neuroscienze, Etica e Diritto dell'IA, Strategia e Trasformazione Digitale, IA per HR, Industria, Marketing, Finanza, Customer Experience. Formazione di un Esperto di IA per l'impresa.",
+        "requisiti": "Possesso di Laurea o titolo universitario triennale (D.M. 509/99, D.M. 270/04, o ordinamenti precedenti). Il profilo di Andrea, con Laurea Triennale in Economia Aziendale (L.18), soddisfa il requisito di accesso. È ammissibile l'iscrizione contemporanea a due corsi di studio (Laurea Magistrale e Master di I livello) secondo la legge n. 33 del 12 aprile 2022. La selezione avviene per valutazione dei titoli sulla base della coerenza del titolo e del percorso formativo pregresso con gli obiettivi e i contenuti del Master.",
+        "voto": 9,
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_ed7abe1594": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_363aa26054": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_f1ec808fdd": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_9046b659d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_103082ecab": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_b5a6b60981": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "uni_db780bea2c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_aa8b8e1fee": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_15bbba0675": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_813e96ce00": {
+        "stato": "nuovo",
+        "titolo": "EIC STEP Scale Up 2026: fino a 30 milioni di euro per la crescita delle imprese deep-tech",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/eic-step-scale-2026-fino-30-milioni-di-euro-la-crescita-delle-imprese-deep-tech",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "European Innovation Council (EIC)",
+        "requisiti": "Il bando è rivolto a Startup, PMI e small mid-caps (fino a 499 dipendenti) con sede legale in uno Stato membro dell’UE o in un Paese associato a Horizon Europe. Le imprese devono avere un alto potenziale di crescita, aver superato le prime fasi di finanziamento ed essere pronte per una scalata industriale massiva. I settori prioritari includono Tecnologie digitali e Deep Tech (es. semiconduttori, AI), Tecnologie pulite (soluzioni a zero emissioni nette, sostenibilità) e Biotecnologie.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_872e89f6bb": {
+        "stato": "nuovo",
+        "titolo": "Blue Green Economy Award 2026 - Premio speciale Startup",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/blue-green-economy-award-2026-premio-speciale-startup",
+        "tipo": "startup",
+        "scadenza": "31/05/2026",
+        "ente": "Associazione For Human Community",
+        "requisiti": "Possono partecipare aziende e organizzazioni di qualsiasi dimensione che abbiano realizzato progetti nelle categorie Sostenibilità ambientale, Sostenibilità sociale o Sostenibilità economica. La startup di Andrea Colacicco rientra nella categoria 'Premio Startup' e si distingue per il focus su sostenibilità ambientale (materiali bio-sostenibili, design modulare, packaging plastic-free) e innovazione tecnologica nel settore delle periferiche da gaming di alta gamma, con un'enfasi sull'etica e la qualità della vita, perfettamente in linea con i temi del premio.",
+        "fondo": "Altro",
+        "voto": 9,
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_aa029c3b33": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_f00e5c8b55": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_99e6c9d2d6": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_bc87bb55cf": {
+        "stato": "nuovo",
+        "titolo": "Bando KAVA 14 RIS Innovation: 1 milione per startup e PMI",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-kava-14-ris-innovation-1-milione-startup-e-pmi",
+        "tipo": "startup",
+        "scadenza": "24/06/2026",
+        "ente": "EIT RawMaterials",
+        "requisiti": "Imprese emergenti (startup o PMI) o centri di ricerca che propongono soluzioni all'avanguardia per il settore delle materie prime critiche. La tecnologia deve avere un livello di maturità (TRL) compreso tra 5 e 8. I progetti devono includere attività di testing, dimostrazione o upscaling industriale. Tutte le attività devono concludersi entro dicembre 2028.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "29/05/2026"
+    },
+    "start_0b9e445f64": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/05/2026"
     }
 }
