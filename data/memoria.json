@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "29/05/2026"
+        "data_rilevazione": "30/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -911,7 +911,7 @@
         "data_rilevazione": "28/05/2026"
     },
     "3658": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "LONESTAR (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/lonestar-epic-games-giveaway",
@@ -920,7 +920,7 @@
         "data_rilevazione": "28/05/2026"
     },
     "3657": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Calico (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/calico-epic-games-giveaway",
@@ -1133,5 +1133,189 @@
     "start_0b9e445f64": {
         "stato": "ignorato",
         "data_rilevazione": "29/05/2026"
+    },
+    "start_19720f1d4b": {
+        "stato": "nuovo",
+        "titolo": "Scienze della Vita",
+        "url": "https://www.emiliaromagnastartup.it/it/categoria/settore-bando/scienze-della-vita",
+        "tipo": "startup",
+        "scadenza": "20/06/2026",
+        "ente": "Edge - Innovation Hub by De Nora (EmiliaRomagnaStartUp)",
+        "requisiti": "Startup operanti nei settori ICT, Meccanica e Materiali, Energia e Ambiente, interessate a percorsi di accelerazione e premi economici. Il progetto di startup rientra nei settori ICT (periferiche da gaming, software gestionali), Meccanica e Materiali (hardware, componenti, design modulare con materiali sostenibili) e presenta una forte componente di Energia e Ambiente (eco-sostenibilità, materiali bio-sostenibili, packaging plastic-free).",
+        "fondo": "Altro",
+        "voto": 9,
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_ab91a73704": {
+        "stato": "nuovo",
+        "titolo": "EIC Accelerator 2026: sostegno a start-up e piccole e medie imprese innovative",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/eic-accelerator-2026-sostegno-start-e-piccole-e-medie-imprese-innovative",
+        "tipo": "startup",
+        "scadenza": "04/11/2026",
+        "ente": "Commissione europea (Horizon Europe)",
+        "requisiti": "Il bando è rivolto a singole startup e piccole e medie imprese (PMI) innovative con il potenziale di creare nuovi mercati o rivoluzionare quelli esistenti (TRL 6-8) attraverso innovazioni ad alto impatto (deep tech). Sono ammissibili anche small mid-cap (fino a 500 dipendenti) per la sola componente equity. I candidati devono avere un prodotto, servizio o modello di business game changing, con ambizione di scale-up e che necessitano di finanziamenti consistenti a fronte di rischi elevati. L'azienda del progetto è una S.r.l. innovativa nel settore delle periferiche da gaming, con l'obiettivo di rivoluzionare il mercato con prodotti sostenibili e modulari, compatibile con i requisiti di innovazione, potenziale di mercato e forma giuridica.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_69d1dc60e6": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_103082ecab": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_78bd9cf960": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_988aa0dd21": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_eadeb3af0e": {
+        "stato": "nuovo",
+        "titolo": "Il Ministero dello Sviluppo Economico per le StartUp",
+        "url": "https://www.emiliaromagnastartup.it/it/pagine/il-ministero-dello-sviluppo-economico-le-startup-innovative",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Ministero dello Sviluppo Economico (MISE) e EmiliaRomagnaStartUp",
+        "requisiti": "Startup innovative ad alto valore tecnologico, come definite dal Decreto Crescita 2.0 (D.L. 179/2012). Le misure specifiche possono avere requisiti aggiuntivi (es. imprese costituite da non più di 12 mesi per Smart & Start con tutoraggio).",
+        "fondo": "Finanziamento agevolato, Credito d'imposta, Agevolazioni fiscali, Garanzia",
+        "voto": 7,
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_5e261dda26": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_ece42b6a40": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_db780bea2c": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_2bfc11a738": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_195b9aa4c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_cfbda25a02": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_a5ba490220": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_ebe0619701": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_54684c401e": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_ff5432adf0": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_e0b85f9acb": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_99a8f0649f": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_1430ba6d5d": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_dc4ab93cfe": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_8c1e974aa5": {
+        "stato": "nuovo",
+        "titolo": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
+        "tipo": "startup",
+        "scadenza": "31/01/2027",
+        "ente": "Commissione Europea (promosso da EmiliaRomagnaStartUp con ART-ER come organizzazione intermediaria per l'Emilia-Romagna)",
+        "requisiti": "Aspiranti imprenditori con un piano d'impresa concreto e avviabile, o imprenditori che hanno avviato un'attività negli ultimi 3 anni. Essere residenti permanenti in uno dei 38 paesi partecipanti. Possedere un CV e lettera di motivazione, un business plan dettagliato e un riassunto, e competenze linguistiche (preferibilmente inglese) per lo scambio internazionale. Il progetto dei founder è compatibile con questi requisiti, essendo una startup innovativa con un business plan e un team con background economico-commerciale.",
+        "fondo": "Voucher / Rimborso spese (per formazione e scambio)",
+        "voto": 9,
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_b7fc8d1b94": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_f5e8faaca0": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_1544ea43ed": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_c62277a567": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_aae92a3e1d": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_e06b589dab": {
+        "stato": "nuovo",
+        "titolo": "http://www.emiliaromagnastartup.it/bandi/rss.xml",
+        "url": "http://www.emiliaromagnastartup.it/bandi/rss.xml",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Startup innovativa (o persone fisiche che intendono costituirla) con progetto imprenditoriale ad alto contenuto tecnologico e innovativo, o nell'economia digitale, o di valorizzazione della ricerca. Localizzata su tutto il territorio nazionale, di piccola dimensione, costituita da non più di 60 mesi. Progetto di spesa tra 100 mila e 1,5 milioni di euro.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_b3f04b6be2": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_622c3c90d1": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_2e25157cc4": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_ffca4311c2": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_a8d0e87204": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_bd4d50ed04": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_dee21d7b58": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
+    },
+    "start_9e0356a981": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/05/2026"
     }
 }
