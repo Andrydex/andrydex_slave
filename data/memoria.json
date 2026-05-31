@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "30/05/2026"
+        "data_rilevazione": "31/05/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -442,7 +442,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "uni_872e89f6bb": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Blue Green Economy Award 2026 - Premio speciale Startup",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/blue-green-economy-award-2026-premio-speciale-startup",
         "tipo": "universita",
@@ -460,7 +460,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "uni_077374496f": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Vittoria Hub: Call for Idea 2026",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/vittoria-hub-call-idea-2026",
         "tipo": "universita",
@@ -878,7 +878,7 @@
         "data_rilevazione": "27/05/2026"
     },
     "start_543b0e26db": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "25° ed. di Nuove Idee Nuove Imprese: 25k di montepremi",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/25deg-ed-di-nuove-idee-nuove-imprese-25k-di-montepremi",
         "tipo": "startup",
@@ -890,7 +890,7 @@
         "data_rilevazione": "27/05/2026"
     },
     "start_a84bed6a7e": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Premio economico",
         "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/premio-economico",
         "tipo": "startup",
@@ -1095,7 +1095,7 @@
         "data_rilevazione": "29/05/2026"
     },
     "start_872e89f6bb": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Blue Green Economy Award 2026 - Premio speciale Startup",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/blue-green-economy-award-2026-premio-speciale-startup",
         "tipo": "startup",
@@ -1317,5 +1317,123 @@
     "start_9e0356a981": {
         "stato": "ignorato",
         "data_rilevazione": "30/05/2026"
+    },
+    "3664": {
+        "stato": "inviato",
+        "titolo": "Moonrise Fall (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/moonrise-fall-steam-giveaway",
+        "scadenza": "2026-06-02 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "31/05/2026"
+    },
+    "3663": {
+        "stato": "inviato",
+        "titolo": "IQ Under Construction (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/iq-under-construction-steam-giveaway",
+        "scadenza": "2026-06-01 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "31/05/2026"
+    },
+    "uni_ff9b5556ea": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "uni_f00db96cfc": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "uni_5bbadc683b": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_f613b5388e": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_d243479a0b": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_fafae55183": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_7768fbb72a": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_0c5f31eb85": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_a30fa5e5af": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_cb6d628509": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_3c27168737": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_e7bdd8a071": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_56fefc65e3": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_8f0a4b0a19": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_9b8ed4c129": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_b94baf3ef1": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_74d54ddcd0": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_e0fcda2b74": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_3c71ebda7c": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_220569f9d7": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_e787f3efe2": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_2179f0408f": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_7226be02ec": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_2b5181bdd1": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
+    },
+    "start_fd1e429cbe": {
+        "stato": "ignorato",
+        "data_rilevazione": "31/05/2026"
     }
 }
