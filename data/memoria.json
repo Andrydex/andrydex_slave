@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
+        "data_rilevazione": "01/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -478,7 +478,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "uni_d77da85d70": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Da 5.000 a 50.000 di contributi con NGI Open Call per internet del futuro",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/da-5000-50000-di-contributi-con-ngi-open-call-internet-del-futuro",
         "tipo": "universita",
@@ -982,7 +982,7 @@
         "data_rilevazione": "28/05/2026"
     },
     "3662": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Bunny Guys! (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/bunny-guys-epic-games-giveaway",
@@ -1435,5 +1435,82 @@
     "start_fd1e429cbe": {
         "stato": "ignorato",
         "data_rilevazione": "31/05/2026"
+    },
+    "3665": {
+        "stato": "inviato",
+        "titolo": "Gravity Circuit (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/gravity-circuit-steam-giveaway",
+        "scadenza": "2026-06-14 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_d24a50e3f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_6f222d3f78": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_0c090bdcd9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_7028326956": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_bf1e687de0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_1d2e9a8ba9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "uni_1848160ea0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_d24a50e3f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_6ec034da58": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_76a7d488dc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_c0cad9b2b7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_1d2e9a8ba9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_d0567a2c6e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_f0c6a56449": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_cc73f1d23a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_9046b659d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
+    },
+    "start_b5a6b60981": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/06/2026"
     }
 }
