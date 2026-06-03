@@ -127,7 +127,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "02/06/2026"
+        "data_rilevazione": "03/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -1514,7 +1514,7 @@
         "data_rilevazione": "01/06/2026"
     },
     "3666": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Winexy (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/winexy-steam-giveaway",
@@ -1523,7 +1523,7 @@
         "data_rilevazione": "02/06/2026"
     },
     "2386": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Tell Me Why (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/tell-me-why-steam-giveaway",
@@ -1532,7 +1532,7 @@
         "data_rilevazione": "02/06/2026"
     },
     "cs_6287443533": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Gravity Circuit",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=zmS4o0E%2FnDQY25xSFhqB6rQlds0CHQZre0%2BaYLkhU4A%3D",
@@ -1543,5 +1543,33 @@
     "uni_5ff6ed7575": {
         "stato": "ignorato",
         "data_rilevazione": "02/06/2026"
+    },
+    "uni_ad4480a9a2": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/06/2026"
+    },
+    "uni_32ecb8b193": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/06/2026"
+    },
+    "uni_2f1dd95b30": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/06/2026"
+    },
+    "uni_f9172d64a7": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/06/2026"
+    },
+    "start_395a0ff10c": {
+        "stato": "nuovo",
+        "titolo": "Al via EIC Pathfinder 2026: sostegno alle imprese con tecnologie disruptive",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/al-eic-pathfinder-2026-sostegno-alle-imprese-con-tecnologie-disruptive",
+        "tipo": "startup",
+        "scadenza": "28/10/2026",
+        "ente": "Commissione Europea (EIC Pathfinder, Horizon Europe)",
+        "requisiti": "L'EIC Pathfinder finanzia team multidisciplinari (normalmente consorzi di almeno tre entità legali indipendenti da tre diversi Stati membri UE o Paesi associati a Horizon Europe, di cui almeno uno Stato membro; per la modalità Challenges, ammesse candidature di singoli soggetti giuridici o piccoli consorzi in casi specifici) impegnati nello sviluppo di basi scientifiche per tecnologie radicalmente nuove e potenzialmente in grado di creare mercati inediti o rivoluzionare quelli esistenti (TRL 1-4). Le entità ammissibili includono università, centri di ricerca, PMI, startup e grandi imprese. Il proponente è una startup S.r.l. italiana che sviluppa periferiche gaming innovative e sostenibili, tema in linea con l'obiettivo del bando. Dovrebbe formare un consorzio o candidarsi per una 'Challenge' che ammetta singoli soggetti.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "03/06/2026"
     }
 }
