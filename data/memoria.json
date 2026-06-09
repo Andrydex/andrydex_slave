@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "08/06/2026"
+        "data_rilevazione": "09/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -1568,7 +1568,7 @@
         "data_rilevazione": "03/06/2026"
     },
     "3668": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Songs of Conquest (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/songs-of-conquest-epic-games-giveaway",
@@ -1577,7 +1577,7 @@
         "data_rilevazione": "04/06/2026"
     },
     "3667": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Rogue Waters (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/rogue-waters-epic-games-giveaway",
@@ -1586,7 +1586,7 @@
         "data_rilevazione": "04/06/2026"
     },
     "cs_5e38f62403": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Rogue Waters",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=ClaWCBpdtno5iYF3RyVR3%2BVXy71YWsZyoTRBxTQIwu8%3D",
@@ -1912,7 +1912,7 @@
         "data_rilevazione": "08/06/2026"
     },
     "3673": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Relaxing Simulator (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/relaxing-simulator-epic-games-giveaway",
@@ -1930,12 +1930,105 @@
         "data_rilevazione": "08/06/2026"
     },
     "cs_43a663e3e4": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Relaxing Simulator",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=FPrvJs%2BAnKwfFgz7aB%2FRorWr0nNTI2vS4Za01RD3tRE%3D",
         "store": "Fanatical",
         "scadenza": "N.D.",
         "data_rilevazione": "08/06/2026"
+    },
+    "3676": {
+        "stato": "inviato",
+        "titolo": "Dire Echo (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dire-echo-itchio-giveaway",
+        "scadenza": "2026-06-11 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "09/06/2026"
+    },
+    "3279": {
+        "stato": "inviato",
+        "titolo": "Blacklist Mafia (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/blacklist-mafia-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "09/06/2026"
+    },
+    "3675": {
+        "stato": "inviato",
+        "titolo": "Neverwinter: Cape of the Noble North Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/neverwinter-cape-of-the-noble-north-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_c754e5cac6": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_8b09b5f2e2": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_ec47434bd7": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_dc1917e931": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_dfbcf33f99": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_17950286d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_10485c9e4c": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_bc4767b547": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_aa255e46a8": {
+        "stato": "nuovo",
+        "titolo": "PLAI – Call4Startups 2026",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/plai-call4startups-2026",
+        "tipo": "universita",
+        "scadenza": "31/12/2026",
+        "luogo": "Emilia-Romagna, Italia",
+        "durata": "Variabile (percorso di accelerazione)",
+        "ente": "PLAI – Acceleratore del Gruppo Mondadori (attraverso EmiliaRomagnaStartUp)",
+        "argomenti": "Sviluppo startup AI-driven; Aree di interesse: Education, Retail, New Media & Advertising, Publishing, Corporate Core Functions (ottimizzazione pianificazione & controllo, amministrazione, procurement, legale).",
+        "requisiti": "Bando rivolto a startup AI-driven ad alto potenziale interessate a sviluppare collaborazioni industriali con il Gruppo Mondadori. Richiede un'idea progettuale matura o una startup già costituita. Non elenca dipartimenti esclusi, ma si concentra su progetti di startup. Le aree di interesse 'Corporate Core Functions' sono pienamente allineate con il corso DCI (Direzione e Consulenza d'Impresa) e le aree di focus imprenditoriali del candidato.",
+        "voto": 7,
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_d163705811": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_b8169ce3f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_38ab5062fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "uni_86d4c54086": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
+    },
+    "start_aa255e46a8": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/06/2026"
     }
 }
