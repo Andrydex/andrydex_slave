@@ -2030,5 +2030,94 @@
     "start_aa255e46a8": {
         "stato": "ignorato",
         "data_rilevazione": "09/06/2026"
+    },
+    "3477": {
+        "stato": "inviato",
+        "titolo": "CALLUS (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/callus-itch-io-giveaway",
+        "scadenza": "2026-06-11 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_019a108bf8": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_2fac836f0a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_40ecde9702": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_e4a4ffc83b": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_18f7d96d4d": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_a39ecd9209": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_6890193eaa": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_72d333c6b3": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_a587de7c51": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_42a6b4662e": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_d111441c23": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_7d6b4ed69e": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_955fc04124": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_4301a0421a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_6a006bb462": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "uni_2bfc11a738": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "start_031db6bd10": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/06/2026"
+    },
+    "start_b119b62a4c": {
+        "stato": "nuovo",
+        "titolo": "Servizio LinkUp: matchmaking qualificato IFAB per startup",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/servizio-linkup-matchmaking-qualificato-ifab-startup",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Fondazione IFAB",
+        "requisiti": "Startup innovative che operano con nuove tecnologie, senza vincoli di TRL minimo, interessate a matchmaking qualificato con attori del panorama finanziario e produttivo per favorire la scalabilità industriale, la validazione commerciale, lo sviluppo tecnologico o la ricerca di capitali di rischio.",
+        "fondo": "Altro",
+        "voto": 8,
+        "data_rilevazione": "10/06/2026"
     }
 }
