@@ -1939,13 +1939,8 @@
         "data_rilevazione": "08/06/2026"
     },
     "3676": {
-        "stato": "inviato",
-        "titolo": "Dire Echo (itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/dire-echo-itchio-giveaway",
-        "scadenza": "2026-06-11 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "09/06/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
     },
     "3279": {
         "stato": "inviato",
@@ -2312,5 +2307,86 @@
         "fondo": "Fondo perduto",
         "voto": 7,
         "data_rilevazione": "11/06/2026"
+    },
+    "3410": {
+        "stato": "inviato",
+        "titolo": "Wild Terra 2: New Lands (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/wild-terra-2-new-lands-steam-giveaway",
+        "scadenza": "2026-06-15 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "12/06/2026"
+    },
+    "uni_35c314cfe9": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "uni_7837a93480": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "uni_e0a600fb8e": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_8e0683b9a5": {
+        "stato": "nuovo",
+        "titolo": "Bando KAVA 14 RIS Innovation: 1 milione di euro per startup e PMI",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-kava-14-ris-innovation-1-milione-di-euro-startup-e-pmi",
+        "tipo": "startup",
+        "scadenza": "24/06/2026",
+        "ente": "EIT RawMaterials",
+        "requisiti": "Il bando finanzia startup, PMI, enti di ricerca e partner industriali che sviluppano tecnologie all'avanguardia dedicate alle materie prime critiche e alle rispettive catene del valore. Le tecnologie devono avere un livello di maturità minimo di TRL 5 e puntare a raggiungere TRL 8, con commercializzazione entro due anni. Il profilo del founder, Andrea Colacicco, è fortemente orientato all'imprenditorialità, con un progetto di startup hardware per periferiche gaming 'green' ('OK') e una vasta esperienza in innovazione, R&D, project management e prototipazione (Figma, Adobe). Non è specificato se il progetto 'OK' si concentra sulle materie prime critiche, né il suo attuale TRL, ma la direzione generale e le competenze del founder sono ben allineate con l'ambito tecnologico e innovativo del bando. La sua formazione in 'competenze digitali per la sostenibilità' rafforza ulteriormente la pertinenza con i temi 'green'.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_a587de7c51": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_3c95a4745b": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_f5a0be9143": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_ca13469cca": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_db8637e3cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_df40aa3346": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_de9e0fb8ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_25b2bf9516": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_6721c42099": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_919e772068": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_5be26538af": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
+    },
+    "start_3a797bbe9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/06/2026"
     }
 }
