@@ -1940,7 +1940,7 @@
     },
     "3676": {
         "stato": "ignorato",
-        "data_rilevazione": "12/06/2026"
+        "data_rilevazione": "13/06/2026"
     },
     "3279": {
         "stato": "inviato",
@@ -2388,5 +2388,14 @@
     "start_3a797bbe9a": {
         "stato": "ignorato",
         "data_rilevazione": "12/06/2026"
+    },
+    "3685": {
+        "stato": "inviato",
+        "titolo": "Lootbane Playtest (Steam) Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/lootbane-playtest-steam-key-giveaway",
+        "scadenza": "2026-06-19 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "13/06/2026"
     }
 }
