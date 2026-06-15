@@ -32,7 +32,8 @@ def run_cheapshark_worker(memoria):
 
             bottoni = [
                 [{"text": "🚀 RISCATTA ORA", "url": link}],
-                [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"}]
+                [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"},
+                 {"text": "❌ Ignora", "callback_data": f"ignora:{id_item}"}]
             ]
 
             if id_item not in memoria:
