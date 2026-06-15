@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "09/06/2026"
+        "data_rilevazione": "15/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -2134,7 +2134,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3681": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Warhammer 40,000: Speed Freeks (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/warhammer-40-000-speed-freeks-epic-games-giveaway",
@@ -2197,7 +2197,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "cs_49cd4b61c1": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Warhammer 40K Speed Freeks",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=lp1v5hJMJYuFMPI16Ttyd7Uj%2BISuY2asHQwBvDAsG8A%3D",
@@ -2507,6 +2507,14 @@
         "data_rilevazione": "15/06/2026"
     },
     "uni_4c41796e79": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/06/2026"
+    },
+    "start_379ec9ff0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/06/2026"
+    },
+    "start_c668be76ea": {
         "stato": "ignorato",
         "data_rilevazione": "15/06/2026"
     }
