@@ -3,6 +3,14 @@ from datetime import datetime
 from telegram_sender import invia_telegram
 from health_check import update_health
 
+def titolo_gia_in_memoria(titolo, memoria):
+    titolo_norm = titolo.strip().lower()
+    return any(
+        v.get('titolo', '').strip().lower() == titolo_norm
+        for v in memoria.values()
+        if isinstance(v, dict) and v.get('tipo') in ('gioco', 'dlc', 'cheapshark')
+    )
+
 def is_scaduto_game(end_date_str):
     if not end_date_str or end_date_str in ("N/A", "N.D."):
         return False
@@ -51,21 +59,27 @@ def run_gaming_worker(memoria):
                         }
                     continue
 
-            # GIOCHI NORMALI
+           # GIOCHI NORMALI
+            def titolo_gia_in_memoria(titolo, memoria):
+                titolo_norm = titolo.strip().lower()
+                return any(
+                    v.get('titolo', '').strip().lower() == titolo_norm
+                    for v in memoria.values()
+                    if isinstance(v, dict) and v.get('tipo') in ('gioco', 'dlc', 'cheapshark')
+                )
+
             bottoni = [
                 [{"text": "🚀 RISCATTA ORA", "url": link}],
                 [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"},
                  {"text": "❌ Ignora", "callback_data": f"ignora:{id_item}"}]
             ]
             if id_item not in memoria:
-                bottoni_reminder = [
-                    [{"text": "🚀 RISCATTA ORA", "url": link}],
-                    [{"text": "✅ Segna come preso", "callback_data": f"preso:{id_item}"},
-                     {"text": "❌ Ignora", "callback_data": f"ignora:{id_item}"}]
-                ]
-                invia_telegram(f"⏳ *REMINDER*\nNon hai ancora preso: {titolo}\n🏪 Store: `{piattaforma}`", bottoni_reminder)
+                if titolo_gia_in_memoria(titolo, memoria):
+                    memoria[id_item] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                    continue
+                invia_telegram(f"🎮 *NUOVO GIOCO*\n\n{titolo}\n🏪 Store: `{piattaforma}`\n⏳ Scadenza: `{scadenza}`", bottoni)
                 memoria[id_item] = {
-                    "stato": "inviato", "titolo": titolo, "tipo": "gioco", "url": link, 
+                    "stato": "inviato", "titolo": titolo, "tipo": "gioco", "url": link,
                     "scadenza": scadenza, "store": piattaforma,
                     "data_rilevazione": datetime.now().strftime("%d/%m/%Y")
                 }
