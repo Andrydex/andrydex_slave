@@ -1952,7 +1952,7 @@
         "data_rilevazione": "09/06/2026"
     },
     "3675": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Neverwinter: Cape of the Noble North Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/neverwinter-cape-of-the-noble-north-key-giveaway",
@@ -2116,7 +2116,7 @@
         "data_rilevazione": "10/06/2026"
     },
     "3684": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Eets (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/eets-steam-giveaway",
@@ -2125,7 +2125,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3682": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "The Red Lantern (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/the-red-lantern-steam-giveaway",
@@ -2143,7 +2143,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3680": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "The Ouroboros King (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/the-ouroboros-king-epic-games-giveaway",
@@ -2152,7 +2152,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3679": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Happy's Humble Burger Farm (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/happy-s-humble-burger-farm-steam-giveaway",
@@ -2309,7 +2309,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3410": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Wild Terra 2: New Lands (Steam) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/wild-terra-2-new-lands-steam-giveaway",
@@ -2390,7 +2390,7 @@
         "data_rilevazione": "12/06/2026"
     },
     "3685": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Lootbane Playtest (Steam) Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/lootbane-playtest-steam-key-giveaway",
