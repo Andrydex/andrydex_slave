@@ -18,6 +18,8 @@ def run_gaming_worker(memoria):
         lista_items = requests.get("https://www.gamerpower.com/api/giveaways?platform=pc&sort-by=date", timeout=10).json()
 
         for item in lista_items[:15]:
+            if item.get('status', '').lower() != 'active':
+                continue
             id_item, titolo, link = str(item['id']), item['title'], item['open_giveaway_url']
             tipo = item.get('type', 'Game')
             piattaforma = item.get('platforms', 'PC/Store Vari')
