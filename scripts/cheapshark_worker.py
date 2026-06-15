@@ -5,6 +5,14 @@ from telegram_sender import invia_telegram
 from health_check import update_health
 
 # 🔥 DIZIONARIO TRADUTTORE DEGLI STORE UFFICIALI
+def titolo_gia_in_memoria(titolo, memoria):
+    titolo_norm = titolo.strip().lower()
+    return any(
+        v.get('titolo', '').strip().lower() == titolo_norm
+        for v in memoria.values()
+        if isinstance(v, dict) and v.get('tipo') in ('gioco', 'dlc', 'cheapshark')
+    )
+
 STORES = {
     "1": "Steam", "2": "GamersGate", "3": "GreenManGaming", "4": "Amazon",
     "7": "GOG", "8": "EA App", "11": "Humble Store", "24": "Epic Games", "25": "Fanatical"
@@ -37,6 +45,9 @@ def run_cheapshark_worker(memoria):
             ]
 
             if id_item not in memoria:
+                if titolo_gia_in_memoria(titolo, memoria):
+                    memoria[id_item] = {"stato": "ignorato", "data_rilevazione": datetime.now().strftime("%d/%m/%Y")}
+                    continue
                 invia_telegram(f"🦈 *SUPER DEAL (100% SCONTO)*\n\n{titolo}\n🏪 Store: `{store_name}`", bottoni)
                 memoria[id_item] = {
                     "stato": "inviato", 
