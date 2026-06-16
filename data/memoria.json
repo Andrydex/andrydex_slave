@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "15/06/2026"
+        "data_rilevazione": "16/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -495,7 +495,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "uni_e0e0970d8e": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/get-it-call-start-impatto-sociale-ambientale-e-culturale",
         "tipo": "universita",
@@ -1028,7 +1028,7 @@
         "data_rilevazione": "29/05/2026"
     },
     "uni_39e70d172f": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando Master Intelligenza Artificiale Edunext a.a. 26-27_signed.pdf",
         "url": "https://www.unimore.it/sites/default/files/2026-05/Bando%20Master%20Intelligenza%20Artificiale%20Edunext%20a.a.%2026-27_signed.pdf",
         "tipo": "universita",
@@ -2411,7 +2411,7 @@
         "data_rilevazione": "14/06/2026"
     },
     "uni_a3bb47399b": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/get-it-call-start-impatto-sociale-ambientale-e-culturale",
         "tipo": "universita",
@@ -2517,5 +2517,102 @@
     "start_c668be76ea": {
         "stato": "ignorato",
         "data_rilevazione": "15/06/2026"
+    },
+    "3686": {
+        "stato": "inviato",
+        "titolo": "Mongil: Star Dive Gift Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/mongil-star-dive-gift-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Android, iOS",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_064bfd72c0": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_e26ceeb2e6": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_433d3773c5": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_40fa630161": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_8d9ff73208": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "uni_d39e60f387": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_ebdfb09139": {
+        "stato": "nuovo",
+        "titolo": "Al via EIC Pathfinder 2026: sostegno alle imprese con tecnologie disruptive",
+        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/al-eic-pathfinder-2026-sostegno-alle-imprese-con-tecnologie-disruptive",
+        "tipo": "startup",
+        "scadenza": "28/10/2026",
+        "ente": "EIC Pathfinder (Horizon Europe)",
+        "requisiti": "Il bando EIC Pathfinder sostiene team multidisciplinari nello sviluppo di basi scientifiche per tecnologie radicalmente nuove (dal TRL 1 al TRL 3-4), con l'obiettivo di trasformare visioni scientifiche ambiziose in prove di concetto. La modalità Open è aperta a qualsiasi campo; la modalità Challenges finanzia progetti su sfide strategiche UE (es. salute, AI, sostenibilità). Generalmente, richiede consorzi di almeno tre entità legali indipendenti da tre diversi Stati membri UE o Paesi associati a Horizon Europe. In casi specifici, per la modalità Challenges, sono ammesse anche candidature di singoli soggetti giuridici o piccoli consorzi (due partner). Il profilo del founder, Andrea Colacicco, con la sua esperienza in sviluppo startup e l'idea di periferiche green da gaming, è in linea con la natura 'disruptive' e 'green tech' richiesta, anche se dovrà formare un consorzio o candidarsi per una Challenges che accetti singoli applicant.",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_1935e762bb": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_26c0d3d227": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_033d6c09d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_7cb74de83d": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_cf7d36df16": {
+        "stato": "nuovo",
+        "titolo": "Notizie del Presidente\n16 Giugno 2026\nBando Sport 2026/2027 della Regione Molise, domande fino al 29 giugno 2026\nProrogati i termini del Bando Sport 2026/2027 della Regione Molise. L'Avviso pubblico, che mette a disposizione 600 mila euro per il finanziamento di eventi e manifestazioni sportive da realizzarsi sul territorio regionale entro il 31 maggio 2027, prevede ora la possibilità di presentare le domande fino al 29 giugno 2026.",
+        "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22265",
+        "tipo": "startup",
+        "scadenza": "29/06/2026",
+        "ente": "Regione Molise",
+        "requisiti": "Il bando è rivolto ad associazioni e società sportive, enti di promozione, federazioni e comitati organizzatori. I progetti devono riguardare eventi e manifestazioni sportive da realizzarsi sul territorio regionale entro il 31 maggio 2027, e devono generare valore per il territorio, promuovere la partecipazione, incentivare il turismo sportivo e favorire l'inclusione delle categorie più fragili.",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_e1161bfd0a": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_6ecd7634b1": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_06576ae5e2": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_d21aa7aaae": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_346fca6ec9": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
+    },
+    "start_d20e2c1928": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/06/2026"
     }
 }
