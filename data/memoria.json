@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "16/06/2026"
+        "data_rilevazione": "17/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "inviato",
@@ -2614,5 +2614,93 @@
     "start_d20e2c1928": {
         "stato": "ignorato",
         "data_rilevazione": "16/06/2026"
+    },
+    "uni_8aaaa8e092": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_19424699bd": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_e937508617": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_7d084d481b": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_749404218f": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_e7c1a476ac": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_fdcf60a053": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_cd108a14ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_e45ff749a4": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_d7da2ef954": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_eb1d5dd383": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_7af5524ae7": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "uni_7339632003": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/06/2026"
+    },
+    "start_e7c1a476ac": {
+        "stato": "nuovo",
+        "titolo": "Premio Innovazione Sociale 2026: fondi per startup a vocazione sociale",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/premio-innovazione-sociale-2026-fondi-startup-vocazione-sociale",
+        "tipo": "startup",
+        "scadenza": "30/06/2026",
+        "ente": "Fondazione CDP",
+        "requisiti": "Startup Innovative a Vocazione Sociale (SIAVS) o Enti del Terzo Settore iscritti al RUNTS; Operano sul territorio nazionale; Progetti già validati sul campo con elevato impatto sociale e modello economico sostenibile; Soluzioni rivolte a soggetti vulnerabili (come persone con disabilità, giovani NEET, migranti, persone senza dimora, vittime di violenza o detenuti) e che favoriscano l'inclusione, sfruttando strumenti all'avanguardia (es. nuove tecnologie, Intelligenza Artificiale, imprenditorialità sociale, modelli di residenzialità e vita di comunità).",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "17/06/2026"
+    },
+    "start_fdcf60a053": {
+        "stato": "nuovo",
+        "titolo": "Bando regionale per lo sviluppo di video giochi",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-regionale-lo-sviluppo-di-video-giochi",
+        "tipo": "startup",
+        "scadenza": "03/09/2026",
+        "ente": "Regione Emilia-Romagna",
+        "requisiti": "Imprese (qualsiasi forma giuridica) iscritte nel Registro delle Imprese della Camera di Commercio competente per territorio in Emilia-Romagna, operanti nel settore dei videogiochi. I progetti devono riguardare lo sviluppo di prototipi di prodotti videoludici B2C, dalle fasi di ideazione (pre-concept) alla realizzazione di una vertical slice, finalizzati alla presentazione a potenziali editori, investitori, incubatori, acceleratori e/o partner industriali.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "17/06/2026"
+    },
+    "start_cd108a14ae": {
+        "stato": "nuovo",
+        "titolo": "Bando SPIN: Rise 2026 | Programma di pre-incubazione per scienziati deep-tech",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-spin-rise-2026-programma-di-pre-incubazione-scienziati-deep-tech",
+        "tipo": "startup",
+        "scadenza": "05/09/2026",
+        "ente": "EmiliaRomagnaStartUp / Rete 28DIGITAL",
+        "requisiti": "Il programma è rivolto a ricercatori e scienziati attivi nelle tecnologie di frontiera (deep tech), con particolare attenzione a dottorandi (PhD) e post-doc. I candidati devono essere formalmente affiliati a un'università o a un ente di ricerca con sede nell'Unione Europea o nei paesi associati al programma Horizon Europe. Le domande possono essere presentate singolarmente o in team. Il bando copre i settori: Energia e Ambiente, ICT, Meccanica e Materiali, Scienze della Vita (e specifici percorsi in Climate Innovation, Aerospace & Robotics, Health, Dual-Use Technologies). Andrea Colacicco, come studente magistrale in Direzione e consulenza d'impresa e ideatore di una startup di periferiche 'green' da gaming, potrebbe rientrare come innovatore 'all'inizio della carriera' se il suo progetto presenta un'effettiva componente deep-tech, ma il suo profilo non è quello di uno scienziato o dottorando/post-doc, rendendo l'aderenza ai requisiti specifica non ottimale.",
+        "fondo": "Altro (Programma di pre-incubazione e accelerazione)",
+        "voto": 6,
+        "data_rilevazione": "17/06/2026"
     }
 }
