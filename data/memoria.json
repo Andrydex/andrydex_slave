@@ -9,7 +9,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "3287": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Mr.Brocco And Co (IndieGala) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
@@ -122,10 +122,10 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "17/06/2026"
+        "data_rilevazione": "18/06/2026"
     },
     "cs_26f6759a1b": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "RAVEN2 Half anniversary Starter Pack",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=x8bu%2Bj%2BU0BedyBq04YtFGW%2BtW7TOdNYGp628gWMVceE%3D",
@@ -143,7 +143,7 @@
         "data_rilevazione": "23/05/2026"
     },
     "cs_4fef22c005": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Divers Mega Pack",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=pHg6l1sttBXWf1wtzuMlKW3jn2JrhpdJjtjPcPXaPj8%3D",
@@ -565,7 +565,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "3272": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "The Brave Little Cloud (IndieGala) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/the-brave-little-cloud-pc-giveaway",
@@ -574,7 +574,7 @@
         "data_rilevazione": "26/05/2026"
     },
     "3624": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Without a Hitch UFO Hat Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/without-a-hitch-ufo-hat-key-giveaway",
@@ -986,7 +986,7 @@
         "data_rilevazione": "29/05/2026"
     },
     "3661": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "World of Tanks: Heat Gift Pack Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/world-of-tanks-heat-gift-pack-key-giveaway",
@@ -1943,7 +1943,7 @@
         "data_rilevazione": "13/06/2026"
     },
     "3279": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Blacklist Mafia (IndieGala) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/blacklist-mafia-pc-giveaway",
@@ -2206,7 +2206,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "cs_5c06ed2982": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "The Ouroboros King",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=ovLg5s6ngsoyUJKVRaWbIt75C%2FeEo1qkBW%2F6Hp7BpXo%3D",
@@ -2702,5 +2702,61 @@
         "fondo": "Altro (Programma di pre-incubazione e accelerazione)",
         "voto": 6,
         "data_rilevazione": "17/06/2026"
+    },
+    "3688": {
+        "stato": "inviato",
+        "titolo": "ROBOBEAT (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/robobeat-epic-games-giveaway",
+        "scadenza": "2026-06-25 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "18/06/2026"
+    },
+    "3687": {
+        "stato": "inviato",
+        "titolo": "Citizen Sleeper (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/citizen-sleeper-epic-games-giveaway",
+        "scadenza": "2026-06-25 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "18/06/2026"
+    },
+    "cs_ae8813b5b3": {
+        "stato": "inviato",
+        "titolo": "ROBOBEAT",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=ubYxq7m8WA63fHxcDy2f8jRwhoLs8U8k3ZvHuiWcNb4%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "18/06/2026"
+    },
+    "cs_61705a86a9": {
+        "stato": "inviato",
+        "titolo": "Citizen Sleeper",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=KltukaH5Vb1cIzHnNNvBR1E0ZDEi9vo7p50P5Z%2Bt5h8%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "18/06/2026"
+    },
+    "uni_0686124274": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/06/2026"
+    },
+    "uni_6ec5ce9774": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/06/2026"
+    },
+    "uni_3b4fcd4126": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/06/2026"
+    },
+    "uni_88d23b724d": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/06/2026"
+    },
+    "start_7045cbe8b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/06/2026"
     }
 }
