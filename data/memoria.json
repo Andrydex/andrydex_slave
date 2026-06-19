@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
+        "data_rilevazione": "19/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "ignorato",
@@ -1761,7 +1761,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "07/06/2026"
+        "data_rilevazione": "19/06/2026"
     },
     "1920": {
         "stato": "inviato",
@@ -2179,7 +2179,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "3548": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Static Voice (Itch.io) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/static-voice-itch-io-giveaway",
@@ -2235,7 +2235,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "uni_8817ebfb07": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
         "tipo": "universita",
@@ -2449,7 +2449,7 @@
         "data_rilevazione": "14/06/2026"
     },
     "uni_27450c565d": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Coopstartup Changemakers 2026",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/coopstartup-changemakers-2026",
         "tipo": "universita",
@@ -2519,7 +2519,7 @@
         "data_rilevazione": "15/06/2026"
     },
     "3686": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Mongil: Star Dive Gift Pack Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/mongil-star-dive-gift-pack-key-giveaway",
@@ -2722,7 +2722,7 @@
         "data_rilevazione": "18/06/2026"
     },
     "cs_ae8813b5b3": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "ROBOBEAT",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=ubYxq7m8WA63fHxcDy2f8jRwhoLs8U8k3ZvHuiWcNb4%3D",
@@ -2731,7 +2731,7 @@
         "data_rilevazione": "18/06/2026"
     },
     "cs_61705a86a9": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Citizen Sleeper",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=KltukaH5Vb1cIzHnNNvBR1E0ZDEi9vo7p50P5Z%2Bt5h8%3D",
@@ -2758,5 +2758,37 @@
     "start_7045cbe8b2": {
         "stato": "ignorato",
         "data_rilevazione": "18/06/2026"
+    },
+    "uni_9bd6865097": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_ba34b0deff": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_940821503f": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_d30a7e1d9b": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_54760cee1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_190be55ce1": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_ea583cee02": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
+    },
+    "uni_9289f0f1c7": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/06/2026"
     }
 }
