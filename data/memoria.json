@@ -122,7 +122,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
+        "data_rilevazione": "20/06/2026"
     },
     "cs_26f6759a1b": {
         "stato": "ignorato",
@@ -1130,7 +1130,7 @@
         "data_rilevazione": "29/05/2026"
     },
     "start_19720f1d4b": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Scienze della Vita",
         "url": "https://www.emiliaromagnastartup.it/it/categoria/settore-bando/scienze-della-vita",
         "tipo": "startup",
@@ -1660,7 +1660,7 @@
         "data_rilevazione": "04/06/2026"
     },
     "start_aef23f983c": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Servizi",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/servizi",
         "tipo": "startup",
@@ -1672,7 +1672,7 @@
         "data_rilevazione": "04/06/2026"
     },
     "start_8ef746dcfc": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Scienze della Vita",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/settore-bando/scienze-della-vita",
         "tipo": "startup",
@@ -1761,10 +1761,10 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
+        "data_rilevazione": "20/06/2026"
     },
     "1920": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "Genshin Impact: New Primogems Codes",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/genshin-impact-new-primogems-codes",
@@ -2704,7 +2704,7 @@
         "data_rilevazione": "17/06/2026"
     },
     "3688": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "ROBOBEAT (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/robobeat-epic-games-giveaway",
@@ -2713,7 +2713,7 @@
         "data_rilevazione": "18/06/2026"
     },
     "3687": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Citizen Sleeper (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/citizen-sleeper-epic-games-giveaway",
@@ -2790,5 +2790,23 @@
     "uni_9289f0f1c7": {
         "stato": "ignorato",
         "data_rilevazione": "19/06/2026"
+    },
+    "3690": {
+        "stato": "inviato",
+        "titolo": "The Green Light (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
+        "scadenza": "2026-07-02 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "20/06/2026"
+    },
+    "3100": {
+        "stato": "inviato",
+        "titolo": "The Black Within (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
+        "scadenza": "2026-07-02 23:59:59",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "20/06/2026"
     }
 }
