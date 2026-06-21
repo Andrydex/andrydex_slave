@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-06-20T16:16:10.336155"
+    "last_check": "2026-06-21T16:43:45.323467"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,14 +9,14 @@
   },
   "cheapshark_worker": {
     "status": "ok",
-    "last_check": "2026-06-20T16:16:10.453812"
+    "last_check": "2026-06-21T16:43:45.521170"
   },
   "unigreen_worker": {
     "status": "ok",
-    "last_check": "2026-06-20T16:16:26.880186"
+    "last_check": "2026-06-21T16:44:03.359109"
   },
   "startup_worker": {
     "status": "ok",
-    "last_check": "2026-06-20T16:16:50.974304"
+    "last_check": "2026-06-21T16:44:29.514524"
   }
 }
