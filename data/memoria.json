@@ -1,271 +1,11 @@
 {
-    "3655": {
-        "stato": "inviato",
-        "titolo": "Svoboda 1945: Liberation (itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/svoboda-1945-liberation-itchio-giveaway",
-        "scadenza": "2026-05-25 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3287": {
-        "stato": "ignorato",
-        "titolo": "Mr.Brocco And Co (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3654": {
-        "stato": "preso",
-        "titolo": "Bunny Guys! (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bunny-guys-steam-giveaway",
-        "scadenza": "2026-05-29 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3653": {
-        "stato": "preso",
-        "titolo": "Bunny Hurling (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bunny-hurling-steam-giveaway",
-        "scadenza": "2026-05-25 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3652": {
-        "stato": "preso",
-        "titolo": "Car Mechanic Simulator 2018 (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/car-mechanic-simulator-2018-steam-giveaway",
-        "scadenza": "2026-05-27 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "2378": {
-        "stato": "preso",
-        "titolo": "Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/warhammer-40-000-gladius-relics-of-war-steam-giveaway",
-        "scadenza": "2026-05-28 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3650": {
-        "stato": "preso",
-        "titolo": "Tomb Raider 1-3 Remastered Starring Lara Croft (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/tomb-raider-1-3-remastered-starring-lara-croft-epic-games-giveaway",
-        "scadenza": "2026-05-28 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3649": {
-        "stato": "preso",
-        "titolo": "Down in Bermuda (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/down-in-bermuda-epic-games-giveaway",
-        "scadenza": "2026-05-28 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "23/05/2026"
-    },
     "2855": {
         "stato": "ignorato",
         "data_rilevazione": "04/06/2026"
     },
-    "3647": {
-        "stato": "preso",
-        "titolo": "AquaDream Soundtrack (DLC) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/aquadream-soundtrack-dlc-giveaway",
-        "scadenza": "2026-05-25 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3645": {
-        "stato": "preso",
-        "titolo": "Eldritch Escape Playtest Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/eldritch-escape-playtest-steam-key-giveaway",
-        "scadenza": "2026-05-28 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3644": {
-        "stato": "preso",
-        "titolo": "Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/dino-running-from-a-furry-gamesforfarm-steam-giveaway",
-        "scadenza": "2026-05-30 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3642": {
-        "stato": "inviato",
-        "titolo": "Back to Modern World - Fantasy Hero (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/back-to-modern-world-fantasy-hero-itch-io-giveaway",
-        "scadenza": "2026-05-24 23:59:00",
-        "store": "PC, Itch.io",
-        "data_rilevazione": "23/05/2026"
-    },
-    "3640": {
-        "stato": "preso",
-        "titolo": "Epic Games Store Free Gift Packs",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/free-gift-packs-from-epic-games-store",
-        "scadenza": "2026-06-11 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "23/05/2026"
-    },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "21/06/2026"
-    },
-    "cs_26f6759a1b": {
-        "stato": "ignorato",
-        "titolo": "RAVEN2 Half anniversary Starter Pack",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=x8bu%2Bj%2BU0BedyBq04YtFGW%2BtW7TOdNYGp628gWMVceE%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "23/05/2026"
-    },
-    "cs_f304a01734": {
-        "stato": "preso",
-        "titolo": "Tomb Raider I-III Remastered Starring Lara Croft",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=5Bpcy29NT%2BYM6Dnd8RaHZSLOZwlvSNktLOGJt8uFJ%2B8%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "23/05/2026"
-    },
-    "cs_4fef22c005": {
-        "stato": "ignorato",
-        "titolo": "Divers Mega Pack",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=pHg6l1sttBXWf1wtzuMlKW3jn2JrhpdJjtjPcPXaPj8%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_cfa3d6d868": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_cffcdb1959": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_2b60e79d63": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_8f18a67f61": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_fa125b1649": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_12936bdbbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_b6a1b40a48": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_69747204fb": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_baab15889a": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_2032882efc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_2bf7e2534d": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_fb224a3759": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_b3687f2fbd": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_1d4066f9f7": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_292dc15cd5": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_04d9da1062": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_3f8ea488da": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_5ec6304570": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_442e5514bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "uni_18c7e9f81b": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "start_b69ad8b5ce": {
-        "stato": "nuovo",
-        "titolo": "Attrazione investimenti esteri",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/attrazione-investimenti-esteri",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Servizi di assistenza e accompagnamento per imprese (incluse startup) che intendono avviare nuove attività o investire in Italia, con l'obiettivo di rafforzare le filiere strategiche e la loro competitività. Il programma è focalizzato sull'attrazione e il supporto agli investimenti in Italia, con un'enfasi sugli investimenti esteri.",
-        "fondo": "Finanziamento",
-        "voto": 6,
-        "data_rilevazione": "23/05/2026"
-    },
-    "start_883e333805": {
-        "stato": "nuovo",
-        "titolo": "APPROFONDISCI",
-        "url": "https://www.invitalia.it/news-media/news/cultura-cresce-dal-10-dicembre-2025-il-nuovo-incentivo-le-imprese-culturali-e-creative-del",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Il progetto è per una startup (futura impresa) nel settore delle periferiche da gaming di lusso, sostenibili e personalizzabili, con sede in Molise (Campobasso). L'idea si concentra su design esclusivo, innovazione tecnologica ed eco-sostenibilità, con un forte accento sulla cura artigianale italiana e l'estetica. Rientra nella categoria 'imprese costituite da meno di 5 anni o ancora da costituire'. La compatibilità con le 'filiere culturali e creative' del bando si basa sull'enfasi posta sul 'design' e sull''artigianato artistico' (produzione di un 'oggetto di lusso', 'made in Italy', 'attenzione artigianale al dettaglio') che sono categorie esplicitamente menzionate dal bando, nonostante l'attività principale sia la produzione di hardware.",
-        "fondo": "Finanziamento",
-        "voto": 7,
-        "data_rilevazione": "23/05/2026"
-    },
-    "start_9377a088a4": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
-    },
-    "start_300747677f": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/05/2026"
+        "data_rilevazione": "22/06/2026"
     },
     "start_eea7322dad": {
         "stato": "ignorato",
@@ -1761,7 +1501,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "21/06/2026"
+        "data_rilevazione": "22/06/2026"
     },
     "1920": {
         "stato": "ignorato",
@@ -2808,5 +2548,43 @@
         "scadenza": "2026-07-02 23:59:59",
         "store": "PC, Itch.io, DRM-Free",
         "data_rilevazione": "20/06/2026"
+    },
+    "uni_1327270f6f": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/06/2026"
+    },
+    "uni_7b69abc325": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/06/2026"
+    },
+    "uni_cd673e8edc": {
+        "stato": "nuovo",
+        "titolo": "Avviso pubblico per la concessione di postazioni di coworking presso l’incubatore del Centro di Ricerca Ambiente, Energia e Mare di Marina di Ravenna",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/avviso-pubblico-la-concessione-di-postazioni-di-coworking-presso-lincubatore-del",
+        "tipo": "universita",
+        "scadenza": "31/12/2028",
+        "luogo": "Marina di Ravenna",
+        "durata": "tre, sei o dodici mesi",
+        "ente": "Comune di Ravenna",
+        "argomenti": "Concessione di postazioni di coworking presso l'incubatore del Centro di Ricerca Ambiente, Energia e Mare, con focus su economia circolare, sostenibilità energetica e Blue Economy.",
+        "requisiti": "Imprese, liberi professionisti o lavoratori operanti nei settori della sostenibilità ambientale e decarbonizzazione, sostenibilità energetica e Green Energy, Circular Economy, Green e Blue Economy, Chimica verde.",
+        "voto": 7,
+        "data_rilevazione": "22/06/2026"
+    },
+    "start_7b69abc325": {
+        "stato": "nuovo",
+        "titolo": "Bando EuroHPC Joint Undertaking: 4 call per startup nel settore quantistico",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-eurohpc-joint-undertaking-4-call-startup-nel-settore-quantistico",
+        "tipo": "startup",
+        "scadenza": "14/01/2027",
+        "ente": "EuroHPC Joint Undertaking",
+        "requisiti": "Il bando è rivolto a enti di ricerca, grandi imprese, startup e università. In particolare, la call 'Large-Scale Photonic Quantum Computing Platform Technologies' richiede che i consorzi siano guidati da startup specializzate nel quantum computing fotonico e coinvolgano partner industriali, scientifici e utilizzatori finali. Andrea Colacicco, con il suo forte background imprenditoriale (Contamination Lab, Start-up ‘OK’, Enactus), le sue competenze in sviluppo startup, gestione di progetti e il suo interesse per le tecnologie avanzate (AI), è un candidato idoneo per partecipare con una startup, specialmente alla call 'Quantum Machine Learning' che combina tecnologie quantistiche, IA e sistemi di calcolo ad alte prestazioni, allineandosi ai suoi interessi in AI e hardware/sviluppo.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "22/06/2026"
+    },
+    "start_d62f9f5964": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/06/2026"
     }
 }
