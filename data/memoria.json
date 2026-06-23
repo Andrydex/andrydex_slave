@@ -5,139 +5,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "22/06/2026"
-    },
-    "start_eea7322dad": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "start_60cd259732": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "start_27a5239cf3": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "start_bd827af0a9": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "start_63ca0050cb": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "start_584856c989": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_5d2a67f77c": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_d695d8f761": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_a5a4ddc088": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_011435eb55": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_a72e6e0a9a": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_04ba386a2e": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_9bdb48980a": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_ebe0619701": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_a5ba490220": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_83ff7d9907": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_cf667d80ce": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_c904701989": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_cc8b914270": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_856b237b01": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_9fd475e93f": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_f584c88222": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_fc5d64f15d": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_78bd9cf960": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_988aa0dd21": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_eadeb3af0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_5e261dda26": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_91efa49773": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_94a5c26941": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_dc0077f56c": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_24d8d07164": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_defbc5e611": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
-    },
-    "uni_f613b5388e": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/05/2026"
+        "data_rilevazione": "23/06/2026"
     },
     "905": {
         "stato": "inviato",
@@ -2586,5 +2454,111 @@
     "start_d62f9f5964": {
         "stato": "ignorato",
         "data_rilevazione": "22/06/2026"
+    },
+    "3691": {
+        "stato": "inviato",
+        "titolo": "Crystal Saga Nova: Free Gift Pack Keys",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/crystal-saga-nova-free-gift-pack-keys",
+        "scadenza": "2028-01-01 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "23/06/2026"
+    },
+    "3287": {
+        "stato": "inviato",
+        "titolo": "Mr.Brocco And Co (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_34bb5a7cd0": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_560fa64e6b": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_fa125b1649": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_fb224a3759": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_b3687f2fbd": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_442e5514bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_18c7e9f81b": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_2129481c93": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_48a1fcc559": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_d422fc5993": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "uni_51969d00e7": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "start_b69ad8b5ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "start_883e333805": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "start_9377a088a4": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "start_300747677f": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
+    },
+    "start_173aafe964": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/06/2026"
     }
 }
