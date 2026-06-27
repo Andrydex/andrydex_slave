@@ -5,7 +5,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "26/06/2026"
+        "data_rilevazione": "27/06/2026"
     },
     "uni_872e89f6bb": {
         "stato": "ignorato",
@@ -90,86 +90,6 @@
         "requisiti": "Essere un 'Nuovo Imprenditore' (New Entrepreneur), ovvero chi ha un piano concreto per avviare un'attività basato su un business plan o ha avviato un'impresa negli ultimi 3 anni. Residenza permanente in uno dei paesi partecipanti. CV, lettera di motivazione, Business Plan completo e riassunto. Possibilità di includere certificati di corsi/seminari sull'imprenditorialità e portfolio europeo delle lingue. Buona padronanza dell'inglese o di una seconda lingua straniera.",
         "voto": 9,
         "data_rilevazione": "26/05/2026"
-    },
-    "3660": {
-        "stato": "preso",
-        "titolo": "Drift86 (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/drift86-steam-giveaway",
-        "scadenza": "2026-06-03 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "28/05/2026"
-    },
-    "3658": {
-        "stato": "preso",
-        "titolo": "LONESTAR (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/lonestar-epic-games-giveaway",
-        "scadenza": "2026-06-04 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "28/05/2026"
-    },
-    "3657": {
-        "stato": "preso",
-        "titolo": "Calico (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/calico-epic-games-giveaway",
-        "scadenza": "2026-06-04 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "28/05/2026"
-    },
-    "cs_3e2f031bff": {
-        "stato": "inviato",
-        "titolo": "LONESTAR",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=u4KWudIlzFPGxjpI4236PUjptJ4uhM5a1WFNJsBM%2FTM%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "28/05/2026"
-    },
-    "uni_0a953eeb7d": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "uni_233791cad3": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "uni_b7790bba6a": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_2da061e1fc": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_4ae292eac1": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_6f1c4ab62b": {
-        "stato": "nuovo",
-        "titolo": "ON - Nuove imprese a tasso zero: incentivi per giovani e donne",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/nuove-imprese-tasso-zero-incentivi-giovani-e-donne",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Il progetto è compatibile, purché entrambi i fondatori (Andrea Colacicco e Angelo Di Nunzio) rientrino nella fascia d'età tra i 18 e i 35 anni, condizione necessaria per soddisfare il requisito di maggioranza (almeno 51% per numero di soci e quote di capitale) richiesto dal bando per i profili maschili.",
-        "fondo": "Fondo perduto / Finanziamento agevolato",
-        "voto": 7,
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_261bd61f0c": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_f8305bff73": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
-    },
-    "start_2ce44d721e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/05/2026"
     },
     "3662": {
         "stato": "preso",
@@ -2233,7 +2153,7 @@
         "data_rilevazione": "24/06/2026"
     },
     "3692": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Voidwrought (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/voidwrought-epic-games-giveaway",
@@ -2242,7 +2162,7 @@
         "data_rilevazione": "25/06/2026"
     },
     "392": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "RollerCoaster Tycoon 3 Complete Edition (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/free-rollercoaster-tycoon-3-complete-edition",
@@ -2463,5 +2383,291 @@
     "uni_c95083bc3b": {
         "stato": "ignorato",
         "data_rilevazione": "26/06/2026"
+    },
+    "3695": {
+        "stato": "inviato",
+        "titolo": "POPGOES Arcade (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/popgoes-arcade-steam-giveaway",
+        "scadenza": "2026-06-28 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "27/06/2026"
+    },
+    "3656": {
+        "stato": "inviato",
+        "titolo": "007 First Light: Ops Radiant Outfit Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/007-first-light-ops-radiant-outfit-key-giveaway",
+        "scadenza": "2027-05-27 23:59:00",
+        "store": "PC, Playstation 5, Xbox Series X|S, Nintendo Switch",
+        "data_rilevazione": "27/06/2026"
+    },
+    "uni_76a7d488dc": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_a63bee9b6e": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_0ca6851d13": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_0851d9827b": {
+        "stato": "nuovo",
+        "titolo": "Per le imprese",
+        "url": "https://www.invitalia.it/per-le-imprese",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese a prevalente partecipazione giovanile o femminile.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_e90eb29491": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_0b4f296430": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_f13a1f7111": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_498ebac46d": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_627b2bfe0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_561c229e14": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_9a5612b4db": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_2487bd23ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_6742b44eab": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/ON-nuove-imprese-tasso-zero",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese costituite da non più di 60 mesi o persone fisiche che vogliono costituire una nuova impresa. La compagine deve essere composta, per oltre la metà numerica dei soci e di quote di partecipazione, da persone di età compresa tra 18 e 35 anni oppure da donne di qualsiasi età. Progetti volti a realizzare nuove iniziative imprenditoriali o ad ampliare, diversificare o trasformare attività esistenti nei settori di Produzione, Servizi, Commercio, Turismo, fino a 3 milioni di euro.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_a91de38801": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Startup innovative di piccola dimensione, costituite da non più di 60 mesi, iscritte alla sezione speciale del Registro delle imprese; team di persone e cittadini stranieri in possesso dello \"startup Visa\"; imprese straniere che istituiscono una sede sul territorio italiano.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_18905a9736": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_16815a3b72": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Cultura Cresce",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando è rivolto a imprese (anche da costituire, sociali o del Terzo Settore) attive nelle filiere culturali e creative, con sede nelle regioni Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia. Andrea, con la sua esperienza come 'Video-Creator / Social-Media / Intrattenimento' e lo sviluppo del progetto 'Fonderie di idee' (Impresa Sociale), rientra perfettamente nel target settoriale. Il Molise, regione coperta dal bando, è anche la regione dell'Università dove ha conseguito la triennale e un'affiliazione ESN.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_ddf5b44627": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando è rivolto ai giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti, in condizione di inattività, inoccupazione o disoccupazione (inclusi i disoccupati del Programma GOL e working poor). È necessario voler avviare nuove iniziative di autoimpiego in tutti i settori economici, ad eccezione del comparto agricolo, della pesca e dell’acquacoltura, nei territori del Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia). Andrea Colacicco, nato il 20/02/2000, ha 26 anni ed è studente magistrale, rientrando nei requisiti anagrafici e di condizione (inoccupato). Ha progetti di startup ('OK' - periferiche green da gaming, 'Fonderie di idee' - Impresa Sociale, 'Logics' - Enactus) compatibili con i settori ammessi. Avendo studiato in Molise (Campobasso), può plausibilmente stabilire la residenza o avviare l'attività in una regione del Mezzogiorno.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Autoimpiego Centro-Nord",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/autoimpiego-centro-nord",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Giovani tra 18 anni compiuti e 35 anni non compiuti, in condizione di inattività, inoccupazione o disoccupazione (incluso disoccupati GOL e working poor). L'iniziativa di autoimpiego (imprenditoriale, libero-professionale o di lavoro autonomo) deve essere avviata nelle regioni Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche. Tutti i settori economici ammissibili ad eccezione del comparto agricolo, della pesca e dell’acquacoltura.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia (Ministero delle Imprese e del Made in Italy)",
+        "requisiti": "Il bando è rivolto a imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali che svolgono attività di interesse generale e perseguono valori di utilità sociale. Possono essere presentati piani di investimento (sia di start-up che di sviluppo) da un minimo di 100.000 euro fino a un massimo di 10 milioni di euro, con focus su sostenibilità ambientale e obiettivi dell’Agenda 2030, realizzazione di investimenti produttivi e incremento dell’occupazione di lavoratori con disabilità. Il profilo del founder Andrea Colacicco, con il suo \"Progetto di Impresa Sociale | Fondamenta\" (\"Fonderie di idee\") e la partecipazione a programmi di incubazione per startup, è altamente compatibile con i requisiti del bando.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 8,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Economia circolare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di qualsiasi dimensione che svolgono attività industriali, agroindustriali, artigiane, di servizi all’industria e ai centri di ricerca. Possono presentare progetti singolarmente o in forma congiunta, volti alla transizione verso un modello di economia circolare e all'uso più efficiente e sostenibile delle risorse.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_a5a4ddc088": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_54189d166d": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_5e052cb2e0": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_402f40fdf3": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_55e9a0aa9e": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_0a514a8b20": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_8153b982d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_f683b56ab2": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_256f6feb24": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_9d1b88b7b0": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_459665c159": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_2ba9e6e1c5": {
+        "stato": "nuovo",
+        "titolo": "Premio Apply AI Startup Award per startup con soluzioni AI strategiche",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/premio-apply-ai-startup-award-startup-con-soluzioni-ai-strategiche",
+        "tipo": "startup",
+        "scadenza": "22/07/2026",
+        "ente": "Commissione europea (AI Office e AI-BOOST)",
+        "requisiti": "Startup e scaleup europee con soluzioni avanzate basate sull'Intelligenza Artificiale, operanti nei settori sanità e farmaceutica, mobilità, automotive e robotica, manifattura, energia e clima, agroalimentare, difesa, spazio e comunicazioni elettroniche, pubblica amministrazione e settori culturali/creativi. Le candidature avvengono tramite nomina da parte delle associazioni nazionali di startup.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_a84bed6a7e": {
+        "stato": "nuovo",
+        "titolo": "Premio economico",
+        "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/premio-economico",
+        "tipo": "startup",
+        "scadenza": "30/06/2026",
+        "ente": "EmiliaRomagnaStartUp",
+        "requisiti": "Il founder Andrea Colacicco è altamente qualificato per il 'Premio Innovazione Sociale 2026', essendo attivamente impegnato nel 'Progetto di Impresa Sociale - Fonderie di idee', focalizzato sul benessere psico-fisico giovanile e la riqualificazione urbana. La sua partecipazione a Enactus con il progetto 'Logics' e i suoi valori fondanti (Onestà, Gentilezza, Ottimismo, Perdono) rafforzano ulteriormente la sua vocazione sociale. Le sue competenze in Project Management, Leadership e Problem Solving sono ideali per lo sviluppo e la gestione di una startup a impatto sociale.",
+        "fondo": "Premio economico",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_d93caa7373": {
+        "stato": "nuovo",
+        "titolo": "Adesione alla community delle startup dell’Emilia-Romagna interessate a processi di internazionalizzazione",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/avviso-la-presentazione-di-manifestazioni-di-interesse-partecipare-alla-community",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "ART-ER (in collaborazione con Regione Emilia-Romagna)",
+        "requisiti": "Startup innovativa (ex L 221/2012) con sede in Emilia-Romagna, interessata a ricevere informazioni e a essere coinvolta in iniziative relative ad opportunità in ambito internazionale.",
+        "fondo": "Altro",
+        "voto": 8,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_cfe290fdcd": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_3842da73e5": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_52818e0c50": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_9e19bed67d": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/smartstart-italia-0",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Smart&Start Italia (gestito da Invitalia)",
+        "requisiti": "Il bando è rivolto a startup innovative, o a persone fisiche che intendono costituirne una, con un progetto imprenditoriale ad alto contenuto tecnologico e innovativo, nello sviluppo di prodotti/servizi digitali o nella valorizzazione dei risultati della ricerca. Il proponente Andrea Colacicco, 26 anni, con un background in iniziative imprenditoriali (Contamination Lab, Start-up ''OK'' su periferiche gaming green, Enactus) e un forte interesse per le tecnologie (Blockchain, AI, Hardware gaming), è un candidato ideale. La sua età (sotto i 36 anni) potrebbe permettere alla startup di accedere a una copertura del finanziamento agevolato fino al 90%.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "27/06/2026"
+    },
+    "start_7421d5e024": {
+        "stato": "nuovo",
+        "titolo": "Iveco Group: Advanced AI & Computer Vision for Smart Manufacturing",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/iveco-group-advanced-ai-computer-vision-smart-manufacturing",
+        "tipo": "startup",
+        "scadenza": "17/07/2026",
+        "ente": "Iveco Group",
+        "requisiti": "Startup e PMI innovative che offrono soluzioni basate su Intelligenza Artificiale (AI) e computer vision per ottimizzare processi produttivi in aree quali Ergonomics & Safety Monitoring, Time & Method Analysis e Quality Inspection & Process Control. Il profilo del founder, Andrea Colacicco, è altamente compatibile per guidare una startup in questo settore, grazie alle sue competenze in sviluppo startup, ottimizzazione processi, project management e un esplicito interesse in AI e tecnologie hardware.",
+        "fondo": "Altro",
+        "voto": 8,
+        "data_rilevazione": "27/06/2026"
     }
 }
