@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
     "status": "ok",
-    "last_check": "2026-06-29T17:34:50.611412"
+    "last_check": "2026-06-30T17:05:38.164327"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,14 +9,14 @@
   },
   "cheapshark_worker": {
     "status": "ok",
-    "last_check": "2026-06-29T17:34:51.326059"
+    "last_check": "2026-06-30T17:05:39.497100"
   },
   "unigreen_worker": {
     "status": "ok",
-    "last_check": "2026-06-29T17:36:06.170713"
+    "last_check": "2026-06-30T17:07:54.770016"
   },
   "startup_worker": {
-    "status": "ok",
-    "last_check": "2026-06-29T17:40:14.125445"
+    "status": "error: 'list' object has no attribute 'get'",
+    "last_check": "2026-06-30T17:14:29.254070"
   }
 }

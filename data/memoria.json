@@ -5,7 +5,7 @@
     },
     "3632": {
         "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
+        "data_rilevazione": "30/06/2026"
     },
     "uni_872e89f6bb": {
         "stato": "ignorato",
@@ -104,124 +104,6 @@
         "requisiti": "Possesso di Laurea o titolo universitario triennale (D.M. 509/99, D.M. 270/04, o ordinamenti precedenti). Il profilo di Andrea, con Laurea Triennale in Economia Aziendale (L.18), soddisfa il requisito di accesso. È ammissibile l'iscrizione contemporanea a due corsi di studio (Laurea Magistrale e Master di I livello) secondo la legge n. 33 del 12 aprile 2022. La selezione avviene per valutazione dei titoli sulla base della coerenza del titolo e del percorso formativo pregresso con gli obiettivi e i contenuti del Master.",
         "voto": 9,
         "data_rilevazione": "29/05/2026"
-    },
-    "3664": {
-        "stato": "preso",
-        "titolo": "Moonrise Fall (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/moonrise-fall-steam-giveaway",
-        "scadenza": "2026-06-02 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "31/05/2026"
-    },
-    "3663": {
-        "stato": "inviato",
-        "titolo": "IQ Under Construction (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/iq-under-construction-steam-giveaway",
-        "scadenza": "2026-06-01 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "31/05/2026"
-    },
-    "uni_ff9b5556ea": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "uni_f00db96cfc": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "uni_5bbadc683b": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_f613b5388e": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_d243479a0b": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_fafae55183": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_7768fbb72a": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_0c5f31eb85": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_a30fa5e5af": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_cb6d628509": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_3c27168737": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_e7bdd8a071": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_56fefc65e3": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_8f0a4b0a19": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_9b8ed4c129": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_b94baf3ef1": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_74d54ddcd0": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_e0fcda2b74": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_3c71ebda7c": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_220569f9d7": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_e787f3efe2": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_2179f0408f": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_7226be02ec": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_2b5181bdd1": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
-    },
-    "start_fd1e429cbe": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/05/2026"
     },
     "3665": {
         "stato": "preso",
@@ -553,7 +435,7 @@
     },
     "3607": {
         "stato": "ignorato",
-        "data_rilevazione": "26/06/2026"
+        "data_rilevazione": "30/06/2026"
     },
     "1920": {
         "stato": "ignorato",
@@ -1460,7 +1342,7 @@
         "data_rilevazione": "17/06/2026"
     },
     "start_e7c1a476ac": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Premio Innovazione Sociale 2026: fondi per startup a vocazione sociale",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/premio-innovazione-sociale-2026-fondi-startup-vocazione-sociale",
         "tipo": "startup",
@@ -2283,7 +2165,7 @@
         "data_rilevazione": "27/06/2026"
     },
     "start_a84bed6a7e": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Premio economico",
         "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/premio-economico",
         "tipo": "startup",
@@ -2488,7 +2370,7 @@
         "data_rilevazione": "29/06/2026"
     },
     "start_0b9e445f64": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "terza ed. Swiss Italian Startup Award (SISA)",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/terza-ed-swiss-italian-startup-award-sisa",
         "tipo": "startup",
@@ -2526,5 +2408,164 @@
     "start_f1f4f38056": {
         "stato": "ignorato",
         "data_rilevazione": "29/06/2026"
+    },
+    "cs_05249e60ac": {
+        "stato": "inviato",
+        "titolo": "A Simple Garbage Sorting Game",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=HjeRjjNxbDv6lSsH3waL8nflmNE%2BOg6AqYaWnAkBvdI%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "30/06/2026"
+    },
+    "uni_d59b5fcec3": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "uni_3ea46c5ce2": {
+        "stato": "nuovo",
+        "titolo": "Bando di concorso per l’assegnazione di contributi per le spese di locazione abitativa sostenute dagli studenti fuori sede iscritti all’anno accademico 2025/2026",
+        "url": "https://www.unimore.it/it/ateneo/bandi/bando-di-concorso-lassegnazione-di-contributi-le-spese-di-locazione-abitativa-0",
+        "tipo": "universita",
+        "scadenza": "22/07/2026",
+        "luogo": "Università degli Studi di Modena e Reggio Emilia (UNIMORE)",
+        "durata": "Contributo per spese di locazione sostenute dal 01/01/2026 al 01/09/2026.",
+        "ente": "Università degli Studi di Modena e Reggio Emilia (UNIMORE)",
+        "argomenti": "Contributi per spese di locazione abitativa (affitto) per studenti fuori sede.",
+        "requisiti": "Iscrizione all'a.a. 2025/2026 ad un corso di studi Unimore (inclusi DCI/Economia/Biagi); ISEE 2026 per diritto allo studio universitario inferiore o uguale a €20.000; Residenza in luogo diverso rispetto a quello dove è ubicato l'immobile locato (dal 01/01/2026 al 01/09/2026), ammessa partecipazione in caso di residenza nel medesimo Comune solo se il nucleo familiare risiede all’estero; Non aver usufruito per l'a.a. 2025/2026 di altri contributi pubblici per l'alloggio (es. borse ER.GO fuori sede, posto alloggio ER.GO, contributi affitto ER.GO); Possesso dei requisiti di merito ai sensi dell’art. 1, comma 255, lettere b) e c), della legge 11 dicembre 2016, n. 232; Non essere iscritto, per più di una volta, al primo anno di corso universitario.",
+        "voto": 8,
+        "data_rilevazione": "30/06/2026"
+    },
+    "uni_cb16da46ca": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_19720f1d4b": {
+        "stato": "nuovo",
+        "titolo": "Scienze della Vita",
+        "url": "https://www.emiliaromagnastartup.it/it/categoria/settore-bando/scienze-della-vita",
+        "tipo": "startup",
+        "scadenza": "22/07/2026",
+        "ente": "EmiliaRomagnaStartUp",
+        "requisiti": "Il bando è rivolto a startup con soluzioni AI strategiche nel settore Scienze della Vita. Andrea Colacicco, con un forte background in sviluppo startup, project management e consulenza direzionale, unitamente a un dichiarato interesse per le tecnologie AI, possiede le competenze trasversali e strategiche per ideare o guidare un progetto in tal senso. Sebbene il suo progetto attuale 'OK' sia nel gaming hardware, le sue 'Competenze digitali per la sostenibilità' e l'attitudine all'innovazione (Creatività 98 come 'Architetto di Sistemi') lo rendono un candidato con alto potenziale per sviluppare una soluzione AI nell'ambito delle Scienze della Vita.",
+        "fondo": "Premio economico",
+        "voto": 7,
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_ab91a73704": {
+        "stato": "nuovo",
+        "titolo": "EIC Accelerator 2026: sostegno a start-up e piccole e medie imprese innovative",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/eic-accelerator-2026-sostegno-start-e-piccole-e-medie-imprese-innovative",
+        "tipo": "startup",
+        "scadenza": "04/11/2026",
+        "ente": "Commissione Europea (Horizon Europe)",
+        "requisiti": "Singole start-up o PMI (anche spin-out) con innovazioni rivoluzionarie deep tech (TRL 6-8) e potenziale di scale-up, pronte per fasi avanzate di sviluppo. Ammesse piccole mid-caps (fino a 499 dipendenti) per solo equity. Candidati da Stati membri UE o paesi associati a Horizon Europe, o che intendano delocalizzare l'azienda.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_69d1dc60e6": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_54684c401e": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_78bd9cf960": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_988aa0dd21": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_eadeb3af0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_5e261dda26": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_948935d176": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_195b9aa4c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_cfbda25a02": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_a5ba490220": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_ebe0619701": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_ff5432adf0": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_e0b85f9acb": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_99a8f0649f": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_1430ba6d5d": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_dc4ab93cfe": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_8c1e974aa5": {
+        "stato": "nuovo",
+        "titolo": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
+        "tipo": "startup",
+        "scadenza": "31/01/2027",
+        "ente": "Commissione Europea (tramite EmiliaRomagnaStartUp)",
+        "requisiti": "Nuovo imprenditore (che intende avviare un'attività con un business plan valido o che ha avviato un'attività negli ultimi 3 anni); residente permanente in uno dei 38 paesi europei partecipanti; possiede un business plan concreto; dimostra capacità di lavorare in una lingua straniera (l'inglese B2 è altamente consigliato).",
+        "fondo": "Altro: Rimborso spese/Voucher",
+        "voto": 9,
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_b7fc8d1b94": {
+        "stato": "nuovo",
+        "titolo": "http://www.emiliaromagnastartup.it/innovative/soggetti/simpler",
+        "url": "http://www.emiliaromagnastartup.it/innovative/soggetti/simpler",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "SIMPLER / ART-ER Attrattività Ricerca Territorio",
+        "requisiti": "Il servizio si rivolge a Università e Istituti di ricerca, Imprese (in particolare PMI), spin-off e start up, Istituzioni provinciali e regionali, associazioni imprenditoriali e ILO/KTO. Le imprese target devono essere nelle fasi di Ideazione, Avvio o Consolidamento e avere un alto contenuto tecnologico o essere innovative. L'ambito geografico è la regione Emilia-Romagna (province di Ravenna, Reggio Emilia, Rimini, Piacenza, Parma, Ferrara, Forlì Cesena, Modena, Bologna). Andrea Colacicco, con i suoi progetti di startup innovativa ('OK' e 'Fonderie di idee') e la sua sede universitaria a Modena, rientra pienamente nei requisiti di start-up innovative in fase di ideazione/avvio e con base in Emilia-Romagna. La sua forte predisposizione all'ottimizzazione e all'innovazione, unita agli interessi in tecnologie avanzate (Blockchain, Crypto, AI), lo rende un profilo ideale per i servizi offerti.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_38dbced610": {
+        "stato": "nuovo",
+        "titolo": "vai al sito",
+        "url": "https://www.mise.gov.it/index.php/it/incentivi/impresa/patent-box",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Ministero delle Imprese e del Made in Italy / Agenzia delle Entrate",
+        "requisiti": "Per le imprese titolari di reddito d'impresa (escluse quelle con reddito forfettario o catastale, o in stato di liquidazione/fallimento) che detengono il diritto allo sfruttamento economico di beni immateriali (software protetto da copyright, brevetti industriali, disegni e modelli giuridicamente tutelati). È necessario svolgere attività di ricerca e sviluppo finalizzate alla creazione e sviluppo di tali beni. Compatibile con il profilo di Andrea Colacicco se la sua startup si costituisce come impresa e sviluppa attivamente i beni immateriali citati (es. design, software, o brevetti per periferiche green da gaming).",
+        "fondo": "Altro",
+        "voto": 8,
+        "data_rilevazione": "30/06/2026"
+    },
+    "start_f5e8faaca0": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/06/2026"
     }
 }
