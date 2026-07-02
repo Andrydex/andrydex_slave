@@ -105,37 +105,6 @@
         "voto": 9,
         "data_rilevazione": "29/05/2026"
     },
-    "3666": {
-        "stato": "preso",
-        "titolo": "Winexy (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/winexy-steam-giveaway",
-        "scadenza": "2026-06-05 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "02/06/2026"
-    },
-    "2386": {
-        "stato": "preso",
-        "titolo": "Tell Me Why (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/tell-me-why-steam-giveaway",
-        "scadenza": "2026-07-01 23:59:59",
-        "store": "PC, Steam",
-        "data_rilevazione": "02/06/2026"
-    },
-    "cs_6287443533": {
-        "stato": "preso",
-        "titolo": "Gravity Circuit",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=zmS4o0E%2FnDQY25xSFhqB6rQlds0CHQZre0%2BaYLkhU4A%3D",
-        "store": "Steam",
-        "scadenza": "N.D.",
-        "data_rilevazione": "02/06/2026"
-    },
-    "uni_5ff6ed7575": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/06/2026"
-    },
     "uni_ad4480a9a2": {
         "stato": "ignorato",
         "data_rilevazione": "03/06/2026"
@@ -2668,5 +2637,229 @@
     "start_d5e41d4db1": {
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
+    },
+    "3701": {
+        "stato": "inviato",
+        "titolo": "River City Girls 2 (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/river-city-girls-2-epic-games-giveaway",
+        "scadenza": "2026-07-09 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3700": {
+        "stato": "inviato",
+        "titolo": "I Have No Mouth, and I Must Scream (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/i-have-no-mouth-and-i-must-scream-epic-games-giveaway",
+        "scadenza": "2026-07-09 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3699": {
+        "stato": "inviato",
+        "titolo": "Wraithmind (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/wraithmind-itch-io-giveaway",
+        "scadenza": "2026-07-06 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3698": {
+        "stato": "inviato",
+        "titolo": "Path Defenders (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/path-defenders-itch-io-giveaway",
+        "scadenza": "2026-07-06 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "2109": {
+        "stato": "inviato",
+        "titolo": "Tim-Tim 2: The Almighty Gnome (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/tim-tim-2-the-almighty-gnome-itch-io-giveaway",
+        "scadenza": "2026-07-06 23:59:01",
+        "store": "PC",
+        "data_rilevazione": "02/07/2026"
+    },
+    "905": {
+        "stato": "inviato",
+        "titolo": "Larger Than Light (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/free-larger-than-light",
+        "scadenza": "2026-07-06 23:59:59",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3338": {
+        "stato": "inviato",
+        "titolo": "Drive Me to Hell (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
+        "scadenza": "2026-07-06 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3096": {
+        "stato": "inviato",
+        "titolo": "Madness Inside (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/madness-inside-itch-io-giveaway",
+        "scadenza": "2026-08-01 23:59:59",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "2998": {
+        "stato": "inviato",
+        "titolo": "Croaking Around (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/croaking-around-itch-io-giveaway",
+        "scadenza": "2026-07-06 23:59:01",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3628": {
+        "stato": "inviato",
+        "titolo": "Liminal Lane (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/liminal-lane-itch-io-giveaway",
+        "scadenza": "2026-07-06 00:05:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3697": {
+        "stato": "inviato",
+        "titolo": "NIGHTBELL (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
+        "scadenza": "2026-07-12 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "3595": {
+        "stato": "inviato",
+        "titolo": "The Lost Painter (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-lost-painter-itchio-giveaway",
+        "scadenza": "2026-07-06 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/07/2026"
+    },
+    "cs_1e79e5f396": {
+        "stato": "inviato",
+        "titolo": "River City Girls 2",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=Hh%2FV2q79faSg2e2HgKUo9AXZz75SH7oP12X75z4S5Sc%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "02/07/2026"
+    },
+    "cs_a2bdbe2080": {
+        "stato": "inviato",
+        "titolo": "I Have No Mouth And I Must Scream",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=3ZmO6v%2F3BnJLRrKshDIB8nhxnXbGEwvTbscswgomK94%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_7827d234ac": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_d24a50e3f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_6f222d3f78": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_1b6cef35cd": {
+        "stato": "nuovo",
+        "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
+        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/da-italgas-la-call-shaping-future-energy-networks",
+        "tipo": "universita",
+        "scadenza": "31/07/2026",
+        "luogo": "Italia",
+        "durata": "N.D.",
+        "ente": "Italgas",
+        "argomenti": "Ricerca di soluzioni e tecnologie innovative per migliorare la resilienza delle reti energetiche (gas e acqua) e favorire la decarbonizzazione, con focus su tecnologie digitali (AI, sensoristica avanzata), nuove metodologie di costruzione, ottimizzazione delle risorse e transizione energetica.",
+        "requisiti": "Gruppi di lavoro e società costituite con progetti in uno di tre stadi di maturità: 'Idea' (in grado di tradursi in prototipo entro il 2027), 'MVP' (prototipo in grado di aprire nuovi segmenti e opportunità di mercato), o 'Products on the market' (prodotti e servizi già commercializzati o pronti al lancio). Questo bando non elenca dipartimenti specifici, ma è accessibile a studenti magistrali iscritti come membri di gruppi di lavoro o startup, in linea con il percorso di imprenditorialità.",
+        "voto": 9,
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_0c090bdcd9": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_7028326956": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_17a65e88fd": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_8d3c2e50ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_1d2e9a8ba9": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "uni_db780bea2c": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_d24a50e3f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_17a65e88fd": {
+        "stato": "nuovo",
+        "titolo": "MEDICA Start-up Competition 2026 per startup medtech, healthtech e pharma",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/medica-start-competition-2026-startup-medtech-healthtech-e-pharma",
+        "tipo": "startup",
+        "scadenza": "10/09/2026",
+        "ente": "Navispace GmbH (organizzato nell'ambito di MEDICA)",
+        "requisiti": "Startup, scaleup e PMI innovative attive nei settori medtech, healthtech, digital health, pharma, diagnostica, robotica, intelligenza artificiale applicata alla salute e cybersecurity per il settore sanitario. Devono sviluppare soluzioni innovative in ambiti quali: Intelligenza artificiale applicata alla medicina, Robotica, Diagnostica di laboratorio, Resilienza e cybersecurity, Digital health e altre soluzioni innovative per il settore healthcare.",
+        "fondo": "Premio economico / Servizi",
+        "voto": 7,
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_b6f3dce1ad": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_1d2e9a8ba9": {
+        "stato": "ignorato",
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_d0567a2c6e": {
+        "stato": "nuovo",
+        "titolo": "First",
+        "url": "https://first.art-er.it/news/bando-futurefoods-sistemi-alimentari-sostenibili-0",
+        "tipo": "startup",
+        "scadenza": "27/07/2026",
+        "ente": "FIRST | ART-ER (Regione Emilia-Romagna)",
+        "requisiti": "Progetti di ricerca (TRL 3-5) o innovazione (TRL 6-8) per accelerare la transizione verso sistemi alimentari più sostenibili (pratiche alimentari domestiche, sistemi di trasformazione circolari, fiducia e trasparenza). Ammissibili università, enti di ricerca, non-profit, PMI, grandi imprese e enti pubblici, riuniti in consorzi di almeno 3 membri da 3 diversi Stati UE o Paesi associati.",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "02/07/2026"
+    },
+    "start_2bfc11a738": {
+        "stato": "nuovo",
+        "titolo": "Chiusura: Fino ad esaurimento\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\n\n\n\n\ni Percorsi Le Serre di ART-ER 2026\n\n\nPercorsi di accompagnamento della durata di 6 mesi dedicati allo sviluppo e consolidamento di startup e progetti imprenditoriali innovativi basati in Emilia-Romagna con focus su: sviluppo del prodotto/servizio, strategie per la crescita commerciale, ricerca di finanziamenti e investitori.",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/i-percorsi-le-serre-di-art-er-2026",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "ART-ER",
+        "requisiti": "Il bando è rivolto a startup innovative con sede legale/operativa in regione Emilia-Romagna, come definite dalle vigenti norme di legge; spin off universitari con sede legale/operativa in regione Emilia-Romagna; team imprenditoriali non ancora costituiti purché rientranti in una delle seguenti categorie: team selezionati tra i finalisti di Start Cup Emilia-Romagna nel 2024, nel 2025 o nel 2026; costituendi spin off (delle Università o degli enti di ricerca della Regione Emilia-Romagna) in fase di costituzione al momento della presentazione della candidatura; team imprenditoriali, composti da almeno 2 persone, operanti nei seguenti settori ICC (Industrie Culturali e Creative): Musica; Audiovisivo e radio (inclusi: film/cinema, televisione, videogiochi, software e multimedia); Moda; Architettura e Design; Arti visive (inclusa fotografia); Spettacolo dal vivo e Festival; Patrimonio culturale materiale e immateriale (inclusi: archivi, biblioteche e musei); Artigianato artistico; Editoria, libri e letteratura.",
+        "fondo": "Altro",
+        "voto": 9,
+        "data_rilevazione": "02/07/2026"
     }
 }
