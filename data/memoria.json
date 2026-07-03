@@ -105,34 +105,6 @@
         "voto": 9,
         "data_rilevazione": "29/05/2026"
     },
-    "uni_ad4480a9a2": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/06/2026"
-    },
-    "uni_32ecb8b193": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/06/2026"
-    },
-    "uni_2f1dd95b30": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/06/2026"
-    },
-    "uni_f9172d64a7": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/06/2026"
-    },
-    "start_395a0ff10c": {
-        "stato": "nuovo",
-        "titolo": "Al via EIC Pathfinder 2026: sostegno alle imprese con tecnologie disruptive",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/al-eic-pathfinder-2026-sostegno-alle-imprese-con-tecnologie-disruptive",
-        "tipo": "startup",
-        "scadenza": "28/10/2026",
-        "ente": "Commissione Europea (EIC Pathfinder, Horizon Europe)",
-        "requisiti": "L'EIC Pathfinder finanzia team multidisciplinari (normalmente consorzi di almeno tre entità legali indipendenti da tre diversi Stati membri UE o Paesi associati a Horizon Europe, di cui almeno uno Stato membro; per la modalità Challenges, ammesse candidature di singoli soggetti giuridici o piccoli consorzi in casi specifici) impegnati nello sviluppo di basi scientifiche per tecnologie radicalmente nuove e potenzialmente in grado di creare mercati inediti o rivoluzionare quelli esistenti (TRL 1-4). Le entità ammissibili includono università, centri di ricerca, PMI, startup e grandi imprese. Il proponente è una startup S.r.l. italiana che sviluppa periferiche gaming innovative e sostenibili, tema in linea con l'obiettivo del bando. Dovrebbe formare un consorzio o candidarsi per una 'Challenge' che ammetta singoli soggetti.",
-        "fondo": "Fondo perduto",
-        "voto": 7,
-        "data_rilevazione": "03/06/2026"
-    },
     "3668": {
         "stato": "preso",
         "titolo": "Songs of Conquest (Epic Games) Giveaway",
@@ -839,7 +811,7 @@
         "data_rilevazione": "11/06/2026"
     },
     "start_72d333c6b3": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando NATO DIANA Challenge Call 2027: fondi per startup e PMI",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-nato-diana-challenge-call-2027-fondi-startup-e-pmi",
         "tipo": "startup",
@@ -2861,5 +2833,154 @@
         "fondo": "Altro",
         "voto": 9,
         "data_rilevazione": "02/07/2026"
+    },
+    "3703": {
+        "stato": "inviato",
+        "titolo": "Nexus: The Jupiter Incident (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/nexus-the-jupiter-incident-gog-giveaway",
+        "scadenza": "2026-07-06 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "03/07/2026"
+    },
+    "3306": {
+        "stato": "inviato",
+        "titolo": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "03/07/2026"
+    },
+    "3294": {
+        "stato": "inviato",
+        "titolo": "Whiskey.Mafia. Leo's Family (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/whiskey-mafia-leo-s-family-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_1df5e3b800": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_2ccf688404": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_1b3265caee": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_85bffeaa3a": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_6c6a6cf45d": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_935e31efb4": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_95af9cb1b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_e38faaab58": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_189c7349cb": {
+        "stato": "nuovo",
+        "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/da-italgas-la-call-shaping-future-energy-networks",
+        "tipo": "universita",
+        "scadenza": "31/07/2026",
+        "luogo": "Italia (non specificato un luogo fisico specifico per il programma di accelerazione)",
+        "durata": "Non specificato, percorso di accelerazione e incubazione",
+        "ente": "Italgas (in collaborazione con EmiliaRomagnaStartUp)",
+        "argomenti": "Reti energetiche resilienti, decarbonizzazione, efficienza energetica, intelligenza artificiale e sensoristica per reti gas e acqua, sviluppo di startup e soluzioni innovative nel settore energia e ambiente.",
+        "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
+        "voto": 9,
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_103082ecab": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_bf1e687de0": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_60a2d03d1e": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_8f49fc6291": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_6b26742c08": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_9a8f5b7e26": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_58c300bacc": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_f168daab20": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_0ee91002a6": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_6740a1e24d": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_1848160ea0": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_9046b659d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "uni_b5a6b60981": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_103082ecab": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_76a7d488dc": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_c0cad9b2b7": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_cc73f1d23a": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_9046b659d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
+    },
+    "start_b5a6b60981": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/07/2026"
     }
 }
