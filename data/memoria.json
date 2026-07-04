@@ -1,8 +1,4 @@
 {
-    "2855": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
     "3632": {
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
@@ -104,198 +100,6 @@
         "requisiti": "Possesso di Laurea o titolo universitario triennale (D.M. 509/99, D.M. 270/04, o ordinamenti precedenti). Il profilo di Andrea, con Laurea Triennale in Economia Aziendale (L.18), soddisfa il requisito di accesso. È ammissibile l'iscrizione contemporanea a due corsi di studio (Laurea Magistrale e Master di I livello) secondo la legge n. 33 del 12 aprile 2022. La selezione avviene per valutazione dei titoli sulla base della coerenza del titolo e del percorso formativo pregresso con gli obiettivi e i contenuti del Master.",
         "voto": 9,
         "data_rilevazione": "29/05/2026"
-    },
-    "3668": {
-        "stato": "preso",
-        "titolo": "Songs of Conquest (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/songs-of-conquest-epic-games-giveaway",
-        "scadenza": "2026-06-11 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "04/06/2026"
-    },
-    "3667": {
-        "stato": "preso",
-        "titolo": "Rogue Waters (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/rogue-waters-epic-games-giveaway",
-        "scadenza": "2026-06-11 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "04/06/2026"
-    },
-    "cs_5e38f62403": {
-        "stato": "preso",
-        "titolo": "Rogue Waters",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=ClaWCBpdtno5iYF3RyVR3%2BVXy71YWsZyoTRBxTQIwu8%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "04/06/2026"
-    },
-    "cs_dbbe837eae": {
-        "stato": "inviato",
-        "titolo": "Songs of Conquest",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=VF9sdPJEhhDS8Uredt4kVc5wic%2FIQUQ%2Bf0KV81VYRps%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_75cf25573f": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_7c4a15fb8e": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_e10b783e55": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_2631978fd6": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_24a877bc92": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_29183b434c": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_5363c39d70": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_41226e1939": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "uni_e46193191b": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_7c4a15fb8e": {
-        "stato": "nuovo",
-        "titolo": "DevFest Modena 2026: pacchetto startup",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/devfest-modena-2026-pacchetto-startup",
-        "tipo": "startup",
-        "scadenza": "12/09/2026",
-        "ente": "DevFest Modena 2026 / EmiliaRomagnaStartUp",
-        "requisiti": "Startup Innovativa iscritta al Registro delle Startup Innovative",
-        "fondo": "Altro",
-        "voto": 8,
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_ae1df6e6c0": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_abd82b250f": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_aef23f983c": {
-        "stato": "ignorato",
-        "titolo": "Servizi",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/servizi",
-        "tipo": "startup",
-        "scadenza": "20/06/2026",
-        "ente": "EmiliaRomagnaStartUp",
-        "requisiti": "Startup con soluzioni IA e Data-Driven Sostenibili nei settori Energia e Ambiente, ICT. Il progetto del mouse da gaming di lusso ed ecosostenibile include un ecosistema digitale per monitorare statistiche d'uso, aggiornare il firmware e suggerire comportamenti sostenibili, rientrando perfettamente in ambito ICT, sostenibilità e soluzioni data-driven.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_8ef746dcfc": {
-        "stato": "ignorato",
-        "titolo": "Scienze della Vita",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/settore-bando/scienze-della-vita",
-        "tipo": "startup",
-        "scadenza": "20/06/2026",
-        "ente": "De Nora",
-        "requisiti": "Il programma 'Edge - Innovation Hub by De Nora' è rivolto a startup operanti nei settori Energia e Ambiente, ICT, Meccanica e Materiali e Scienze della Vita. Il progetto del founder, incentrato sulla progettazione, costruzione e commercializzazione di periferiche da gaming di alta gamma (mouse) che combinano design, innovazione tecnologica (hardware e software) ed eco-sostenibilità (materiali bio-sostenibili), è compatibile con i settori ICT e Meccanica e Materiali. Il profilo della startup, che mira a un prodotto di lusso e Made in Italy con attenzione all'etica e all'ambiente, si allinea con un hub di innovazione.",
-        "fondo": "Altro",
-        "voto": 7,
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_d5f4f3409c": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_6ad7890533": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_5e89f6dd26": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_c88cad62b6": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_fc3676e739": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_2631978fd6": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_6b48c8d201": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_ca06cfeba9": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_d1036b0194": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_d26058f2a2": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_ec3f56be9d": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_64fb35e322": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_e46193191b": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_b816f501c7": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_8f18eaf6bb": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_7670bad136": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_148b128253": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_0adc279758": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
-    },
-    "start_ef4e33f46f": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/06/2026"
     },
     "3607": {
         "stato": "ignorato",
@@ -2982,5 +2786,21 @@
     "start_b5a6b60981": {
         "stato": "ignorato",
         "data_rilevazione": "03/07/2026"
+    },
+    "start_395a0ff10c": {
+        "stato": "nuovo",
+        "titolo": "Al via EIC Pathfinder 2026: sostegno alle imprese con tecnologie disruptive",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/al-eic-pathfinder-2026-sostegno-alle-imprese-con-tecnologie-disruptive",
+        "tipo": "startup",
+        "scadenza": "28/10/2026",
+        "ente": "EIC Pathfinder",
+        "requisiti": "Consorzi di almeno tre entità legali indipendenti (università, centri di ricerca, PMI, startup, grandi imprese) stabilite in tre diversi Stati membri dell'UE o Paesi associati a Horizon Europe (almeno uno deve essere uno Stato membro) per progetti di ricerca di frontiera e sviluppo di tecnologie radicalmente nuove (dal TRL 1 al TRL 3-4). Per la sola modalità Challenges, in casi specifici, sono ammesse anche candidature di singoli soggetti giuridici o piccoli consorzi (due partner).",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "04/07/2026"
+    },
+    "start_6ec034da58": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/07/2026"
     }
 }
