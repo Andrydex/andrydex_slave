@@ -105,127 +105,6 @@
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
     },
-    "1920": {
-        "stato": "ignorato",
-        "titolo": "Genshin Impact: New Primogems Codes",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/genshin-impact-new-primogems-codes",
-        "scadenza": "N/A",
-        "store": "PC, Playstation 5, Playstation 4",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_61974656cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_7521f7c8e0": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_c3a1d062d2": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_d79241a9a5": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_9f9662ba15": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_bc7c4a2832": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_7dd055bdb0": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_f65dd2b379": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_52272764db": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_6f54563bef": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "uni_02dc87300b": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_bf1e687de0": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_0e4267058f": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_db5bac273b": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_6b2cf973d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_f2c334d4e5": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_1848160ea0": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_c5f64f52a5": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_44e8133af7": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_8ccced3e8b": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_5bbba2afbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_ad58975427": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_0198080f28": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_1a20c7dc10": {
-        "stato": "nuovo",
-        "titolo": "vai al sito.",
-        "url": "http://www.mise.gov.it/index.php/it/incentivi/impresa/credito-d-imposta-r-s",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Ministero delle Imprese e del Made in Italy",
-        "requisiti": "Il bando si rivolge a tutte le imprese residenti nel territorio dello Stato (incluse le stabili organizzazioni di soggetti non residenti), indipendentemente dalla natura giuridica, dal settore economico di appartenenza, dalla dimensione, dal regime contabile e dal sistema di determinazione del reddito ai fini fiscali. Sono escluse le imprese in stato di liquidazione volontaria, fallimento, liquidazione coatta amministrativa, concordato preventivo senza continuità aziendale, altre procedure concorsuali o destinatarie di sanzioni interdittive (D.Lgs. 231/2001). La fruizione del beneficio è subordinata al rispetto delle normative sulla sicurezza nei luoghi di lavoro e al corretto adempimento degli obblighi di versamento dei contributi previdenziali e assistenziali. Le attività ammissibili sono ricerca fondamentale, ricerca industriale, sviluppo sperimentale, innovazione tecnologica (anche 4.0 e green) e design e ideazione estetica.",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_a6f403b558": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
-    "start_585e69148e": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/06/2026"
-    },
     "3670": {
         "stato": "inviato",
         "titolo": "GoGeez Playtest (Steam) Key Giveaway",
@@ -2802,5 +2681,29 @@
     "start_6ec034da58": {
         "stato": "ignorato",
         "data_rilevazione": "04/07/2026"
+    },
+    "uni_2631978fd6": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/07/2026"
+    },
+    "uni_7c4a15fb8e": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/07/2026"
+    },
+    "uni_9e19bed67d": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/07/2026"
+    },
+    "start_2631978fd6": {
+        "stato": "nuovo",
+        "titolo": "Bando C4B Open Call for Pilot Projects: fondi per startup nella bioeconomia circolare",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-c4b-open-call-pilot-projects-fondi-startup-nella-bioeconomia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Ministero delle Imprese",
+        "requisiti": "Startup innovative; progetti d'impresa per la produzione di beni e servizi nel campo dell’economia digitale, dell’intelligenza artificiale, della blockchain e dell’internet of things.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "05/07/2026"
     }
 }
