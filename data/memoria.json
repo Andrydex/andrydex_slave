@@ -105,15 +105,6 @@
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
     },
-    "3671": {
-        "stato": "inviato",
-        "titolo": "Flufftopia (itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/flufftopia-itchio-giveaway",
-        "scadenza": "2026-06-14 23:59:00",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "07/06/2026"
-    },
     "3674": {
         "stato": "inviato",
         "titolo": "Remothered: Tormented Fathers (Steam) Giveaway",
@@ -2716,5 +2707,47 @@
         "fondo": "Fondo perduto",
         "voto": 9,
         "data_rilevazione": "06/07/2026"
+    },
+    "3705": {
+        "stato": "inviato",
+        "titolo": "Silence (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/silence-gog-giveaway",
+        "scadenza": "2026-07-10 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "07/07/2026"
+    },
+    "3704": {
+        "stato": "inviato",
+        "titolo": "GOALS: AMD Kit Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/goals-amd-kit-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "07/07/2026"
+    },
+    "uni_c5bf9fb758": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
+    },
+    "uni_e99df7306a": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
+    },
+    "uni_930281370e": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
+    },
+    "uni_26ed2c4274": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
+    },
+    "uni_45e009246c": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
+    },
+    "start_930281370e": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/07/2026"
     }
 }
