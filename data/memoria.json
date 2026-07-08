@@ -105,42 +105,6 @@
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
     },
-    "3674": {
-        "stato": "inviato",
-        "titolo": "Remothered: Tormented Fathers (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/remothered-tormented-fathers-steam-giveaway",
-        "scadenza": "2026-06-08 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "08/06/2026"
-    },
-    "3673": {
-        "stato": "preso",
-        "titolo": "Relaxing Simulator (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/relaxing-simulator-epic-games-giveaway",
-        "scadenza": "2026-06-14 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "08/06/2026"
-    },
-    "3672": {
-        "stato": "inviato",
-        "titolo": "Remothered: Broken Porcelain (GOG) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/remothered-broken-porcelain-gog-giveaway",
-        "scadenza": "2026-06-08 23:59:00",
-        "store": "PC, GOG, DRM-Free",
-        "data_rilevazione": "08/06/2026"
-    },
-    "cs_43a663e3e4": {
-        "stato": "preso",
-        "titolo": "Relaxing Simulator",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=FPrvJs%2BAnKwfFgz7aB%2FRorWr0nNTI2vS4Za01RD3tRE%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "08/06/2026"
-    },
     "3676": {
         "stato": "ignorato",
         "data_rilevazione": "13/06/2026"
@@ -2098,7 +2062,7 @@
         "data_rilevazione": "30/06/2026"
     },
     "3696": {
-        "stato": "inviato",
+        "stato": "ignorato",
         "titolo": "World of Warships Alienware Flag Pack Key Giveaway",
         "tipo": "dlc",
         "url": "https://www.gamerpower.com/open/world-of-warships-alienware-flag-pack-key-giveaway",
@@ -2276,7 +2240,7 @@
         "data_rilevazione": "01/07/2026"
     },
     "3701": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "River City Girls 2 (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/river-city-girls-2-epic-games-giveaway",
@@ -2285,7 +2249,7 @@
         "data_rilevazione": "02/07/2026"
     },
     "3700": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "I Have No Mouth, and I Must Scream (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/i-have-no-mouth-and-i-must-scream-epic-games-giveaway",
@@ -2384,7 +2348,7 @@
         "data_rilevazione": "02/07/2026"
     },
     "cs_1e79e5f396": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "River City Girls 2",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=Hh%2FV2q79faSg2e2HgKUo9AXZz75SH7oP12X75z4S5Sc%3D",
@@ -2393,7 +2357,7 @@
         "data_rilevazione": "02/07/2026"
     },
     "cs_a2bdbe2080": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "I Have No Mouth And I Must Scream",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=3ZmO6v%2F3BnJLRrKshDIB8nhxnXbGEwvTbscswgomK94%3D",
@@ -2749,5 +2713,22 @@
     "start_930281370e": {
         "stato": "ignorato",
         "data_rilevazione": "07/07/2026"
+    },
+    "3498": {
+        "stato": "inviato",
+        "titolo": "Primal Slideee Deluxe (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/primal-slideee-deluxe-pc-giveaway",
+        "scadenza": "2026-07-31 23:59:59",
+        "store": "PC",
+        "data_rilevazione": "08/07/2026"
+    },
+    "uni_556499d160": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/07/2026"
+    },
+    "uni_8407a72c55": {
+        "stato": "ignorato",
+        "data_rilevazione": "08/07/2026"
     }
 }
