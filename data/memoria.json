@@ -60,7 +60,7 @@
         "data_rilevazione": "25/05/2026"
     },
     "uni_69d1dc60e6": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Coopstartup Changemakers 2026",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/coopstartup-changemakers-2026",
         "tipo": "universita",
@@ -122,95 +122,6 @@
         "requisiti": "Bando rivolto a startup AI-driven ad alto potenziale interessate a sviluppare collaborazioni industriali con il Gruppo Mondadori. Richiede un'idea progettuale matura o una startup già costituita. Non elenca dipartimenti esclusi, ma si concentra su progetti di startup. Le aree di interesse 'Corporate Core Functions' sono pienamente allineate con il corso DCI (Direzione e Consulenza d'Impresa) e le aree di focus imprenditoriali del candidato.",
         "voto": 7,
         "data_rilevazione": "09/06/2026"
-    },
-    "3477": {
-        "stato": "inviato",
-        "titolo": "CALLUS (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/callus-itch-io-giveaway",
-        "scadenza": "2026-06-11 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_019a108bf8": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_2fac836f0a": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_40ecde9702": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_e4a4ffc83b": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_18f7d96d4d": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_a39ecd9209": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_6890193eaa": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_72d333c6b3": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_a587de7c51": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_42a6b4662e": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_d111441c23": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_7d6b4ed69e": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_955fc04124": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_4301a0421a": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_6a006bb462": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "uni_2bfc11a738": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "start_031db6bd10": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/06/2026"
-    },
-    "start_b119b62a4c": {
-        "stato": "nuovo",
-        "titolo": "Servizio LinkUp: matchmaking qualificato IFAB per startup",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/servizio-linkup-matchmaking-qualificato-ifab-startup",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Fondazione IFAB",
-        "requisiti": "Startup innovative che operano con nuove tecnologie, senza vincoli di TRL minimo, interessate a matchmaking qualificato con attori del panorama finanziario e produttivo per favorire la scalabilità industriale, la validazione commerciale, lo sviluppo tecnologico o la ricerca di capitali di rischio.",
-        "fondo": "Altro",
-        "voto": 8,
-        "data_rilevazione": "10/06/2026"
     },
     "3684": {
         "stato": "preso",
@@ -2700,5 +2611,79 @@
     "start_0faecbd501": {
         "stato": "ignorato",
         "data_rilevazione": "09/07/2026"
+    },
+    "3279": {
+        "stato": "inviato",
+        "titolo": "Blacklist Mafia (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/blacklist-mafia-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "10/07/2026"
+    },
+    "3675": {
+        "stato": "inviato",
+        "titolo": "Neverwinter: Cape of the Noble North Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/neverwinter-cape-of-the-noble-north-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_800f495a0d": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_365c0a5c4b": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_a962928245": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_f6a06d11b6": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_805d345f5a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_4aa3c6c8c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_0998116107": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_01381f983f": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_b1c9c18c2d": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_55b1bb61e9": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_e7317a54ea": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_9bc569591e": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_120583ab1a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
+    },
+    "uni_1e687e7081": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/07/2026"
     }
 }
