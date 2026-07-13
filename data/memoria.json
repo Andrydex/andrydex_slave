@@ -105,10 +105,6 @@
         "stato": "ignorato",
         "data_rilevazione": "01/07/2026"
     },
-    "3676": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/06/2026"
-    },
     "uni_aa255e46a8": {
         "stato": "nuovo",
         "titolo": "PLAI – Call4Startups 2026",
@@ -136,15 +132,6 @@
         "requisiti": "Il bando è rivolto a startup, PMI, ricercatori, organizzazioni non profit ed enti pubblici che presentano progetti con una chiara componente di ricerca e innovazione e cicli di sviluppo rapidi. È richiesta l'adozione di licenze open source per hardware e software e la pubblicazione dei risultati scientifici in open access. Sebbene non sia una borsa di studio per la mobilità o per il percorso accademico di uno studente, il profilo di Andrea, focalizzato sull'imprenditorialità con la LM in DCI e le sue esperienze in startup e progetti di innovazione, lo rende un potenziale candidato come 'ricercatore' o come membro/fondatore di una 'startup'. Non sono specificati dipartimenti ammessi o esclusi, ma l'area ICT e imprenditorialità è compatibile con DCI/Economia/Biagi/Management.",
         "voto": 7,
         "data_rilevazione": "11/06/2026"
-    },
-    "3685": {
-        "stato": "ignorato",
-        "titolo": "Lootbane Playtest (Steam) Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/lootbane-playtest-steam-key-giveaway",
-        "scadenza": "2026-06-19 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "13/06/2026"
     },
     "uni_033d6c09d4": {
         "stato": "ignorato",
@@ -2552,5 +2539,183 @@
         "fondo": "Altro",
         "voto": 9,
         "data_rilevazione": "12/07/2026"
+    },
+    "3710": {
+        "stato": "inviato",
+        "titolo": "KeepUp Survival (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/keepup-survival-epic-games-giveaway",
+        "scadenza": "2026-07-19 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "13/07/2026"
+    },
+    "cs_2e1f8a1b20": {
+        "stato": "inviato",
+        "titolo": "KeepUp Survival",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=NxjGSGJn32kfyQjIOxWVbzf9BC2apsWeWd1WZ47PdCA%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_97274538f4": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_68becfcf6f": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_5d944f6863": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_4cbc05dae6": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_8e0683b9a5": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_f3665aaa85": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_691cf689bb": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "uni_94c7c1f2da": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_f35cef49e9": {
+        "stato": "nuovo",
+        "titolo": "Bando NEMESIS Open Call: fondi per startup AgTech in Emilia-Romagna",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-nemesis-open-call-fondi-startup-agtech-emilia-romagna",
+        "tipo": "startup",
+        "scadenza": "01/08/2026",
+        "ente": "Horizon Europe (tramite EmiliaRomagnaStartUp)",
+        "requisiti": "Il bando è rivolto a PMI e startup specializzate nel settore AgTech o in servizi di monitoraggio del suolo, agricoltori, proprietari terrieri e cooperative agricole, istituti di ricerca applicata e ONG ambientali, autorità pubbliche locali o regionali responsabili della gestione di terreni dimostrativi. L'ambito geografico di applicazione include le regioni del Centro-Nord Italia, con particolare attenzione all'Emilia-Romagna e alla Lombardia. L'obiettivo è supportare attività pratiche sul campo per l'introduzione di pratiche di gestione agricola sostenibile (es. agricoltura rigenerativa, rotazione delle colture, sistemi agroforestali, inerbimento) e la co-creazione e validazione di soluzioni innovative in ambienti operativi reali.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_a587de7c51": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_8e0683b9a5": {
+        "stato": "nuovo",
+        "titolo": "Bando KAVA 14 RIS Innovation: 1 milione di euro per startup e PMI",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-kava-14-ris-innovation-1-milione-di-euro-startup-e-pmi",
+        "tipo": "startup",
+        "scadenza": "16/10/2026",
+        "ente": "EIT RawMaterials",
+        "requisiti": "Startup, PMI, enti di ricerca e partner industriali. Progetti focalizzati su tecnologie all'avanguardia dedicate alle materie prime critiche e alle rispettive catene del valore, con un livello di maturità tecnologica (TRL) minimo 5 e obiettivo di raggiungere TRL 8, garantendo la commercializzazione entro due anni dal termine dei lavori. Le attività finanziabili includono testing e dimostrazione, proof of concept e upscaling industriale.",
+        "fondo": "Fondo perduto",
+        "voto": 6,
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_bf1e687de0": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_3c95a4745b": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_f5a0be9143": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_ca13469cca": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_db8637e3cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_df40aa3346": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_de9e0fb8ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_25b2bf9516": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_0e4267058f": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_db5bac273b": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_6b2cf973d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_f2c334d4e5": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_1848160ea0": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_c5f64f52a5": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_44e8133af7": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_8ccced3e8b": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_5bbba2afbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_ad58975427": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_0198080f28": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_1a20c7dc10": {
+        "stato": "nuovo",
+        "titolo": "vai al sito.",
+        "url": "http://www.mise.gov.it/index.php/it/incentivi/impresa/credito-d-imposta-r-s",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Ministero delle Imprese e del Made in Italy",
+        "requisiti": "Il beneficio è rivolto a tutte le imprese residenti nel territorio dello Stato (incluse le stabili organizzazioni di soggetti non residenti), indipendentemente dalla natura giuridica, dal settore economico di appartenenza, dalla dimensione, dal regime contabile e dal sistema di determinazione del reddito ai fini fiscali. Sono escluse le imprese in stato di liquidazione volontaria, fallimento, liquidazione coatta amministrativa, concordato preventivo senza continuità aziendale o altra procedura concorsuale, nonché quelle destinatarie di sanzioni interdittive. La fruizione è subordinata al rispetto delle normative sulla sicurezza nei luoghi di lavoro e al corretto adempimento degli obblighi di versamento dei contributi previdenziali e assistenziali. Le attività ammissibili includono ricerca fondamentale, ricerca industriale e sviluppo sperimentale, innovazione tecnologica (anche 4.0 e green), design e ideazione estetica, con percentuali e limiti massimi annuali variabili in base all'attività e al periodo d'imposta.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_a6f403b558": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_585e69148e": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
+    },
+    "start_3a797bbe9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/07/2026"
     }
 }
