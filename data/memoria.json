@@ -133,18 +133,6 @@
         "voto": 7,
         "data_rilevazione": "11/06/2026"
     },
-    "uni_033d6c09d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_7301c5cac7": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_dad345e823": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
     "uni_a3bb47399b": {
         "stato": "ignorato",
         "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
@@ -159,30 +147,6 @@
         "voto": 9,
         "data_rilevazione": "14/06/2026"
     },
-    "uni_4ba8c87081": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_5d4094b431": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_f3d4dccaa3": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_86a9f423d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_4c6eaddcb6": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_b2a7a17921": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
     "uni_27450c565d": {
         "stato": "ignorato",
         "titolo": "Coopstartup Changemakers 2026",
@@ -195,46 +159,6 @@
         "argomenti": "Sviluppo di idee imprenditoriali e neocoperative con sede nella Città metropolitana di Bologna, volte a promuovere un cambiamento in ambito economico, sociale, ambientale e culturale, generando impatto positivo. Particolare valore ai progetti coerenti con Agenda 2030, nuove tecnologie, innovazione sociale, inclusione, transizione ecologica e rafforzamento del tessuto cooperativo.",
         "requisiti": "Gruppi di almeno 3 persone che intendono costituire una cooperativa con sede legale e/o operativa nella Città metropolitana di Bologna, oppure neocooperative già costituite dal 1° gennaio 2024 con sede legale e/o operativa nella Città metropolitana di Bologna. Aperto a tutti i settori. DCI/Economia/Biagi/Management sono inclusi in 'tutti i settori'.",
         "voto": 8,
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_13f7ee22f6": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_4c56fdad79": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_3c8ea86cb9": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_751ea661df": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_e963977eae": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_06e0e208e0": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_32d89c5e87": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_39d9a14a07": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_98514d90d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_0adc279758": {
-        "stato": "ignorato",
         "data_rilevazione": "14/06/2026"
     },
     "uni_f4bf0f19b9": {
@@ -2717,5 +2641,40 @@
     "start_3a797bbe9a": {
         "stato": "ignorato",
         "data_rilevazione": "13/07/2026"
+    },
+    "3555": {
+        "stato": "inviato",
+        "titolo": "Together After Dark (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/together-after-dark-epic-games-giveaway",
+        "scadenza": "2026-07-27 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "14/07/2026"
+    },
+    "3676": {
+        "stato": "inviato",
+        "titolo": "Dire Echo (itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dire-echo-itchio-giveaway",
+        "scadenza": "2026-07-19 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "14/07/2026"
+    },
+    "cs_70b143f7f9": {
+        "stato": "inviato",
+        "titolo": "Together After Dark",
+        "tipo": "cheapshark",
+        "url": "https://www.cheapshark.com/redirect?dealID=Bd3jnETmJJx6uoXgpFHzYvZSXEvC5NjekI7EbCcNcRc%3D",
+        "store": "Fanatical",
+        "scadenza": "N.D.",
+        "data_rilevazione": "14/07/2026"
+    },
+    "uni_39ff2bd813": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/07/2026"
+    },
+    "uni_8a0f898760": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/07/2026"
     }
 }
