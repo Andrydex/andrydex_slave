@@ -161,22 +161,6 @@
         "voto": 8,
         "data_rilevazione": "14/06/2026"
     },
-    "uni_f4bf0f19b9": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/06/2026"
-    },
-    "uni_4c41796e79": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/06/2026"
-    },
-    "start_379ec9ff0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/06/2026"
-    },
-    "start_c668be76ea": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/06/2026"
-    },
     "3686": {
         "stato": "ignorato",
         "titolo": "Mongil: Star Dive Gift Pack Key Giveaway",
@@ -2676,5 +2660,56 @@
     "uni_8a0f898760": {
         "stato": "ignorato",
         "data_rilevazione": "14/07/2026"
+    },
+    "3711": {
+        "stato": "inviato",
+        "titolo": "The Mound: Omen of Cthulhu – Lost Explorers' Swords Pack (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/the-mound-omen-of-cthulhu-lost-explorers-swords-pack-steam-giveaway",
+        "scadenza": "2026-07-29 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_96c4ccdab0": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_a76aff2e2d": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_638b5f6442": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_30baa0ab6f": {
+        "stato": "nuovo",
+        "titolo": "Planet Foundamentals: la call di SocialFare 2026",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/planet-foundamentals-la-call-di-socialfare-2026",
+        "tipo": "universita",
+        "scadenza": "22/07/2026",
+        "luogo": "Torino, Piemonte, Liguria, Valle d'Aosta",
+        "durata": "Non specificata, programma di accelerazione intensivo",
+        "ente": "SocialFare",
+        "argomenti": "Programma di accelerazione per startup ad impatto e imprese sociali. Temi: innovazione sociale (persone) e sostenibilità ambientale (pianeta). Settori: Energia e Ambiente, ICT, Innovazione Sociale.",
+        "requisiti": "Destinatari: Startup già costituite (innovative, SIAVS, S.r.l.), realtà ancora in fase di costituzione e Imprese Sociali (S.r.l. o Cooperative). Richiesto impatto sociale intenzionale, addizionale e misurabile e offerta di un prodotto/servizio altamente innovativo. Le Imprese Sociali devono avere sede legale in Piemonte, Liguria o Valle d'Aosta. Non è un bando per mobilità studentesca o borse di studio dirette a studenti, ma per progetti imprenditoriali.",
+        "voto": 6,
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_b77f537bea": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_4099107c4b": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_f5dad8f611": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
+    },
+    "uni_39ebb14c11": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/07/2026"
     }
 }
