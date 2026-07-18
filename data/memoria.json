@@ -161,62 +161,6 @@
         "voto": 8,
         "data_rilevazione": "14/06/2026"
     },
-    "3688": {
-        "stato": "preso",
-        "titolo": "ROBOBEAT (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/robobeat-epic-games-giveaway",
-        "scadenza": "2026-06-25 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "18/06/2026"
-    },
-    "3687": {
-        "stato": "preso",
-        "titolo": "Citizen Sleeper (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/citizen-sleeper-epic-games-giveaway",
-        "scadenza": "2026-06-25 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "18/06/2026"
-    },
-    "cs_ae8813b5b3": {
-        "stato": "ignorato",
-        "titolo": "ROBOBEAT",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=ubYxq7m8WA63fHxcDy2f8jRwhoLs8U8k3ZvHuiWcNb4%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "18/06/2026"
-    },
-    "cs_61705a86a9": {
-        "stato": "ignorato",
-        "titolo": "Citizen Sleeper",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=KltukaH5Vb1cIzHnNNvBR1E0ZDEi9vo7p50P5Z%2Bt5h8%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "18/06/2026"
-    },
-    "uni_0686124274": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
-    },
-    "uni_6ec5ce9774": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
-    },
-    "uni_3b4fcd4126": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
-    },
-    "uni_88d23b724d": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
-    },
-    "start_7045cbe8b2": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/06/2026"
-    },
     "uni_9bd6865097": {
         "stato": "ignorato",
         "data_rilevazione": "19/06/2026"
@@ -1207,7 +1151,7 @@
         "data_rilevazione": "30/06/2026"
     },
     "uni_3ea46c5ce2": {
-        "stato": "nuovo",
+        "stato": "partecipo",
         "titolo": "Bando di concorso per l’assegnazione di contributi per le spese di locazione abitativa sostenute dagli studenti fuori sede iscritti all’anno accademico 2025/2026",
         "url": "https://www.unimore.it/it/ateneo/bandi/bando-di-concorso-lassegnazione-di-contributi-le-spese-di-locazione-abitativa-0",
         "tipo": "universita",
@@ -2528,7 +2472,7 @@
         "data_rilevazione": "15/07/2026"
     },
     "3715": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Echo Generation: Midnight Edition (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/echo-generation-midnight-edition-epic-games-giveaway",
@@ -2537,7 +2481,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "3714": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Luto (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/luto-epic-games-giveaway",
@@ -2555,7 +2499,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "cs_fb25e98e7e": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Luto",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=DQt2nyAzzgJgsF%2FqstI9pYPY7zHvoDbwx5nKSwJuKsY%3D",
@@ -2564,7 +2508,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "cs_a1e64fcfc8": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Echo Generation: Midnight Edition",
         "tipo": "cheapshark",
         "url": "https://www.cheapshark.com/redirect?dealID=bwIbg4nP%2FzVlXUH6PTHY2MCrgZ3o%2F16pMa48zcQMpiA%3D",
@@ -2806,5 +2750,62 @@
     "uni_fc7106a2a8": {
         "stato": "ignorato",
         "data_rilevazione": "17/07/2026"
+    },
+    "3720": {
+        "stato": "inviato",
+        "titolo": "The Life and Suffering of Sir Brante (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-life-and-suffering-of-sir-brante-steam-giveaway",
+        "scadenza": "2026-07-23 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "18/07/2026"
+    },
+    "uni_fdcf60a053": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
+    },
+    "uni_cd108a14ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
+    },
+    "uni_5363c39d70": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
+    },
+    "uni_29183b434c": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
+    },
+    "start_fdcf60a053": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
+    },
+    "start_cd108a14ae": {
+        "stato": "nuovo",
+        "titolo": "Bando SPIN: Rise 2026 | Programma di pre-incubazione per scienziati deep-tech",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-spin-rise-2026-programma-di-pre-incubazione-scienziati-deep-tech",
+        "tipo": "startup",
+        "scadenza": "05/09/2026",
+        "ente": "SPIN: Rise 2026 / EmiliaRomagnaStartUp",
+        "requisiti": "Ricercatori e innovatori (anche studenti magistrali) attivi in tecnologie di frontiera (deep-tech), con particolare attenzione a dottorandi e post-doc, affiliati a un'università o ente di ricerca con sede nell'UE o paesi associati a Horizon Europe. Possibilità di candidarsi singolarmente o in team.",
+        "fondo": "Altro",
+        "voto": 9,
+        "data_rilevazione": "18/07/2026"
+    },
+    "start_d5ea25ec05": {
+        "stato": "nuovo",
+        "titolo": "questo link",
+        "url": "https://fesr.regione.emilia-romagna.it/opportunita/opportunita-di-finanziamento/2026/bando-per-il-sostegno-allo-sviluppo-di-video-giochi-in-emilia-romagna",
+        "tipo": "startup",
+        "scadenza": "03/09/2026",
+        "ente": "Regione Emilia-Romagna",
+        "requisiti": "Il bando è rivolto a micro, piccole e medie imprese (PMI) di qualsiasi forma giuridica, regolarmente iscritte nel Registro delle Imprese presso la Camera di Commercio competente per territorio (Emilia-Romagna). I progetti ammissibili riguardano lo sviluppo di videogiochi e di esperienze immersive interattive (fruibili su PC, console, dispositivi mobili), focalizzandosi sulle attività comprese tra la fase di ideazione (pre-concept) e la realizzazione di un prototipo o vertical slice, finalizzate alla presentazione a publisher, investitori, incubatori o acceleratori.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "18/07/2026"
+    },
+    "start_c95083bc3b": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/07/2026"
     }
 }
