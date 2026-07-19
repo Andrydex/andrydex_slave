@@ -161,38 +161,6 @@
         "voto": 8,
         "data_rilevazione": "14/06/2026"
     },
-    "uni_9bd6865097": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_ba34b0deff": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_940821503f": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_d30a7e1d9b": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_54760cee1c": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_190be55ce1": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_ea583cee02": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
-    "uni_9289f0f1c7": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/06/2026"
-    },
     "3690": {
         "stato": "inviato",
         "titolo": "The Green Light (itch.io) Giveaway",
@@ -2541,7 +2509,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_aef23f983c": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Servizi",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/servizi",
         "tipo": "startup",
@@ -2807,5 +2775,25 @@
     "start_c95083bc3b": {
         "stato": "ignorato",
         "data_rilevazione": "18/07/2026"
+    },
+    "uni_9f28d8a62d": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/07/2026"
+    },
+    "uni_41226e1939": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/07/2026"
+    },
+    "start_9f28d8a62d": {
+        "stato": "nuovo",
+        "titolo": "Bando EIC STEP Scale Up Defence: capitali per startup e PMI europee",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-eic-step-scale-defence-capitali-startup-e-pmi-europee",
+        "tipo": "startup",
+        "scadenza": "28/10/2026",
+        "ente": "EIC (Commissione Europea)",
+        "requisiti": "PMI (incluse startup) e small mid-caps (fino a 499 dipendenti) con sede in uno dei Paesi dell'Unione Europea, Ucraina o paesi SEE associati a Horizon Europe. I progetti candidati devono essere focalizzati su soluzioni tecnologiche che abbiano la difesa come applicazione primaria, rientrando in una delle undici aree strategiche elencate. Il contributo richiesto all'EIC deve rispettare un limite minimo di 10 milioni di euro e un tetto massimo di 30 milioni di euro.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "19/07/2026"
     }
 }
