@@ -161,24 +161,6 @@
         "voto": 8,
         "data_rilevazione": "14/06/2026"
     },
-    "3690": {
-        "stato": "inviato",
-        "titolo": "The Green Light (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
-        "scadenza": "2026-07-02 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "20/06/2026"
-    },
-    "3100": {
-        "stato": "inviato",
-        "titolo": "The Black Within (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
-        "scadenza": "2026-07-02 23:59:59",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "20/06/2026"
-    },
     "uni_1327270f6f": {
         "stato": "ignorato",
         "data_rilevazione": "22/06/2026"
@@ -2795,5 +2777,45 @@
         "fondo": "Altro",
         "voto": 7,
         "data_rilevazione": "19/07/2026"
+    },
+    "uni_62e7ac1191": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_1cd341feb5": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_716d1b0715": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_76bd89c7da": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_db3d3de670": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_88cf8bbc2e": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_6c7f270d30": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_3f1e12fc6d": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_7018648bf2": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
+    },
+    "uni_58d2158e12": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/07/2026"
     }
 }
