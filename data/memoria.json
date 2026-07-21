@@ -1060,7 +1060,7 @@
         "data_rilevazione": "29/06/2026"
     },
     "start_53913dac4c": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Call4Innovit 2026: tutte le scadenze dei bandi per l'accelerazione di Startup e PMI innovative a San Francisco",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/call4innovit-2026-tutte-le-scadenze-dei-bandi-laccelerazione-di-startup-e-pmi",
         "tipo": "startup",
@@ -2643,7 +2643,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_e963977eae": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Call4Innovit 2026: tutte le scadenze dei bandi per l'accelerazione di Startup e PMI innovative a San Francisco",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/call4innovit-2026-tutte-le-scadenze-dei-bandi-laccelerazione-di-startup-e-pmi",
         "tipo": "startup",
@@ -2817,5 +2817,61 @@
     "uni_58d2158e12": {
         "stato": "ignorato",
         "data_rilevazione": "20/07/2026"
+    },
+    "uni_056ad980b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_52ef93a670": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_56f2784cdf": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_e654cc448c": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_5b4e8bcfdb": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_ef22d7114c": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_96f8295dd6": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_23fe99f913": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_2c464a6773": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_13f499c246": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "uni_c14b017ca2": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/07/2026"
+    },
+    "start_3f58c331e3": {
+        "stato": "nuovo",
+        "titolo": "Notizie del Presidente\n21 Luglio 2026\nL'assessore Micone: \"Con il bando agriturismo, a disposizione del territorio 10 milioni di euro\"\n​Un nuovo impulso alla crescita delle aziende agricole molisane attraverso innovazione, diversificazione e valorizzazione del territorio. È questo l'obiettivo del bando SRD03, presentato oggi nel corso della conferenza stampa dall'Assessore alle Politiche Agricole della Regione Molise Salvatore Micone, che mette a disposizione delle imprese una dotazione finanziaria di 10 milioni di euro per sostenere investimenti finalizzati allo sviluppo di attività non agricole.",
+        "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22341",
+        "tipo": "startup",
+        "scadenza": "16/10/2026",
+        "ente": "Regione Molise",
+        "requisiti": "Imprese agricole molisane che intendono investire nello sviluppo di attività non agricole quali agriturismo, agricoltura sociale, fattorie didattiche e servizi turistico-ricreativi. Il bando è orientato a progetti che promuovano sostenibilità ambientale, efficienza energetica, innovazione e ricambio generazionale, supportando i giovani che scelgono di investire in agricoltura.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "21/07/2026"
     }
 }
