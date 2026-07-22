@@ -161,14 +161,6 @@
         "voto": 8,
         "data_rilevazione": "14/06/2026"
     },
-    "uni_1327270f6f": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/06/2026"
-    },
-    "uni_7b69abc325": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/06/2026"
-    },
     "uni_cd673e8edc": {
         "stato": "nuovo",
         "titolo": "Avviso pubblico per la concessione di postazioni di coworking presso l’incubatore del Centro di Ricerca Ambiente, Energia e Mare di Marina di Ravenna",
@@ -181,22 +173,6 @@
         "argomenti": "Concessione di postazioni di coworking presso l'incubatore del Centro di Ricerca Ambiente, Energia e Mare, con focus su economia circolare, sostenibilità energetica e Blue Economy.",
         "requisiti": "Imprese, liberi professionisti o lavoratori operanti nei settori della sostenibilità ambientale e decarbonizzazione, sostenibilità energetica e Green Energy, Circular Economy, Green e Blue Economy, Chimica verde.",
         "voto": 7,
-        "data_rilevazione": "22/06/2026"
-    },
-    "start_7b69abc325": {
-        "stato": "nuovo",
-        "titolo": "Bando EuroHPC Joint Undertaking: 4 call per startup nel settore quantistico",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-eurohpc-joint-undertaking-4-call-startup-nel-settore-quantistico",
-        "tipo": "startup",
-        "scadenza": "14/01/2027",
-        "ente": "EuroHPC Joint Undertaking",
-        "requisiti": "Il bando è rivolto a enti di ricerca, grandi imprese, startup e università. In particolare, la call 'Large-Scale Photonic Quantum Computing Platform Technologies' richiede che i consorzi siano guidati da startup specializzate nel quantum computing fotonico e coinvolgano partner industriali, scientifici e utilizzatori finali. Andrea Colacicco, con il suo forte background imprenditoriale (Contamination Lab, Start-up ‘OK’, Enactus), le sue competenze in sviluppo startup, gestione di progetti e il suo interesse per le tecnologie avanzate (AI), è un candidato idoneo per partecipare con una startup, specialmente alla call 'Quantum Machine Learning' che combina tecnologie quantistiche, IA e sistemi di calcolo ad alte prestazioni, allineandosi ai suoi interessi in AI e hardware/sviluppo.",
-        "fondo": "Fondo perduto",
-        "voto": 7,
-        "data_rilevazione": "22/06/2026"
-    },
-    "start_d62f9f5964": {
-        "stato": "ignorato",
         "data_rilevazione": "22/06/2026"
     },
     "3691": {
@@ -831,7 +807,7 @@
         "data_rilevazione": "27/06/2026"
     },
     "start_2ba9e6e1c5": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Premio Apply AI Startup Award per startup con soluzioni AI strategiche",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/premio-apply-ai-startup-award-startup-con-soluzioni-ai-strategiche",
         "tipo": "startup",
@@ -1119,7 +1095,7 @@
         "data_rilevazione": "30/06/2026"
     },
     "start_19720f1d4b": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Scienze della Vita",
         "url": "https://www.emiliaromagnastartup.it/it/categoria/settore-bando/scienze-della-vita",
         "tipo": "startup",
@@ -1321,7 +1297,7 @@
         "data_rilevazione": "01/07/2026"
     },
     "start_2dca6c97b5": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Premio Apply AI Startup Award per startup con soluzioni AI strategiche",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/premio-apply-ai-startup-award-startup-con-soluzioni-ai-strategiche",
         "tipo": "startup",
@@ -2392,7 +2368,7 @@
         "data_rilevazione": "15/07/2026"
     },
     "uni_30baa0ab6f": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Planet Foundamentals: la call di SocialFare 2026",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/planet-foundamentals-la-call-di-socialfare-2026",
         "tipo": "universita",
@@ -2527,7 +2503,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_fc3676e739": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Tutti i settori",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/settore-bando/tutti-i-settori",
         "tipo": "startup",
@@ -2873,5 +2849,65 @@
         "fondo": "Fondo perduto",
         "voto": 9,
         "data_rilevazione": "21/07/2026"
+    },
+    "uni_033d6c09d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_1935e762bb": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_26c0d3d227": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_033d6c09d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_7cb74de83d": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_e1161bfd0a": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_835b54d980": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_6ecd7634b1": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_71bc8ad6c6": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_07037d9b9b": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_15a6a4e573": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_6b56213dd4": {
+        "stato": "nuovo",
+        "titolo": "Voucher",
+        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/voucher",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "EmiliaRomagnaStartUp",
+        "requisiti": "Il candidato Andrea Colacicco, con i suoi progetti di startup 'Fonderie di idee' (impresa sociale) e 'OK' (periferiche gaming green hardware/ICT), le sue esperienze in incubazione e sviluppo d'impresa, e la sua residenza in Emilia-Romagna, è un ottimo match per questo bando che supporta l'autoimpiego e l'imprenditorialità in settori quali l'innovazione sociale, la meccanica, i materiali e l'ICT. La tipologia di contributo e voucher è adeguata alle esigenze iniziali di una startup.",
+        "fondo": "Contributo nella spesa/cofinanziamento Voucher",
+        "voto": 9,
+        "data_rilevazione": "22/07/2026"
+    },
+    "start_d20e2c1928": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/07/2026"
     }
 }
