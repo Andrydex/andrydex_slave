@@ -175,112 +175,6 @@
         "voto": 7,
         "data_rilevazione": "22/06/2026"
     },
-    "3691": {
-        "stato": "inviato",
-        "titolo": "Crystal Saga Nova: Free Gift Pack Keys",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/crystal-saga-nova-free-gift-pack-keys",
-        "scadenza": "2028-01-01 23:59:00",
-        "store": "PC",
-        "data_rilevazione": "23/06/2026"
-    },
-    "3287": {
-        "stato": "inviato",
-        "titolo": "Mr.Brocco And Co (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/mr-brocco-and-co-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_34bb5a7cd0": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_560fa64e6b": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_8f18a67f61": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_fa125b1649": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_b6a1b40a48": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_69747204fb": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_baab15889a": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_2032882efc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_fb224a3759": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_b3687f2fbd": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_442e5514bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_18c7e9f81b": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_2129481c93": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_48a1fcc559": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_d422fc5993": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "uni_51969d00e7": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "start_b69ad8b5ce": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "start_883e333805": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "start_9377a088a4": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "start_300747677f": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
-    "start_173aafe964": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/06/2026"
-    },
     "uni_0d4d9d1e65": {
         "stato": "ignorato",
         "data_rilevazione": "24/06/2026"
@@ -2909,5 +2803,57 @@
     "start_d20e2c1928": {
         "stato": "ignorato",
         "data_rilevazione": "22/07/2026"
+    },
+    "3721": {
+        "stato": "inviato",
+        "titolo": "Foretales (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/foretales-epic-games-giveaway",
+        "scadenza": "2026-07-30 23:59:00",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "23/07/2026"
+    },
+    "3686": {
+        "stato": "inviato",
+        "titolo": "Mongil: Star Dive Gift Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/mongil-star-dive-gift-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Android, iOS",
+        "data_rilevazione": "23/07/2026"
+    },
+    "uni_8347b76c67": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/07/2026"
+    },
+    "uni_b6836ca6cd": {
+        "stato": "nuovo",
+        "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/startup-showcase-people-tech-forum-2026-bologna",
+        "tipo": "universita",
+        "scadenza": "31/07/2026",
+        "luogo": "Bologna, Italia",
+        "durata": "N.D.",
+        "ente": "Ecosistema Formazione Italia (EFI), BI‑REX Competence Center, Fondazione Golinelli",
+        "argomenti": "Startup Showcase per soluzioni innovative nei settori EdTech e HRTech (tecnologie per la formazione e le risorse umane), innovazione, imprenditorialità.",
+        "requisiti": "Il bando è rivolto a startup (team o già costituite) con soluzioni innovative nei settori EdTech e HRTech. Andrea, come studente magistrale DCI con curricula di imprenditorialità e diverse esperienze in progetti di startup, potrebbe partecipare presentando un proprio progetto o idea di startup in questi ambiti. Non sono elencati specifici dipartimenti universitari ammessi o esclusi. La seconda data di chiusura per le candidature è il 31/08/2026.",
+        "voto": 7,
+        "data_rilevazione": "23/07/2026"
+    },
+    "uni_a2d40168ec": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/07/2026"
+    },
+    "start_b6836ca6cd": {
+        "stato": "nuovo",
+        "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
+        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/startup-showcase-people-tech-forum-2026-bologna",
+        "tipo": "startup",
+        "scadenza": "31/07/2026",
+        "ente": "Ecosistema Formazione Italia (EFI), BI-REX Competence Center, Fondazione Golinelli (promotori del Forum/Showcase)",
+        "requisiti": "Startup EdTech e HRTech con soluzioni emergenti per formazione, sviluppo delle competenze e processi HR. Candidatura e selezione.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "23/07/2026"
     }
 }
