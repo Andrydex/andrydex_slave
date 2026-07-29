@@ -91,95 +91,6 @@
         "voto": 7,
         "data_rilevazione": "25/06/2026"
     },
-    "3695": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
-    },
-    "3661": {
-        "stato": "inviato",
-        "titolo": "World of Tanks: Heat Gift Pack Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/world-of-tanks-heat-gift-pack-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Playstation 5, Xbox Series X|S",
-        "data_rilevazione": "29/06/2026"
-    },
-    "uni_0b9e445f64": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
-    },
-    "uni_bc87bb55cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_aa8b8e1fee": {
-        "stato": "nuovo",
-        "titolo": "Voucher",
-        "url": "https://www.emiliaromagnastartup.it/it/categoria/tipologia-bando/voucher",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "EmiliaRomagnaStartUp",
-        "requisiti": "Il voucher è rivolto a persone fisiche o imprese (anche in fase di costituzione) con idee innovative o progetti di startup in qualsiasi settore. Il profilo del founder Andrea Colacicco, con diverse esperienze in programmi di incubazione e sviluppo startup ('Contamination Lab', 'Fonderie di idee', 'Startup OK', 'Enactus'), competenze in gestione di progetti, analisi e problem solving, e interessi nelle tecnologie (Blockchain, AI), si allinea perfettamente con l'obiettivo di sostenere l'innovazione e l'imprenditorialità.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_15bbba0675": {
-        "stato": "nuovo",
-        "titolo": "4° call Clean Aviation: oltre 329 milioni di euro per l'innovazione e la decarbonizzazione del trasporto aereo",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/4deg-call-clean-aviation-oltre-329-milioni-di-euro-linnovazione-e-la",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Clean Aviation Joint Undertaking (CAJU)",
-        "requisiti": "Per startup, PMI, Organizzazioni di Ricerca e università che propongono lo sviluppo di tecnologie dirompenti per rendere l’aviazione climaticamente neutra entro il 2050. Le aree tematiche includono Ultra-efficient Short-Medium Range (SMR) Hydrogen-Powered Aircraft (HPA), Ultra-efficient Regional Aircraft (REG), Fast-track Areas (FTA) e Transverse Activities (TRANSV). Per i temi di grande dimensione (SMR, REG, HPA, TRANSV) almeno il 15% del finanziamento di ciascun progetto deve essere destinato a startup, PMI, Organizzazioni di Ricerca e università.",
-        "fondo": "Fondo perduto",
-        "voto": 6,
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_813e96ce00": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_0b9e445f64": {
-        "stato": "ignorato",
-        "titolo": "terza ed. Swiss Italian Startup Award (SISA)",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/terza-ed-swiss-italian-startup-award-sisa",
-        "tipo": "startup",
-        "scadenza": "30/06/2026",
-        "ente": "Swiss Italian Startup Award (SISA)",
-        "requisiti": "Startup costituite da meno di 5 anni (il progetto 'Start-up ‘OK’' è stato avviato a gennaio 2024); sede in Italia o Svizzera con almeno un founder italiano (Andrea Colacicco è italiano); TRL (Technology Readiness Level) maggiore di 4 in settori Verticali come ICT, Fintech, Advanced Engineering o Health Tech. Il progetto 'Start-up ‘OK’' (Hardware / Gaming / Sviluppo di periferiche green) rientra potenzialmente nei settori ICT o Advanced Engineering. La frase 'Ideazione e concept' suggerisce un TRL iniziale, ma si assume che possa aver raggiunto o superato il TRL 4 entro la scadenza del bando, data la tempistica e l'impegno del founder nello sviluppo di startup.",
-        "fondo": "Altro",
-        "voto": 7,
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_53913dac4c": {
-        "stato": "ignorato",
-        "titolo": "Call4Innovit 2026: tutte le scadenze dei bandi per l'accelerazione di Startup e PMI innovative a San Francisco",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/call4innovit-2026-tutte-le-scadenze-dei-bandi-laccelerazione-di-startup-e-pmi",
-        "tipo": "startup",
-        "scadenza": "21/07/2026",
-        "ente": "INNOVIT (promosso da Ministero degli Affari Esteri e della Cooperazione Internazionale e gestito con Agenzia ICE)",
-        "requisiti": "Sede Legale in Italia, operare in uno dei settori tecnologici indicati dai bandi (es. CleanTech / GreenTech o SportTech per le periferiche green da gaming), padronanza della lingua inglese, valutazione di solidità e potenziale basata su fatturato, round di finanziamento, protezione della proprietà intellettuale (IP) e qualità del team. Rivolto a startup e PMI innovative.",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_bc87bb55cf": {
-        "stato": "nuovo",
-        "titolo": "Bando KAVA 14 RIS Innovation: 1 milione per startup e PMI",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-kava-14-ris-innovation-1-milione-startup-e-pmi",
-        "tipo": "startup",
-        "scadenza": "16/10/2026",
-        "ente": "EIT RawMaterials (tramite Bando KAVA 14 RIS Innovation)",
-        "requisiti": "Imprese emergenti (startup e PMI), assieme a centri di ricerca, con soluzioni tecnologiche nel settore delle materie prime critiche, meccanica e materiali, con un livello di maturità da TRL 5 a TRL 8. Le attività finanziate includono testing, dimostrazione, Proof of Concept e upscaling industriale.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "29/06/2026"
-    },
-    "start_f1f4f38056": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/06/2026"
-    },
     "cs_05249e60ac": {
         "stato": "inviato",
         "titolo": "A Simple Garbage Sorting Game",
@@ -2526,5 +2437,185 @@
     "start_ddf5b44627": {
         "stato": "ignorato",
         "data_rilevazione": "28/07/2026"
+    },
+    "uni_3dc93da11a": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_81c26b8ca4": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_c8b197563d": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_233791cad3": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_88c7ae7167": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_65d5f0f26c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "uni_aaadeac50f": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_eea7322dad": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_60cd259732": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando è rivolto ai giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti (Andrea ha 26 anni, compatibile). È necessario essere in una condizione di inattività, inoccupazione o disoccupazione, o disoccupati del Programma GOL, o working poor (Andrea, come studente magistrale, è probabilmente compatibile con le categorie di inoccupazione/inattività). Le iniziative devono essere avviate nei territori del Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia). Andrea ha studiato la triennale in Molise, indicando un legame con il Sud Italia e la possibilità di avviare l'attività o trasferirvi la residenza. Sono ammessi tutti i settori economici, ad eccezione di agricoltura, pesca e acquacoltura (Andrea, con interessi e progetti in consulenza, startup tecnologiche e impresa sociale, è pienamente compatibile).",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Autoimpiego Centro-Nord",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/autoimpiego-centro-nord",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Giovani tra 18 e 35 anni (non compiuti), in condizione di inattività, inoccupazione o disoccupazione (o disoccupati del Programma GOL, working poor), residenti nelle regioni del Centro-Nord (Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche), che intendono avviare nuove iniziative imprenditoriali, libero-professionali o di lavoro autonomo in tutti i settori economici, ad eccezione di agricoltura, pesca e acquacoltura.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_f301bfe5b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia (Ministero delle Imprese e del Made in Italy)",
+        "requisiti": "Il bando si rivolge a imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali che svolgono attività di interesse generale e perseguono valori di utilità sociale. I piani di investimento devono essere compresi tra 100.000 euro e 10 milioni di euro, sostenibili sul piano ambientale e in linea con gli obiettivi dell’Agenda 2030. I progetti devono prevedere la realizzazione di investimenti produttivi e/o l'incremento dell'occupazione di lavoratori con disabilità. Andrea Colacicco, con il suo progetto 'Fonderie di idee' (impresa sociale) e la startup 'OK' (periferiche green da gaming), dimostra un'ottima aderenza ai requisiti di utilità sociale e sostenibilità ambientale. Le sue competenze e la sua esperienza imprenditoriale (Contamination Lab, Enactus) sono altamente pertinenti.",
+        "fondo": "Fondo perduto e Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Economia circolare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di qualsiasi dimensione (industriali, agroindustriali, artigiane, di servizi all’industria e centri di ricerca) che presentano progetti singolarmente o in forma congiunta. I progetti devono sostenere la transizione verso un modello di economia circolare e favorire la riconversione produttiva per un uso più efficiente e sostenibile delle risorse. Necessario SPID, firma digitale e PEC per la presentazione della domanda.",
+        "fondo": "Fondo perduto e Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_9377a088a4": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_300747677f": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_c434fa02f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_bd827af0a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_fddf16018c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_f6afefc558": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_317eca8be8": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_584856c989": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_86f19fbca0": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_4a84b37c65": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_ca2cfbf974": {
+        "stato": "nuovo",
+        "titolo": "Bando Startup",
+        "url": "https://www.art-er.it/news/al-via-open-innovation-scouting-2026it4lia-ricerca-e-ai-per-le-imprese",
+        "tipo": "startup",
+        "scadenza": "16/09/2026",
+        "ente": "ART-ER",
+        "requisiti": "Riservato a ricercatori che operano in enti e strutture di ricerca, pubbliche e/o private, presenti in Emilia-Romagna e che abbiano a disposizione tecnologie, prodotti e/o servizi con un TRL pari o superiore a 3. L'iniziativa è aperta a un massimo di 60 ricercatori.",
+        "fondo": "Altro",
+        "voto": 6,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_e03e2875fb": {
+        "stato": "nuovo",
+        "titolo": "Ecosistema dell'innovazione",
+        "url": "https://www.art-er.it/news?tag=5",
+        "tipo": "startup",
+        "scadenza": "16/09/2026",
+        "ente": "ART-ER",
+        "requisiti": "Ricercatori che operano in strutture pubbliche e/o private della Regione Emilia-Romagna, con focus su ricerca e AI per le imprese. Il profilo di Andrea Colacicco, studente magistrale presso l'Università degli Studi di Modena e Reggio Emilia e coinvolto in attività di R&D (JEMORE) e sviluppo startup, con interesse nelle tecnologie AI, rientra potenzialmente nella categoria di 'ricercatore operante in struttura pubblica' nella regione.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_bd6a7c1ef8": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_df4dbcf3bf": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_a5b09000c4": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_9038c21499": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
+    },
+    "start_f60c62c8f1": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/07/2026"
     }
 }
