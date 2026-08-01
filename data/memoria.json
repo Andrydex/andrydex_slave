@@ -97,144 +97,6 @@
         "voto": 8,
         "data_rilevazione": "30/06/2026"
     },
-    "3701": {
-        "stato": "preso",
-        "titolo": "River City Girls 2 (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/river-city-girls-2-epic-games-giveaway",
-        "scadenza": "2026-07-09 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3700": {
-        "stato": "preso",
-        "titolo": "I Have No Mouth, and I Must Scream (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/i-have-no-mouth-and-i-must-scream-epic-games-giveaway",
-        "scadenza": "2026-07-09 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3699": {
-        "stato": "inviato",
-        "titolo": "Wraithmind (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/wraithmind-itch-io-giveaway",
-        "scadenza": "2026-07-06 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3698": {
-        "stato": "inviato",
-        "titolo": "Path Defenders (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/path-defenders-itch-io-giveaway",
-        "scadenza": "2026-07-06 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "2109": {
-        "stato": "inviato",
-        "titolo": "Tim-Tim 2: The Almighty Gnome (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/tim-tim-2-the-almighty-gnome-itch-io-giveaway",
-        "scadenza": "2026-07-06 23:59:01",
-        "store": "PC",
-        "data_rilevazione": "02/07/2026"
-    },
-    "905": {
-        "stato": "inviato",
-        "titolo": "Larger Than Light (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/free-larger-than-light",
-        "scadenza": "2026-07-06 23:59:59",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3338": {
-        "stato": "inviato",
-        "titolo": "Drive Me to Hell (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/drive-me-to-hell-itch-io-giveaway",
-        "scadenza": "2026-07-06 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3096": {
-        "stato": "inviato",
-        "titolo": "Madness Inside (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/madness-inside-itch-io-giveaway",
-        "scadenza": "2026-08-01 23:59:59",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "2998": {
-        "stato": "inviato",
-        "titolo": "Croaking Around (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/croaking-around-itch-io-giveaway",
-        "scadenza": "2026-07-06 23:59:01",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3628": {
-        "stato": "inviato",
-        "titolo": "Liminal Lane (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/liminal-lane-itch-io-giveaway",
-        "scadenza": "2026-07-06 00:05:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3697": {
-        "stato": "inviato",
-        "titolo": "NIGHTBELL (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
-        "scadenza": "2026-07-12 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "3595": {
-        "stato": "inviato",
-        "titolo": "The Lost Painter (itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/the-lost-painter-itchio-giveaway",
-        "scadenza": "2026-07-06 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/07/2026"
-    },
-    "cs_1e79e5f396": {
-        "stato": "preso",
-        "titolo": "River City Girls 2",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=Hh%2FV2q79faSg2e2HgKUo9AXZz75SH7oP12X75z4S5Sc%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "02/07/2026"
-    },
-    "cs_a2bdbe2080": {
-        "stato": "preso",
-        "titolo": "I Have No Mouth And I Must Scream",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=3ZmO6v%2F3BnJLRrKshDIB8nhxnXbGEwvTbscswgomK94%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_7827d234ac": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_d24a50e3f8": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_6f222d3f78": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
     "uni_1b6cef35cd": {
         "stato": "ignorato",
         "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
@@ -246,78 +108,6 @@
         "ente": "Italgas",
         "argomenti": "Ricerca di soluzioni e tecnologie innovative per migliorare la resilienza delle reti energetiche (gas e acqua) e favorire la decarbonizzazione, con focus su tecnologie digitali (AI, sensoristica avanzata), nuove metodologie di costruzione, ottimizzazione delle risorse e transizione energetica.",
         "requisiti": "Gruppi di lavoro e società costituite con progetti in uno di tre stadi di maturità: 'Idea' (in grado di tradursi in prototipo entro il 2027), 'MVP' (prototipo in grado di aprire nuovi segmenti e opportunità di mercato), o 'Products on the market' (prodotti e servizi già commercializzati o pronti al lancio). Questo bando non elenca dipartimenti specifici, ma è accessibile a studenti magistrali iscritti come membri di gruppi di lavoro o startup, in linea con il percorso di imprenditorialità.",
-        "voto": 9,
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_0c090bdcd9": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_7028326956": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_17a65e88fd": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_8d3c2e50ae": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_1d2e9a8ba9": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "uni_db780bea2c": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_d24a50e3f8": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_17a65e88fd": {
-        "stato": "nuovo",
-        "titolo": "MEDICA Start-up Competition 2026 per startup medtech, healthtech e pharma",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/medica-start-competition-2026-startup-medtech-healthtech-e-pharma",
-        "tipo": "startup",
-        "scadenza": "10/09/2026",
-        "ente": "Navispace GmbH (organizzato nell'ambito di MEDICA)",
-        "requisiti": "Startup, scaleup e PMI innovative attive nei settori medtech, healthtech, digital health, pharma, diagnostica, robotica, intelligenza artificiale applicata alla salute e cybersecurity per il settore sanitario. Devono sviluppare soluzioni innovative in ambiti quali: Intelligenza artificiale applicata alla medicina, Robotica, Diagnostica di laboratorio, Resilienza e cybersecurity, Digital health e altre soluzioni innovative per il settore healthcare.",
-        "fondo": "Premio economico / Servizi",
-        "voto": 7,
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_b6f3dce1ad": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_1d2e9a8ba9": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_d0567a2c6e": {
-        "stato": "ignorato",
-        "titolo": "First",
-        "url": "https://first.art-er.it/news/bando-futurefoods-sistemi-alimentari-sostenibili-0",
-        "tipo": "startup",
-        "scadenza": "27/07/2026",
-        "ente": "FIRST | ART-ER (Regione Emilia-Romagna)",
-        "requisiti": "Progetti di ricerca (TRL 3-5) o innovazione (TRL 6-8) per accelerare la transizione verso sistemi alimentari più sostenibili (pratiche alimentari domestiche, sistemi di trasformazione circolari, fiducia e trasparenza). Ammissibili università, enti di ricerca, non-profit, PMI, grandi imprese e enti pubblici, riuniti in consorzi di almeno 3 membri da 3 diversi Stati UE o Paesi associati.",
-        "fondo": "Fondo perduto",
-        "voto": 8,
-        "data_rilevazione": "02/07/2026"
-    },
-    "start_2bfc11a738": {
-        "stato": "nuovo",
-        "titolo": "Chiusura: Fino ad esaurimento\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\n\n\n\n\ni Percorsi Le Serre di ART-ER 2026\n\n\nPercorsi di accompagnamento della durata di 6 mesi dedicati allo sviluppo e consolidamento di startup e progetti imprenditoriali innovativi basati in Emilia-Romagna con focus su: sviluppo del prodotto/servizio, strategie per la crescita commerciale, ricerca di finanziamenti e investitori.",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/i-percorsi-le-serre-di-art-er-2026",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "ART-ER",
-        "requisiti": "Il bando è rivolto a startup innovative con sede legale/operativa in regione Emilia-Romagna, come definite dalle vigenti norme di legge; spin off universitari con sede legale/operativa in regione Emilia-Romagna; team imprenditoriali non ancora costituiti purché rientranti in una delle seguenti categorie: team selezionati tra i finalisti di Start Cup Emilia-Romagna nel 2024, nel 2025 o nel 2026; costituendi spin off (delle Università o degli enti di ricerca della Regione Emilia-Romagna) in fase di costituzione al momento della presentazione della candidatura; team imprenditoriali, composti da almeno 2 persone, operanti nei seguenti settori ICC (Industrie Culturali e Creative): Musica; Audiovisivo e radio (inclusi: film/cinema, televisione, videogiochi, software e multimedia); Moda; Architettura e Design; Arti visive (inclusa fotografia); Spettacolo dal vivo e Festival; Patrimonio culturale materiale e immateriale (inclusi: archivi, biblioteche e musei); Artigianato artistico; Editoria, libri e letteratura.",
-        "fondo": "Altro",
         "voto": 9,
         "data_rilevazione": "02/07/2026"
     },
@@ -803,7 +593,7 @@
         "data_rilevazione": "12/07/2026"
     },
     "start_8817ebfb07": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
         "tipo": "startup",
@@ -881,7 +671,7 @@
         "data_rilevazione": "13/07/2026"
     },
     "start_f35cef49e9": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando NEMESIS Open Call: fondi per startup AgTech in Emilia-Romagna",
         "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-nemesis-open-call-fondi-startup-agtech-emilia-romagna",
         "tipo": "startup",
@@ -1232,7 +1022,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_98514d90d4": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando NEMESIS Open Call: fondi per startup AgTech in Emilia-Romagna",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-nemesis-open-call-fondi-startup-agtech-emilia-romagna",
         "tipo": "startup",
@@ -1244,7 +1034,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_39d9a14a07": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
         "tipo": "startup",
@@ -2422,5 +2212,2466 @@
     "start_9e0356a981": {
         "stato": "ignorato",
         "data_rilevazione": "31/07/2026"
+    },
+    "3727": {
+        "stato": "inviato",
+        "titolo": "The Elder Scrolls Online: 2000 Trade Bars Code Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/eso-code-giveaway",
+        "scadenza": "2026-08-12 23:59:59",
+        "store": "PC, Playstation 4, Xbox One, Playstation 5, Xbox Series X|S",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b2584a67a1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2de566d1cb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8d8a70322e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_927d738de4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_029a9b2d86": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f16c5006ad": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bf16568401": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_25956debcf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_817c7429f3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_34880968d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c661c9acac": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c2a62e48fd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5135228512": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_96efcea327": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bcc4c45cd0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f0916d4c76": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d9b34ee005": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1a56290220": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4042210dc4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7ade150851": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e569ba610d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b9dc1f15b5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2352a6493b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_33dabf7b1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4c37d5c98f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8a353ea125": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_00613ef9f0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5908682b0d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bf4470f109": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4b84dfc274": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_57b8116ad5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_af1be66c1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f2ed7f754d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_916aaea83e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_72e45b96c0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_baf2f50dae": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4d3e21d85d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1a650c1b84": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_53e9ccf9cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_29314a996e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bf9fa39750": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d48a6c4083": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5541846269": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3be86f4614": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_64f8795dbe": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f022a8a917": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2e4815be94": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7363470580": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_79fa843172": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_14b4409721": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c04fb63c80": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6cfa7bc822": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5800652e04": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a9e97ab590": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f59050a69c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_76f2e05134": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e08992f900": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4242db2a9d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_99dc1609c2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cca003ec36": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4d49e701d7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c4683515fd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e347c0c8ac": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1876baaef5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0e09f54986": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_35372b5265": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_87e3c9912b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fd1fe7bd74": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_76821c08b3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ce2c3cec1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_20ab7ec200": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_910b9b1a81": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_63c0a073ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8c5326ea2a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_72f95f6c33": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f3da1f7959": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a1ca713563": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1b7cfccd04": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4282b019e7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4aa4b4fe35": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5dc7699751": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ec3f7d5474": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_009fde17e9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_16c9a20cc3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a67f664252": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e0fd1d5a6b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9b69de3d7f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8189741ba0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a56e382a97": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0cde9c0430": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_181a28e527": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b888ab0d7c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cf687b7c64": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_16f6fc95ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b0f2888a34": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1b4b089469": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_851af9b13b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8953b3f91d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_874746bf96": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3040fa02cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7b84deffe3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_47c2270640": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3cd136ca86": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d0e718b954": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ff8c1475e3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ba4b009fd7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_de5ae0bb41": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_64f9a42541": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_207201134e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_789e49c4b3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_29262b3435": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2aebc899f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f9280bd7dd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_85251e48aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0c09199c6d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e360991c06": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_02934515c3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a7061c3128": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8654d09f3b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8e6813f928": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cd36fa7ed6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5d757e2aed": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bf47abd185": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ba49f942a2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_db3f240837": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0d42dde439": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7e92ad27df": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_47b2f15890": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_53eae2e7ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3a2a1dd13a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2ff5c41e27": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6574db6bcf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_927dd2d70c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a6f1e5466": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6d7952a02d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8882171d7f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f1450343ca": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b66b3ec8ee": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3cbd79a5cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6c3b591d16": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7c3dc699a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_19d72874e3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8f6bb297dc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_76278ea61f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5734174e0b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9c42edf397": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3584e4d7a0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_045b52293e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0a80f7b8d3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b295df505d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c3f4f10730": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ea8f869a13": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7e2ee4b8de": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_82fb706aa7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f7b094170e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7554de8f5c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b1bf1ca602": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_88faf57d21": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_60c8db6a4b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7e40b8269b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_784eec634a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2a67d9db05": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6070616822": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8a61a5d460": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b0bb308be8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3a6012a072": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_746e1c069b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d7accd399a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2b9cc90d31": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e35cd6b7a0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_baacb1c026": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1e5c8525d1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_220569f9d7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8649f7c367": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_12436ca28c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_176b235c22": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e287e69a8f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b8b05e5d7b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_14a7d9a190": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_dbe4ed81c3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b4cd4ecce9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_db472c4116": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a384941a10": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e8174bedff": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_696b1eeeb5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b19b4c6928": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_457b484d95": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a0194eedf9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d117a0bf23": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c572f3c346": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6645382e9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_aff5bffd18": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d01c7c1595": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cca1731580": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_07d322bffd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f1818a4354": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2881cd50c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e1dd060813": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_15fecbac73": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0dec283796": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1dfb8058b1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_33f3a66c07": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_99b4389003": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e23d7394f3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7ff073def0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_eacd8cb032": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_de4bd1a1ed": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_aa59ea5a7c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9e7f06489a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_683e349a4e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_24f0d39802": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f79a9c31f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8ac5bb90aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a8fd00bcd4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0fef819cfa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_18dd486473": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1d42c46382": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0639d09f07": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_78e999f6f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2bd694c0a7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_58ca85850a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_57fcd36604": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_380a96f69f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cccdd05b5e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_92fcc94b65": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bbf7e268c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_59ab4e3f46": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d3aa80dda2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3d2a617527": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f98682e254": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6e0374a5d9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e0e813a6e3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c96aa8a717": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9869923322": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6c84ee2d94": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7df6b9aef4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e39edbd701": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_432e8b8bd6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ea4eb37ac2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9ef6e55f07": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_dbc613485e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5384d5ae88": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f6ef39f426": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6d0de5013b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_08466dbd0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a3fb4fc9a8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c3dbc9b357": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_48bb0e7c9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_92adae933d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5c88c5e227": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_69c73fd1cc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_779abcb33d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_feb4f1be7e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_47165fa754": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a0c5418bd8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2ffaaa29cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_87f23c169d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5a0824171a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_24e930bf90": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_80a5c50501": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_08455c8ad6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4cdbc757c7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a5633e6e2d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fcd5aaf560": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_34fde7728e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a2145222e4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5171478553": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_eb224e68aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b550a0c7d2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0bd74d38cc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0bd37ec297": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5b3803ee1a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_51449fd98e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4a531bf32f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_81223b258f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d493e2cb4e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0be3ec47e9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7b79feed85": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b070841763": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d51ad06239": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_54a5660814": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fe0ebb0da2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ab083a6098": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_68d61b2282": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c4ff60c6e2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0d19c66ef1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3c3998a0be": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7fb88f6621": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_65ab50282a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2ddde09021": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d9c6e10611": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4a7d5de921": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c38a48be9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3f3542d306": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5ea4ecd8cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b2c6438fa9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8518249840": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e1c6a0bf81": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e920336b5b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_24c57f4f36": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0ebc1a7c1d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b718597201": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a0322dbdbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ddc83806a8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4683791f4e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a7db9524ea": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f5c8929135": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_708e6bb0a5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_69a0c1014b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_603eb34242": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_01e91e3a11": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_78a43f7d89": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_85babd1db3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_98f9987468": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ead3d5133a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_eff596c255": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cea446401e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c218d40b6c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_badf0f01a7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a65648d071": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_305587e742": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_859d13bf84": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5142e7a9f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ada0764048": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0fd5751b8b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5ee8d90df2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7194448507": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e5bf32e5d3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_27f9766064": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fb0a64b458": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_17fedde2f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9b7027768e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2157e683b0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cea951ad61": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_998f847028": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_54d4bdd9f4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f98e86e40c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bdba172304": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3665b4af8d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b3a5e3986f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_192a494f50": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5cd759cc9f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a110d018b8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8aa3c24330": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_aff9fee1db": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a5b6a3a53a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ebd1318987": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a5e78fec49": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c882b661e4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_50e1de7aad": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_988298ace6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_78cfe2aff8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1022995b5d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_db3ed40060": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e29ac4f767": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_400156afb6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7b79358d00": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4664e3fcbe": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c446425532": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cce9b9c0bf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7cf024f681": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_37f32a8474": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6c01c203fa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4a7462170c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f4e139bbc3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_51a24bc2c3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e953c2881a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b3213f68ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0e9daa2ce2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9aa1cebd72": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8ee9145938": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0b4dbe4c22": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ec34f39c7a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_79de6d2da3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7b008d8439": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2178256ae9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d0604376ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_37b907d897": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bb8b09ee9e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f535ad92cb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b1fb1532ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4c45c06866": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c29697be3a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_25a062dcdb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_dc5563618b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_da9876892a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a762f2e7cc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_53a7ce6bf2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_04b761cd43": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4cb6de2364": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a719c7e69": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_27e2733f38": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_865e209ec6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_95a081739d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1b918bd446": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_31bef683d8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1dbe30ffa7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_94cf7c0a87": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9db8f12bfb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7912719eeb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e31ec75663": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_68b598941a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a07191dca7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_24de9efa0d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e8d2a2d5e1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_03f46e8572": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_693215c5f9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8865831d89": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_361260ac0f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6a26bb4128": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a5ad9bb063": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9ffe6e2de3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3d8d3e4694": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4bcb3e3531": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e024745a49": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b05933990a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_736a9aba25": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_856c0264b7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3099818e2b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f03327ef37": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_26c2af16c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e19d0e6f06": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2deb682336": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_985be8349b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6cee44d5be": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c02822464b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9d6a31522c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_330479bce8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f78a125ae6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4c5dcac99b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_dbc213e9b5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4b491c6c3a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a51f148168": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7ad28f292e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ca4f3b993e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c06eed783e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c172ba2885": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8925d0c05a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1d61466c22": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_04881e9ddf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7ba70e9339": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0e54b64bda": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cef02e17aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a7604eda6a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a44b0da1b4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7af198e599": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_90ea54f2c5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7f88b5dc4b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7e52287dbf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c02853fb21": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d3ac4b57aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4521d994f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_17f4c9e1a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1b7170c19e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_217b758a79": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9918eac2fe": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3135dd8dde": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_22d5a18721": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2523b4d5a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_28e26769a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ce29dc8ad4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_23f4c78d0b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e22c9c17d9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5c533219db": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cc31e468fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9c3c83854c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5f68e6ba7e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6f31cdcfd8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_52a23a9c19": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_060caf2c99": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_580999cc6c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_53db9f4f3e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b6f1ccccd5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b5b52f3e77": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fc702f8c4e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a436ec7a0a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5392e37386": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_18a9b7b7d6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4f82d3a4f0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8123cfab4d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b710b7a3c7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fcfe2473ed": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_48e782011f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5a61e4df26": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_56333205e4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ba3a48cf02": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8664649474": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_84b26624c1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c629fa20a8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_53e6d47b46": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_25d75b182d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4b32f5d906": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e449361023": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8d24e5acb0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7a25b33a8e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_596eb3517e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_70bcecca5e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bee4074c05": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e7b31f33a1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_123a536e3f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1869ec7d2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1adf1ab87f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e40f8d41cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2d5226dc30": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f0a9ec3031": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a7136563a4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b8fd6c0509": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_62a564286e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7a73208ee3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3737676547": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6d8a4382da": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b698ad730c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8e1c0eb471": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_92b7de11f6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a671928b24": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_2c6d0ba0f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5c6d6679ff": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e263c22e8a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b48a80a802": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c934c23c40": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c53fe6d0ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3180367c18": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a46e3d394": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5d91acc238": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9414d1e8d6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b976ec9216": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_587c7d1b65": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_29ca7fbabe": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5e9bcfc341": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ce908afe59": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1239d578c6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a4948722d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4f2e4ce09c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_17aa352f15": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a40e68532": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_dddbe7abae": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c18825b61b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_04d595d642": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cdb0c1c6b8": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3631107fad": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8ba45f6d2b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a4568e67e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3dd807a963": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_52aec71d8c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e630d3046d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6de3625fc9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fa56646c9e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_094c1611da": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_282131a4de": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3739015fb5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_037f689f27": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ab9534d413": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_52953b15df": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_850eceb850": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_8b141f27ec": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f89930f95a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c5c4d05521": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_68e7f78856": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a9b7643f9f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_657a658c7a": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_080bb6b512": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a799dd9d7d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_cbf2f5e576": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_01678994dd": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d3acea4c19": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7d9925ae74": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_668fa15ae2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_583ce7d227": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_51780a87b7": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_0cb57ab321": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_38ff0e6fb3": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_016551dae0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4cf9b2c513": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d4aae7930d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_f06ea26a6b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a93a665c04": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d1f29a23c9": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d594ef4551": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_50f1029fe6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_23469c7be5": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_bd03be53bb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9a32ea8879": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_4a25fdde7b": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d2af9d8d06": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a14ed308cc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9f7b90f77d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c0be4c97e1": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a7ed4f443c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d37549a5ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a633e50d19": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3eb6ec6085": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3e3f7ddd5e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_7e73e0da22": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_3c2370cfdb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_88334ab55c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ad98534804": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_5f9da7f90e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a3ef889f21": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_d57b93255e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_9cca9b8039": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_6743f0a885": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_89ee50d2be": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_fdfd0f9cbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_1eb3e81918": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_e0cbc44527": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_b90bfdf172": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_57a080e6c6": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_80e0cd9f39": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_60093abd71": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_c3d5dc8e2c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_02b662df55": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_ba9d557633": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
+    },
+    "start_a66391d236": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/08/2026"
     }
 }
