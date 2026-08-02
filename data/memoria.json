@@ -111,65 +111,6 @@
         "voto": 9,
         "data_rilevazione": "02/07/2026"
     },
-    "3703": {
-        "stato": "inviato",
-        "titolo": "Nexus: The Jupiter Incident (GOG) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/nexus-the-jupiter-incident-gog-giveaway",
-        "scadenza": "2026-07-06 23:59:00",
-        "store": "PC, GOG, DRM-Free",
-        "data_rilevazione": "03/07/2026"
-    },
-    "3306": {
-        "stato": "inviato",
-        "titolo": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "03/07/2026"
-    },
-    "3294": {
-        "stato": "inviato",
-        "titolo": "Whiskey.Mafia. Leo's Family (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/whiskey-mafia-leo-s-family-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_1df5e3b800": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_2ccf688404": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_1b3265caee": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_85bffeaa3a": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_6c6a6cf45d": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_935e31efb4": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_95af9cb1b2": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_e38faaab58": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
     "uni_189c7349cb": {
         "stato": "ignorato",
         "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
@@ -182,82 +123,6 @@
         "argomenti": "Reti energetiche resilienti, decarbonizzazione, efficienza energetica, intelligenza artificiale e sensoristica per reti gas e acqua, sviluppo di startup e soluzioni innovative nel settore energia e ambiente.",
         "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
         "voto": 9,
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_103082ecab": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_bf1e687de0": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_60a2d03d1e": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_8f49fc6291": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_6b26742c08": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_9a8f5b7e26": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_58c300bacc": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_f168daab20": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_0ee91002a6": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_6740a1e24d": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_1848160ea0": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_9046b659d0": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "uni_b5a6b60981": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_103082ecab": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_76a7d488dc": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_c0cad9b2b7": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_cc73f1d23a": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_9046b659d0": {
-        "stato": "ignorato",
-        "data_rilevazione": "03/07/2026"
-    },
-    "start_b5a6b60981": {
-        "stato": "ignorato",
         "data_rilevazione": "03/07/2026"
     },
     "start_395a0ff10c": {
@@ -4673,5 +4538,14 @@
     "start_a66391d236": {
         "stato": "ignorato",
         "data_rilevazione": "01/08/2026"
+    },
+    "3697": {
+        "stato": "inviato",
+        "titolo": "NIGHTBELL (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
+        "scadenza": "2026-08-09 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "02/08/2026"
     }
 }
