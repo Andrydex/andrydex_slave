@@ -125,22 +125,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "start_395a0ff10c": {
-        "stato": "nuovo",
-        "titolo": "Al via EIC Pathfinder 2026: sostegno alle imprese con tecnologie disruptive",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/al-eic-pathfinder-2026-sostegno-alle-imprese-con-tecnologie-disruptive",
-        "tipo": "startup",
-        "scadenza": "28/10/2026",
-        "ente": "EIC Pathfinder",
-        "requisiti": "Consorzi di almeno tre entità legali indipendenti (università, centri di ricerca, PMI, startup, grandi imprese) stabilite in tre diversi Stati membri dell'UE o Paesi associati a Horizon Europe (almeno uno deve essere uno Stato membro) per progetti di ricerca di frontiera e sviluppo di tecnologie radicalmente nuove (dal TRL 1 al TRL 3-4). Per la sola modalità Challenges, in casi specifici, sono ammesse anche candidature di singoli soggetti giuridici o piccoli consorzi (due partner).",
-        "fondo": "Fondo perduto",
-        "voto": 8,
-        "data_rilevazione": "04/07/2026"
-    },
-    "start_6ec034da58": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/07/2026"
-    },
     "uni_2631978fd6": {
         "stato": "ignorato",
         "data_rilevazione": "05/07/2026"
@@ -4547,5 +4531,40 @@
         "scadenza": "2026-08-09 23:59:00",
         "store": "PC, Itch.io, DRM-Free",
         "data_rilevazione": "02/08/2026"
+    },
+    "3728": {
+        "stato": "inviato",
+        "titolo": "Reverse: 1999 Bonus Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/reverse-1999-bonus-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Android, iOS",
+        "data_rilevazione": "03/08/2026"
+    },
+    "3306": {
+        "stato": "inviato",
+        "titolo": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "03/08/2026"
+    },
+    "3294": {
+        "stato": "inviato",
+        "titolo": "Whiskey.Mafia. Leo's Family (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/whiskey-mafia-leo-s-family-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "03/08/2026"
+    },
+    "uni_90956de48b": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/08/2026"
+    },
+    "uni_09d3529645": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/08/2026"
     }
 }
