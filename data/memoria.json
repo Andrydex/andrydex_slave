@@ -125,30 +125,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "uni_2631978fd6": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/07/2026"
-    },
-    "uni_7c4a15fb8e": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/07/2026"
-    },
-    "uni_9e19bed67d": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/07/2026"
-    },
-    "start_2631978fd6": {
-        "stato": "nuovo",
-        "titolo": "Bando C4B Open Call for Pilot Projects: fondi per startup nella bioeconomia circolare",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bando-c4b-open-call-pilot-projects-fondi-startup-nella-bioeconomia-circolare",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Ministero delle Imprese",
-        "requisiti": "Startup innovative; progetti d'impresa per la produzione di beni e servizi nel campo dell’economia digitale, dell’intelligenza artificiale, della blockchain e dell’internet of things.",
-        "fondo": "Finanziamento agevolato",
-        "voto": 9,
-        "data_rilevazione": "05/07/2026"
-    },
     "uni_e979524794": {
         "stato": "ignorato",
         "data_rilevazione": "06/07/2026"
@@ -4566,5 +4542,82 @@
     "uni_09d3529645": {
         "stato": "ignorato",
         "data_rilevazione": "03/08/2026"
+    },
+    "3729": {
+        "stato": "inviato",
+        "titolo": "Project First Contact (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/project-first-contact-epic-games-giveaway",
+        "scadenza": "2026-08-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_1c06789de2": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_1d8ee3a4ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_573c40cde7": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_94c1759832": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_ddc8961f20": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_98cbbfdfe1": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_8b62849305": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_74b52b1597": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_23559b0cc0": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_75b09c64fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_0d6a4b143d": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_69bca1b9cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_ce20a4eb06": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_cf1ab76b8b": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_37ba5b192e": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "uni_8004a2dbea": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
+    },
+    "start_2a00a16b1f": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/08/2026"
     }
 }
