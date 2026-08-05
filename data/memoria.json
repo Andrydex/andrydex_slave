@@ -125,26 +125,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "uni_e979524794": {
-        "stato": "ignorato",
-        "data_rilevazione": "06/07/2026"
-    },
-    "start_7c4a15fb8e": {
-        "stato": "ignorato",
-        "data_rilevazione": "06/07/2026"
-    },
-    "start_f0c6a56449": {
-        "stato": "nuovo",
-        "titolo": "Chiusura: Fino ad esaurimento\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\n\n\n\n\nAutoimpiego Centro-Nord\n\n\nAgevolazioni per gli under 35 che vogliono avviare un’attività nel Centro-Nord: voucher a fondo perduto fino a un importo di 30.000 euro (elevabile a 40.000 euro); contributo del 65% a fondo perduto per programmi di investimento che hanno un importo massimo di 120.000 euro; contributo del 60% a fondo perduto per programmi di investimento che hanno un importo compreso tra 120.000 euro e 200.000 euro",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/autoimpiego-centro-nord",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia (gestito da EmiliaRomagnaStartUp)",
-        "requisiti": "Giovani tra i 18 e i 35 anni non compiuti, in condizione di inattività, inoccupazione o disoccupazione (inclusi disoccupati GOL e working poor). Residenti o con intenzione di avviare l'attività in Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche. Tutte le iniziative economiche, escluse agricoltura, pesca e acquacoltura. \n\n**Compatibilità con il profilo di Andrea Colacicco:**\n*   **Età:** Andrea (nato il 20/02/2000) ha 26 anni al 07/04/2026, rientrando perfettamente nella fascia 18-35 anni.\n*   **Condizione:** Essendo studente magistrale e avendo avviato progetti come 'Fonderie di idee' e 'Start-up ‘OK’', è molto probabile che rientri nella categoria di 'inoccupato' o 'inattivo' ai fini dell'incentivo, pur avendo esperienze come video-creator o reviewer. L'incentivo è pensato proprio per chi avvia nuove iniziative.\n*   **Località:** Andrea studia a Modena (Emilia-Romagna), una delle regioni eleggibili.\n*   **Settori:** I suoi progetti 'Hardware / Gaming / Sviluppo' e 'Impresa Sociale' non rientrano nei settori esclusi (agricoltura, pesca, acquacoltura).\n\n**Conclusioni sulla compatibilità:** Il profilo di Andrea è altamente compatibile con i requisiti del bando, in quanto giovane studente con forte propensione all'imprenditorialità e progetti di startup già in corso, residente in una delle regioni ammesse.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "06/07/2026"
-    },
     "3705": {
         "stato": "inviato",
         "titolo": "Silence (GOG) Giveaway",
@@ -4619,5 +4599,25 @@
     "start_2a00a16b1f": {
         "stato": "ignorato",
         "data_rilevazione": "04/08/2026"
+    },
+    "uni_a81f5a288e": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/08/2026"
+    },
+    "uni_ec1cf48d28": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/08/2026"
+    },
+    "uni_8818dca89b": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/08/2026"
+    },
+    "uni_dd693b3559": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/08/2026"
+    },
+    "uni_5f65bd1731": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/08/2026"
     }
 }
