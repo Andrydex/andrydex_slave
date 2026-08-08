@@ -1,18 +1,4 @@
 {
-    "uni_aa255e46a8": {
-        "stato": "nuovo",
-        "titolo": "PLAI – Call4Startups 2026",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/plai-call4startups-2026",
-        "tipo": "universita",
-        "scadenza": "31/12/2026",
-        "luogo": "Emilia-Romagna, Italia",
-        "durata": "Variabile (percorso di accelerazione)",
-        "ente": "PLAI – Acceleratore del Gruppo Mondadori (attraverso EmiliaRomagnaStartUp)",
-        "argomenti": "Sviluppo startup AI-driven; Aree di interesse: Education, Retail, New Media & Advertising, Publishing, Corporate Core Functions (ottimizzazione pianificazione & controllo, amministrazione, procurement, legale).",
-        "requisiti": "Bando rivolto a startup AI-driven ad alto potenziale interessate a sviluppare collaborazioni industriali con il Gruppo Mondadori. Richiede un'idea progettuale matura o una startup già costituita. Non elenca dipartimenti esclusi, ma si concentra su progetti di startup. Le aree di interesse 'Corporate Core Functions' sono pienamente allineate con il corso DCI (Direzione e Consulenza d'Impresa) e le aree di focus imprenditoriali del candidato.",
-        "voto": 7,
-        "data_rilevazione": "09/06/2026"
-    },
     "uni_8817ebfb07": {
         "stato": "ignorato",
         "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
@@ -124,46 +110,6 @@
         "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
         "voto": 9,
         "data_rilevazione": "03/07/2026"
-    },
-    "3707": {
-        "stato": "inviato",
-        "titolo": "Tattoo Tycoon (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/tattoo-tycoon-epic-games-giveaway",
-        "scadenza": "2026-07-16 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "09/07/2026"
-    },
-    "3706": {
-        "stato": "inviato",
-        "titolo": "Nova Lands (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/nova-lands-epic-games-giveaway",
-        "scadenza": "2026-07-16 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "09/07/2026"
-    },
-    "cs_f9248f3b23": {
-        "stato": "inviato",
-        "titolo": "Tattoo Tycoon",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=uALxWb1eqHb5dheChJTIGZtb5tDcLX9oqPBkHnoY3%2BE%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "09/07/2026"
-    },
-    "cs_2bf42e2515": {
-        "stato": "inviato",
-        "titolo": "Nova Lands",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=zjOV6rPk8GHfz%2BfBcXb277gbMhGpy59ONVh525xyeMY%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "09/07/2026"
-    },
-    "start_0faecbd501": {
-        "stato": "ignorato",
-        "data_rilevazione": "09/07/2026"
     },
     "3279": {
         "stato": "inviato",
@@ -4669,5 +4615,41 @@
         "fondo": "Finanziamento agevolato",
         "voto": 7,
         "data_rilevazione": "07/08/2026"
+    },
+    "3740": {
+        "stato": "inviato",
+        "titolo": "Breathedge (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/breathedge-steam-giveaway",
+        "scadenza": "2026-08-09 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "08/08/2026"
+    },
+    "3739": {
+        "stato": "inviato",
+        "titolo": "Drop Loot (Playtest) Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/drop-loot-playtest-steam-key-giveaway",
+        "scadenza": "2026-08-14 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "08/08/2026"
+    },
+    "3738": {
+        "stato": "inviato",
+        "titolo": "Schrodinger's Cat Burglar Pack Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/schrodinger-s-cat-burglar-pack-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "08/08/2026"
+    },
+    "3737": {
+        "stato": "inviato",
+        "titolo": "happiness market (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/happiness-market-epic-games-giveaway",
+        "scadenza": "2026-08-14 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "08/08/2026"
     }
 }
