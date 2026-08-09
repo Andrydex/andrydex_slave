@@ -111,80 +111,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "3279": {
-        "stato": "inviato",
-        "titolo": "Blacklist Mafia (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/blacklist-mafia-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "10/07/2026"
-    },
-    "3675": {
-        "stato": "inviato",
-        "titolo": "Neverwinter: Cape of the Noble North Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/neverwinter-cape-of-the-noble-north-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_800f495a0d": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_365c0a5c4b": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_a962928245": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_f6a06d11b6": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_805d345f5a": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_4aa3c6c8c1": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_0998116107": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_01381f983f": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_b1c9c18c2d": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_55b1bb61e9": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_e7317a54ea": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_9bc569591e": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_120583ab1a": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
-    "uni_1e687e7081": {
-        "stato": "ignorato",
-        "data_rilevazione": "10/07/2026"
-    },
     "uni_a587de7c51": {
         "stato": "ignorato",
         "data_rilevazione": "11/07/2026"
@@ -4651,5 +4577,14 @@
         "scadenza": "2026-08-14 23:59:00",
         "store": "PC, Epic Games Store",
         "data_rilevazione": "08/08/2026"
+    },
+    "3741": {
+        "stato": "inviato",
+        "titolo": "Cat Named Mojave (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/cat-named-mojave-epic-games-giveaway",
+        "scadenza": "2026-08-15 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "09/08/2026"
     }
 }
