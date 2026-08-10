@@ -1,18 +1,4 @@
 {
-    "uni_8817ebfb07": {
-        "stato": "ignorato",
-        "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
-        "tipo": "universita",
-        "scadenza": "01/08/2026",
-        "luogo": "Internazionale",
-        "durata": "N.D.",
-        "ente": "Commissione europea (Horizon Europe) tramite NGI Open Calls (NGI Taler, NGI Fediversity)",
-        "argomenti": "Sviluppo di tecnologie digitali avanzate per un ecosistema Internet interoperabile, rispettoso dei diritti degli utenti. Focus su sistemi di pagamento elettronico basati su GNU Taler (privacy, infrastrutture finanziarie aperte) e servizi di hosting decentralizzati/infrastrutture cloud (portabilità, autonomia digitale, controllo dati). Settore ICT.",
-        "requisiti": "Il bando è rivolto a startup, PMI, ricercatori, organizzazioni non profit ed enti pubblici che presentano progetti con una chiara componente di ricerca e innovazione e cicli di sviluppo rapidi. È richiesta l'adozione di licenze open source per hardware e software e la pubblicazione dei risultati scientifici in open access. Sebbene non sia una borsa di studio per la mobilità o per il percorso accademico di uno studente, il profilo di Andrea, focalizzato sull'imprenditorialità con la LM in DCI e le sue esperienze in startup e progetti di innovazione, lo rende un potenziale candidato come 'ricercatore' o come membro/fondatore di una 'startup'. Non sono specificati dipartimenti ammessi o esclusi, ma l'area ICT e imprenditorialità è compatibile con DCI/Economia/Biagi/Management.",
-        "voto": 7,
-        "data_rilevazione": "11/06/2026"
-    },
     "uni_a3bb47399b": {
         "stato": "ignorato",
         "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
@@ -110,58 +96,6 @@
         "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
         "voto": 9,
         "data_rilevazione": "03/07/2026"
-    },
-    "uni_a587de7c51": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "uni_2bfc11a738": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_031db6bd10": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_b119b62a4c": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_fdf041f518": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_f49e2ba7ca": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_8b0055a1ac": {
-        "stato": "nuovo",
-        "titolo": "LinkUp, il nuovo servizio IFAB per connettere startup e partner dell’ecosistema dell’innovazione",
-        "url": "https://www.ifabfoundation.org/it/2026/05/26/linkup-il-nuovo-servizio-ifab-per-connettere-startup-e-partner-dellecosistema-dellinnovazione/",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "IFAB (International Foundation Big Data and Artificial Intelligence for Human Development)",
-        "requisiti": "Startup interessate a entrare in contatto con il network dell’ecosistema dell’innovazione del Tecnopolo di Bologna. Non è richiesto un livello minimo di maturità tecnologica.",
-        "fondo": "Altro",
-        "voto": 7,
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_118f9234a3": {
-        "stato": "nuovo",
-        "titolo": "Chiusura: Fino ad esaurimento\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\n\n\n\n\nSmart&Start Italia\n\n\nL'intervento è stato rifinanziato con 108 milioni di euro con decreto del Ministero delle Imprese, firmato l’11 maggio 2023. La misura sostiene la nascita e la crescita di startup innovative, agevolando i progetti d’impresa per la produzione di beni e servizi nel campo dell’economia digitale, dell’intelligenza artificiale, della blockchain e dell’internet of things.",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/smartstart-italia-0",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Smart&Start Italia",
-        "requisiti": "Startup innovative localizzate su tutto il territorio nazionale (o persone fisiche intenzionate a costituirle) con progetti a significativo contenuto tecnologico e innovativo, o volti allo sviluppo di prodotti/servizi nell'economia digitale, o alla valorizzazione della ricerca. La società deve essere di piccola dimensione e costituita da non più di 60 mesi. Progetti di spesa tra 100.000 e 1.500.000 euro.",
-        "fondo": "Finanziamento agevolato",
-        "voto": 9,
-        "data_rilevazione": "11/07/2026"
-    },
-    "start_5363c39d70": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/07/2026"
     },
     "3709": {
         "stato": "inviato",
