@@ -97,81 +97,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "3709": {
-        "stato": "inviato",
-        "titolo": "NoRush! - Tower Edition (Epic Games) Giveaways",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/norush-tower-edition-epic-games-giveaways",
-        "scadenza": "2026-07-20 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "12/07/2026"
-    },
-    "3476": {
-        "stato": "inviato",
-        "titolo": "Envelope (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/envelope-itch-io-giveaway",
-        "scadenza": "2026-07-12 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "12/07/2026"
-    },
-    "cs_7197e0a0bf": {
-        "stato": "inviato",
-        "titolo": "NoRush!",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=7dNtvi7cxHcVp8P7x6SHTshGwJT31KeFzCS49IWBt8s%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "12/07/2026"
-    },
-    "uni_b119b62a4c": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "uni_f35cef49e9": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "uni_417388d05e": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "uni_8b0055a1ac": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "uni_2a9e6107e6": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "start_8817ebfb07": {
-        "stato": "ignorato",
-        "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
-        "tipo": "startup",
-        "scadenza": "01/08/2026",
-        "ente": "Commissione Europea (via Horizon Europe)",
-        "requisiti": "Destinato a startup, PMI, ricercatori, organizzazioni non profit ed enti pubblici. Richiede progetti con chiara componente di ricerca e innovazione in tecnologie digitali avanzate, cicli di sviluppo rapidi. Necessaria l'adozione di licenze open source per hardware e software e la pubblicazione dei risultati scientifici in open access. Sono attive call specifiche su sistemi di pagamento elettronico basati su GNU Taler (NGI Taler) o servizi di hosting decentralizzati e infrastrutture cloud (NGI Fediversity).",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "12/07/2026"
-    },
-    "start_aa255e46a8": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/07/2026"
-    },
-    "start_e46193191b": {
-        "stato": "nuovo",
-        "titolo": "Chiusura: Fino ad esaurimento\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\n\n\n\n\ni Percorsi Le Serre di ART-ER 2026\n\n\nPercorsi di accompagnamento della durata di 6 mesi dedicati allo sviluppo e consolidamento di startup e progetti imprenditoriali innovativi basati in Emilia-Romagna con focus su: sviluppo del prodotto/servizio, strategie per la crescita commerciale, ricerca di finanziamenti e investitori.",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/i-percorsi-le-serre-di-art-er-2026",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "ART-ER / EmiliaRomagnaStartUp",
-        "requisiti": "Startup innovative o spin-off universitari con sede legale/operativa in Emilia-Romagna; team imprenditoriali non ancora costituiti (min. 2 persone), purché finalisti di Start Cup Emilia-Romagna 2024/2025/2026, spin-off in costituzione, o operanti nei settori ICC (Musica, Audiovisivo, Moda, Architettura, Design, Arti visive, Spettacolo dal vivo, Patrimonio culturale, Artigianato artistico, Editoria).",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "12/07/2026"
-    },
     "3710": {
         "stato": "inviato",
         "titolo": "KeepUp Survival (Epic Games) Giveaway",
@@ -4520,5 +4445,17 @@
         "scadenza": "2026-08-15 23:59:00",
         "store": "PC, Epic Games Store",
         "data_rilevazione": "09/08/2026"
+    },
+    "start_031db6bd10": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/08/2026"
+    },
+    "start_fdf041f518": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/08/2026"
+    },
+    "start_f49e2ba7ca": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/08/2026"
     }
 }
