@@ -1,32 +1,4 @@
 {
-    "uni_a3bb47399b": {
-        "stato": "ignorato",
-        "titolo": "Get it! Call per start-up a impatto sociale, ambientale e culturale",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/get-it-call-start-impatto-sociale-ambientale-e-culturale",
-        "tipo": "universita",
-        "scadenza": "16/06/2026",
-        "luogo": "Emilia-Romagna",
-        "durata": "6 mesi (percorso di incubazione/accelerazione)",
-        "ente": "EmiliaRomagnaStartUp",
-        "argomenti": "Startup a impatto sociale, ambientale e culturale, innovazione sociale, imprenditorialità, accelerazione di impresa",
-        "requisiti": "Il bando si rivolge a progetti innovativi non ancora costituiti in forma di impresa e start-up già costituite. Il team deve includere almeno 2 soggetti maggiorenni, di cui uno di età inferiore ai 35 anni. Il progetto deve generare impatto sociale, culturale o ambientale. Non sono specificati dipartimenti universitari ammessi/esclusi, in quanto il bando è aperto a 'Tutti i settori', rendendolo compatibile con il profilo DCI di Economia.",
-        "voto": 9,
-        "data_rilevazione": "14/06/2026"
-    },
-    "uni_27450c565d": {
-        "stato": "ignorato",
-        "titolo": "Coopstartup Changemakers 2026",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/coopstartup-changemakers-2026",
-        "tipo": "universita",
-        "scadenza": "10/07/2026",
-        "luogo": "Città metropolitana di Bologna",
-        "durata": "Percorso di accelerazione con sessioni formative, tutoraggio e opportunità di finanziamento (durata non specificata, implica un processo a fasi)",
-        "ente": "EmiliaRomagnaStartUp (con promotore rete ALMACUBE e vari partner e patrocini)",
-        "argomenti": "Sviluppo di idee imprenditoriali e neocoperative con sede nella Città metropolitana di Bologna, volte a promuovere un cambiamento in ambito economico, sociale, ambientale e culturale, generando impatto positivo. Particolare valore ai progetti coerenti con Agenda 2030, nuove tecnologie, innovazione sociale, inclusione, transizione ecologica e rafforzamento del tessuto cooperativo.",
-        "requisiti": "Gruppi di almeno 3 persone che intendono costituire una cooperativa con sede legale e/o operativa nella Città metropolitana di Bologna, oppure neocooperative già costituite dal 1° gennaio 2024 con sede legale e/o operativa nella Città metropolitana di Bologna. Aperto a tutti i settori. DCI/Economia/Biagi/Management sono inclusi in 'tutti i settori'.",
-        "voto": 8,
-        "data_rilevazione": "14/06/2026"
-    },
     "uni_cd673e8edc": {
         "stato": "nuovo",
         "titolo": "Avviso pubblico per la concessione di postazioni di coworking presso l’incubatore del Centro di Ricerca Ambiente, Energia e Mare di Marina di Ravenna",
@@ -96,41 +68,6 @@
         "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
         "voto": 9,
         "data_rilevazione": "03/07/2026"
-    },
-    "3555": {
-        "stato": "inviato",
-        "titolo": "Together After Dark (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/together-after-dark-epic-games-giveaway",
-        "scadenza": "2026-07-27 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "14/07/2026"
-    },
-    "3676": {
-        "stato": "inviato",
-        "titolo": "Dire Echo (itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/dire-echo-itchio-giveaway",
-        "scadenza": "2026-07-19 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "14/07/2026"
-    },
-    "cs_70b143f7f9": {
-        "stato": "inviato",
-        "titolo": "Together After Dark",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=Bd3jnETmJJx6uoXgpFHzYvZSXEvC5NjekI7EbCcNcRc%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "14/07/2026"
-    },
-    "uni_39ff2bd813": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/07/2026"
-    },
-    "uni_8a0f898760": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/07/2026"
     },
     "3711": {
         "stato": "inviato",
@@ -4279,5 +4216,64 @@
     "start_f49e2ba7ca": {
         "stato": "ignorato",
         "data_rilevazione": "11/08/2026"
+    },
+    "3743": {
+        "stato": "inviato",
+        "titolo": "Caravan SandWitch (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/caravan-sandwitch-epic-games-giveaway",
+        "scadenza": "2026-08-20 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "13/08/2026"
+    },
+    "3742": {
+        "stato": "inviato",
+        "titolo": "Targeted – 10 Days (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/targeted-10-days-epic-games-giveaway",
+        "scadenza": "2026-08-31 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "13/08/2026"
+    },
+    "3704": {
+        "stato": "inviato",
+        "titolo": "GOALS: AMD Kit Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/goals-amd-kit-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_3c95a4745b": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_f5a0be9143": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_ca13469cca": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_db8637e3cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_df40aa3346": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_de9e0fb8ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_25b2bf9516": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
+    },
+    "start_3a797bbe9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/08/2026"
     }
 }
