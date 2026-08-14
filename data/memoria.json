@@ -69,27 +69,6 @@
         "voto": 9,
         "data_rilevazione": "03/07/2026"
     },
-    "3711": {
-        "stato": "inviato",
-        "titolo": "The Mound: Omen of Cthulhu – Lost Explorers' Swords Pack (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/the-mound-omen-of-cthulhu-lost-explorers-swords-pack-steam-giveaway",
-        "scadenza": "2026-07-29 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_96c4ccdab0": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_a76aff2e2d": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_638b5f6442": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
     "uni_30baa0ab6f": {
         "stato": "ignorato",
         "titolo": "Planet Foundamentals: la call di SocialFare 2026",
@@ -102,22 +81,6 @@
         "argomenti": "Programma di accelerazione per startup ad impatto e imprese sociali. Temi: innovazione sociale (persone) e sostenibilità ambientale (pianeta). Settori: Energia e Ambiente, ICT, Innovazione Sociale.",
         "requisiti": "Destinatari: Startup già costituite (innovative, SIAVS, S.r.l.), realtà ancora in fase di costituzione e Imprese Sociali (S.r.l. o Cooperative). Richiesto impatto sociale intenzionale, addizionale e misurabile e offerta di un prodotto/servizio altamente innovativo. Le Imprese Sociali devono avere sede legale in Piemonte, Liguria o Valle d'Aosta. Non è un bando per mobilità studentesca o borse di studio dirette a studenti, ma per progetti imprenditoriali.",
         "voto": 6,
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_b77f537bea": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_4099107c4b": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_f5dad8f611": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/07/2026"
-    },
-    "uni_39ebb14c11": {
-        "stato": "ignorato",
         "data_rilevazione": "15/07/2026"
     },
     "3715": {
@@ -322,7 +285,7 @@
         "data_rilevazione": "16/07/2026"
     },
     "start_0adc279758": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando C4B Open Call for Pilot Projects: fondi per startup nella bioeconomia circolare",
         "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-c4b-open-call-pilot-projects-fondi-startup-nella-bioeconomia-circolare",
         "tipo": "startup",
@@ -4275,5 +4238,14 @@
     "start_3a797bbe9a": {
         "stato": "ignorato",
         "data_rilevazione": "13/08/2026"
+    },
+    "3524": {
+        "stato": "inviato",
+        "titolo": "Deponia (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/deponia-steam-giveaway",
+        "scadenza": "2026-08-20 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "14/08/2026"
     }
 }
