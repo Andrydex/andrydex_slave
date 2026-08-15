@@ -83,251 +83,6 @@
         "voto": 6,
         "data_rilevazione": "15/07/2026"
     },
-    "3715": {
-        "stato": "preso",
-        "titolo": "Echo Generation: Midnight Edition (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/echo-generation-midnight-edition-epic-games-giveaway",
-        "scadenza": "2026-07-23 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "16/07/2026"
-    },
-    "3714": {
-        "stato": "preso",
-        "titolo": "Luto (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/luto-epic-games-giveaway",
-        "scadenza": "2026-07-23 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "16/07/2026"
-    },
-    "3712": {
-        "stato": "inviato",
-        "titolo": "Catch Me! (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/catch-me-steam-giveaway",
-        "scadenza": "2026-07-17 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "16/07/2026"
-    },
-    "cs_fb25e98e7e": {
-        "stato": "preso",
-        "titolo": "Luto",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=DQt2nyAzzgJgsF%2FqstI9pYPY7zHvoDbwx5nKSwJuKsY%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "16/07/2026"
-    },
-    "cs_a1e64fcfc8": {
-        "stato": "preso",
-        "titolo": "Echo Generation: Midnight Edition",
-        "tipo": "cheapshark",
-        "url": "https://www.cheapshark.com/redirect?dealID=bwIbg4nP%2FzVlXUH6PTHY2MCrgZ3o%2F16pMa48zcQMpiA%3D",
-        "store": "Fanatical",
-        "scadenza": "N.D.",
-        "data_rilevazione": "16/07/2026"
-    },
-    "uni_88a6e0da34": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "uni_f3d4dccaa3": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "uni_294d318e37": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_f3d4dccaa3": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_8f18eaf6bb": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_c88cad62b6": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_aef23f983c": {
-        "stato": "ignorato",
-        "titolo": "Servizi",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/servizi",
-        "tipo": "startup",
-        "scadenza": "19/07/2026",
-        "ente": "EmiliaRomagnaStartUp",
-        "requisiti": "Aperte le candidature per partecipare alla delegazione italiana a Slush 2026. Compatibile con startup e imprenditori di tutti i settori. Andrea è uno studente magistrale in un percorso imprenditoriale, ha esperienza in programmi di incubazione e con una sua startup ('OK' - Hardware/Gaming), ottime competenze di public speaking e leadership, e un forte interesse per l'innovazione e le tecnologie. La sua imminente esperienza Erasmus in Cina lo rende un candidato ideale per opportunità internazionali come questa.",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_ef4e33f46f": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_6ad7890533": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_5e89f6dd26": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_b816f501c7": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_8ef746dcfc": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_28ac59d59a": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_fc3676e739": {
-        "stato": "ignorato",
-        "titolo": "Tutti i settori",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/settore-bando/tutti-i-settori",
-        "tipo": "startup",
-        "scadenza": "22/07/2026",
-        "ente": "SocialFare",
-        "requisiti": "Percorso di accelerazione per startup in settori quali Energia e Ambiente, ICT, Innovazione Sociale o tutti i settori. Il profilo del founder Andrea Colacicco è altamente compatibile, con esperienza in percorsi di incubazione, sviluppo startup (come 'Start-up OK' nel gaming hardware green) e progetti di impresa sociale ('Fonderie di idee'), oltre a competenze in R&D e consulenza direzionale.",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_20de9b691e": {
-        "stato": "nuovo",
-        "titolo": "Bando Co-Creation Accelerator 2026-2027: 250.000 € per startup digitali",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-co-creation-accelerator-2026-2027-250000-eu-startup-digitali",
-        "tipo": "startup",
-        "scadenza": "08/09/2026",
-        "ente": "28DIGITAL (ex EIT Digital)",
-        "requisiti": "Startup costituite da non oltre 5 anni, con team minimo di due dipendenti a tempo pieno (FTE), titolari della proprietà intellettuale della tecnologia proposta, con soluzioni tecnologiche a TRL 4-5, focalizzate su Deep Tech, Strategic Tech o Green & Social Tech.",
-        "fondo": "Fondo perduto / Percorso di accelerazione",
-        "voto": 7,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_abd82b250f": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_6930bcb6fc": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_98514d90d4": {
-        "stato": "ignorato",
-        "titolo": "Bando NEMESIS Open Call: fondi per startup AgTech in Emilia-Romagna",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-nemesis-open-call-fondi-startup-agtech-emilia-romagna",
-        "tipo": "startup",
-        "scadenza": "01/08/2026",
-        "ente": "Horizon Europe / NEMESIS (tramite EmiliaRomagnaStartUp)",
-        "requisiti": "Il bando è rivolto a PMI e startup specializzate nel settore AgTech o in servizi di monitoraggio del suolo, agricoltori, proprietari terrieri e cooperative agricole, istituti di ricerca applicata e ONG ambientali, autorità pubbliche locali o regionali. Le proposte progettuali devono riguardare l'introduzione di pratiche di gestione agricola sostenibile (agricoltura rigenerativa, rotazione delle colture, sistemi agroforestali e inerbimento) in ambienti operativi reali, con focus specifico sul binomio suolo-colture. L'ambito geografico include le regioni del Centro-Nord Italia, con particolare attenzione sull'Emilia-Romagna e la Lombardia. Durata delle attività: 3 anni.",
-        "fondo": "Contributo nella spesa/cofinanziamento",
-        "voto": 7,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_39d9a14a07": {
-        "stato": "ignorato",
-        "titolo": "Bandi NGI Open Calls: fino a 50.000 euro per startup e PMI",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bandi-ngi-open-calls-fino-50000-euro-startup-e-pmi",
-        "tipo": "startup",
-        "scadenza": "01/08/2026",
-        "ente": "Commissione europea (attraverso Horizon Europe)",
-        "requisiti": "Startup, PMI, ricercatori, organizzazioni non profit ed enti pubblici. Progetti con chiara componente di ricerca e innovazione in tecnologie digitali avanzate con cicli di sviluppo rapidi. Richiesta adozione licenze open source per hardware e software e pubblicazione risultati in open access.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_5d4094b431": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_6ee2c75cac": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_b2a7a17921": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_ef22d7114c": {
-        "stato": "nuovo",
-        "titolo": "Bando EuroHPC Joint Undertaking: 4 call per startup nel settore quantistico",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-eurohpc-joint-undertaking-4-call-startup-nel-settore-quantistico",
-        "tipo": "startup",
-        "scadenza": "14/01/2027",
-        "ente": "EuroHPC Joint Undertaking",
-        "requisiti": "Destinatari delle call sono enti di ricerca, grandi imprese, startup e università. In particolare, per la call 'Large-Scale Photonic Quantum Computing Platform Technologies', i consorzi dovranno essere guidati da startup specializzate nel quantum computing fotonico e coinvolgere partner industriali, scientifici e utilizzatori finali. Andrea Colacicco, con la sua esperienza in incubazione di startup, lo sviluppo di progetti imprenditoriali ('Start-up ‘’OK’’', 'Fonderie di idee'), e un forte interesse per 'Tecnologie: Blockchain, Crypto, AI', è un profilo compatibile con l'avvio o la partecipazione a una startup in questi settori innovativi. La sua alta 'Creatività' e capacità di 'Project Management' lo rendono adatto a guidare iniziative complesse.",
-        "fondo": "Contributo nella spesa/cofinanziamento",
-        "voto": 9,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_4c74f4e014": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_335aa91342": {
-        "stato": "nuovo",
-        "titolo": "Bando SPIN: Rise 2026 | Programma di pre-incubazione per scienziati deep-tech",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-spin-rise-2026-programma-di-pre-incubazione-scienziati-deep-tech",
-        "tipo": "startup",
-        "scadenza": "05/09/2026",
-        "ente": "EmiliaRomagnaStartUp",
-        "requisiti": "Ricercatori e scienziati attivi nelle tecnologie di frontiera (deep tech), innovatori all'inizio della propria carriera (con particolare attenzione a dottorandi e post-doc), formalmente affiliati a un'università o a un ente di ricerca con sede nell'Unione Europea o paesi associati a Horizon Europe. Possibilità di candidarsi singolarmente o in team.",
-        "fondo": "Altro",
-        "voto": 8,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_0adc279758": {
-        "stato": "ignorato",
-        "titolo": "Bando C4B Open Call for Pilot Projects: fondi per startup nella bioeconomia circolare",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/bando-c4b-open-call-pilot-projects-fondi-startup-nella-bioeconomia-circolare",
-        "tipo": "startup",
-        "scadenza": "14/08/2026",
-        "ente": "C4B (progetto europeo) tramite EmiliaRomagnaStartUp",
-        "requisiti": "Startup, PMI, spin-off, enti di ricerca o altri operatori del settore stabiliti nell'UE o Paesi associati a Horizon Europe. Progetti pilota focalizzati sulla valorizzazione dei sottoprodotti nelle filiere agroalimentare, forestale, torbiere, dimostrando l'efficacia applicativa di uno dei nove modelli di business C4B.",
-        "fondo": "Fondo perduto / Cofinanziamento",
-        "voto": 7,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_4156def9e5": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_99e6c9d2d6": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_e963977eae": {
-        "stato": "ignorato",
-        "titolo": "Call4Innovit 2026: tutte le scadenze dei bandi per l'accelerazione di Startup e PMI innovative a San Francisco",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/call4innovit-2026-tutte-le-scadenze-dei-bandi-laccelerazione-di-startup-e-pmi",
-        "tipo": "startup",
-        "scadenza": "21/07/2026",
-        "ente": "INNOVIT (Hub per l'innovazione e la cultura italiana a San Francisco)",
-        "requisiti": "Essere Startup o PMI innovativa regolarmente iscritta in Italia, operare in uno dei settori tecnologici indicati (es. CleanTech/GreenTech, ICT, SportTech), padronanza della lingua inglese. Valutazione basata su fatturato, round di finanziamento, protezione della proprietà intellettuale (IP) e qualità del team.",
-        "fondo": "Altro",
-        "voto": 7,
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_7670bad136": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_c300a35550": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
-    "start_d5f4f3409c": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/07/2026"
-    },
     "3719": {
         "stato": "inviato",
         "titolo": "Fantasy Grounds Dragons NPC Dice Pack Volume 1 Steam Key Giveaway",
@@ -4247,5 +4002,32 @@
         "scadenza": "2026-08-20 23:59:00",
         "store": "PC, Steam",
         "data_rilevazione": "14/08/2026"
+    },
+    "3748": {
+        "stato": "inviato",
+        "titolo": "Decrypt (Itchio) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/decrypt-itchio-giveaway",
+        "scadenza": "2026-08-17 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "15/08/2026"
+    },
+    "3747": {
+        "stato": "inviato",
+        "titolo": "Rabbit in Dungeon (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/rabbit-in-dungeon-stove-giveaway",
+        "scadenza": "2026-08-22 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "15/08/2026"
+    },
+    "3746": {
+        "stato": "inviato",
+        "titolo": "Tape 101: Liminal Descent (Playtest) Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/tape-101-liminal-descent-playtest-steam-key-giveaway",
+        "scadenza": "2026-08-21 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "15/08/2026"
     }
 }
