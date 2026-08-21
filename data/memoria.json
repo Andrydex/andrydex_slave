@@ -1,18 +1,4 @@
 {
-    "uni_cd673e8edc": {
-        "stato": "nuovo",
-        "titolo": "Avviso pubblico per la concessione di postazioni di coworking presso l’incubatore del Centro di Ricerca Ambiente, Energia e Mare di Marina di Ravenna",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/avviso-pubblico-la-concessione-di-postazioni-di-coworking-presso-lincubatore-del",
-        "tipo": "universita",
-        "scadenza": "31/12/2028",
-        "luogo": "Marina di Ravenna",
-        "durata": "tre, sei o dodici mesi",
-        "ente": "Comune di Ravenna",
-        "argomenti": "Concessione di postazioni di coworking presso l'incubatore del Centro di Ricerca Ambiente, Energia e Mare, con focus su economia circolare, sostenibilità energetica e Blue Economy.",
-        "requisiti": "Imprese, liberi professionisti o lavoratori operanti nei settori della sostenibilità ambientale e decarbonizzazione, sostenibilità energetica e Green Energy, Circular Economy, Green e Blue Economy, Chimica verde.",
-        "voto": 7,
-        "data_rilevazione": "22/06/2026"
-    },
     "uni_d3f0b8343e": {
         "stato": "nuovo",
         "titolo": "PLAI – Call4Startups 2026",
@@ -82,66 +68,6 @@
         "requisiti": "Destinatari: Startup già costituite (innovative, SIAVS, S.r.l.), realtà ancora in fase di costituzione e Imprese Sociali (S.r.l. o Cooperative). Richiesto impatto sociale intenzionale, addizionale e misurabile e offerta di un prodotto/servizio altamente innovativo. Le Imprese Sociali devono avere sede legale in Piemonte, Liguria o Valle d'Aosta. Non è un bando per mobilità studentesca o borse di studio dirette a studenti, ma per progetti imprenditoriali.",
         "voto": 6,
         "data_rilevazione": "15/07/2026"
-    },
-    "uni_033d6c09d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_1935e762bb": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_26c0d3d227": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_033d6c09d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_7cb74de83d": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_e1161bfd0a": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_835b54d980": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_6ecd7634b1": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_71bc8ad6c6": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_07037d9b9b": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_15a6a4e573": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_6b56213dd4": {
-        "stato": "nuovo",
-        "titolo": "Voucher",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/categoria/tipologia-bando/voucher",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "EmiliaRomagnaStartUp",
-        "requisiti": "Il candidato Andrea Colacicco, con i suoi progetti di startup 'Fonderie di idee' (impresa sociale) e 'OK' (periferiche gaming green hardware/ICT), le sue esperienze in incubazione e sviluppo d'impresa, e la sua residenza in Emilia-Romagna, è un ottimo match per questo bando che supporta l'autoimpiego e l'imprenditorialità in settori quali l'innovazione sociale, la meccanica, i materiali e l'ICT. La tipologia di contributo e voucher è adeguata alle esigenze iniziali di una startup.",
-        "fondo": "Contributo nella spesa/cofinanziamento Voucher",
-        "voto": 9,
-        "data_rilevazione": "22/07/2026"
-    },
-    "start_d20e2c1928": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/07/2026"
     },
     "3721": {
         "stato": "inviato",
@@ -3893,5 +3819,14 @@
         "scadenza": "2026-08-22 23:59:00",
         "store": "PC, Epic Games Store",
         "data_rilevazione": "20/08/2026"
+    },
+    "3754": {
+        "stato": "inviato",
+        "titolo": "Bolmn (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bolmn-epic-games-giveaway",
+        "scadenza": "2026-08-27 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "21/08/2026"
     }
 }
