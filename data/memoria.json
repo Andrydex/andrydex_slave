@@ -69,28 +69,6 @@
         "voto": 6,
         "data_rilevazione": "15/07/2026"
     },
-    "3721": {
-        "stato": "inviato",
-        "titolo": "Foretales (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/foretales-epic-games-giveaway",
-        "scadenza": "2026-07-30 23:59:00",
-        "store": "PC, Android, iOS, Epic Games Store",
-        "data_rilevazione": "23/07/2026"
-    },
-    "3686": {
-        "stato": "inviato",
-        "titolo": "Mongil: Star Dive Gift Pack Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/mongil-star-dive-gift-pack-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Android, iOS",
-        "data_rilevazione": "23/07/2026"
-    },
-    "uni_8347b76c67": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/07/2026"
-    },
     "uni_b6836ca6cd": {
         "stato": "ignorato",
         "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
@@ -102,22 +80,6 @@
         "ente": "Ecosistema Formazione Italia (EFI), BI‑REX Competence Center, Fondazione Golinelli",
         "argomenti": "Startup Showcase per soluzioni innovative nei settori EdTech e HRTech (tecnologie per la formazione e le risorse umane), innovazione, imprenditorialità.",
         "requisiti": "Il bando è rivolto a startup (team o già costituite) con soluzioni innovative nei settori EdTech e HRTech. Andrea, come studente magistrale DCI con curricula di imprenditorialità e diverse esperienze in progetti di startup, potrebbe partecipare presentando un proprio progetto o idea di startup in questi ambiti. Non sono elencati specifici dipartimenti universitari ammessi o esclusi. La seconda data di chiusura per le candidature è il 31/08/2026.",
-        "voto": 7,
-        "data_rilevazione": "23/07/2026"
-    },
-    "uni_a2d40168ec": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/07/2026"
-    },
-    "start_b6836ca6cd": {
-        "stato": "ignorato",
-        "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/startup-showcase-people-tech-forum-2026-bologna",
-        "tipo": "startup",
-        "scadenza": "31/07/2026",
-        "ente": "Ecosistema Formazione Italia (EFI), BI-REX Competence Center, Fondazione Golinelli (promotori del Forum/Showcase)",
-        "requisiti": "Startup EdTech e HRTech con soluzioni emergenti per formazione, sviluppo delle competenze e processi HR. Candidatura e selezione.",
-        "fondo": "Altro",
         "voto": 7,
         "data_rilevazione": "23/07/2026"
     },
