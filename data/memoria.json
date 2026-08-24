@@ -1,18 +1,4 @@
 {
-    "uni_d3f0b8343e": {
-        "stato": "nuovo",
-        "titolo": "PLAI – Call4Startups 2026",
-        "url": "https://www.emiliaromagnastartup.it/index.php/it/innovative/bandi/plai-call4startups-2026",
-        "tipo": "universita",
-        "scadenza": "31/12/2026",
-        "luogo": "N.D.",
-        "durata": "N.D.",
-        "ente": "PLAI – l'acceleratore del Gruppo Mondadori",
-        "argomenti": "Programma di accelerazione e finanziamento per startup AI-driven con potenziale di collaborazione industriale con il Gruppo Mondadori. Aree di interesse: Education, Retail, New Media & Advertising, Publishing, Corporate Core Functions (ottimizzazione pianificazione e controllo, amministrazione, procurement, legale).",
-        "requisiti": "Il bando si rivolge a startup AI-driven ad alto potenziale. Non specifica dipartimenti o corsi universitari per i singoli partecipanti, ma valuta il valore della soluzione proposta, il livello di maturità della startup e il fit strategico/industriale con il Gruppo Mondadori. L'area 'Corporate Core Functions' è particolarmente allineata con gli studi di Direzione e Consulenza d'Impresa.",
-        "voto": 7,
-        "data_rilevazione": "25/06/2026"
-    },
     "uni_3ea46c5ce2": {
         "stato": "partecipo",
         "titolo": "Bando di concorso per l’assegnazione di contributi per le spese di locazione abitativa sostenute dagli studenti fuori sede iscritti all’anno accademico 2025/2026",
@@ -82,82 +68,6 @@
         "requisiti": "Il bando è rivolto a startup (team o già costituite) con soluzioni innovative nei settori EdTech e HRTech. Andrea, come studente magistrale DCI con curricula di imprenditorialità e diverse esperienze in progetti di startup, potrebbe partecipare presentando un proprio progetto o idea di startup in questi ambiti. Non sono elencati specifici dipartimenti universitari ammessi o esclusi. La seconda data di chiusura per le candidature è il 31/08/2026.",
         "voto": 7,
         "data_rilevazione": "23/07/2026"
-    },
-    "uni_12936bdbbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_d695d8f761": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_a5a4ddc088": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_78bd9cf960": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_eadeb3af0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_5e261dda26": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_91efa49773": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_94a5c26941": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_dc0077f56c": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_fc820d08af": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_a61d628879": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_8e3a1bcb6f": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_dd1a6e3e2f": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_58ccb06fdb": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_e787f3efe2": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_047422e3aa": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_f5e8faaca0": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_1544ea43ed": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
-    },
-    "uni_c62277a567": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/07/2026"
     },
     "uni_5d2a67f77c": {
         "stato": "ignorato",
@@ -3663,5 +3573,66 @@
         "scadenza": "2026-08-27 23:59:00",
         "store": "PC, Epic Games Store",
         "data_rilevazione": "21/08/2026"
+    },
+    "3301": {
+        "stato": "inviato",
+        "titolo": "Bad cat Sam (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bad-cat-sam-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_fa125b1649": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_09dee25a78": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_442e5514bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "uni_96a7683bb0": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "start_b69ad8b5ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "start_883e333805": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
+    },
+    "start_173aafe964": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/08/2026"
     }
 }
