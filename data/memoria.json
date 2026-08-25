@@ -69,26 +69,6 @@
         "voto": 7,
         "data_rilevazione": "23/07/2026"
     },
-    "uni_5d2a67f77c": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/07/2026"
-    },
-    "uni_1d4066f9f7": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/07/2026"
-    },
-    "uni_6ec48fa9dc": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/07/2026"
-    },
-    "uni_988aa0dd21": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/07/2026"
-    },
-    "uni_0f26671ac2": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/07/2026"
-    },
     "uni_8c1e974aa5": {
         "stato": "nuovo",
         "titolo": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
@@ -3634,5 +3614,75 @@
     "start_173aafe964": {
         "stato": "ignorato",
         "data_rilevazione": "24/08/2026"
+    },
+    "3757": {
+        "stato": "inviato",
+        "titolo": "Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/microsoft-flight-simulator-suite-themes-reimagined-steam-giveaway",
+        "scadenza": "2026-09-01 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "25/08/2026"
+    },
+    "3756": {
+        "stato": "inviato",
+        "titolo": "Dokimon Quest (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dokimon-quest-steam-giveaway",
+        "scadenza": "2026-08-26 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_2c61373f83": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_12936bdbbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_d695d8f761": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_05cbe5f20a": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_6f804122a3": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_662e1f4add": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_91efa49773": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_94a5c26941": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_dc0077f56c": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_fc820d08af": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_a61d628879": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_8e3a1bcb6f": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
+    },
+    "uni_dd1a6e3e2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/08/2026"
     }
 }
