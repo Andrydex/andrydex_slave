@@ -83,66 +83,6 @@
         "voto": 9,
         "data_rilevazione": "26/07/2026"
     },
-    "uni_463f3a5ab3": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_d93caa7373": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_f683b56ab2": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_52818e0c50": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_e1997f7c34": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_54684c401e": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_be8755b9c2": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_46d7eca9af": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_30bf9db9db": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_5bbadc683b": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_e46193191b": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_cfbda25a02": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_15a6a4e573": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_363aa26054": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
-    "uni_e0e0970d8e": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/07/2026"
-    },
     "3723": {
         "stato": "inviato",
         "titolo": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
@@ -3684,5 +3624,64 @@
     "uni_dd1a6e3e2f": {
         "stato": "ignorato",
         "data_rilevazione": "25/08/2026"
+    },
+    "3316": {
+        "stato": "inviato",
+        "titolo": "Leaper (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "26/08/2026"
+    },
+    "3555": {
+        "stato": "inviato",
+        "titolo": "Together After Dark (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/together-after-dark-epic-games-giveaway",
+        "scadenza": "2026-09-02 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "26/08/2026"
+    },
+    "3758": {
+        "stato": "inviato",
+        "titolo": "The Witcher 3: Wild Hunt Concert (GOG) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/the-witcher-3-wild-hunt-concert-gog-giveaway",
+        "scadenza": "2026-08-27 23:59:00",
+        "store": "PC, GOG",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_588067413c": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_4151f6984d": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_88712810fe": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_5d2a67f77c": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_1d4066f9f7": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_adeb94e2ef": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "uni_58ae6a8f1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
+    },
+    "start_ec38e74799": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/08/2026"
     }
 }
