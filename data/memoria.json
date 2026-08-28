@@ -83,35 +83,6 @@
         "voto": 9,
         "data_rilevazione": "26/07/2026"
     },
-    "3723": {
-        "stato": "inviato",
-        "titolo": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/dragonsword-awakening-abyssal-direwolf-steam-giveaway",
-        "scadenza": "2026-08-31 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_be6a246df5": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_e0e92475f5": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_ad1a639486": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_98aa03d750": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_f613b5388e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
     "uni_5c72ba39ff": {
         "stato": "nuovo",
         "titolo": "Open Innovation: al via il nuovo servizio di orientamento per le startup",
@@ -125,294 +96,6 @@
         "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
         "voto": 7,
         "data_rilevazione": "28/07/2026"
-    },
-    "uni_76a7d488dc": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_4e62be357b": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_d75e9badfe": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_a5ba490220": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_ebe0619701": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_a63bee9b6e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_0ca6851d13": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_0851d9827b": {
-        "stato": "nuovo",
-        "titolo": "Per le imprese",
-        "url": "https://www.invitalia.it/per-le-imprese",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Il bando è rivolto a imprese costituite da non più di 5 anni o a persone fisiche che intendono costituirne una, con prevalente partecipazione di giovani tra i 18 e i 35 anni o di donne di tutte le età. Andrea Colacicco, nato nel 2000 (26 anni al 2026), rientra nella categoria dei giovani imprenditori. I suoi progetti di startup, come 'OK' (periferiche green da gaming) e 'Fonderie di idee' (impresa sociale focalizzata sul benessere giovanile), sono compatibili con i settori supportati (industria, servizi). Il suo background in business model, pitch deck e project management, insieme al suo interesse per l'innovazione e il gaming, lo rendono un candidato ideale.",
-        "fondo": "Finanziamento agevolato (con componente a fondo perduto)",
-        "voto": 9,
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_e90eb29491": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_0b4f296430": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_f13a1f7111": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_498ebac46d": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_627b2bfe0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_561c229e14": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_9a5612b4db": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_2487bd23ab": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_6742b44eab": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_a91de38801": {
-        "stato": "nuovo",
-        "titolo": "Smart&Start Italia",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Il bando è rivolto a startup innovative di piccola dimensione (costituite da non più di 60 mesi e iscritte alla sezione speciale del Registro delle imprese), team di persone che intendono costituire una startup innovativa (come il founder Andrea Colacicco per il suo progetto 'OK'), cittadini stranieri con 'startup Visa' e imprese straniere che istituiscono una sede in Italia. Il progetto deve avere un alto contenuto tecnologico.",
-        "fondo": "Fondo perduto / Finanziamento agevolato",
-        "voto": 9,
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_18905a9736": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_16815a3b72": {
-        "stato": "nuovo",
-        "titolo": "LEGGI TUTTOsu Cultura Cresce",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia - Ministero della Cultura",
-        "requisiti": "Imprese da costituire o costituite da non oltre 5 anni, o Imprese sociali e soggetti del Terzo Settore costituiti da almeno 2 anni. Le iniziative devono operare nelle filiere culturali e creative delle regioni Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
-        "fondo": "Mix di fondo perduto e finanziamento a tasso zero",
-        "voto": 8,
-        "data_rilevazione": "28/07/2026"
-    },
-    "start_ddf5b44627": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/07/2026"
-    },
-    "uni_3dc93da11a": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_81c26b8ca4": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_c8b197563d": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_233791cad3": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_88c7ae7167": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_65d5f0f26c": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "uni_aaadeac50f": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_eea7322dad": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_60cd259732": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_5252ed3df4": {
-        "stato": "nuovo",
-        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Il bando è rivolto ai giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti (Andrea ha 26 anni, compatibile). È necessario essere in una condizione di inattività, inoccupazione o disoccupazione, o disoccupati del Programma GOL, o working poor (Andrea, come studente magistrale, è probabilmente compatibile con le categorie di inoccupazione/inattività). Le iniziative devono essere avviate nei territori del Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia). Andrea ha studiato la triennale in Molise, indicando un legame con il Sud Italia e la possibilità di avviare l'attività o trasferirvi la residenza. Sono ammessi tutti i settori economici, ad eccezione di agricoltura, pesca e acquacoltura (Andrea, con interessi e progetti in consulenza, startup tecnologiche e impresa sociale, è pienamente compatibile).",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_fd4f24e2db": {
-        "stato": "nuovo",
-        "titolo": "LEGGI TUTTOsu Autoimpiego Centro-Nord",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/autoimpiego-centro-nord",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Giovani tra 18 e 35 anni (non compiuti), in condizione di inattività, inoccupazione o disoccupazione (o disoccupati del Programma GOL, working poor), residenti nelle regioni del Centro-Nord (Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche), che intendono avviare nuove iniziative imprenditoriali, libero-professionali o di lavoro autonomo in tutti i settori economici, ad eccezione di agricoltura, pesca e acquacoltura.",
-        "fondo": "Fondo perduto",
-        "voto": 9,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_f301bfe5b2": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_03e2977b80": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_37f3a776aa": {
-        "stato": "nuovo",
-        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia (Ministero delle Imprese e del Made in Italy)",
-        "requisiti": "Il bando si rivolge a imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali che svolgono attività di interesse generale e perseguono valori di utilità sociale. I piani di investimento devono essere compresi tra 100.000 euro e 10 milioni di euro, sostenibili sul piano ambientale e in linea con gli obiettivi dell’Agenda 2030. I progetti devono prevedere la realizzazione di investimenti produttivi e/o l'incremento dell'occupazione di lavoratori con disabilità. Andrea Colacicco, con il suo progetto 'Fonderie di idee' (impresa sociale) e la startup 'OK' (periferiche green da gaming), dimostra un'ottima aderenza ai requisiti di utilità sociale e sostenibilità ambientale. Le sue competenze e la sua esperienza imprenditoriale (Contamination Lab, Enactus) sono altamente pertinenti.",
-        "fondo": "Fondo perduto e Finanziamento agevolato",
-        "voto": 9,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_fbe42eefb6": {
-        "stato": "nuovo",
-        "titolo": "LEGGI TUTTOsu Economia circolare",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Imprese di qualsiasi dimensione (industriali, agroindustriali, artigiane, di servizi all’industria e centri di ricerca) che presentano progetti singolarmente o in forma congiunta. I progetti devono sostenere la transizione verso un modello di economia circolare e favorire la riconversione produttiva per un uso più efficiente e sostenibile delle risorse. Necessario SPID, firma digitale e PEC per la presentazione della domanda.",
-        "fondo": "Fondo perduto e Finanziamento agevolato",
-        "voto": 9,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_2da061e1fc": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_9377a088a4": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_300747677f": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_c434fa02f8": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_bd827af0a9": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_fddf16018c": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_f6afefc558": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_317eca8be8": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_584856c989": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_86f19fbca0": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_4a84b37c65": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_ca2cfbf974": {
-        "stato": "nuovo",
-        "titolo": "Bando Startup",
-        "url": "https://www.art-er.it/news/al-via-open-innovation-scouting-2026it4lia-ricerca-e-ai-per-le-imprese",
-        "tipo": "startup",
-        "scadenza": "16/09/2026",
-        "ente": "ART-ER",
-        "requisiti": "Riservato a ricercatori che operano in enti e strutture di ricerca, pubbliche e/o private, presenti in Emilia-Romagna e che abbiano a disposizione tecnologie, prodotti e/o servizi con un TRL pari o superiore a 3. L'iniziativa è aperta a un massimo di 60 ricercatori.",
-        "fondo": "Altro",
-        "voto": 6,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_e03e2875fb": {
-        "stato": "nuovo",
-        "titolo": "Ecosistema dell'innovazione",
-        "url": "https://www.art-er.it/news?tag=5",
-        "tipo": "startup",
-        "scadenza": "16/09/2026",
-        "ente": "ART-ER",
-        "requisiti": "Ricercatori che operano in strutture pubbliche e/o private della Regione Emilia-Romagna, con focus su ricerca e AI per le imprese. Il profilo di Andrea Colacicco, studente magistrale presso l'Università degli Studi di Modena e Reggio Emilia e coinvolto in attività di R&D (JEMORE) e sviluppo startup, con interesse nelle tecnologie AI, rientra potenzialmente nella categoria di 'ricercatore operante in struttura pubblica' nella regione.",
-        "fondo": "Altro",
-        "voto": 7,
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_bd6a7c1ef8": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_df4dbcf3bf": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_a5b09000c4": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_9038c21499": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
-    },
-    "start_f60c62c8f1": {
-        "stato": "ignorato",
-        "data_rilevazione": "29/07/2026"
     },
     "3725": {
         "stato": "inviato",
@@ -3644,13 +3327,8 @@
         "data_rilevazione": "26/08/2026"
     },
     "3758": {
-        "stato": "inviato",
-        "titolo": "The Witcher 3: Wild Hunt Concert (GOG) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/the-witcher-3-wild-hunt-concert-gog-giveaway",
-        "scadenza": "2026-08-27 23:59:00",
-        "store": "PC, GOG",
-        "data_rilevazione": "26/08/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
     },
     "uni_588067413c": {
         "stato": "ignorato",
@@ -3683,5 +3361,23 @@
     "start_ec38e74799": {
         "stato": "ignorato",
         "data_rilevazione": "26/08/2026"
+    },
+    "3759": {
+        "stato": "inviato",
+        "titolo": "Rival Stars Horse Racing (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/rival-stars-horse-racing-epic-games-giveaway",
+        "scadenza": "2026-09-03 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "28/08/2026"
+    },
+    "2336": {
+        "stato": "inviato",
+        "titolo": "Breathedge (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/breathedge-epic-games-giveaway",
+        "scadenza": "2026-09-03 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "28/08/2026"
     }
 }
