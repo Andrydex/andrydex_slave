@@ -1,18 +1,4 @@
 {
-    "uni_3ea46c5ce2": {
-        "stato": "partecipo",
-        "titolo": "Bando di concorso per l’assegnazione di contributi per le spese di locazione abitativa sostenute dagli studenti fuori sede iscritti all’anno accademico 2025/2026",
-        "url": "https://www.unimore.it/it/ateneo/bandi/bando-di-concorso-lassegnazione-di-contributi-le-spese-di-locazione-abitativa-0",
-        "tipo": "universita",
-        "scadenza": "22/07/2026",
-        "luogo": "Università degli Studi di Modena e Reggio Emilia (UNIMORE)",
-        "durata": "Contributo per spese di locazione sostenute dal 01/01/2026 al 01/09/2026.",
-        "ente": "Università degli Studi di Modena e Reggio Emilia (UNIMORE)",
-        "argomenti": "Contributi per spese di locazione abitativa (affitto) per studenti fuori sede.",
-        "requisiti": "Iscrizione all'a.a. 2025/2026 ad un corso di studi Unimore (inclusi DCI/Economia/Biagi); ISEE 2026 per diritto allo studio universitario inferiore o uguale a €20.000; Residenza in luogo diverso rispetto a quello dove è ubicato l'immobile locato (dal 01/01/2026 al 01/09/2026), ammessa partecipazione in caso di residenza nel medesimo Comune solo se il nucleo familiare risiede all’estero; Non aver usufruito per l'a.a. 2025/2026 di altri contributi pubblici per l'alloggio (es. borse ER.GO fuori sede, posto alloggio ER.GO, contributi affitto ER.GO); Possesso dei requisiti di merito ai sensi dell’art. 1, comma 255, lettere b) e c), della legge 11 dicembre 2016, n. 232; Non essere iscritto, per più di una volta, al primo anno di corso universitario.",
-        "voto": 8,
-        "data_rilevazione": "30/06/2026"
-    },
     "uni_1b6cef35cd": {
         "stato": "ignorato",
         "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
@@ -96,32 +82,6 @@
         "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
         "voto": 7,
         "data_rilevazione": "28/07/2026"
-    },
-    "3725": {
-        "stato": "inviato",
-        "titolo": "Sol Cesto (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/sol-cesto-epic-games-giveaway",
-        "scadenza": "2026-08-06 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "30/07/2026"
-    },
-    "3724": {
-        "stato": "inviato",
-        "titolo": "OTXO (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/otxo-epic-games-giveaway",
-        "scadenza": "2026-08-06 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "30/07/2026"
-    },
-    "uni_132de018b2": {
-        "stato": "ignorato",
-        "data_rilevazione": "30/07/2026"
-    },
-    "uni_af2c323296": {
-        "stato": "ignorato",
-        "data_rilevazione": "30/07/2026"
     },
     "2478": {
         "stato": "inviato",
@@ -3379,5 +3339,155 @@
         "scadenza": "2026-09-03 23:59:00",
         "store": "PC, Epic Games Store",
         "data_rilevazione": "28/08/2026"
+    },
+    "3709": {
+        "stato": "inviato",
+        "titolo": "NoRush! - Tower Edition (Epic Games) Giveaways",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/norush-tower-edition-epic-games-giveaways",
+        "scadenza": "2026-09-09 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "28/08/2026"
+    },
+    "3723": {
+        "stato": "inviato",
+        "titolo": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/dragonsword-awakening-abyssal-direwolf-steam-giveaway",
+        "scadenza": "2026-08-31 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "28/08/2026"
+    },
+    "uni_2c0038ee12": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "uni_233791cad3": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_a63bee9b6e": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_0ca6851d13": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_0851d9827b": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_e90eb29491": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_0b4f296430": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_f13a1f7111": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_498ebac46d": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_627b2bfe0e": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_561c229e14": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_9a5612b4db": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_2487bd23ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_6742b44eab": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/ON-nuove-imprese-tasso-zero",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese costituite da non più di 60 mesi o persone fisiche che vogliono costituire una nuova impresa. La compagine deve essere composta, per oltre la metà numerica dei soci e di quote di partecipazione, da persone di età compresa tra 18 e 35 anni oppure da donne di qualsiasi età. Progetti fino a 3 milioni di euro nei settori Produzione, Servizi, Commercio, Turismo. (AVVISO: dal 1° luglio 2026 le agevolazioni verranno concesse nella sola forma del finanziamento agevolato per esaurimento risorse fondo perduto).",
+        "fondo": "Fondo perduto e Finanziamento agevolato",
+        "voto": 8,
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_a91de38801": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Startup innovative di piccola dimensione (costituite da non più di 60 mesi, iscritte alla sezione speciale del Registro delle imprese), team di persone e cittadini stranieri in possesso dello 'startup Visa', imprese straniere che istituiscono una sede sul territorio italiano.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_18905a9736": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_16815a3b72": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Cultura Cresce",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese da costituire o costituite da non oltre 5 anni; Imprese costituite da oltre 5 anni; Imprese sociali e soggetti del Terzo Settore costituiti da almeno 2 anni. Le iniziative devono rientrare nelle filiere culturali e creative e localizzarsi in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
+        "fondo": "Mix di fondo perduto e finanziamento a tasso zero",
+        "voto": 7,
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_f301bfe5b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "28/08/2026"
+    },
+    "start_c434fa02f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_ba42c90455": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_15be95e957": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_ddf5b44627": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_6aa9a190ec": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_22d8c38f09": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
     }
 }
