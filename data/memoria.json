@@ -2971,7 +2971,7 @@
         "data_rilevazione": "13/08/2026"
     },
     "3742": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Targeted – 10 Days (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/targeted-10-days-epic-games-giveaway",
@@ -3278,7 +3278,7 @@
         "data_rilevazione": "26/08/2026"
     },
     "3555": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Together After Dark (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/together-after-dark-epic-games-giveaway",
@@ -3323,7 +3323,7 @@
         "data_rilevazione": "26/08/2026"
     },
     "3759": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Rival Stars Horse Racing (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/rival-stars-horse-racing-epic-games-giveaway",
@@ -3332,7 +3332,7 @@
         "data_rilevazione": "28/08/2026"
     },
     "2336": {
-        "stato": "inviato",
+        "stato": "preso",
         "titolo": "Breathedge (Epic Games) Giveaway",
         "tipo": "gioco",
         "url": "https://www.gamerpower.com/open/breathedge-epic-games-giveaway",
@@ -3488,6 +3488,158 @@
     },
     "start_22d8c38f09": {
         "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Giovani tra i 18 e i 35 anni non compiuti, in condizione di inattività, inoccupazione o disoccupazione (incluso Programma GOL e working poor). Devono avviare nuove iniziative di autoimpiego nel Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia), in tutti i settori economici ad eccezione di agricoltura, pesca e acquacoltura. Il founder ha 26 anni, rientra nella fascia d'età. Sebbene studi a Modena, proviene da Campobasso (Molise), e può avviare l'attività nel Mezzogiorno. Il suo status di studente magistrale potrebbe rientrare nella condizione di inoccupazione/inattività. L'idea di startup nel settore della direzione e consulenza d'impresa è compatibile con i settori ammessi.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Economia circolare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di qualsiasi dimensione che svolgono attività industriali, agroindustriali, artigiane, di servizi all’industria e ai centri di ricerca, che presentano progetti singolarmente o in forma congiunta per la transizione verso un modello di economia circolare.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_04e5ce6d7d": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_fffd3c285e": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_a81697139c": {
+        "stato": "nuovo",
+        "titolo": "A chi si rivolge",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/chi-si-rivolge",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese italiane ed estere di ogni dimensione. I programmi di investimento possono essere presentati da: Singola Impresa; Impresa proponente con Imprese aderenti (fino a 4); Rete di Imprese (massimo 5 Imprese con contratto di rete). Riguarda grandi investimenti nei settori industriale, agroindustriale, turistico e della tutela ambientale.",
+        "fondo": "Altro",
+        "voto": 8,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_18ea86b19c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_330450c40b": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_bb022a4466": {
+        "stato": "nuovo",
+        "titolo": "Presenta la domanda",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/presenta-la-domanda",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di tutte le dimensioni e reti di imprese che presentano grandi investimenti nei settori industriale, agroindustriale, turistico e della tutela ambientale. Sono inclusi progetti per la produzione di prodotti finali delle tecnologie a zero emissioni nette, componenti specifici e relative materie prime critiche. L'impresa proponente non deve trovarsi in difficoltà, non deve aver delocalizzato nei due anni precedenti (e si impegna a non farlo nei due anni successivi al completamento dell'investimento), e deve mantenere gli investimenti per un minimo di cinque anni (tre per le PMI). Per presentare la domanda è necessaria una firma digitale, un indirizzo PEC e un'identità digitale (SPID, CNS, CIE).",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 8,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_21ebbf48a1": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_ae6e0803a8": {
+        "stato": "nuovo",
+        "titolo": "Per saperne di più",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/saperne-di-piu",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Grandi investimenti nei settori industriale, agroindustriale, turistico e della tutela ambientale. Per imprese che vogliono nascere, crescere, innovare e competere.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_da278248df": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_2de90b29a6": {
+        "stato": "nuovo",
+        "titolo": "Cosa si può fare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/sportello-catene-di-approvvigionamento-strategiche/cosa-si-puo-fare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di ogni dimensione operanti nelle filiere strategiche (es. agroindustria, design, moda, arredo, metallurgia, meccanica, automotive, chimica, farmaceutica) per progetti di sviluppo industriale, tutela ambientale, ricerca, sviluppo e innovazione. I programmi possono essere attuati da più imprese o da una sola (con forti elementi di integrazione con la filiera e effetti positivi per essa, specialmente PMI). Richiesto rispetto del principio DNSH e divieto di doppio finanziamento.",
+        "fondo": "Finanziamento agevolato / Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_7b5c1bc7a6": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_a2c4ddde29": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_1c96bb0340": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_8efe052a15": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_f4afbe3e20": {
+        "stato": "nuovo",
+        "titolo": "Normativa",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/sportello-catene-di-approvvigionamento-strategiche/normativa",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese che realizzano grandi investimenti in settori strategici (industriale, agroindustriale, turistico, tutela ambientale, catene di approvvigionamento strategiche, semiconduttori, automotive, sostenibilità processi produttivi, tecnologie Net Zero) con fondi PNRR. Il profilo del founder (strategico, orientato all'efficienza e R&D, con una propensione alla leadership e alla creazione di sistemi) è compatibile con la natura e la gestione di tali progetti ambiziosi, sebbene l'incentivo sia rivolto a grandi imprese e non direttamente a un singolo founder o una startup in fase iniziale.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_00016ffb60": {
+        "stato": "nuovo",
+        "titolo": "Per saperne di più",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/sportello-catene-di-approvvigionamento-strategiche/saperne-di-piu",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese con grandi investimenti nei settori industriale, agroindustriale, turistico, tutela ambientale e in filiere strategiche (es. semiconduttori, automotive, net zero, sostenibilità processi produttivi).",
+        "fondo": "Altro",
+        "voto": 5,
+        "data_rilevazione": "29/08/2026"
+    },
+    "start_2cd97f0a6d": {
+        "stato": "nuovo",
+        "titolo": "Cos'è",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo/sportello-semiconduttori/cose",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di ogni dimensione, in tutta Italia, con progetti volti a introdurre capacità distintive nella fabbricazione dei semiconduttori o nella produzione di apparecchiature o componenti chiave per la filiera europea.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
         "data_rilevazione": "29/08/2026"
     }
 }
