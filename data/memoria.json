@@ -1,18 +1,4 @@
 {
-    "uni_189c7349cb": {
-        "stato": "ignorato",
-        "titolo": "Da Italgas la call Shaping the Future of Energy Networks",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/da-italgas-la-call-shaping-future-energy-networks",
-        "tipo": "universita",
-        "scadenza": "31/07/2026",
-        "luogo": "Italia (non specificato un luogo fisico specifico per il programma di accelerazione)",
-        "durata": "Non specificato, percorso di accelerazione e incubazione",
-        "ente": "Italgas (in collaborazione con EmiliaRomagnaStartUp)",
-        "argomenti": "Reti energetiche resilienti, decarbonizzazione, efficienza energetica, intelligenza artificiale e sensoristica per reti gas e acqua, sviluppo di startup e soluzioni innovative nel settore energia e ambiente.",
-        "requisiti": "Gruppi di lavoro o società costituite con progetti innovativi negli ambiti 'Resilient Grid' o 'Energy Transition'. I progetti possono essere in fase di 'Idea' (prototipabile entro 2027), 'MVP' (prototipo con nuove opportunità di mercato) o 'Products on the market' (già commercializzati o pronti al lancio). Non sono richiesti specifici dipartimenti accademici, rendendo la call accessibile anche a studenti magistrali con progetti imprenditoriali.",
-        "voto": 9,
-        "data_rilevazione": "03/07/2026"
-    },
     "uni_30baa0ab6f": {
         "stato": "ignorato",
         "titolo": "Planet Foundamentals: la call di SocialFare 2026",
@@ -68,15 +54,6 @@
         "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
         "voto": 7,
         "data_rilevazione": "28/07/2026"
-    },
-    "3697": {
-        "stato": "inviato",
-        "titolo": "NIGHTBELL (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
-        "scadenza": "2026-08-09 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "02/08/2026"
     },
     "3728": {
         "stato": "inviato",
@@ -1101,5 +1078,17 @@
     "start_9e0356a981": {
         "stato": "ignorato",
         "data_rilevazione": "31/08/2026"
+    },
+    "start_6909f306f0": {
+        "stato": "nuovo",
+        "titolo": "01 Settembre 2026\nAvviso \"IMPATTO\", qualificata partecipazione agli incontri di Termoli, Campobasso e Isernia\nSi è concluso a Isernia il ciclo di tre incontri territoriali organizzati da Regione Molise e da Finmolise per illustrare alle imprese, ai professionisti e alle rappresentanze del sistema economico regionale le opportunità e le modalità operative dell'Avviso \"IMPATTO\", la misura finalizzata a sostenere gli investimenti attraverso finanziamenti a tasso zero.",
+        "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22402",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Regione Molise",
+        "requisiti": "Imprese e professionisti del sistema economico regionale molisano, per investimenti tra 10.000 e 300.000 euro volti a crescita, innovazione e rafforzamento della competitività. Le domande potranno essere inoltrate a partire dal 15 settembre 2026.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "01/09/2026"
     }
 }
