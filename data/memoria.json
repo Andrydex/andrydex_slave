@@ -55,83 +55,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3729": {
-        "stato": "inviato",
-        "titolo": "Project First Contact (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/project-first-contact-epic-games-giveaway",
-        "scadenza": "2026-08-17 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_1c06789de2": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_1d8ee3a4ba": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_573c40cde7": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_94c1759832": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_ddc8961f20": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_98cbbfdfe1": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_8b62849305": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_74b52b1597": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_23559b0cc0": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_75b09c64fc": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_0d6a4b143d": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_69bca1b9cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_ce20a4eb06": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_cf1ab76b8b": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_37ba5b192e": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "uni_8004a2dbea": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
-    "start_2a00a16b1f": {
-        "stato": "ignorato",
-        "data_rilevazione": "04/08/2026"
-    },
     "uni_a81f5a288e": {
         "stato": "ignorato",
         "data_rilevazione": "05/08/2026"
@@ -707,13 +630,8 @@
         "data_rilevazione": "28/08/2026"
     },
     "3723": {
-        "stato": "inviato",
-        "titolo": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/dragonsword-awakening-abyssal-direwolf-steam-giveaway",
-        "scadenza": "2026-08-31 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "28/08/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "03/09/2026"
     },
     "uni_2c0038ee12": {
         "stato": "ignorato",
@@ -3519,5 +3437,81 @@
     "start_b78c4996c5": {
         "stato": "ignorato",
         "data_rilevazione": "02/09/2026"
+    },
+    "3765": {
+        "stato": "inviato",
+        "titolo": "Poubelle City (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/poubelle-city-itch-io-giveaway",
+        "scadenza": "2026-09-04 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "03/09/2026"
+    },
+    "3763": {
+        "stato": "inviato",
+        "titolo": "Alone With You (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/alone-with-you-epic-games-giveaway",
+        "scadenza": "2026-09-10 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "03/09/2026"
+    },
+    "3762": {
+        "stato": "inviato",
+        "titolo": "Idle Champions 9th Anniversary Starter Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/idle-champions-9th-anniversary-starter-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 4, Xbox One, Android, iOS",
+        "data_rilevazione": "03/09/2026"
+    },
+    "3324": {
+        "stato": "inviato",
+        "titolo": "Battle Ram (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "03/09/2026"
+    },
+    "3728": {
+        "stato": "inviato",
+        "titolo": "Reverse: 1999 Bonus Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/reverse-1999-bonus-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Android, iOS",
+        "data_rilevazione": "03/09/2026"
+    },
+    "3498": {
+        "stato": "inviato",
+        "titolo": "Primal Slideee Deluxe (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/primal-slideee-deluxe-pc-giveaway",
+        "scadenza": "2026-09-12 23:59:59",
+        "store": "PC",
+        "data_rilevazione": "03/09/2026"
+    },
+    "uni_641ae3f124": {
+        "stato": "nuovo",
+        "titolo": "bando",
+        "url": "https://unicompara.it/borsa-di-studio/",
+        "tipo": "universita",
+        "scadenza": "16/11/2026",
+        "luogo": "Italia",
+        "durata": "N.D.",
+        "ente": "MADS S.r.l. / UniCompara",
+        "argomenti": "Orientamento e trasparenza universitaria, didattica online",
+        "requisiti": "Iscrizione regolare all'anno accademico 2026/2027 a un corso di laurea triennale, magistrale o a ciclo unico presso un'università riconosciuta dal MUR con sede sul territorio italiano (telematica o tradizionale), senza distinzione di corso di laurea. Aver compiuto 18 anni. Esclusi master, dottorati, ITS Academy e istituzioni AFAM. Richiesta lettera motivazionale (500-5.000 caratteri), lettera di presentazione firmata da docente o tutor, certificato di iscrizione con esami sostenuti (o autocertificazione). Il bando è aperto a studenti di qualsiasi dipartimento, inclusi DCI/Economia/Biagi/Management.",
+        "voto": 9,
+        "data_rilevazione": "03/09/2026"
+    },
+    "start_f8d2e1e191": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/09/2026"
+    },
+    "start_87a7c48dcf": {
+        "stato": "ignorato",
+        "data_rilevazione": "03/09/2026"
     }
 }
