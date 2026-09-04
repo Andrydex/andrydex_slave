@@ -55,26 +55,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "uni_a81f5a288e": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/08/2026"
-    },
-    "uni_ec1cf48d28": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/08/2026"
-    },
-    "uni_8818dca89b": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/08/2026"
-    },
-    "uni_dd693b3559": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/08/2026"
-    },
-    "uni_5f65bd1731": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/08/2026"
-    },
     "3735": {
         "stato": "inviato",
         "titolo": "Tom Clancy's Ghost Recon Future Soldier (Ubisoft) Giveaway",
@@ -3513,5 +3493,93 @@
     "start_87a7c48dcf": {
         "stato": "ignorato",
         "data_rilevazione": "03/09/2026"
+    },
+    "uni_fbafa0c747": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_317fbfddbf": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_6a551204c2": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_c9d776e793": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_9dae609a44": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_67294a15ee": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "uni_be9731f69a": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_eea7322dad": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_60cd259732": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_9377a088a4": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_300747677f": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_bd827af0a9": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_fddf16018c": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_f6afefc558": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_317eca8be8": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_584856c989": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_4a84b37c65": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_86f19fbca0": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_ca2cfbf974": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_e03e2875fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_bd6a7c1ef8": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
+    },
+    "start_df4dbcf3bf": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/09/2026"
     }
 }
