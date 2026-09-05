@@ -3581,5 +3581,23 @@
     "start_df4dbcf3bf": {
         "stato": "ignorato",
         "data_rilevazione": "04/09/2026"
+    },
+    "3766": {
+        "stato": "inviato",
+        "titolo": "Beach Invasion 1944 (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/beach-invasion-1944-epic-games-giveaway",
+        "scadenza": "2026-09-07 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "05/09/2026"
+    },
+    "3306": {
+        "stato": "inviato",
+        "titolo": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "05/09/2026"
     }
 }

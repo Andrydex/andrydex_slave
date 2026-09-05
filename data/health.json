@@ -1,7 +1,7 @@
 {
   "gaming_worker": {
-    "status": "error: HTTPSConnectionPool(host='www.gamerpower.com', port=443): Read timed out. (read timeout=10)",
-    "last_check": "2026-09-04T18:05:10.016744"
+    "status": "ok",
+    "last_check": "2026-09-05T17:08:27.562448"
   },
   "steam_worker": {
     "status": "ok",
@@ -9,14 +9,14 @@
   },
   "cheapshark_worker": {
     "status": "error: slice(None, 10, None)",
-    "last_check": "2026-09-04T18:05:10.249857"
+    "last_check": "2026-09-05T17:08:27.701605"
   },
   "unigreen_worker": {
     "status": "ok",
-    "last_check": "2026-09-04T18:08:49.919295"
+    "last_check": "2026-09-05T17:08:45.707630"
   },
   "startup_worker": {
     "status": "ok",
-    "last_check": "2026-09-04T18:11:21.357431"
+    "last_check": "2026-09-05T17:09:13.734472"
   }
 }
