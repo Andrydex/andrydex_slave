@@ -55,42 +55,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3740": {
-        "stato": "inviato",
-        "titolo": "Breathedge (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/breathedge-steam-giveaway",
-        "scadenza": "2026-08-09 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "08/08/2026"
-    },
-    "3739": {
-        "stato": "inviato",
-        "titolo": "Drop Loot (Playtest) Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/drop-loot-playtest-steam-key-giveaway",
-        "scadenza": "2026-08-14 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "08/08/2026"
-    },
-    "3738": {
-        "stato": "inviato",
-        "titolo": "Schrodinger's Cat Burglar Pack Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/schrodinger-s-cat-burglar-pack-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "08/08/2026"
-    },
-    "3737": {
-        "stato": "inviato",
-        "titolo": "happiness market (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/happiness-market-epic-games-giveaway",
-        "scadenza": "2026-08-14 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "08/08/2026"
-    },
     "3741": {
         "stato": "inviato",
         "titolo": "Cat Named Mojave (Epic Games) Giveaway",
@@ -3490,5 +3454,14 @@
         "scadenza": "N/A",
         "store": "PC, DRM-Free",
         "data_rilevazione": "05/09/2026"
+    },
+    "3767": {
+        "stato": "inviato",
+        "titolo": "State of Mind (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/state-of-mind-gog-giveaway",
+        "scadenza": "2026-09-10 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "07/09/2026"
     }
 }
