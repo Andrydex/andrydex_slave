@@ -3488,5 +3488,22 @@
     "start_25d794ced3": {
         "stato": "ignorato",
         "data_rilevazione": "08/09/2026"
+    },
+    "3697": {
+        "stato": "inviato",
+        "titolo": "NIGHTBELL (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
+        "scadenza": "2026-09-30 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "09/09/2026"
+    },
+    "uni_9a8728698b": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/09/2026"
+    },
+    "uni_f5a852e843": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/09/2026"
     }
 }
