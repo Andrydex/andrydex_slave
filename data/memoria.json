@@ -55,18 +55,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "start_031db6bd10": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/08/2026"
-    },
-    "start_fdf041f518": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/08/2026"
-    },
-    "start_f49e2ba7ca": {
-        "stato": "ignorato",
-        "data_rilevazione": "11/08/2026"
-    },
     "3743": {
         "stato": "inviato",
         "titolo": "Caravan SandWitch (Epic Games) Giveaway",
@@ -3505,5 +3493,41 @@
     "uni_f5a852e843": {
         "stato": "ignorato",
         "data_rilevazione": "09/09/2026"
+    },
+    "3774": {
+        "stato": "inviato",
+        "titolo": "Astral Ascent (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/astral-ascent-epic-games-giveaway",
+        "scadenza": "2026-09-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "10/09/2026"
+    },
+    "3773": {
+        "stato": "inviato",
+        "titolo": "Luftrausers (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/luftrausers-epic-games-giveaway",
+        "scadenza": "2026-09-17 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "10/09/2026"
+    },
+    "3772": {
+        "stato": "inviato",
+        "titolo": "MANDATO (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mandato-itch-io-giveaway",
+        "scadenza": "2026-09-11 23:59:00",
+        "store": "PC, Itch.io",
+        "data_rilevazione": "10/09/2026"
+    },
+    "3771": {
+        "stato": "inviato",
+        "titolo": "Liminal Space Holiday (Itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/liminal-space-holiday-itch-io-giveaway",
+        "scadenza": "2026-09-13 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "10/09/2026"
     }
 }
