@@ -55,65 +55,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3743": {
-        "stato": "inviato",
-        "titolo": "Caravan SandWitch (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/caravan-sandwitch-epic-games-giveaway",
-        "scadenza": "2026-08-20 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "13/08/2026"
-    },
-    "3742": {
-        "stato": "preso",
-        "titolo": "Targeted – 10 Days (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/targeted-10-days-epic-games-giveaway",
-        "scadenza": "2026-08-31 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "13/08/2026"
-    },
-    "3704": {
-        "stato": "ignorato",
-        "titolo": "GOALS: AMD Kit Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/goals-amd-kit-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_3c95a4745b": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_f5a0be9143": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_ca13469cca": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_db8637e3cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_df40aa3346": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_de9e0fb8ab": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_25b2bf9516": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
-    "start_3a797bbe9a": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/08/2026"
-    },
     "3524": {
         "stato": "inviato",
         "titolo": "Deponia (Steam) Giveaway",
@@ -3553,5 +3494,17 @@
     "uni_148e6bb11e": {
         "stato": "ignorato",
         "data_rilevazione": "11/09/2026"
+    },
+    "uni_a6769c10b1": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/09/2026"
+    },
+    "uni_e150b1c893": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/09/2026"
+    },
+    "start_ef989fea56": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/09/2026"
     }
 }
