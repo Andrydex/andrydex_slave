@@ -1,18 +1,4 @@
 {
-    "uni_30baa0ab6f": {
-        "stato": "ignorato",
-        "titolo": "Planet Foundamentals: la call di SocialFare 2026",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/planet-foundamentals-la-call-di-socialfare-2026",
-        "tipo": "universita",
-        "scadenza": "22/07/2026",
-        "luogo": "Torino, Piemonte, Liguria, Valle d'Aosta",
-        "durata": "Non specificata, programma di accelerazione intensivo",
-        "ente": "SocialFare",
-        "argomenti": "Programma di accelerazione per startup ad impatto e imprese sociali. Temi: innovazione sociale (persone) e sostenibilità ambientale (pianeta). Settori: Energia e Ambiente, ICT, Innovazione Sociale.",
-        "requisiti": "Destinatari: Startup già costituite (innovative, SIAVS, S.r.l.), realtà ancora in fase di costituzione e Imprese Sociali (S.r.l. o Cooperative). Richiesto impatto sociale intenzionale, addizionale e misurabile e offerta di un prodotto/servizio altamente innovativo. Le Imprese Sociali devono avere sede legale in Piemonte, Liguria o Valle d'Aosta. Non è un bando per mobilità studentesca o borse di studio dirette a studenti, ma per progetti imprenditoriali.",
-        "voto": 6,
-        "data_rilevazione": "15/07/2026"
-    },
     "uni_b6836ca6cd": {
         "stato": "ignorato",
         "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
@@ -54,15 +40,6 @@
         "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
         "voto": 7,
         "data_rilevazione": "28/07/2026"
-    },
-    "3524": {
-        "stato": "inviato",
-        "titolo": "Deponia (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/deponia-steam-giveaway",
-        "scadenza": "2026-08-20 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "14/08/2026"
     },
     "3748": {
         "stato": "inviato",
@@ -3239,13 +3216,8 @@
         "data_rilevazione": "03/09/2026"
     },
     "3498": {
-        "stato": "inviato",
-        "titolo": "Primal Slideee Deluxe (Stove) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/primal-slideee-deluxe-pc-giveaway",
-        "scadenza": "2026-09-12 23:59:59",
-        "store": "PC",
-        "data_rilevazione": "03/09/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
     },
     "uni_641ae3f124": {
         "stato": "nuovo",
@@ -3506,5 +3478,50 @@
     "start_ef989fea56": {
         "stato": "ignorato",
         "data_rilevazione": "12/09/2026"
+    },
+    "3769": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "3704": {
+        "stato": "inviato",
+        "titolo": "GOALS: AMD Kit Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/goals-amd-kit-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_3c95a4745b": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_f5a0be9143": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_ca13469cca": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_db8637e3cf": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_df40aa3346": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_de9e0fb8ab": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_25b2bf9516": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
+    },
+    "start_3a797bbe9a": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/09/2026"
     }
 }
