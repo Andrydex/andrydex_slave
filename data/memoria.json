@@ -41,33 +41,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3748": {
-        "stato": "inviato",
-        "titolo": "Decrypt (Itchio) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/decrypt-itchio-giveaway",
-        "scadenza": "2026-08-17 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "15/08/2026"
-    },
-    "3747": {
-        "stato": "inviato",
-        "titolo": "Rabbit in Dungeon (Stove) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/rabbit-in-dungeon-stove-giveaway",
-        "scadenza": "2026-08-22 23:59:00",
-        "store": "PC",
-        "data_rilevazione": "15/08/2026"
-    },
-    "3746": {
-        "stato": "inviato",
-        "titolo": "Tape 101: Liminal Descent (Playtest) Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/tape-101-liminal-descent-playtest-steam-key-giveaway",
-        "scadenza": "2026-08-21 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "15/08/2026"
-    },
     "3749": {
         "stato": "inviato",
         "titolo": "World of Tanks 16th Anniversary Gift Pack",
@@ -3217,7 +3190,7 @@
     },
     "3498": {
         "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
+        "data_rilevazione": "14/09/2026"
     },
     "uni_641ae3f124": {
         "stato": "nuovo",
@@ -3523,5 +3496,35 @@
     "start_3a797bbe9a": {
         "stato": "ignorato",
         "data_rilevazione": "13/09/2026"
+    },
+    "3777": {
+        "stato": "inviato",
+        "titolo": "Deadswitch Combat: Attachment Skins Bundle Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/deadswitch-combat-attachment-skins-bundle-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "14/09/2026"
+    },
+    "3776": {
+        "stato": "inviato",
+        "titolo": "Crystal Crisis (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/crystal-crisis-steam-giveaway",
+        "scadenza": "2026-09-22 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "14/09/2026"
+    },
+    "uni_7189847494": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/09/2026"
+    },
+    "uni_dbc2f95c70": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/09/2026"
+    },
+    "uni_562d314451": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/09/2026"
     }
 }
