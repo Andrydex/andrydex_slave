@@ -3190,7 +3190,7 @@
     },
     "3498": {
         "stato": "ignorato",
-        "data_rilevazione": "14/09/2026"
+        "data_rilevazione": "15/09/2026"
     },
     "uni_641ae3f124": {
         "stato": "nuovo",
@@ -3526,5 +3526,78 @@
     "uni_562d314451": {
         "stato": "ignorato",
         "data_rilevazione": "14/09/2026"
+    },
+    "3778": {
+        "stato": "inviato",
+        "titolo": "FOR HONOR (Ubisoft) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/for-honor-ubisoft-giveaway",
+        "scadenza": "2026-09-28 23:59:00",
+        "store": "PC, Ubisoft Connect",
+        "data_rilevazione": "15/09/2026"
+    },
+    "uni_f6fd799bec": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_f9b9c1f78e": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_f6fd799bec": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_6f46bee310": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_6b0611675e": {
+        "stato": "nuovo",
+        "titolo": "Cos’è",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche/cose",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Persone fisiche residenti in Italia, condomìni rappresentati dall’Amministratore pro tempore o da un condomino delegato, per le parti di uso comune.",
+        "fondo": "Fondo perduto",
+        "voto": 5,
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_e66b2c9374": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_cf0475c092": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_7419312b16": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_aa68e7b411": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_9b668e8e8d": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_34f901244c": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/09/2026"
+    },
+    "start_394b385f5d": {
+        "stato": "nuovo",
+        "titolo": "A questo link",
+        "url": "https://startup.gaterei.it/programmi/startup-creation-lab-2026",
+        "tipo": "startup",
+        "scadenza": "30/09/2026",
+        "ente": "GATE REI",
+        "requisiti": "Il programma si rivolge a giovani under 35 (studenti universitari, neolaureati, ricercatori, aspiranti imprenditori, giovani professionisti) interessati a sviluppare un'idea d'impresa o ad acquisire strumenti e metodologie per innovare. Non è necessario avere già un'idea definita per la prima fase.",
+        "fondo": "Altro",
+        "voto": 9,
+        "data_rilevazione": "15/09/2026"
     }
 }
