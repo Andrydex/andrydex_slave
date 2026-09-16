@@ -41,51 +41,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3749": {
-        "stato": "inviato",
-        "titolo": "World of Tanks 16th Anniversary Gift Pack",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/world-of-tanks-16th-anniversary-gift-pack",
-        "scadenza": "2026-08-31 23:59:00",
-        "store": "PC",
-        "data_rilevazione": "17/08/2026"
-    },
-    "3313": {
-        "stato": "inviato",
-        "titolo": "Wordle (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/wordle-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "17/08/2026"
-    },
-    "3719": {
-        "stato": "inviato",
-        "titolo": "Fantasy Grounds Dragons NPC Dice Pack Volume 1 Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/fantasy-grounds-dragons-npc-dice-pack-volume-1-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "17/08/2026"
-    },
-    "3718": {
-        "stato": "inviato",
-        "titolo": "Deadswitch Combat Vehicle Bundle Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/deadswitch-combat-vehicle-bundle-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "17/08/2026"
-    },
-    "3716": {
-        "stato": "inviato",
-        "titolo": "Dwarven Realms (Steam) Key Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/dwarven-realms-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "17/08/2026"
-    },
     "3752": {
         "stato": "inviato",
         "titolo": "Cardpocalypse (Epic Games) Giveaway",
@@ -3190,7 +3145,7 @@
     },
     "3498": {
         "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
+        "data_rilevazione": "16/09/2026"
     },
     "uni_641ae3f124": {
         "stato": "nuovo",
@@ -3599,5 +3554,38 @@
         "fondo": "Altro",
         "voto": 9,
         "data_rilevazione": "15/09/2026"
+    },
+    "3779": {
+        "stato": "inviato",
+        "titolo": "Space Menace (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/space-menace-steam-giveaway",
+        "scadenza": "2026-09-23 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_64b42a6540": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_4f5d4c531b": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_781bae21f1": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_4cb1795739": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_b8ae31628e": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
+    },
+    "uni_57a65c90e8": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/09/2026"
     }
 }
