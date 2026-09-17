@@ -3587,5 +3587,85 @@
     "uni_57a65c90e8": {
         "stato": "ignorato",
         "data_rilevazione": "16/09/2026"
+    },
+    "3783": {
+        "stato": "inviato",
+        "titolo": "Aniimo Gift Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/aniimo-gift-pack-key-giveaway",
+        "scadenza": "2026-09-30 23:59:00",
+        "store": "PC, Playstation 5, Xbox Series X|S, Android, iOS",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3782": {
+        "stato": "inviato",
+        "titolo": "Shogun Showdown (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/shogun-showdown-epic-games-giveaway",
+        "scadenza": "2026-09-24 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3781": {
+        "stato": "inviato",
+        "titolo": "Mindcop (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mindcop-epic-games-giveaway",
+        "scadenza": "2026-09-24 23:59:00",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3780": {
+        "stato": "inviato",
+        "titolo": "Dying Light: The Beast - Discharge Weapon Pack (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/dying-light-the-beast-discharge-weapon-pack-steam-giveaway",
+        "scadenza": "2026-09-24 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3313": {
+        "stato": "inviato",
+        "titolo": "Wordle (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/wordle-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3719": {
+        "stato": "inviato",
+        "titolo": "Fantasy Grounds Dragons NPC Dice Pack Volume 1 Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/fantasy-grounds-dragons-npc-dice-pack-volume-1-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3718": {
+        "stato": "inviato",
+        "titolo": "Deadswitch Combat Vehicle Bundle Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/deadswitch-combat-vehicle-bundle-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "17/09/2026"
+    },
+    "3716": {
+        "stato": "inviato",
+        "titolo": "Dwarven Realms (Steam) Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dwarven-realms-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "17/09/2026"
+    },
+    "start_b15a84689e": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/09/2026"
+    },
+    "start_fccceceae9": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/09/2026"
     }
 }
