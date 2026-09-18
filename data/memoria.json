@@ -3667,5 +3667,30 @@
     "start_fccceceae9": {
         "stato": "ignorato",
         "data_rilevazione": "17/09/2026"
+    },
+    "3784": {
+        "stato": "inviato",
+        "titolo": "Deadshot (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/deadshot-steam-giveaway",
+        "scadenza": "2026-09-23 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "18/09/2026"
+    },
+    "uni_2a15a07276": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/09/2026"
+    },
+    "uni_a8407e24c0": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/09/2026"
+    },
+    "uni_a857354399": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/09/2026"
+    },
+    "uni_57c67945b3": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/09/2026"
     }
 }
