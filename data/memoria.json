@@ -41,33 +41,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3752": {
-        "stato": "inviato",
-        "titolo": "Cardpocalypse (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/cardpocalypse-epic-games-giveaway",
-        "scadenza": "2026-08-27 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "20/08/2026"
-    },
-    "3751": {
-        "stato": "inviato",
-        "titolo": "Albion Online: Epic Mage Bundle Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/albion-online-epic-mage-bundle-giveaway",
-        "scadenza": "2026-08-27 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "20/08/2026"
-    },
-    "3750": {
-        "stato": "inviato",
-        "titolo": "Grow And Go: Cozy Deliveries (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/grow-and-go-cozy-deliveries-epic-games-giveaway",
-        "scadenza": "2026-08-22 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "20/08/2026"
-    },
     "3754": {
         "stato": "inviato",
         "titolo": "Bolmn (Epic Games) Giveaway",
@@ -3692,5 +3665,14 @@
     "uni_57c67945b3": {
         "stato": "ignorato",
         "data_rilevazione": "18/09/2026"
+    },
+    "3322": {
+        "stato": "inviato",
+        "titolo": "Sausage Hunter (Indiegala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "19/09/2026"
     }
 }
