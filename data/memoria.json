@@ -1,18 +1,4 @@
 {
-    "uni_b6836ca6cd": {
-        "stato": "ignorato",
-        "titolo": "Startup Showcase - People Tech Forum 2026 (Bologna)",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/startup-showcase-people-tech-forum-2026-bologna",
-        "tipo": "universita",
-        "scadenza": "31/07/2026",
-        "luogo": "Bologna, Italia",
-        "durata": "N.D.",
-        "ente": "Ecosistema Formazione Italia (EFI), BI‑REX Competence Center, Fondazione Golinelli",
-        "argomenti": "Startup Showcase per soluzioni innovative nei settori EdTech e HRTech (tecnologie per la formazione e le risorse umane), innovazione, imprenditorialità.",
-        "requisiti": "Il bando è rivolto a startup (team o già costituite) con soluzioni innovative nei settori EdTech e HRTech. Andrea, come studente magistrale DCI con curricula di imprenditorialità e diverse esperienze in progetti di startup, potrebbe partecipare presentando un proprio progetto o idea di startup in questi ambiti. Non sono elencati specifici dipartimenti universitari ammessi o esclusi. La seconda data di chiusura per le candidature è il 31/08/2026.",
-        "voto": 7,
-        "data_rilevazione": "23/07/2026"
-    },
     "uni_8c1e974aa5": {
         "stato": "nuovo",
         "titolo": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
@@ -3665,5 +3651,14 @@
         "scadenza": "N/A",
         "store": "PC, DRM-Free",
         "data_rilevazione": "19/09/2026"
+    },
+    "3785": {
+        "stato": "inviato",
+        "titolo": "RIDE 6 Welcome Bikes Pack Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/ride-6-welcome-bikes-pack-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "21/09/2026"
     }
 }
