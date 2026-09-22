@@ -3660,5 +3660,38 @@
         "scadenza": "N/A",
         "store": "PC, Steam",
         "data_rilevazione": "21/09/2026"
+    },
+    "3786": {
+        "stato": "inviato",
+        "titolo": "Truck Town: Kids and Toddlers Driving Game (Steam) Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/truck-town-kids-and-toddlers-driving-game-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_b27dc29e22": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_0d5a9afeec": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_74716e6965": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_ed9a49e326": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_2420d17d73": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
+    },
+    "uni_8df7673728": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/09/2026"
     }
 }
