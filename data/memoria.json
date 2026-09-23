@@ -27,67 +27,6 @@
         "voto": 7,
         "data_rilevazione": "28/07/2026"
     },
-    "3301": {
-        "stato": "inviato",
-        "titolo": "Bad cat Sam (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bad-cat-sam-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_8f18a67f61": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_fa125b1649": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_b6a1b40a48": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_69747204fb": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_baab15889a": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_2032882efc": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_09dee25a78": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_442e5514bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "uni_96a7683bb0": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "start_b69ad8b5ce": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "start_883e333805": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
-    "start_173aafe964": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/08/2026"
-    },
     "3757": {
         "stato": "inviato",
         "titolo": "Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway",
@@ -3693,5 +3632,72 @@
     "uni_8df7673728": {
         "stato": "ignorato",
         "data_rilevazione": "22/09/2026"
+    },
+    "3789": {
+        "stato": "inviato",
+        "titolo": "Warframe Igaro Syandana and Ice Colour Picker Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/warframe-igaro-syandana-and-ice-colour-picker-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 5, Xbox Series X|S, Playstation 4, Xbox One, Android, iOS",
+        "data_rilevazione": "23/09/2026"
+    },
+    "3788": {
+        "stato": "inviato",
+        "titolo": "Hamster Talk (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/hamster-talk-stove-giveaway",
+        "scadenza": "2026-09-29 23:59:00",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "23/09/2026"
+    },
+    "3787": {
+        "stato": "inviato",
+        "titolo": "Rush Rush Red Shoes (Stove) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/rush-rush-red-shoes-stove-giveaway",
+        "scadenza": "2026-10-09 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_85791406d4": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_c95cc17ab8": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_a7589dd018": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_9024ec2410": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_2e952fd3f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_da6d5a1ba4": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_883f1cfbb2": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_2252f41c5b": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_4c784f86f6": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
+    },
+    "uni_3e1e71bbcc": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/09/2026"
     }
 }
