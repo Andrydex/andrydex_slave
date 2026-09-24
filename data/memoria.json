@@ -1,18 +1,4 @@
 {
-    "uni_8c1e974aa5": {
-        "stato": "nuovo",
-        "titolo": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative-creative/bandi/erasmus-giovani-imprenditori-open-eye",
-        "tipo": "universita",
-        "scadenza": "31/01/2027",
-        "luogo": "Paesi europei aderenti al Programma",
-        "durata": "Da 1 a 6 mesi",
-        "ente": "Commissione Europea (promosso da Eurochambres, per Emilia-Romagna ART-ER)",
-        "argomenti": "Esperienze d'impresa, internazionalizzazione PMI, creazione startup, trasferimento di conoscenze, formazione imprenditoriale.",
-        "requisiti": "Essere un 'Nuovo Imprenditore' o 'Aspirante Imprenditore' (New Entrepreneur) che pianifica fermamente di avviare la propria attività o l'ha avviata negli ultimi 3 anni, con un progetto o un'idea d'impresa valida e un business plan. Essere residente permanente in uno dei paesi partecipanti. Non richiede laurea magistrale già conseguita. Il bando è aperto a tutti i settori e non elenca dipartimenti o corsi ammessi/esclusi, rendendolo compatibile con DCI/Economia/Biagi/Management, in quanto il focus è sul profilo imprenditoriale.",
-        "voto": 9,
-        "data_rilevazione": "26/07/2026"
-    },
     "uni_5c72ba39ff": {
         "stato": "nuovo",
         "titolo": "Open Innovation: al via il nuovo servizio di orientamento per le startup",
@@ -26,76 +12,6 @@
         "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
         "voto": 7,
         "data_rilevazione": "28/07/2026"
-    },
-    "3757": {
-        "stato": "inviato",
-        "titolo": "Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/microsoft-flight-simulator-suite-themes-reimagined-steam-giveaway",
-        "scadenza": "2026-09-01 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "25/08/2026"
-    },
-    "3756": {
-        "stato": "inviato",
-        "titolo": "Dokimon Quest (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/dokimon-quest-steam-giveaway",
-        "scadenza": "2026-08-26 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_2c61373f83": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_12936bdbbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_d695d8f761": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_05cbe5f20a": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_6f804122a3": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_662e1f4add": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_91efa49773": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_94a5c26941": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_dc0077f56c": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_fc820d08af": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_a61d628879": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_8e3a1bcb6f": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
-    },
-    "uni_dd1a6e3e2f": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/08/2026"
     },
     "3316": {
         "stato": "inviato",
@@ -3699,5 +3615,100 @@
     "uni_3e1e71bbcc": {
         "stato": "ignorato",
         "data_rilevazione": "23/09/2026"
+    },
+    "3790": {
+        "stato": "inviato",
+        "titolo": "Mechabellum (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mechabellum-epic-games-giveaway",
+        "scadenza": "2026-10-01 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "24/09/2026"
+    },
+    "3029": {
+        "stato": "inviato",
+        "titolo": "Astrea: Six Sided Oracles (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/astrea-six-sided-oracles-epic-games-giveaway",
+        "scadenza": "2026-10-01 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "24/09/2026"
+    },
+    "3301": {
+        "stato": "inviato",
+        "titolo": "Bad cat Sam (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bad-cat-sam-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_b699d24a36": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_38d8c8b5ff": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_fa125b1649": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_09dee25a78": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_9700099d62": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_def5d52381": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_442e5514bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "uni_96a7683bb0": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "start_b69ad8b5ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "start_883e333805": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
+    },
+    "start_173aafe964": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/09/2026"
     }
 }
