@@ -1,18 +1,4 @@
 {
-    "uni_5c72ba39ff": {
-        "stato": "nuovo",
-        "titolo": "Open Innovation: al via il nuovo servizio di orientamento per le startup",
-        "url": "https://www.emiliaromagnastartup.it/it/innovative/bandi/open-innovation-al-il-nuovo-servizio-di-orientamento-le-startup",
-        "tipo": "universita",
-        "scadenza": "31/12/2026",
-        "luogo": "Emilia-Romagna (con connessioni nazionali e internazionali)",
-        "durata": "Servizio continuativo fino al 31/12/2026",
-        "ente": "ART-ER / EmiliaRomagnaStartUp",
-        "argomenti": "Open Innovation, orientamento strategico e operativo per startup, accesso a percorsi di innovazione, connessioni con opportunità e network a livello nazionale e internazionale, scouting tecnologico, sviluppo progettuale.",
-        "requisiti": "Il servizio è rivolto a imprese, startup, università e centri di ricerca pubblici e privati. Andrea, in quanto studente magistrale in Direzione e Consulenza d'Impresa (curricula di imprenditorialità) e con diverse esperienze e progetti di startup, rientra indirettamente nel target come potenziale fruitore tramite le sue iniziative imprenditoriali.",
-        "voto": 7,
-        "data_rilevazione": "28/07/2026"
-    },
     "3758": {
         "stato": "ignorato",
         "data_rilevazione": "28/08/2026"
@@ -3681,5 +3667,58 @@
     "uni_12936bdbbc": {
         "stato": "ignorato",
         "data_rilevazione": "25/09/2026"
+    },
+    "3316": {
+        "stato": "inviato",
+        "titolo": "Leaper (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_9e3df0b98a": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_5d2a67f77c": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_d695d8f761": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_1d4066f9f7": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_91efa49773": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_94a5c26941": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_dc0077f56c": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_fc820d08af": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_a61d628879": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_8e3a1bcb6f": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
+    },
+    "uni_dd1a6e3e2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/09/2026"
     }
 }
