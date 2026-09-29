@@ -3,15 +3,6 @@
         "stato": "ignorato",
         "data_rilevazione": "03/09/2026"
     },
-    "3761": {
-        "stato": "inviato",
-        "titolo": "Beneath Europa (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/beneath-europa-itch-io-giveaway",
-        "scadenza": "2026-09-04 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "30/08/2026"
-    },
     "uni_1d8c935389": {
         "stato": "ignorato",
         "data_rilevazione": "31/08/2026"
@@ -3505,5 +3496,191 @@
     "start_2487bd23ab": {
         "stato": "ignorato",
         "data_rilevazione": "28/09/2026"
+    },
+    "3794": {
+        "stato": "inviato",
+        "titolo": "Express No. 6 (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/express-no-6-itch-io-giveaway",
+        "scadenza": "2026-10-05 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "29/09/2026"
+    },
+    "3793": {
+        "stato": "inviato",
+        "titolo": "The Witcher 3: Wild Hunt Remastered - Scarlet Crest Armor Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/the-witcher-3-wild-hunt-remastered-scarlet-crest-armor-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Playstation 5, Xbox Series X|S, Nintendo Switch",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_756fd642c4": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_bccd2752ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_022154ab7a": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_fdade6625b": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_c6f051280c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_1f81218322": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_34cda9b34b": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_f94650f548": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_1caa8bcc19": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_86a9151e4b": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_a5ac52aee7": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_b748b7a370": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_da8c351ecb": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_2ae7b598c9": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_d4a761ea9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_8d2147816c": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_1d8cc6ca24": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_cbc6acb10d": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "uni_ae772d659a": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_6742b44eab": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/ON-nuove-imprese-tasso-zero",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il progetto è rivolto a imprese costituite da non più di 60 mesi o persone fisiche che intendono costituire una nuova impresa. La compagine societaria deve essere composta, per oltre la metà numerica dei soci e di quote di partecipazione, da persone di età compresa tra 18 e 35 anni oppure da donne di qualsiasi età. Nel caso specifico, i due fondatori (Andrea Colacicco e Angelo Di Nunzio) devono entrambi avere un'età compresa tra 18 e 35 anni per soddisfare il requisito di prevalente partecipazione giovanile. L'attività rientra nei settori ammissibili (Produzione, Servizi, Commercio).",
+        "fondo": "Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_a91de38801": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando si rivolge a startup innovative di piccola dimensione, costituite da non più di 60 mesi e iscritte alla sezione speciale del Registro delle imprese, oppure a team di persone (come nel caso del progetto) o imprese straniere che istituiscono una sede in Italia. L'idea di business deve avere un alto contenuto tecnologico. Il progetto di Andrea Colacicco e Angelo Di Nunzio per periferiche gaming di lusso, innovative ed ecosostenibili (partendo da un mouse), con attenzione al design modulare, materiali bio-sostenibili e software leggeri, rientra pienamente nella definizione di startup innovativa ad alto contenuto tecnologico. La futura S.r.l. verrà localizzata a Campobasso (Molise), rientrando nei territori del Centro-Sud Italia con benefici aggiuntivi.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_18905a9736": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_16815a3b72": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Cultura Cresce",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese da costituire o costituite da non oltre 5 anni (anche oltre 5 anni o Imprese sociali/Terzo Settore da almeno 2 anni) nelle filiere culturali e creative. La sede operativa e/o legale deve essere localizzata in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia. Sono sostenute attività di ideazione, creazione o introduzione di prodotti/servizi innovativi; produzione, sviluppo o diffusione di prodotti/iniziative culturali; promozione, conservazione, ricerca, valorizzazione e gestione di beni, attività e prodotti culturali.",
+        "fondo": "Mix di fondo perduto e finanziamento a tasso zero",
+        "voto": 7,
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_f301bfe5b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Italia Economia Sociale",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese sociali, cooperative sociali e loro consorzi, cooperative ONLUS e imprese creativo-culturali. L'attività proposta (S.r.l. con forte focus su eco-sostenibilità ed etica) è compatibile tematicamente, ma la forma giuridica necessiterebbe di qualificarsi formalmente come Impresa Sociale (es. S.r.l. Impresa Sociale).",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Economia circolare",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/economia-circolare",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese di qualsiasi dimensione che svolgono attività industriali, agroindustriali, artigiane, di servizi all’industria e ai centri di ricerca, che presentano progetti singolarmente o in forma congiunta per la transizione delle attività economiche verso un modello di economia circolare e un uso più efficiente e sostenibile delle risorse.",
+        "fondo": "Finanziamento agevolato / Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_c434fa02f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
+    },
+    "start_387f2803f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "29/09/2026"
     }
 }
