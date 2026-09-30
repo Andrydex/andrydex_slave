@@ -3,42 +3,6 @@
         "stato": "ignorato",
         "data_rilevazione": "03/09/2026"
     },
-    "uni_1d8c935389": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_5e261dda26": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_f793788f2f": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_c62277a567": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_aae92a3e1d": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_2e25157cc4": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_2377b8bc8c": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_dee21d7b58": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
-    "start_9e0356a981": {
-        "stato": "ignorato",
-        "data_rilevazione": "31/08/2026"
-    },
     "start_6909f306f0": {
         "stato": "nuovo",
         "titolo": "01 Settembre 2026\nAvviso \"IMPATTO\", qualificata partecipazione agli incontri di Termoli, Campobasso e Isernia\nSi è concluso a Isernia il ciclo di tre incontri territoriali organizzati da Regione Molise e da Finmolise per illustrare alle imprese, ai professionisti e alle rappresentanze del sistema economico regionale le opportunità e le modalità operative dell'Avviso \"IMPATTO\", la misura finalizzata a sostenere gli investimenti attraverso finanziamenti a tasso zero.",
@@ -2961,7 +2925,7 @@
         "data_rilevazione": "15/09/2026"
     },
     "start_394b385f5d": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "A questo link",
         "url": "https://startup.gaterei.it/programmi/startup-creation-lab-2026",
         "tipo": "startup",
@@ -3682,5 +3646,14 @@
     "start_387f2803f5": {
         "stato": "ignorato",
         "data_rilevazione": "29/09/2026"
+    },
+    "3795": {
+        "stato": "inviato",
+        "titolo": "No Brakes Club Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/no-brakes-club-playtest-steam-keys",
+        "scadenza": "2026-10-18 23:59:59",
+        "store": "PC, Steam",
+        "data_rilevazione": "30/09/2026"
     }
 }
