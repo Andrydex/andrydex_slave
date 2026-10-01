@@ -3,18 +3,6 @@
         "stato": "ignorato",
         "data_rilevazione": "03/09/2026"
     },
-    "start_6909f306f0": {
-        "stato": "nuovo",
-        "titolo": "01 Settembre 2026\nAvviso \"IMPATTO\", qualificata partecipazione agli incontri di Termoli, Campobasso e Isernia\nSi è concluso a Isernia il ciclo di tre incontri territoriali organizzati da Regione Molise e da Finmolise per illustrare alle imprese, ai professionisti e alle rappresentanze del sistema economico regionale le opportunità e le modalità operative dell'Avviso \"IMPATTO\", la misura finalizzata a sostenere gli investimenti attraverso finanziamenti a tasso zero.",
-        "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22402",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Regione Molise",
-        "requisiti": "Imprese e professionisti del sistema economico regionale molisano, per investimenti tra 10.000 e 300.000 euro volti a crescita, innovazione e rafforzamento della competitività. Le domande potranno essere inoltrate a partire dal 15 settembre 2026.",
-        "fondo": "Finanziamento agevolato",
-        "voto": 7,
-        "data_rilevazione": "01/09/2026"
-    },
     "uni_08eee59ed9": {
         "stato": "ignorato",
         "data_rilevazione": "02/09/2026"
@@ -3655,5 +3643,120 @@
         "scadenza": "2026-10-18 23:59:59",
         "store": "PC, Steam",
         "data_rilevazione": "30/09/2026"
+    },
+    "3798": {
+        "stato": "inviato",
+        "titolo": "BURIED STARS (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/buried-stars-epic-games-giveaway",
+        "scadenza": "2026-10-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/10/2026"
+    },
+    "3797": {
+        "stato": "inviato",
+        "titolo": "System Shock 2: 25th Anniversary Remaster (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/system-shock-2-25th-anniversary-remaster-epic-games-giveaway",
+        "scadenza": "2026-10-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/10/2026"
+    },
+    "3796": {
+        "stato": "inviato",
+        "titolo": "MXGP 26 - Scrubdesignz Liveries (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/mxgp-26-scrubdesignz-liveries-steam-giveaway",
+        "scadenza": "2026-10-15 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_304f14fc1f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_5cd1fc6d13": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_8bc99ecc4d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_070db13f16": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_1b8ffc693d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_f2afc6c4fe": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_c13c3b26c0": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_06b8ea5921": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_0fe77a22eb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "uni_a66e089dbb": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_5e261dda26": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_fa1ad6699d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_c62277a567": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_aae92a3e1d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_e06b589dab": {
+        "stato": "nuovo",
+        "titolo": "http://www.emiliaromagnastartup.it/bandi/rss.xml",
+        "url": "http://www.emiliaromagnastartup.it/bandi/rss.xml",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il progetto deve essere caratterizzato da un significativo contenuto tecnologico e innovativo, oppure mirato allo sviluppo di prodotti, servizi o soluzioni nell'economia digitale, o finalizzato alla valorizzazione economica dei risultati della ricerca. La startup deve essere costituita da non più di 60 mesi e iscritta nell’apposita sezione speciale del registro delle imprese (o persone fisiche che intendono costituirla). Sono agevolabili programmi di spesa tra 100 mila e 1,5 milioni di euro. Il team fondatore, se composto interamente da giovani sotto i 36 anni (come i due ragazzi fondatori del progetto), può accedere a una copertura del 90% delle spese.",
+        "fondo": "Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_2e25157cc4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_2377b8bc8c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_3a2eceb8f2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_52bb75422e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
+    },
+    "start_f793788f2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/10/2026"
     }
 }
