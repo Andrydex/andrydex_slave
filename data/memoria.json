@@ -17,24 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3766": {
-        "stato": "inviato",
-        "titolo": "Beach Invasion 1944 (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/beach-invasion-1944-epic-games-giveaway",
-        "scadenza": "2026-09-07 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "05/09/2026"
-    },
-    "3306": {
-        "stato": "ignorato",
-        "titolo": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "05/09/2026"
-    },
     "3767": {
         "stato": "ignorato",
         "titolo": "State of Mind (GOG) Giveaway",
@@ -3730,5 +3712,22 @@
         "scadenza": "N/A",
         "store": "PC, DRM-Free",
         "data_rilevazione": "04/10/2026"
+    },
+    "3802": {
+        "stato": "inviato",
+        "titolo": "Scallywags Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/scallywags-playtest-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "05/10/2026"
+    },
+    "uni_211fd911e6": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/10/2026"
+    },
+    "uni_839fea2349": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/10/2026"
     }
 }
