@@ -3729,5 +3729,26 @@
     "uni_839fea2349": {
         "stato": "ignorato",
         "data_rilevazione": "05/10/2026"
+    },
+    "3803": {
+        "stato": "inviato",
+        "titolo": "Everwind AW-51 Pack Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/everwind-aw-51-pack-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "06/10/2026"
+    },
+    "uni_108645fd7d": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/10/2026"
+    },
+    "uni_c0b9908db2": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/10/2026"
+    },
+    "uni_f261e75cc0": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/10/2026"
     }
 }
