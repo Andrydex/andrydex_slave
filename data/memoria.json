@@ -17,15 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3767": {
-        "stato": "ignorato",
-        "titolo": "State of Mind (GOG) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/state-of-mind-gog-giveaway",
-        "scadenza": "2026-09-10 23:59:00",
-        "store": "PC, GOG, DRM-Free",
-        "data_rilevazione": "07/09/2026"
-    },
     "3770": {
         "stato": "inviato",
         "titolo": "Frog Sqwad Steam Key Giveaway",
@@ -1199,7 +1190,7 @@
         "data_rilevazione": "02/10/2026"
     },
     "uni_a3f94d8696": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 291515 del 02/10/2026 Rep. 2252/2026",
         "url": "https://www.unimore.it/it/ateneo/bandi/dipartimento-di-economia-marco-biagi-bando-prot-n-291515-del-02102026-rep-22522026",
         "tipo": "universita",
@@ -3750,5 +3741,22 @@
     "uni_f261e75cc0": {
         "stato": "ignorato",
         "data_rilevazione": "06/10/2026"
+    },
+    "3804": {
+        "stato": "inviato",
+        "titolo": "Spooky Cats Steam Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/spooky-cats-steam-key-giveaway",
+        "scadenza": "2026-10-09 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "07/10/2026"
+    },
+    "uni_aa334da154": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/10/2026"
+    },
+    "uni_391ec97790": {
+        "stato": "ignorato",
+        "data_rilevazione": "07/10/2026"
     }
 }
