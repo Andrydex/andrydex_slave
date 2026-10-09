@@ -17,23 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3697": {
-        "stato": "inviato",
-        "titolo": "NIGHTBELL (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/nightbell-itch-io-giveaway",
-        "scadenza": "2026-09-30 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "09/09/2026"
-    },
-    "uni_9a8728698b": {
-        "stato": "ignorato",
-        "data_rilevazione": "09/09/2026"
-    },
-    "uni_f5a852e843": {
-        "stato": "ignorato",
-        "data_rilevazione": "09/09/2026"
-    },
     "3774": {
         "stato": "inviato",
         "titolo": "Astral Ascent (Epic Games) Giveaway",
@@ -3876,5 +3859,31 @@
     "start_3b69ff8ee9": {
         "stato": "ignorato",
         "data_rilevazione": "08/10/2026"
+    },
+    "3811": {
+        "stato": "inviato",
+        "titolo": "Meltdown Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/meltdown-playtest-steam-key-giveaway",
+        "scadenza": "2026-10-16 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "09/10/2026"
+    },
+    "3810": {
+        "stato": "inviato",
+        "titolo": "Fireside Feelings (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/fireside-feelings-steam-giveaway",
+        "scadenza": "2026-10-12 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "09/10/2026"
+    },
+    "uni_9b8675832f": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/10/2026"
+    },
+    "start_661fa39991": {
+        "stato": "ignorato",
+        "data_rilevazione": "09/10/2026"
     }
 }
