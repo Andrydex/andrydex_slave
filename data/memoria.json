@@ -17,42 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3774": {
-        "stato": "inviato",
-        "titolo": "Astral Ascent (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/astral-ascent-epic-games-giveaway",
-        "scadenza": "2026-09-17 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "10/09/2026"
-    },
-    "3773": {
-        "stato": "inviato",
-        "titolo": "Luftrausers (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/luftrausers-epic-games-giveaway",
-        "scadenza": "2026-09-17 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "10/09/2026"
-    },
-    "3772": {
-        "stato": "inviato",
-        "titolo": "MANDATO (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/mandato-itch-io-giveaway",
-        "scadenza": "2026-09-11 23:59:00",
-        "store": "PC, Itch.io",
-        "data_rilevazione": "10/09/2026"
-    },
-    "3771": {
-        "stato": "inviato",
-        "titolo": "Liminal Space Holiday (Itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/liminal-space-holiday-itch-io-giveaway",
-        "scadenza": "2026-09-13 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "10/09/2026"
-    },
     "uni_d6522904a5": {
         "stato": "ignorato",
         "data_rilevazione": "11/09/2026"
@@ -3885,5 +3849,13 @@
     "start_661fa39991": {
         "stato": "ignorato",
         "data_rilevazione": "09/10/2026"
+    },
+    "start_8de274720a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/10/2026"
+    },
+    "start_25d794ced3": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/10/2026"
     }
 }
