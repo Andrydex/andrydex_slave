@@ -17,18 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "uni_a6769c10b1": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/09/2026"
-    },
-    "uni_e150b1c893": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/09/2026"
-    },
-    "start_ef989fea56": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/09/2026"
-    },
     "3769": {
         "stato": "ignorato",
         "data_rilevazione": "13/09/2026"
@@ -3833,5 +3821,26 @@
     "start_25d794ced3": {
         "stato": "ignorato",
         "data_rilevazione": "10/10/2026"
+    },
+    "3812": {
+        "stato": "inviato",
+        "titolo": "Vaultbreakers Starter Pack Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/vaultbreakers-starter-pack-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "12/10/2026"
+    },
+    "uni_66d538f8bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/10/2026"
+    },
+    "uni_e89b7f47ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/10/2026"
+    },
+    "start_63f9fdfec3": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/10/2026"
     }
 }
