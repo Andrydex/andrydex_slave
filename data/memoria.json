@@ -17,51 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3769": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "3704": {
-        "stato": "inviato",
-        "titolo": "GOALS: AMD Kit Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/goals-amd-kit-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_3c95a4745b": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_f5a0be9143": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_ca13469cca": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_db8637e3cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_df40aa3346": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_de9e0fb8ab": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_25b2bf9516": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
-    "start_3a797bbe9a": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/09/2026"
-    },
     "3777": {
         "stato": "inviato",
         "titolo": "Deadswitch Combat: Attachment Skins Bundle Steam Key Giveaway",
@@ -3842,5 +3797,37 @@
     "start_63f9fdfec3": {
         "stato": "ignorato",
         "data_rilevazione": "12/10/2026"
+    },
+    "uni_e8b8322cd6": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/10/2026"
+    },
+    "uni_c78bcaff72": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/10/2026"
+    },
+    "start_a961cae0d2": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/10/2026"
+    },
+    "start_0cbc4ed64f": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/10/2026"
+    },
+    "start_6375137c22": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/10/2026"
+    },
+    "start_2342f48c6b": {
+        "stato": "nuovo",
+        "titolo": "News Innovazione e startup",
+        "url": "https://www.invitalia.it/news-media/news?data_start=&data_end=&ambito%5B0%5D=5&title=&sort_by=data_start&sort_order=DESC&items_per_page=12",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Micro, piccole e medie imprese che intendono valorizzare economicamente i propri brevetti. La società S.r.l. proposta dai founder rientra in questa categoria.",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "13/10/2026"
     }
 }
