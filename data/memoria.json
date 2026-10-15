@@ -17,79 +17,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3778": {
-        "stato": "inviato",
-        "titolo": "FOR HONOR (Ubisoft) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/for-honor-ubisoft-giveaway",
-        "scadenza": "2026-09-28 23:59:00",
-        "store": "PC, Ubisoft Connect",
-        "data_rilevazione": "15/09/2026"
-    },
-    "uni_f6fd799bec": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_f9b9c1f78e": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_f6fd799bec": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_6f46bee310": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_6b0611675e": {
-        "stato": "nuovo",
-        "titolo": "Cos’è",
-        "url": "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche/cose",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Persone fisiche residenti in Italia, condomìni rappresentati dall’Amministratore pro tempore o da un condomino delegato, per le parti di uso comune.",
-        "fondo": "Fondo perduto",
-        "voto": 5,
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_e66b2c9374": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_cf0475c092": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_7419312b16": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_aa68e7b411": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_9b668e8e8d": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_34f901244c": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/09/2026"
-    },
-    "start_394b385f5d": {
-        "stato": "ignorato",
-        "titolo": "A questo link",
-        "url": "https://startup.gaterei.it/programmi/startup-creation-lab-2026",
-        "tipo": "startup",
-        "scadenza": "30/09/2026",
-        "ente": "GATE REI",
-        "requisiti": "Il programma si rivolge a giovani under 35 (studenti universitari, neolaureati, ricercatori, aspiranti imprenditori, giovani professionisti) interessati a sviluppare un'idea d'impresa o ad acquisire strumenti e metodologie per innovare. Non è necessario avere già un'idea definita per la prima fase.",
-        "fondo": "Altro",
-        "voto": 9,
-        "data_rilevazione": "15/09/2026"
-    },
     "3779": {
         "stato": "inviato",
         "titolo": "Space Menace (Steam) Giveaway",
@@ -3857,5 +3784,57 @@
     "start_3a797bbe9a": {
         "stato": "ignorato",
         "data_rilevazione": "14/10/2026"
+    },
+    "3818": {
+        "stato": "inviato",
+        "titolo": "Squad Weapon Skins - Recon Team Pack (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/squad-weapon-skins-recon-team-pack-steam-giveaway",
+        "scadenza": "2026-10-25 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "15/10/2026"
+    },
+    "3817": {
+        "stato": "inviato",
+        "titolo": "Agent A: A puzzle in disguise (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
+        "scadenza": "2026-10-22 23:59:00",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "15/10/2026"
+    },
+    "3816": {
+        "stato": "inviato",
+        "titolo": "Bad Cheese (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bad-cheese-epic-games-giveaway",
+        "scadenza": "2026-10-22 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "15/10/2026"
+    },
+    "3815": {
+        "stato": "inviato",
+        "titolo": "World of Tanks: Halloween Gift Packs",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-tanks-halloween-gift-packs",
+        "scadenza": "2026-11-02 23:59:59",
+        "store": "PC",
+        "data_rilevazione": "15/10/2026"
+    },
+    "uni_e99156d79b": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/10/2026"
+    },
+    "uni_2a83f35ee5": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/10/2026"
+    },
+    "uni_da9b4d62ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/10/2026"
+    },
+    "uni_f33ff6689f": {
+        "stato": "ignorato",
+        "data_rilevazione": "15/10/2026"
     }
 }
