@@ -1,8 +1,4 @@
 {
-    "3498": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
     "uni_641ae3f124": {
         "stato": "nuovo",
         "titolo": "bando",
@@ -16,39 +12,6 @@
         "requisiti": "Iscrizione regolare all'anno accademico 2026/2027 a un corso di laurea triennale, magistrale o a ciclo unico presso un'università riconosciuta dal MUR con sede sul territorio italiano (telematica o tradizionale), senza distinzione di corso di laurea. Aver compiuto 18 anni. Esclusi master, dottorati, ITS Academy e istituzioni AFAM. Richiesta lettera motivazionale (500-5.000 caratteri), lettera di presentazione firmata da docente o tutor, certificato di iscrizione con esami sostenuti (o autocertificazione). Il bando è aperto a studenti di qualsiasi dipartimento, inclusi DCI/Economia/Biagi/Management.",
         "voto": 9,
         "data_rilevazione": "03/09/2026"
-    },
-    "3779": {
-        "stato": "inviato",
-        "titolo": "Space Menace (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/space-menace-steam-giveaway",
-        "scadenza": "2026-09-23 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_64b42a6540": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_4f5d4c531b": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_781bae21f1": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_4cb1795739": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_b8ae31628e": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
-    },
-    "uni_57a65c90e8": {
-        "stato": "ignorato",
-        "data_rilevazione": "16/09/2026"
     },
     "3783": {
         "stato": "inviato",
@@ -3836,5 +3799,94 @@
     "uni_f33ff6689f": {
         "stato": "ignorato",
         "data_rilevazione": "15/10/2026"
+    },
+    "3819": {
+        "stato": "inviato",
+        "titolo": "Fathom Reach Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/fathom-reach-playtest-steam-key-giveaway",
+        "scadenza": "2026-11-03 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_8516808f94": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_1cb56ec527": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_a4556179f4": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_4ecf46de21": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_730d08efa6": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_d6f10b3891": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_c8fb65d567": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_a7e42fc278": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_6546e61d60": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_846a30a5e5": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_46c965d767": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_57ef18cbcb": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_a1ef3fe832": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_08d91d4b70": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "uni_eb621a5f3a": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "start_f9b9c1f78e": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Bonus colonnine domestiche",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche",
+        "tipo": "startup",
+        "scadenza": "31/01/2027",
+        "ente": "Invitalia (Ministero delle Imprese e del Made in Italy)",
+        "requisiti": "Persone fisiche residenti in Italia e condomìni che hanno effettuato installazioni di infrastrutture per la ricarica di veicoli elettrici dal 26 giugno al 31 dicembre 2026.",
+        "fondo": "Fondo perduto",
+        "voto": 7,
+        "data_rilevazione": "16/10/2026"
+    },
+    "start_c14bbe13ed": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
+    },
+    "start_d009213908": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/10/2026"
     }
 }
