@@ -13,31 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3784": {
-        "stato": "inviato",
-        "titolo": "Deadshot (Steam) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/deadshot-steam-giveaway",
-        "scadenza": "2026-09-23 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "18/09/2026"
-    },
-    "uni_2a15a07276": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/09/2026"
-    },
-    "uni_a8407e24c0": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/09/2026"
-    },
-    "uni_a857354399": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/09/2026"
-    },
-    "uni_57c67945b3": {
-        "stato": "ignorato",
-        "data_rilevazione": "18/09/2026"
-    },
     "3322": {
         "stato": "inviato",
         "titolo": "Sausage Hunter (Indiegala) Giveaway",
@@ -3812,5 +3787,23 @@
     "uni_3eb76feec6": {
         "stato": "ignorato",
         "data_rilevazione": "17/10/2026"
+    },
+    "3100": {
+        "stato": "inviato",
+        "titolo": "The Black Within (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
+        "scadenza": "2026-10-24 23:59:59",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "18/10/2026"
+    },
+    "3690": {
+        "stato": "inviato",
+        "titolo": "The Green Light (itch.io) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
+        "scadenza": "2026-10-29 23:59:00",
+        "store": "PC, Itch.io, DRM-Free",
+        "data_rilevazione": "18/10/2026"
     }
 }
