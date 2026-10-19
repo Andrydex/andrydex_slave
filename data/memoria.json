@@ -13,15 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3322": {
-        "stato": "inviato",
-        "titolo": "Sausage Hunter (Indiegala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "19/09/2026"
-    },
     "3785": {
         "stato": "inviato",
         "titolo": "RIDE 6 Welcome Bikes Pack Steam Key Giveaway",
@@ -3805,5 +3796,35 @@
         "scadenza": "2026-10-29 23:59:00",
         "store": "PC, Itch.io, DRM-Free",
         "data_rilevazione": "18/10/2026"
+    },
+    "3331": {
+        "stato": "inviato",
+        "titolo": "Last Room (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "19/10/2026"
+    },
+    "3820": {
+        "stato": "inviato",
+        "titolo": "GetHigh.EXE (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
+        "scadenza": "2026-11-02 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "19/10/2026"
+    },
+    "uni_1d1517aa55": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/10/2026"
+    },
+    "uni_a857354399": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/10/2026"
+    },
+    "uni_609ad09173": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/10/2026"
     }
 }
