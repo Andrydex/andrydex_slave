@@ -13,15 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3785": {
-        "stato": "inviato",
-        "titolo": "RIDE 6 Welcome Bikes Pack Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/ride-6-welcome-bikes-pack-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "21/09/2026"
-    },
     "3786": {
         "stato": "inviato",
         "titolo": "Truck Town: Kids and Toddlers Driving Game (Steam) Key Giveaway",
@@ -3826,5 +3817,21 @@
     "uni_609ad09173": {
         "stato": "ignorato",
         "data_rilevazione": "19/10/2026"
+    },
+    "uni_2b0af2a85b": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/10/2026"
+    },
+    "uni_697393640f": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/10/2026"
+    },
+    "uni_bd76ea2f07": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/10/2026"
+    },
+    "uni_e3c3868caa": {
+        "stato": "ignorato",
+        "data_rilevazione": "21/10/2026"
     }
 }
