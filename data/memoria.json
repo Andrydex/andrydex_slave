@@ -13,39 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3786": {
-        "stato": "inviato",
-        "titolo": "Truck Town: Kids and Toddlers Driving Game (Steam) Key Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/truck-town-kids-and-toddlers-driving-game-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_b27dc29e22": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_0d5a9afeec": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_74716e6965": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_ed9a49e326": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_2420d17d73": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
-    "uni_8df7673728": {
-        "stato": "ignorato",
-        "data_rilevazione": "22/09/2026"
-    },
     "3789": {
         "stato": "inviato",
         "titolo": "Warframe Igaro Syandana and Ice Colour Picker Pack Key Giveaway",
@@ -3833,5 +3800,40 @@
     "uni_e3c3868caa": {
         "stato": "ignorato",
         "data_rilevazione": "21/10/2026"
+    },
+    "3824": {
+        "stato": "inviato",
+        "titolo": "Sker Ritual (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/sker-ritual",
+        "scadenza": "2026-10-29 23:59:59",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "22/10/2026"
+    },
+    "3823": {
+        "stato": "inviato",
+        "titolo": "Home (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/home",
+        "scadenza": "2026-10-29 23:59:59",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "22/10/2026"
+    },
+    "3822": {
+        "stato": "inviato",
+        "titolo": "Terraspace (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/terraspace-epic-games-giveaway",
+        "scadenza": "2026-10-27 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "22/10/2026"
+    },
+    "uni_228814b4dc": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/10/2026"
+    },
+    "uni_65943b980e": {
+        "stato": "ignorato",
+        "data_rilevazione": "22/10/2026"
     }
 }
