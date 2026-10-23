@@ -13,73 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3789": {
-        "stato": "inviato",
-        "titolo": "Warframe Igaro Syandana and Ice Colour Picker Pack Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/warframe-igaro-syandana-and-ice-colour-picker-pack-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Playstation 5, Xbox Series X|S, Playstation 4, Xbox One, Android, iOS",
-        "data_rilevazione": "23/09/2026"
-    },
-    "3788": {
-        "stato": "inviato",
-        "titolo": "Hamster Talk (Stove) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/hamster-talk-stove-giveaway",
-        "scadenza": "2026-09-29 23:59:00",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "23/09/2026"
-    },
-    "3787": {
-        "stato": "inviato",
-        "titolo": "Rush Rush Red Shoes (Stove) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/rush-rush-red-shoes-stove-giveaway",
-        "scadenza": "2026-10-09 23:59:00",
-        "store": "PC",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_85791406d4": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_c95cc17ab8": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_a7589dd018": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_9024ec2410": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_2e952fd3f5": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_da6d5a1ba4": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_883f1cfbb2": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_2252f41c5b": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_4c784f86f6": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
-    "uni_3e1e71bbcc": {
-        "stato": "ignorato",
-        "data_rilevazione": "23/09/2026"
-    },
     "3790": {
         "stato": "inviato",
         "titolo": "Mechabellum (Epic Games) Giveaway",
@@ -3323,13 +3256,8 @@
         "data_rilevazione": "08/10/2026"
     },
     "3805": {
-        "stato": "inviato",
-        "titolo": "Gear.Club Unlimited 3 - Gear.Club Signature Pack Steam Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/gear-club-unlimited-3-gear-club-signature-pack-steam-giveaway",
-        "scadenza": "2026-10-22 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "08/10/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "23/10/2026"
     },
     "uni_5b1a2d83bb": {
         "stato": "ignorato",
@@ -3835,5 +3763,17 @@
     "uni_65943b980e": {
         "stato": "ignorato",
         "data_rilevazione": "22/10/2026"
+    },
+    "uni_5914118959": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/10/2026"
+    },
+    "uni_ad7f3d83d3": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/10/2026"
+    },
+    "uni_9ebdd9adc7": {
+        "stato": "ignorato",
+        "data_rilevazione": "23/10/2026"
     }
 }
