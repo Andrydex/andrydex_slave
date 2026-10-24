@@ -13,101 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3790": {
-        "stato": "inviato",
-        "titolo": "Mechabellum (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/mechabellum-epic-games-giveaway",
-        "scadenza": "2026-10-01 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "24/09/2026"
-    },
-    "3029": {
-        "stato": "inviato",
-        "titolo": "Astrea: Six Sided Oracles (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/astrea-six-sided-oracles-epic-games-giveaway",
-        "scadenza": "2026-10-01 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "24/09/2026"
-    },
-    "3301": {
-        "stato": "inviato",
-        "titolo": "Bad cat Sam (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bad-cat-sam-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_b699d24a36": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_38d8c8b5ff": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_8f18a67f61": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_fa125b1649": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_b6a1b40a48": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_69747204fb": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_baab15889a": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_2032882efc": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_09dee25a78": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_9700099d62": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_def5d52381": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_442e5514bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "uni_96a7683bb0": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "start_b69ad8b5ce": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "start_883e333805": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
-    "start_173aafe964": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/09/2026"
-    },
     "3328": {
         "stato": "inviato",
         "titolo": "Best Plumber (IndieGala) Giveaway",
@@ -3257,7 +3162,7 @@
     },
     "3805": {
         "stato": "ignorato",
-        "data_rilevazione": "23/10/2026"
+        "data_rilevazione": "24/10/2026"
     },
     "uni_5b1a2d83bb": {
         "stato": "ignorato",
@@ -3775,5 +3680,23 @@
     "uni_9ebdd9adc7": {
         "stato": "ignorato",
         "data_rilevazione": "23/10/2026"
+    },
+    "uni_57a230e010": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/10/2026"
+    },
+    "uni_5c403db7e0": {
+        "stato": "nuovo",
+        "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 307872 del 23/10/2026 Rep. 2429/2026",
+        "url": "https://www.unimore.it/it/ateneo/bandi/dipartimento-di-economia-marco-biagi-bando-prot-n-307872-del-23102026-rep-24292026",
+        "tipo": "universita",
+        "scadenza": "30/10/2026",
+        "luogo": "Modena (Dipartimento di Economia Marco Biagi, Università degli Studi di Modena e Reggio Emilia)",
+        "durata": "2 mesi (per un massimo di 30 giorni lavorativi)",
+        "ente": "Dipartimento di Economia Marco Biagi - Università degli Studi di Modena e Reggio Emilia",
+        "argomenti": "Incarico di collaborazione per il Progetto ICARO Unimore, focalizzato sulla formazione degli studenti all'innovazione e all'imprenditività. Le attività includono supporto all'ideazione e composizione dei team e mentoring rivolto a studenti per la validazione di soluzioni innovative.",
+        "requisiti": "Diploma di laurea v.o. in Economia Aziendale, oppure laurea specialistica o magistrale (classe 84/S o LM-77). In alternativa, laurea triennale (classe 17 o L-18) più Master universitario o Diploma di specializzazione universitaria. Si richiede esperienza nell’attività di mentoring e coaching di team imprenditoriali e nell’attività di consulenza nei processi di innovazione di imprese private e pubbliche. Andrea, essendo studente magistrale LM-77 del Dipartimento Biagi, possiede il requisito accademico e ha esperienze rilevanti connesse al progetto.",
+        "voto": 7,
+        "data_rilevazione": "24/10/2026"
     }
 }
