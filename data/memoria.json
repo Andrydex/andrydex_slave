@@ -13,27 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3328": {
-        "stato": "inviato",
-        "titolo": "Best Plumber (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "25/09/2026"
-    },
-    "uni_ac521bdc9a": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/09/2026"
-    },
-    "uni_fab887c13c": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/09/2026"
-    },
-    "uni_12936bdbbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/09/2026"
-    },
     "3316": {
         "stato": "inviato",
         "titolo": "Leaper (IndieGala) Giveaway",
@@ -3162,7 +3141,7 @@
     },
     "3805": {
         "stato": "ignorato",
-        "data_rilevazione": "24/10/2026"
+        "data_rilevazione": "25/10/2026"
     },
     "uni_5b1a2d83bb": {
         "stato": "ignorato",
@@ -3571,13 +3550,8 @@
         "data_rilevazione": "17/10/2026"
     },
     "3100": {
-        "stato": "inviato",
-        "titolo": "The Black Within (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
-        "scadenza": "2026-10-24 23:59:59",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "18/10/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
     },
     "3690": {
         "stato": "inviato",
@@ -3698,5 +3672,58 @@
         "requisiti": "Diploma di laurea v.o. in Economia Aziendale, oppure laurea specialistica o magistrale (classe 84/S o LM-77). In alternativa, laurea triennale (classe 17 o L-18) più Master universitario o Diploma di specializzazione universitaria. Si richiede esperienza nell’attività di mentoring e coaching di team imprenditoriali e nell’attività di consulenza nei processi di innovazione di imprese private e pubbliche. Andrea, essendo studente magistrale LM-77 del Dipartimento Biagi, possiede il requisito accademico e ha esperienze rilevanti connesse al progetto.",
         "voto": 7,
         "data_rilevazione": "24/10/2026"
+    },
+    "3825": {
+        "stato": "inviato",
+        "titolo": "MAFIA HOTEL (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mafia-hotel-epic-games-giveaway",
+        "scadenza": "2026-11-01 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_8f18a67f61": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_b6a1b40a48": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_e0113beb9c": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_69747204fb": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_baab15889a": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_2032882efc": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_09dee25a78": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_442e5514bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "uni_96a7683bb0": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "start_b69ad8b5ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
+    },
+    "start_173aafe964": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/10/2026"
     }
 }
