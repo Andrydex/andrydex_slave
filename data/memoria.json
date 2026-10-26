@@ -13,59 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3316": {
-        "stato": "inviato",
-        "titolo": "Leaper (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_9e3df0b98a": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_5d2a67f77c": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_d695d8f761": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_1d4066f9f7": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_91efa49773": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_94a5c26941": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_dc0077f56c": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_fc820d08af": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_a61d628879": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_8e3a1bcb6f": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
-    "uni_dd1a6e3e2f": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/09/2026"
-    },
     "uni_25a8c910a8": {
         "stato": "ignorato",
         "data_rilevazione": "28/09/2026"
@@ -3551,7 +3498,7 @@
     },
     "3100": {
         "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
+        "data_rilevazione": "26/10/2026"
     },
     "3690": {
         "stato": "inviato",
@@ -3725,5 +3672,31 @@
     "start_173aafe964": {
         "stato": "ignorato",
         "data_rilevazione": "25/10/2026"
+    },
+    "3826": {
+        "stato": "inviato",
+        "titolo": "V Rising - Haunted Nights Castle Pack (Steam) Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/v-rising-haunted-nights-castle-pack-steam-giveaway",
+        "scadenza": "2026-11-02 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "26/10/2026"
+    },
+    "3340": {
+        "stato": "inviato",
+        "titolo": "ANCIENT EVIL (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "26/10/2026"
+    },
+    "uni_6075a8543a": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/10/2026"
+    },
+    "uni_49c1aa05f5": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/10/2026"
     }
 }
