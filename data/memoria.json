@@ -13,106 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "uni_25a8c910a8": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_d185099eab": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_b8345e45f8": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_26b1f0e561": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_d03787289e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_b05e86086b": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_233791cad3": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_dc4b00163d": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_2a3919d0c4": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_439d5e4e2a": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_971d5431b9": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_0de9292342": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_a91e4bc0aa": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "uni_66ba198902": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_a63bee9b6e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_0ca6851d13": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_0851d9827b": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_e90eb29491": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_0b4f296430": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_f13a1f7111": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_498ebac46d": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_627b2bfe0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_561c229e14": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_9a5612b4db": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
-    "start_2487bd23ab": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/09/2026"
-    },
     "3794": {
         "stato": "inviato",
         "titolo": "Express No. 6 (itch.io) Giveaway",
@@ -3498,7 +3398,7 @@
     },
     "3100": {
         "stato": "ignorato",
-        "data_rilevazione": "27/10/2026"
+        "data_rilevazione": "28/10/2026"
     },
     "3690": {
         "stato": "inviato",
@@ -3574,13 +3474,8 @@
         "data_rilevazione": "22/10/2026"
     },
     "3822": {
-        "stato": "inviato",
-        "titolo": "Terraspace (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/terraspace-epic-games-giveaway",
-        "scadenza": "2026-10-27 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "22/10/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "28/10/2026"
     },
     "uni_228814b4dc": {
         "stato": "ignorato",
