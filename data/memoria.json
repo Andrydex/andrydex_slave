@@ -13,15 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3795": {
-        "stato": "inviato",
-        "titolo": "No Brakes Club Playtest Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/no-brakes-club-playtest-steam-keys",
-        "scadenza": "2026-10-18 23:59:59",
-        "store": "PC, Steam",
-        "data_rilevazione": "30/09/2026"
-    },
     "3798": {
         "stato": "inviato",
         "titolo": "BURIED STARS (Epic Games) Giveaway",
@@ -3316,7 +3307,7 @@
         "data_rilevazione": "24/10/2026"
     },
     "uni_5c403db7e0": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 307872 del 23/10/2026 Rep. 2429/2026",
         "url": "https://www.unimore.it/it/ateneo/bandi/dipartimento-di-economia-marco-biagi-bando-prot-n-307872-del-23102026-rep-24292026",
         "tipo": "universita",
@@ -3667,5 +3658,201 @@
     "start_bce3b915dc": {
         "stato": "ignorato",
         "data_rilevazione": "29/10/2026"
+    },
+    "1546": {
+        "stato": "inviato",
+        "titolo": "Dead by Daylight 100k Bloodpoints Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/dead-by-daylight-100k-bloodpoints-key-giveaway",
+        "scadenza": "2026-12-31 23:59:59",
+        "store": "PC",
+        "data_rilevazione": "30/10/2026"
+    },
+    "3346": {
+        "stato": "inviato",
+        "titolo": "My Darkest Witch (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "30/10/2026"
+    },
+    "3836": {
+        "stato": "inviato",
+        "titolo": "Asleep: Act 1 (Steam) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/asleep-act-1-steam-giveaway",
+        "scadenza": "2026-11-02 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "30/10/2026"
+    },
+    "3835": {
+        "stato": "inviato",
+        "titolo": "A New Beginning: Final Cut (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/a-new-beginning-final-cut-gog-giveaway",
+        "scadenza": "2026-11-02 23:59:00",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_6742b44eab": {
+        "stato": "nuovo",
+        "titolo": "ON - Nuove imprese a tasso zero",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/ON-nuove-imprese-tasso-zero",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese costituite da non più di 60 mesi o persone fisiche che intendono costituire una nuova impresa. La compagine societaria deve essere composta, per oltre la metà (numerica e di quote di partecipazione), da persone di età compresa tra 18 e 35 anni oppure da donne di qualsiasi età. Sono agevolabili progetti in Produzione, Servizi, Commercio, Turismo, fino a 3 milioni di euro.",
+        "fondo": "Fondo perduto e Finanziamento agevolato",
+        "voto": 9,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_a91de38801": {
+        "stato": "nuovo",
+        "titolo": "Smart&Start Italia",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando Smart&Start Italia si rivolge a startup innovative di piccola dimensione, costituite da non più di 60 mesi, iscritte alla sezione speciale del Registro delle imprese, o a team di persone (anche cittadini stranieri con 'startup Visa') e imprese straniere che intendono istituire una sede in Italia. I progetti devono avere un alto contenuto tecnologico. Il founder, di 26 anni, rientra nella categoria dei giovani under 36, il che permette di accedere a una percentuale di finanziamento più alta. La sua mentalità orientata all'efficienza, alla strategia e alla creazione di sistemi (come l'idea di sviluppare un proprio calendario o app per la gestione delle spese) è perfettamente allineata con la natura delle startup innovative ad alto contenuto tecnologico supportate dal bando.",
+        "fondo": "Finanziamento agevolato / Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_18905a9736": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_16815a3b72": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Cultura Cresce",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/cultura-cresce",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia (gestito per il Ministero della Cultura)",
+        "requisiti": "Il bando \"Cultura Cresce\" si rivolge a imprese costituite da oltre 5 anni, imprese da costituire o costituite da non oltre 5 anni, e imprese sociali e soggetti del Terzo Settore costituiti da almeno 2 anni. Supporta iniziative imprenditoriali (anche non profit) nelle filiere culturali e creative in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia. Le attività finanziabili includono ideazione, creazione o introduzione di prodotti o servizi innovativi; produzione, sviluppo o diffusione di prodotti o iniziative culturali; promozione, conservazione, ricerca, valorizzazione e gestione di beni, attività e prodotti culturali.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_5252ed3df4": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Resto al Sud 2.0",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando è rivolto ai giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti, che sono in una condizione di inattività, inoccupazione o disoccupazione (nonché ai disoccupati del Programma GOL e ai working poor). È necessario avviare nuove iniziative di autoimpiego in tutti i settori economici, ad eccezione del comparto agricolo, della pesca e dell’acquacoltura, nei territori del Mezzogiorno (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia). Il founder ha 26 anni e un forte spirito imprenditoriale e di consulenza, compatibile con l'avvio di un'attività nel Mezzogiorno (Campobasso è tra i territori eleggibili). La condizione di \"studente magistrale\" andrebbe verificata rispetto ai criteri di inattività/inoccupazione/disoccupazione, ma è un profilo spesso compatibile con l'avvio di impresa.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_fd4f24e2db": {
+        "stato": "nuovo",
+        "titolo": "LEGGI TUTTOsu Autoimpiego Centro-Nord",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/autoimpiego-centro-nord",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando è rivolto a giovani tra i 18 anni compiuti e i 35 anni non ancora compiuti, in condizione di inattività, inoccupazione o disoccupazione (inclusi disoccupati GOL e working poor). È necessario avviare nuove iniziative di autoimpiego in Piemonte, Valle d’Aosta, Liguria, Lombardia, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige, Emilia-Romagna, Toscana, Lazio, Umbria e Marche, in tutti i settori economici ad eccezione di agricoltura, pesca e acquacoltura. Il founder (26 anni, studente magistrale a Modena) rientra nei requisiti anagrafici e di localizzazione geografica (Emilia-Romagna). La sua condizione di studente magistrale è probabilmente compatibile con i requisiti di inoccupazione/inattività, e il settore della 'Direzione e Consulenza d'Impresa' è ammissibile.",
+        "fondo": "Fondo perduto",
+        "voto": 9,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_f301bfe5b2": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_03e2977b80": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_37f3a776aa": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_fbe42eefb6": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_2da061e1fc": {
+        "stato": "nuovo",
+        "titolo": "Contratto di sviluppo",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/contratto-di-sviluppo",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Imprese italiane ed estere di ogni dimensione. Programmi di sviluppo industriali, agroindustriali, turistici e di tutela ambientale. Investimento minimo di 20 milioni di euro (ridotto a 7,5 milioni per progetti di trasformazione prodotti agricoli e turismo in aree interne o recupero strutture dismesse).",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_c434fa02f8": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_24efe34022": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_a5b09000c4": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_9038c21499": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_f60c62c8f1": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_834667e071": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_3f363f09cd": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_1bbc64f416": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_0794b231ba": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_3280165253": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_21b7b0cefe": {
+        "stato": "ignorato",
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_adf34c9d70": {
+        "stato": "nuovo",
+        "titolo": "Cos’è",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale/cose",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il bando \"Italia Economia Sociale\" si rivolge a imprese che operano perseguendo valori di utilità sociale e svolgendo attività di interesse generale, con investimenti finalizzati a: incremento occupazionale di categorie svantaggiate, inclusione sociale di persone vulnerabili, valorizzazione e salvaguardia dell’ambiente/rigenerazione urbana/turismo sostenibile/sostenibilità ambientale dei processi produttivi, salvaguardia e valorizzazione dei beni storico-culturali/perseguimento di finalità culturali e creative/rilevante interesse pubblico a beneficio di una comunità o territorio.",
+        "fondo": "Altro",
+        "voto": 7,
+        "data_rilevazione": "30/10/2026"
+    },
+    "start_2c3befac88": {
+        "stato": "nuovo",
+        "titolo": "Agevolazioni",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/italia-economia-sociale/agevolazioni",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Programmi di spesa (start-up o sviluppo di impresa) tra 100.000 e 10 milioni di euro, con investimenti ad alto impatto sociale e culturale sostenibili sul piano ambientale o incremento occupazionale di lavoratori con disabilità.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 7,
+        "data_rilevazione": "30/10/2026"
     }
 }
