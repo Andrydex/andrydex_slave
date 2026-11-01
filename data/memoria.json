@@ -13,72 +13,6 @@
         "voto": 9,
         "data_rilevazione": "03/09/2026"
     },
-    "3801": {
-        "stato": "inviato",
-        "titolo": "Bounty Train (GOG) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bounty-train-gog-giveaway",
-        "scadenza": "2026-10-05 23:59:00",
-        "store": "PC, GOG, DRM-Free",
-        "data_rilevazione": "02/10/2026"
-    },
-    "3800": {
-        "stato": "inviato",
-        "titolo": "Rotwood: Drakin Armoury Pack (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/rotwood-drakin-armoury-pack-steam-giveaway",
-        "scadenza": "2026-10-15 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_d0d737569a": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_df65233362": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_3e26fcae0d": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_53453dde0e": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_452e892e24": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_c98fc3d882": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_b158d16209": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_670df95391": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_1f2d4128c7": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_21aa949216": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_1d51909dd9": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
-    "uni_3918b12bb9": {
-        "stato": "ignorato",
-        "data_rilevazione": "02/10/2026"
-    },
     "uni_a3f94d8696": {
         "stato": "ignorato",
         "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 291515 del 02/10/2026 Rep. 2252/2026",
@@ -3739,5 +3673,84 @@
         "fondo": "Fondo perduto / Finanziamento agevolato",
         "voto": 7,
         "data_rilevazione": "30/10/2026"
+    },
+    "3839": {
+        "stato": "inviato",
+        "titolo": "Epic World - Hunt For Quest (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
+        "scadenza": "2026-11-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/11/2026"
+    },
+    "3838": {
+        "stato": "inviato",
+        "titolo": "Gladiator: Blades of Fury (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/gladiator-blades-of-fury-epic-games-giveaway",
+        "scadenza": "2026-11-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/11/2026"
+    },
+    "3837": {
+        "stato": "inviato",
+        "titolo": "Quiztopia: The Ultimate Trivia (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/quiztopia-the-ultimate-trivia-epic-games-giveaway",
+        "scadenza": "2026-11-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_5e261dda26": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_f793788f2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_1544ea43ed": {
+        "stato": "nuovo",
+        "titolo": "http://www.emiliaromagnastartup.it/news/rss.xml",
+        "url": "http://www.emiliaromagnastartup.it/news/rss.xml",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "MIMIT, gestito da Unioncamere",
+        "requisiti": "Micro, piccole e medie imprese con sede in Italia, inclusa la categoria delle startup innovative (anche se costituite da meno di due anni), che intendono portare in produzione e sul mercato un disegno o modello registrato (registrato dal 1° gennaio 2024 e ancora valido).",
+        "fondo": "Fondo perduto",
+        "voto": 8,
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_c62277a567": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_aae92a3e1d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_e06b589dab": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_2e25157cc4": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_2377b8bc8c": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_52bb75422e": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_3a2eceb8f2": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
+    },
+    "start_fa1ad6699d": {
+        "stato": "ignorato",
+        "data_rilevazione": "01/11/2026"
     }
 }
