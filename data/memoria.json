@@ -13,23 +13,6 @@
         "voto": 7,
         "data_rilevazione": "03/10/2026"
     },
-    "3802": {
-        "stato": "inviato",
-        "titolo": "Scallywags Playtest Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/scallywags-playtest-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "05/10/2026"
-    },
-    "uni_211fd911e6": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/10/2026"
-    },
-    "uni_839fea2349": {
-        "stato": "ignorato",
-        "data_rilevazione": "05/10/2026"
-    },
     "3803": {
         "stato": "inviato",
         "titolo": "Everwind AW-51 Pack Steam Key Giveaway",
@@ -770,13 +753,8 @@
         "data_rilevazione": "29/10/2026"
     },
     "3828": {
-        "stato": "inviato",
-        "titolo": "Octane100 (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/octane100-itch-io-giveaway",
-        "scadenza": "2026-11-03 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "29/10/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
     },
     "3827": {
         "stato": "inviato",
@@ -3772,5 +3750,34 @@
     "start_b78c4996c5": {
         "stato": "ignorato",
         "data_rilevazione": "03/11/2026"
+    },
+    "3843": {
+        "stato": "inviato",
+        "titolo": "Letter Quest: Grimm's Journey Remastered Steam Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
+        "scadenza": "2026-11-06 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "04/11/2026"
+    },
+    "uni_a7b956fa3a": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
+    },
+    "uni_06a3f3a281": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
+    },
+    "uni_44ca5b2737": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
+    },
+    "uni_634acbaf28": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
+    },
+    "uni_0016c8b9e8": {
+        "stato": "ignorato",
+        "data_rilevazione": "04/11/2026"
     }
 }
