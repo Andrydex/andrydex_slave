@@ -13,27 +13,6 @@
         "voto": 7,
         "data_rilevazione": "03/10/2026"
     },
-    "3803": {
-        "stato": "inviato",
-        "titolo": "Everwind AW-51 Pack Steam Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/everwind-aw-51-pack-steam-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, Steam",
-        "data_rilevazione": "06/10/2026"
-    },
-    "uni_108645fd7d": {
-        "stato": "ignorato",
-        "data_rilevazione": "06/10/2026"
-    },
-    "uni_c0b9908db2": {
-        "stato": "ignorato",
-        "data_rilevazione": "06/10/2026"
-    },
-    "uni_f261e75cc0": {
-        "stato": "ignorato",
-        "data_rilevazione": "06/10/2026"
-    },
     "3804": {
         "stato": "inviato",
         "titolo": "Spooky Cats Steam Key Giveaway",
@@ -3779,5 +3758,51 @@
     "uni_0016c8b9e8": {
         "stato": "ignorato",
         "data_rilevazione": "04/11/2026"
+    },
+    "3845": {
+        "stato": "inviato",
+        "titolo": "Flotsam (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/flotsam-epic-games-giveaway",
+        "scadenza": "2026-11-12 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "05/11/2026"
+    },
+    "3844": {
+        "stato": "inviato",
+        "titolo": "Idle Champions of the Forgotten Realms: Morte's Renown Pack Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/idle-champions-of-the-forgotten-realms-morte-s-renown-pack-giveaway",
+        "scadenza": "2026-11-12 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_20503f42f9": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_dbb34a6035": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_cffcebb9d1": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_e3080df5d7": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_0a6aa7759e": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_bf6d45394c": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
+    },
+    "uni_bce2081f09": {
+        "stato": "ignorato",
+        "data_rilevazione": "05/11/2026"
     }
 }
