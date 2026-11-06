@@ -13,23 +13,6 @@
         "voto": 7,
         "data_rilevazione": "03/10/2026"
     },
-    "3804": {
-        "stato": "inviato",
-        "titolo": "Spooky Cats Steam Key Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/spooky-cats-steam-key-giveaway",
-        "scadenza": "2026-10-09 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "07/10/2026"
-    },
-    "uni_aa334da154": {
-        "stato": "ignorato",
-        "data_rilevazione": "07/10/2026"
-    },
-    "uni_391ec97790": {
-        "stato": "ignorato",
-        "data_rilevazione": "07/10/2026"
-    },
     "3809": {
         "stato": "inviato",
         "titolo": "Pony Island (Steam) Giveaway",
@@ -3804,5 +3787,58 @@
     "uni_bce2081f09": {
         "stato": "ignorato",
         "data_rilevazione": "05/11/2026"
+    },
+    "3847": {
+        "stato": "inviato",
+        "titolo": "GMH - Good Morning Human (Epic Games) Giveaways",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/gmh-good-morning-human-epic-games-giveaways",
+        "scadenza": "2026-11-08 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_73081e92a1": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_4d3fd63446": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_d91f8f872e": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_d5982fb14c": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_0eaed057d2": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_b8d7aa3d48": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_f6a9496582": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_c0b9908db2": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_cbccd4a9ca": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_f64fb428ae": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
+    },
+    "uni_5b9bfad3b8": {
+        "stato": "ignorato",
+        "data_rilevazione": "06/11/2026"
     }
 }
