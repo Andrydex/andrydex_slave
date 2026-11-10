@@ -182,7 +182,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "09/11/2026"
+        "data_rilevazione": "10/11/2026"
     },
     "uni_8516808f94": {
         "stato": "ignorato",
@@ -3795,5 +3795,89 @@
     "start_6f2f7c9f53": {
         "stato": "ignorato",
         "data_rilevazione": "09/11/2026"
+    },
+    "3849": {
+        "stato": "inviato",
+        "titolo": "Kettlebell: Inferno Hotel Afterimage Effect Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/kettlebell-inferno-hotel-afterimage-effect-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC",
+        "data_rilevazione": "10/11/2026"
+    },
+    "3848": {
+        "stato": "inviato",
+        "titolo": "RUNZ Playtest Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/runz-playtest-steam-key-giveaway",
+        "scadenza": "2026-11-17 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_76ad520765": {
+        "stato": "nuovo",
+        "titolo": "Bando Erasmus+ KA 131 Blended Intensive Programme (BIP) per studenti Unimore a.a. 2025/26 - Quarta finestra di apertura",
+        "url": "https://www.unimore.it/it/ateneo/bandi/bando-erasmus-ka-131-blended-intensive-programme-bip-studenti-unimore-aa-202526-quarta",
+        "tipo": "universita",
+        "scadenza": "19/11/2026",
+        "luogo": "Estero (presso università partner europee)",
+        "durata": "Mobilità fisica da 5 a 30 giorni + attività di apprendimento virtuale",
+        "ente": "Università degli Studi di Modena e Reggio Emilia (Unimore)",
+        "argomenti": "Programmi Intensivi Misti (BIP) Erasmus+ KA 131, mobilità internazionale, apprendimento virtuale e fisico, sviluppo di competenze trasversali, innovazione didattica, sostenibilità (es. Sustainable Fashion).",
+        "requisiti": "Studente iscritto a un Corso di Studio dell'Ateneo Unimore e mantenere tale status per tutta la durata del Programma BIP; adeguata conoscenza della lingua di svolgimento del Programma BIP. Per la quarta finestra di apertura, è esplicitamente previsto il BIP 'Sustainable Fashion' per il Dipartimento di Economia 'Marco Biagi', a cui appartiene il corso DCI (Direzione e Consulenza d'Impresa) del candidato. Sono ammessi anche studenti di CdL in Tecniche di radiologia medica, Dipartimento di Ingegneria 'Enzo Ferrari' e CdL Matematica.",
+        "voto": 9,
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_48fc7f6e45": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_15ed9cbf89": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_a4d358260a": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_778121a45b": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_57ba999009": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_f0bd38beca": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_ef78ad1089": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_84454bb2d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_dd8c9140c3": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "uni_098ceb8acd": {
+        "stato": "ignorato",
+        "data_rilevazione": "10/11/2026"
+    },
+    "start_8de274720a": {
+        "stato": "nuovo",
+        "titolo": "APPROFONDISCI",
+        "url": "https://www.invitalia.it/news-media/news/smartstart-italia-quattro-anni-raccolti-658-milioni-di-euro-di-capitali-privati-nelle-startup",
+        "tipo": "startup",
+        "scadenza": "Sportello",
+        "ente": "Invitalia",
+        "requisiti": "Il programma Smart&Start Italia è rivolto alle startup innovative che intendono avviare o sviluppare la propria attività. Nello specifico, la conversione del finanziamento agevolato in contributo a fondo perduto è possibile per le startup che, dopo aver ottenuto il finanziamento, attraggono investitori privati o rafforzano la propria struttura patrimoniale attraverso nuovi conferimenti dei soci.",
+        "fondo": "Fondo perduto / Finanziamento agevolato",
+        "voto": 8,
+        "data_rilevazione": "10/11/2026"
     }
 }
