@@ -17,27 +17,6 @@
         "stato": "ignorato",
         "data_rilevazione": "25/10/2026"
     },
-    "3812": {
-        "stato": "inviato",
-        "titolo": "Vaultbreakers Starter Pack Key Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/vaultbreakers-starter-pack-key-giveaway",
-        "scadenza": "N/A",
-        "store": "PC",
-        "data_rilevazione": "12/10/2026"
-    },
-    "uni_66d538f8bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/10/2026"
-    },
-    "uni_e89b7f47ba": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/10/2026"
-    },
-    "start_63f9fdfec3": {
-        "stato": "ignorato",
-        "data_rilevazione": "12/10/2026"
-    },
     "uni_e8b8322cd6": {
         "stato": "ignorato",
         "data_rilevazione": "13/10/2026"
@@ -182,7 +161,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "10/11/2026"
+        "data_rilevazione": "11/11/2026"
     },
     "uni_8516808f94": {
         "stato": "ignorato",
@@ -3879,5 +3858,37 @@
         "fondo": "Fondo perduto / Finanziamento agevolato",
         "voto": 8,
         "data_rilevazione": "10/11/2026"
+    },
+    "uni_694fb740d9": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_8a5730daea": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_7e364b321e": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_f353a4105f": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_113e58d6ec": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_83d1a12abe": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_a77320f5e6": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
+    },
+    "uni_0d1cf532c4": {
+        "stato": "ignorato",
+        "data_rilevazione": "11/11/2026"
     }
 }
