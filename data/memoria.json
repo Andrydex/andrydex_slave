@@ -17,38 +17,6 @@
         "stato": "ignorato",
         "data_rilevazione": "25/10/2026"
     },
-    "uni_e8b8322cd6": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/10/2026"
-    },
-    "uni_c78bcaff72": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/10/2026"
-    },
-    "start_a961cae0d2": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/10/2026"
-    },
-    "start_0cbc4ed64f": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/10/2026"
-    },
-    "start_6375137c22": {
-        "stato": "ignorato",
-        "data_rilevazione": "13/10/2026"
-    },
-    "start_2342f48c6b": {
-        "stato": "nuovo",
-        "titolo": "News Innovazione e startup",
-        "url": "https://www.invitalia.it/news-media/news?data_start=&data_end=&ambito%5B0%5D=5&title=&sort_by=data_start&sort_order=DESC&items_per_page=12",
-        "tipo": "startup",
-        "scadenza": "Sportello",
-        "ente": "Invitalia",
-        "requisiti": "Micro, piccole e medie imprese che intendono valorizzare economicamente i propri brevetti. La società S.r.l. proposta dai founder rientra in questa categoria.",
-        "fondo": "Fondo perduto",
-        "voto": 8,
-        "data_rilevazione": "13/10/2026"
-    },
     "3814": {
         "stato": "inviato",
         "titolo": "Dungeons And Dragons Online: Bigby’s Better Gift Coupon Code",
@@ -161,7 +129,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "11/11/2026"
+        "data_rilevazione": "12/11/2026"
     },
     "uni_8516808f94": {
         "stato": "ignorato",
@@ -3890,5 +3858,31 @@
     "uni_0d1cf532c4": {
         "stato": "ignorato",
         "data_rilevazione": "11/11/2026"
+    },
+    "3851": {
+        "stato": "inviato",
+        "titolo": "The Legend of California (Playtest) Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/the-legend-of-california-playtest-steam-key-giveaway",
+        "scadenza": "2026-11-18 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "12/11/2026"
+    },
+    "3850": {
+        "stato": "inviato",
+        "titolo": "Knightica (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/knightica-epic-games-giveaway",
+        "scadenza": "2026-11-19 23:59:00",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "12/11/2026"
+    },
+    "uni_615c606659": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/11/2026"
+    },
+    "uni_685aed8555": {
+        "stato": "ignorato",
+        "data_rilevazione": "12/11/2026"
     }
 }
