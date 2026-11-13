@@ -17,64 +17,6 @@
         "stato": "ignorato",
         "data_rilevazione": "25/10/2026"
     },
-    "3814": {
-        "stato": "inviato",
-        "titolo": "Dungeons And Dragons Online: Bigby’s Better Gift Coupon Code",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/dungeons-and-dragons-online-bigby-s-better-gift-coupon-code",
-        "scadenza": "2026-11-10 23:59:00",
-        "store": "PC",
-        "data_rilevazione": "14/10/2026"
-    },
-    "3813": {
-        "stato": "inviato",
-        "titolo": "Voidtrain - Big Catch (DLC) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/voidtrain-big-catch-dlc-giveaway",
-        "scadenza": "2026-10-19 23:59:00",
-        "store": "PC, Steam, Epic Games Store, Playstation 5, Xbox Series X|S",
-        "data_rilevazione": "14/10/2026"
-    },
-    "uni_f4ecc6ea0d": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "uni_79ad5bc5e9": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_3c95a4745b": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_f5a0be9143": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_ca13469cca": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_db8637e3cf": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_df40aa3346": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_de9e0fb8ab": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_25b2bf9516": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
-    "start_3a797bbe9a": {
-        "stato": "ignorato",
-        "data_rilevazione": "14/10/2026"
-    },
     "3818": {
         "stato": "inviato",
         "titolo": "Squad Weapon Skins - Recon Team Pack (Steam) Giveaway",
@@ -129,7 +71,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "12/11/2026"
+        "data_rilevazione": "13/11/2026"
     },
     "uni_8516808f94": {
         "stato": "ignorato",
@@ -453,13 +395,8 @@
         "data_rilevazione": "29/10/2026"
     },
     "3831": {
-        "stato": "inviato",
-        "titolo": "Hunting Simulator 3 - Classic American Hunter Pack (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/hunting-simulator-3-classic-american-hunter-pack-steam-giveaway",
-        "scadenza": "2026-11-12 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "29/10/2026"
+        "stato": "ignorato",
+        "data_rilevazione": "13/11/2026"
     },
     "3830": {
         "stato": "inviato",
@@ -3884,5 +3821,9 @@
     "uni_685aed8555": {
         "stato": "ignorato",
         "data_rilevazione": "12/11/2026"
+    },
+    "uni_6ee9670cba": {
+        "stato": "ignorato",
+        "data_rilevazione": "13/11/2026"
     }
 }
