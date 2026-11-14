@@ -17,61 +17,9 @@
         "stato": "ignorato",
         "data_rilevazione": "25/10/2026"
     },
-    "3818": {
-        "stato": "inviato",
-        "titolo": "Squad Weapon Skins - Recon Team Pack (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/squad-weapon-skins-recon-team-pack-steam-giveaway",
-        "scadenza": "2026-10-25 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "15/10/2026"
-    },
-    "3817": {
-        "stato": "inviato",
-        "titolo": "Agent A: A puzzle in disguise (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/agent-a-a-puzzle-in-disguise-epic-games-giveaway",
-        "scadenza": "2026-10-22 23:59:00",
-        "store": "PC, Android, iOS, Epic Games Store",
-        "data_rilevazione": "15/10/2026"
-    },
-    "3816": {
-        "stato": "inviato",
-        "titolo": "Bad Cheese (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/bad-cheese-epic-games-giveaway",
-        "scadenza": "2026-10-22 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "15/10/2026"
-    },
-    "3815": {
-        "stato": "inviato",
-        "titolo": "World of Tanks: Halloween Gift Packs",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/world-of-tanks-halloween-gift-packs",
-        "scadenza": "2026-11-02 23:59:59",
-        "store": "PC",
-        "data_rilevazione": "15/10/2026"
-    },
-    "uni_e99156d79b": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/10/2026"
-    },
-    "uni_2a83f35ee5": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/10/2026"
-    },
-    "uni_da9b4d62ba": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/10/2026"
-    },
-    "uni_f33ff6689f": {
-        "stato": "ignorato",
-        "data_rilevazione": "15/10/2026"
-    },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "13/11/2026"
+        "data_rilevazione": "14/11/2026"
     },
     "uni_8516808f94": {
         "stato": "ignorato",
@@ -396,7 +344,7 @@
     },
     "3831": {
         "stato": "ignorato",
-        "data_rilevazione": "13/11/2026"
+        "data_rilevazione": "14/11/2026"
     },
     "3830": {
         "stato": "inviato",
@@ -3825,5 +3773,27 @@
     "uni_6ee9670cba": {
         "stato": "ignorato",
         "data_rilevazione": "13/11/2026"
+    },
+    "uni_8711eda946": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/11/2026"
+    },
+    "uni_7467998d6c": {
+        "stato": "ignorato",
+        "data_rilevazione": "14/11/2026"
+    },
+    "uni_9be6d0ee85": {
+        "stato": "nuovo",
+        "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 323362 del 13/11/2026 Rep. 2636/2026",
+        "url": "https://www.unimore.it/it/ateneo/bandi/dipartimento-di-economia-marco-biagi-bando-prot-n-323362-del-13112026-rep-26362026",
+        "tipo": "universita",
+        "scadenza": "23/11/2026",
+        "luogo": "Modena e Reggio Emilia (Unimore - Dipartimento Economia Marco Biagi)",
+        "durata": "12 mesi",
+        "ente": "Dipartimento di Economia Marco Biagi - Unimore",
+        "argomenti": "Attività di collaborazione per la comunicazione social del Dipartimento di Economia Marco Biagi (DEMB), inclusa la pubblicazione di notizie, definizione della schedule mensile dei post, coordinamento e gestione dei materiali multimediali.",
+        "requisiti": "Diploma di laurea v.o. in Economia e commercio, ovvero laurea specialistica o laurea magistrale (D.M. 509/99 e D.M. 270/2004) equiparata ai sensi del D.M. 09 Luglio 2009, appartenente ad una delle seguenti classi: 64/S, 84/S, LM-56, LM-77. Eventualmente laurea triennale appartenente alla classe 17 (D.M. 509/99) o L18 (D.M. 270/04), più Master universitario o Diploma di specializzazione universitaria. È richiesta esperienza e competenza nella gestione delle attività di comunicazione e attraverso i canali dei social media. Il profilo dello studente (LM-77, DCI) e le sue esperienze pregresse nel settore social media/video-creation e in progetti di imprenditorialità/comunicazione sono pienamente allineati ai requisiti accademici e di esperienza richiesti.",
+        "voto": 8,
+        "data_rilevazione": "14/11/2026"
     }
 }
