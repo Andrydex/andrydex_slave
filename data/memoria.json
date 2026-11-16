@@ -19,11 +19,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "15/11/2026"
-    },
-    "uni_3eb76feec6": {
-        "stato": "ignorato",
-        "data_rilevazione": "17/10/2026"
+        "data_rilevazione": "16/11/2026"
     },
     "3100": {
         "stato": "ignorato",
@@ -264,7 +260,7 @@
     },
     "3831": {
         "stato": "ignorato",
-        "data_rilevazione": "15/11/2026"
+        "data_rilevazione": "16/11/2026"
     },
     "3830": {
         "stato": "inviato",
@@ -3715,5 +3711,41 @@
         "requisiti": "Diploma di laurea v.o. in Economia e commercio, ovvero laurea specialistica o laurea magistrale (D.M. 509/99 e D.M. 270/2004) equiparata ai sensi del D.M. 09 Luglio 2009, appartenente ad una delle seguenti classi: 64/S, 84/S, LM-56, LM-77. Eventualmente laurea triennale appartenente alla classe 17 (D.M. 509/99) o L18 (D.M. 270/04), più Master universitario o Diploma di specializzazione universitaria. È richiesta esperienza e competenza nella gestione delle attività di comunicazione e attraverso i canali dei social media. Il profilo dello studente (LM-77, DCI) e le sue esperienze pregresse nel settore social media/video-creation e in progetti di imprenditorialità/comunicazione sono pienamente allineati ai requisiti accademici e di esperienza richiesti.",
         "voto": 8,
         "data_rilevazione": "14/11/2026"
+    },
+    "start_f9b9c1f78e": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_6f46bee310": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_6b0611675e": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_e66b2c9374": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_cf0475c092": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_7419312b16": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_aa68e7b411": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_9b668e8e8d": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
+    },
+    "start_d38330b2b0": {
+        "stato": "ignorato",
+        "data_rilevazione": "16/11/2026"
     }
 }
