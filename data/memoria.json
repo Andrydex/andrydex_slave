@@ -19,20 +19,11 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "16/11/2026"
+        "data_rilevazione": "17/11/2026"
     },
     "3100": {
         "stato": "ignorato",
         "data_rilevazione": "28/10/2026"
-    },
-    "3690": {
-        "stato": "inviato",
-        "titolo": "The Green Light (itch.io) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
-        "scadenza": "2026-10-29 23:59:00",
-        "store": "PC, Itch.io, DRM-Free",
-        "data_rilevazione": "18/10/2026"
     },
     "3331": {
         "stato": "inviato",
@@ -260,7 +251,7 @@
     },
     "3831": {
         "stato": "ignorato",
-        "data_rilevazione": "16/11/2026"
+        "data_rilevazione": "17/11/2026"
     },
     "3830": {
         "stato": "inviato",
@@ -3747,5 +3738,62 @@
     "start_d38330b2b0": {
         "stato": "ignorato",
         "data_rilevazione": "16/11/2026"
+    },
+    "3852": {
+        "stato": "inviato",
+        "titolo": "Contractor: The Clean Up Part 2 (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/contractor-the-clean-up-part-2-epic-games-giveaway",
+        "scadenza": "2026-12-02 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_a7037c4fc4": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_d405dbfe7c": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_ce9c7338d2": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_a4e6ae6a76": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_620ed4c69e": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_dec7ffd9ce": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_fb3dc543a1": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_2d779ddea2": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_8814440346": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_f9b9af686a": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_f6c2627f1c": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
+    },
+    "uni_0f9a7ed0e8": {
+        "stato": "ignorato",
+        "data_rilevazione": "17/11/2026"
     }
 }
