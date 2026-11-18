@@ -19,41 +19,11 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "17/11/2026"
+        "data_rilevazione": "18/11/2026"
     },
     "3100": {
         "stato": "ignorato",
         "data_rilevazione": "28/10/2026"
-    },
-    "3331": {
-        "stato": "inviato",
-        "titolo": "Last Room (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "19/10/2026"
-    },
-    "3820": {
-        "stato": "inviato",
-        "titolo": "GetHigh.EXE (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
-        "scadenza": "2026-11-02 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "19/10/2026"
-    },
-    "uni_1d1517aa55": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/10/2026"
-    },
-    "uni_a857354399": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/10/2026"
-    },
-    "uni_609ad09173": {
-        "stato": "ignorato",
-        "data_rilevazione": "19/10/2026"
     },
     "uni_2b0af2a85b": {
         "stato": "ignorato",
@@ -3795,5 +3765,46 @@
     "uni_0f9a7ed0e8": {
         "stato": "ignorato",
         "data_rilevazione": "17/11/2026"
+    },
+    "3785": {
+        "stato": "inviato",
+        "titolo": "RIDE 6 Welcome Bikes Pack Steam Key Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/ride-6-welcome-bikes-pack-steam-key-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, Steam",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_f8ca91c2e5": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_838db2e0c9": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_fb224a3759": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_c200bfccb3": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_0186101f98": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_754eaf9bee": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_18c7e9f81b": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
+    },
+    "uni_2129481c93": {
+        "stato": "ignorato",
+        "data_rilevazione": "18/11/2026"
     }
 }
