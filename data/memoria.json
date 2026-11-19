@@ -19,7 +19,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "18/11/2026"
+        "data_rilevazione": "19/11/2026"
     },
     "3100": {
         "stato": "ignorato",
@@ -3524,7 +3524,7 @@
         "data_rilevazione": "10/11/2026"
     },
     "uni_76ad520765": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Bando Erasmus+ KA 131 Blended Intensive Programme (BIP) per studenti Unimore a.a. 2025/26 - Quarta finestra di apertura",
         "url": "https://www.unimore.it/it/ateneo/bandi/bando-erasmus-ka-131-blended-intensive-programme-bip-studenti-unimore-aa-202526-quarta",
         "tipo": "universita",
@@ -3806,5 +3806,48 @@
     "uni_2129481c93": {
         "stato": "ignorato",
         "data_rilevazione": "18/11/2026"
+    },
+    "3855": {
+        "stato": "inviato",
+        "titolo": "World of Warships: Black Friday Giveaway",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/world-of-warships-black-friday-giveaway",
+        "scadenza": "2026-12-04 23:59:00",
+        "store": "PC",
+        "data_rilevazione": "19/11/2026"
+    },
+    "3853": {
+        "stato": "inviato",
+        "titolo": "Mark of the Deep (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mark-of-the-deep-epic-games-giveaway",
+        "scadenza": "2026-11-26 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "19/11/2026"
+    },
+    "3331": {
+        "stato": "inviato",
+        "titolo": "Last Room (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "19/11/2026"
+    },
+    "uni_ae0879718d": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/11/2026"
+    },
+    "uni_7d41360ab1": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/11/2026"
+    },
+    "uni_c12c97943d": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/11/2026"
+    },
+    "uni_e8b9786e0f": {
+        "stato": "ignorato",
+        "data_rilevazione": "19/11/2026"
     }
 }
