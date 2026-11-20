@@ -19,27 +19,11 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "19/11/2026"
+        "data_rilevazione": "20/11/2026"
     },
     "3100": {
         "stato": "ignorato",
         "data_rilevazione": "28/10/2026"
-    },
-    "uni_2b0af2a85b": {
-        "stato": "ignorato",
-        "data_rilevazione": "21/10/2026"
-    },
-    "uni_697393640f": {
-        "stato": "ignorato",
-        "data_rilevazione": "21/10/2026"
-    },
-    "uni_bd76ea2f07": {
-        "stato": "ignorato",
-        "data_rilevazione": "21/10/2026"
-    },
-    "uni_e3c3868caa": {
-        "stato": "ignorato",
-        "data_rilevazione": "21/10/2026"
     },
     "3824": {
         "stato": "inviato",
@@ -3849,5 +3833,27 @@
     "uni_e8b9786e0f": {
         "stato": "ignorato",
         "data_rilevazione": "19/11/2026"
+    },
+    "uni_22e7f075dd": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/11/2026"
+    },
+    "uni_28212224ba": {
+        "stato": "nuovo",
+        "titolo": "BANDO ERASMUS+ KA 131 PER STUDIO 2027/2028 UE ED EXTRA UE",
+        "url": "https://www.unimore.it/it/ateneo/bandi/bando-erasmus-ka-131-studio-20272028-ue-ed-extra-ue",
+        "tipo": "universita",
+        "scadenza": "23/12/2026",
+        "luogo": "UE ed EXTRA UE (tra i paesi ammessi)",
+        "durata": "Minimo 2 mesi, massimo 12 mesi per Long Mobility",
+        "ente": "Università degli Studi di Modena e Reggio Emilia - Ufficio Relazioni Internazionali",
+        "argomenti": "Mobilità per studio (frequenza corsi ed esami), preparazione tesi, tirocinio complementare",
+        "requisiti": "Regolare iscrizione all'a.a. 2026/2027 a corsi di laurea magistrale (come DCI) presso Unimore. Il Dipartimento di Economia 'Marco Biagi' è esplicitamente ammesso e può indicare fino a dieci sedi. Conoscenza linguistica B2 o superiore, dimostrabile con certificato internazionale (es. IELTS) o esami universitari.",
+        "voto": 9,
+        "data_rilevazione": "20/11/2026"
+    },
+    "uni_11cb5fd5bc": {
+        "stato": "ignorato",
+        "data_rilevazione": "20/11/2026"
     }
 }
