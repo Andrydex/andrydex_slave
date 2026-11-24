@@ -13,13 +13,9 @@
         "voto": 7,
         "data_rilevazione": "03/10/2026"
     },
-    "3805": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "22/11/2026"
+        "data_rilevazione": "24/11/2026"
     },
     "3100": {
         "stato": "ignorato",
@@ -28,10 +24,6 @@
     "3822": {
         "stato": "ignorato",
         "data_rilevazione": "28/10/2026"
-    },
-    "uni_57a230e010": {
-        "stato": "ignorato",
-        "data_rilevazione": "24/10/2026"
     },
     "uni_5c403db7e0": {
         "stato": "ignorato",
@@ -46,59 +38,6 @@
         "requisiti": "Diploma di laurea v.o. in Economia Aziendale, oppure laurea specialistica o magistrale (classe 84/S o LM-77). In alternativa, laurea triennale (classe 17 o L-18) più Master universitario o Diploma di specializzazione universitaria. Si richiede esperienza nell’attività di mentoring e coaching di team imprenditoriali e nell’attività di consulenza nei processi di innovazione di imprese private e pubbliche. Andrea, essendo studente magistrale LM-77 del Dipartimento Biagi, possiede il requisito accademico e ha esperienze rilevanti connesse al progetto.",
         "voto": 7,
         "data_rilevazione": "24/10/2026"
-    },
-    "3825": {
-        "stato": "inviato",
-        "titolo": "MAFIA HOTEL (Epic Games) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/mafia-hotel-epic-games-giveaway",
-        "scadenza": "2026-11-01 23:59:00",
-        "store": "PC, Epic Games Store",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_8f18a67f61": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_b6a1b40a48": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_e0113beb9c": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_69747204fb": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_baab15889a": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_2032882efc": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_09dee25a78": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_442e5514bc": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "uni_96a7683bb0": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "start_b69ad8b5ce": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
-    },
-    "start_173aafe964": {
-        "stato": "ignorato",
-        "data_rilevazione": "25/10/2026"
     },
     "3826": {
         "stato": "inviato",
@@ -3606,7 +3545,7 @@
         "data_rilevazione": "14/11/2026"
     },
     "uni_9be6d0ee85": {
-        "stato": "nuovo",
+        "stato": "ignorato",
         "titolo": "Dipartimento di Economia Marco Biagi - bando prot. n. 323362 del 13/11/2026 Rep. 2636/2026",
         "url": "https://www.unimore.it/it/ateneo/bandi/dipartimento-di-economia-marco-biagi-bando-prot-n-323362-del-13112026-rep-26362026",
         "tipo": "universita",
@@ -3817,5 +3756,25 @@
     "uni_11cb5fd5bc": {
         "stato": "ignorato",
         "data_rilevazione": "20/11/2026"
+    },
+    "uni_48458f1e5c": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/11/2026"
+    },
+    "uni_108c9db007": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/11/2026"
+    },
+    "uni_bdd120f7e0": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/11/2026"
+    },
+    "uni_3469b6ccd5": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/11/2026"
+    },
+    "uni_53d22ad25b": {
+        "stato": "ignorato",
+        "data_rilevazione": "24/11/2026"
     }
 }
