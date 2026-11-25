@@ -15,7 +15,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "24/11/2026"
+        "data_rilevazione": "25/11/2026"
     },
     "3100": {
         "stato": "ignorato",
@@ -38,32 +38,6 @@
         "requisiti": "Diploma di laurea v.o. in Economia Aziendale, oppure laurea specialistica o magistrale (classe 84/S o LM-77). In alternativa, laurea triennale (classe 17 o L-18) più Master universitario o Diploma di specializzazione universitaria. Si richiede esperienza nell’attività di mentoring e coaching di team imprenditoriali e nell’attività di consulenza nei processi di innovazione di imprese private e pubbliche. Andrea, essendo studente magistrale LM-77 del Dipartimento Biagi, possiede il requisito accademico e ha esperienze rilevanti connesse al progetto.",
         "voto": 7,
         "data_rilevazione": "24/10/2026"
-    },
-    "3826": {
-        "stato": "inviato",
-        "titolo": "V Rising - Haunted Nights Castle Pack (Steam) Giveaway",
-        "tipo": "dlc",
-        "url": "https://www.gamerpower.com/open/v-rising-haunted-nights-castle-pack-steam-giveaway",
-        "scadenza": "2026-11-02 23:59:00",
-        "store": "PC, Steam",
-        "data_rilevazione": "26/10/2026"
-    },
-    "3340": {
-        "stato": "inviato",
-        "titolo": "ANCIENT EVIL (IndieGala) Giveaway",
-        "tipo": "gioco",
-        "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
-        "scadenza": "N/A",
-        "store": "PC, DRM-Free",
-        "data_rilevazione": "26/10/2026"
-    },
-    "uni_6075a8543a": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/10/2026"
-    },
-    "uni_49c1aa05f5": {
-        "stato": "ignorato",
-        "data_rilevazione": "26/10/2026"
     },
     "uni_12936bdbbc": {
         "stato": "ignorato",
@@ -3860,5 +3834,9 @@
     "start_173aafe964": {
         "stato": "ignorato",
         "data_rilevazione": "24/11/2026"
+    },
+    "uni_f4030d1bc0": {
+        "stato": "ignorato",
+        "data_rilevazione": "25/11/2026"
     }
 }
