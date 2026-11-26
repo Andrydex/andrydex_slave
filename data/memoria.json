@@ -15,7 +15,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "25/11/2026"
+        "data_rilevazione": "26/11/2026"
     },
     "3100": {
         "stato": "ignorato",
@@ -38,18 +38,6 @@
         "requisiti": "Diploma di laurea v.o. in Economia Aziendale, oppure laurea specialistica o magistrale (classe 84/S o LM-77). In alternativa, laurea triennale (classe 17 o L-18) più Master universitario o Diploma di specializzazione universitaria. Si richiede esperienza nell’attività di mentoring e coaching di team imprenditoriali e nell’attività di consulenza nei processi di innovazione di imprese private e pubbliche. Andrea, essendo studente magistrale LM-77 del Dipartimento Biagi, possiede il requisito accademico e ha esperienze rilevanti connesse al progetto.",
         "voto": 7,
         "data_rilevazione": "24/10/2026"
-    },
-    "uni_12936bdbbc": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/10/2026"
-    },
-    "uni_d695d8f761": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/10/2026"
-    },
-    "uni_1d4066f9f7": {
-        "stato": "ignorato",
-        "data_rilevazione": "27/10/2026"
     },
     "3834": {
         "stato": "inviato",
@@ -3838,5 +3826,36 @@
     "uni_f4030d1bc0": {
         "stato": "ignorato",
         "data_rilevazione": "25/11/2026"
+    },
+    "3857": {
+        "stato": "inviato",
+        "titolo": "Bread and Fred (Epic Games) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/bread-and-fred-epic-games-giveaway",
+        "scadenza": "2026-12-03 23:59:00",
+        "store": "PC, Epic Games Store",
+        "data_rilevazione": "26/11/2026"
+    },
+    "3856": {
+        "stato": "inviato",
+        "titolo": "Firestone: Free $100 Welcome Gift",
+        "tipo": "dlc",
+        "url": "https://www.gamerpower.com/open/firestone-free-100-welcome-gift",
+        "scadenza": "2026-12-03 23:59:00",
+        "store": "PC, Android, iOS, Epic Games Store",
+        "data_rilevazione": "26/11/2026"
+    },
+    "3340": {
+        "stato": "inviato",
+        "titolo": "ANCIENT EVIL (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "26/11/2026"
+    },
+    "uni_ed9bd8d5d0": {
+        "stato": "ignorato",
+        "data_rilevazione": "26/11/2026"
     }
 }
