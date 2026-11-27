@@ -15,15 +15,7 @@
     },
     "3819": {
         "stato": "ignorato",
-        "data_rilevazione": "26/11/2026"
-    },
-    "3100": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/10/2026"
-    },
-    "3822": {
-        "stato": "ignorato",
-        "data_rilevazione": "28/10/2026"
+        "data_rilevazione": "27/11/2026"
     },
     "uni_5c403db7e0": {
         "stato": "ignorato",
@@ -3857,5 +3849,80 @@
     "uni_ed9bd8d5d0": {
         "stato": "ignorato",
         "data_rilevazione": "26/11/2026"
+    },
+    "3334": {
+        "stato": "inviato",
+        "titolo": "Mysterious House (IndieGala) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/mysterious-house-pc-giveaway",
+        "scadenza": "N/A",
+        "store": "PC, DRM-Free",
+        "data_rilevazione": "27/11/2026"
+    },
+    "3860": {
+        "stato": "inviato",
+        "titolo": "Dead Age 2 (GOG) Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/dead-age-2-gog-giveaway",
+        "scadenza": "2026-11-30 14:40:09",
+        "store": "PC, GOG, DRM-Free",
+        "data_rilevazione": "27/11/2026"
+    },
+    "3859": {
+        "stato": "inviato",
+        "titolo": "Vertical Drop Heroes HD Steam Key Giveaway",
+        "tipo": "gioco",
+        "url": "https://www.gamerpower.com/open/vertical-drop-heroes-hd-steam-key-giveaway",
+        "scadenza": "2026-11-28 23:59:00",
+        "store": "PC, Steam",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_90f3e405be": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_12936bdbbc": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_d695d8f761": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_1d4066f9f7": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_b1d7bef17e": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_91efa49773": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_94a5c26941": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_dc0077f56c": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_fc820d08af": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_a61d628879": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_8e3a1bcb6f": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
+    },
+    "uni_dd1a6e3e2f": {
+        "stato": "ignorato",
+        "data_rilevazione": "27/11/2026"
     }
 }
